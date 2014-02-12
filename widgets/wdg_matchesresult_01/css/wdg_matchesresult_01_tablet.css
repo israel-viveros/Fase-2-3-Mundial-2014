@@ -187,9 +187,10 @@
     }
 
     .wdg_matchesresult_01 .wdg_matchesresult_01_left .wdg_matchesresult_visible p a{
-        color: #9d9b9c;
+        color: #868686;
         font-size: 12px;
         font-style: italic;
+
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_left .wdg_matchesresult_visible p .wdg_matchesresult_hide{
         visibility: visible;
