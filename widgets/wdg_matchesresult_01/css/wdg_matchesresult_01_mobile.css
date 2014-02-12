@@ -24,17 +24,18 @@
     }
     .wdg_matchesresult_01{
 		position:relative;
+        z-index:1;
         width: 100%;
         height: 215px;
         overflow: hidden;
         margin-bottom: 10px;
-		background-image: linear-gradient(bottom, #9B1822 2%, #A70A0B 9%);
-		background-image: -o-linear-gradient(bottom, #9B1822 2%, #A70A0B 9%);
-		background-image: -moz-linear-gradient(bottom, #9B1822 2%, #A70A0B 9%);
-		background-image: -webkit-linear-gradient(bottom, #9B1822 2%, #A70A0B 9%);
-		background-image: -ms-linear-gradient(bottom, #9B1822 2%, #A70A0B 9%);
-		background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.02, #9B1822), color-stop(0.1, #A70A0B));
-		filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr="#9B1822", endColorstr="#A70A0B", GradientType=0);
+		background-image: linear-gradient(to bottom, #cccccc 1%,#e4e2e3 6%,#e4e2e3 96%,#cccccc 100%);
+		background-image: -o-linear-gradient(top, #cccccc 1%,#e4e2e3 6%,#e4e2e3 96%,#cccccc 100%);
+		background-image: -moz-linear-gradient(top, #cccccc 1%, #e4e2e3 6%, #e4e2e3 96%, #cccccc 100%);
+		background-image: -webkit-linear-gradient(top, #cccccc 1%,#e4e2e3 6%,#e4e2e3 96%,#cccccc 100%);
+		background-image: -ms-linear-gradient(top, #cccccc 1%,#e4e2e3 6%,#e4e2e3 96%,#cccccc 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#cccccc), color-stop(6%,#e4e2e3), color-stop(96%,#e4e2e3), color-stop(100%,#cccccc));
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#cccccc',GradientType=0 );
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_container{
         width: 100%;
@@ -106,11 +107,11 @@
         color: #D6A256;
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right .wdg_matchesresult_01_navcontainer .wdg_matchesresult_01_nav ul li a{
-        color: #FFFFFF;
+        color: #9d9b9c;
         text-decoration: none;
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right .wdg_matchesresult_01_navcontainer .wdg_matchesresult_01_nav ul li a p{
-        border-right: 1px dotted #ffffff;
+        border-right: 1px dotted #9d9b9c;
         height: 17px;
         padding-right: 10px;
         padding-left: 10px;
@@ -223,7 +224,7 @@
 		width:64px;
 	}
 	.wdg_matchesresult_01 .box{
-		background:#A70A0B;
+		background:#e4e2e3;
 		display:none;
 		height:25px;
 		left:370px;
@@ -235,5 +236,12 @@
 	.wdg_matchesresult_01_arrows a.wdg_matchesresult_left{
 		display:none;
 	}
+.textcolor-title5a{
+    color: #9d9b9c !important;  
+}
+.textcolor-title1a {
+color: #3a9e2a !important;
+font-weight: 900 !important;
+}
 }
 

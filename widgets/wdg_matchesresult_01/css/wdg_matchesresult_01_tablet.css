@@ -5,6 +5,7 @@
         margin-bottom: 24px;
         padding-bottom: 5px;
     }
+
     .wdg_matchesresult_01 .wdg_matchesresult_01_container{
         width: 624px;
         margin: 0 auto;
@@ -22,7 +23,7 @@
         width: 430px;
         float: left;
         margin: 0px 0px;
-        border-bottom: 1px solid #B03537;
+        border-bottom: 1px solid #c5c3c4;
     }
     .ie8 .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right{
         border-bottom: 1px solid #ebebeb;
@@ -68,11 +69,11 @@
         color: #D6A256;
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right .wdg_matchesresult_01_navcontainer .wdg_matchesresult_01_nav ul li a{
-        color: #FFFFFF;
+        color: #9d9b9c;
         text-decoration: none;
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right .wdg_matchesresult_01_navcontainer .wdg_matchesresult_01_nav ul li a p{
-        border-right: 1px dotted #ffffff;
+        border-right: 1px dotted #9d9b9c;
         height: 17px;
         padding-right: 10px;
         padding-left: 10px;
@@ -148,13 +149,16 @@
         font-weight: bold;
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_top a.subtitle{
+        
+        font-weight: bold;
         font-size: 14px;
         font-style: italic;
+
         display:block;
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_top a.title,
     .wdg_matchesresult_01 .wdg_matchesresult_01_top a.subtitle {
-        color: #ffffff;
+        color: #9d9b9c;
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_bottom{
         display: none;
@@ -165,8 +169,16 @@
         color:#D6A256;
         line-height: 25px;
     }
+
+    .wdg_matchesresult_01 .wdg_matchesresult_01_bottom .wdg_matchesresult_dots{
+        background: url(../img/arrow.png) no-repeat 0 0;
+        width: 11px;
+        height: 10px;
+        display: inline-block;
+        margin-right:6px;}
+
     .wdg_matchesresult_01 .wdg_matchesresult_01_bottom ul li a{
-        color: #ffffff;
+        color: #9d9b9c;
         font-size: 12px;
         line-height: 25px;
     }
@@ -175,7 +187,7 @@
     }
 
     .wdg_matchesresult_01 .wdg_matchesresult_01_left .wdg_matchesresult_visible p a{
-        color: #ffffff;
+        color: #9d9b9c;
         font-size: 12px;
         font-style: italic;
     }
@@ -195,7 +207,7 @@
         height: 242px;
     }
 	.wdg_matchesresult_01 .linedown{
-		border-bottom: 1px solid #B03537;
+		border-bottom: 1px solid #c5c3c4;
 		height: 2px;
 		position: absolute;
 		top: 28px;

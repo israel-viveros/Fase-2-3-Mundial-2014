@@ -54,20 +54,22 @@
     } 
     .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right .wdg_matchesresult_01_navcontainer .wdg_matchesresult_01_nav ul li{
         float: left;
+        position: relative;
     }    
     .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right .wdg_matchesresult_01_navcontainer .wdg_matchesresult_01_nav ul li.selected{
         border-bottom: 2px solid #D6A256;
+        z-index: 1;
 
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right .wdg_matchesresult_01_navcontainer .wdg_matchesresult_01_nav ul li.selected a{
         color: #D6A256;
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right .wdg_matchesresult_01_navcontainer .wdg_matchesresult_01_nav ul li a{
-        color: #FFFFFF;
+        color: #949293;
         text-decoration: none;
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right .wdg_matchesresult_01_navcontainer .wdg_matchesresult_01_nav ul li a p{
-        border-right: 1px dotted #ffffff;
+        border-right: 1px dotted #949293;
         height: 13px;
         padding-right: 15px;
         padding-left: 15px;
@@ -87,8 +89,9 @@
         height: 360px;
     }
 	.wdg_matchesresult_01 .linedown{
-		top: 23px;
+		top: 22px;
 		width: 100%;
+        z-index:0;
 	}
 	.wdg_matchesresult_01 .wdg_matchesresult_01_left .wdg_matchesresult_visible{
         margin-top: 32%;
@@ -106,14 +109,14 @@
 	.wdg_matchesresult_01 .wdg_matchesresult_01_top a.title{
 		font-size:20px;
 		font-weight:bold;
-		color:#FFF!important;
+		color:#949293!important;
 	}
 	
 	.wdg_matchesresult_01 .wdg_matchesresult_01_top a.subtitle{
         display:block;
         font-weight:bold;
         font-style:italic;
-        color:#FFF;
+        color:#949293;
         font-size:15px;
     }
 	.ie7 .wdg_matchesresult_01 .wdg_matchesresult_01_theme{
@@ -122,4 +125,16 @@
 	.ie8 .wdg_matchesresult_01 .wdg_matchesresult_01_theme{
 		width:490px !important;
 	}
+
+.background-color-pleca1a,
+.background-color1a{
+    background-color: #e4e2e3 !important;
+}
+.textcolor-title5a{
+    color: #9d9b9c !important;  
+}
+.textcolor-title1a {
+color: #3a9e2a !important;
+font-weight: 900 !important;
+}
 }
