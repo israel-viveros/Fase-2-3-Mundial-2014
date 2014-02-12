@@ -243,6 +243,8 @@
 .textcolor-title1a {
 color: #3a9e2a !important;
 font-weight: 900 !important;
+letter-spacing:-1px;
+padding-left:7px;
 }
 }
 

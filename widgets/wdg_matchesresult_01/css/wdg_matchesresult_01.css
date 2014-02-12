@@ -131,10 +131,12 @@
     background-color: #e4e2e3 !important;
 }
 .textcolor-title5a{
-    color: #9d9b9c !important;  
+    color: #868686 !important;  
 }
 .textcolor-title1a {
 color: #3a9e2a !important;
 font-weight: 900 !important;
+letter-spacing:-1px;
+padding-left:7px;
 }
 }
