@@ -1,0 +1,36 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_note_mx_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_note_mx_01 .main .c1{
+		margin-top:24px;
+	}
+	.td_note_mx_01 .main .c2 .c2_2 .art_reltd_01 {
+		border-right: 1px dashed #CCCCCC;
+		width: 297px;
+	}
+	.td_note_mx_01 .main .c2 .c2_3{
+		width:270px;
+	}
+	.td_note_mx_01 .main .c2 .c2_4{
+		clear:both;
+	}
+	.td_note_mx_01 .c3_1{
+		width:300px;
+	}
+	.td_note_mx_01 .main .c3 .c3_4{
+	 	width: 300px;
+	}
+	.td_note_mx_01 .main .c3 .c3_7{
+		width:300px;
+		clear:none;	
+	}
+	.td_note_mx_01 .main .c3,
+	.td_note_mx_01 .main .c4,
+	.td_note_mx_01 .main .c5{
+		width: 624px;
+		clear:none;
+	} 
+}

@@ -1,0 +1,328 @@
+@media screen {
+    .wdg_mxm_live_05{
+        width: 100%;
+        overflow: hidden;
+		position:relative;
+		margin-bottom:7px;
+    }
+    /******* ie7 ****/
+    .wdg_mxm_live_05{
+        margin-bottom: 36px\0/!important;
+        width:624px\0/!important;
+        *margin-bottom: 36px!important;
+        *width:624px!important;
+    }
+    .wdg_mxm_live_05 .scroll{
+        /*background-color:gold;*/
+        /*height:auto!important;*/
+    }
+    .wdg_mxm_live_05 ul.wdg_mxm_live_05_list li div.chronic{
+		font-size: 16px\0/;
+		font-weight: bold\0/;
+		margin-left: 5px\0/;
+		overflow: hidden\0/;
+		padding-left: 19px\0/;
+		width: 71%\0/;
+		
+		*font-size: 16px;
+        *font-weight: bold;
+        *margin-left: 5px;
+        *overflow: hidden;
+        *padding-left: 19px;
+        *width: 71%;
+    }
+    .wdg_mxm_live_05 .nav_paginator_01{
+        display:inline-block\0/!important;
+        *display:inline-block!important;
+    }
+     
+    .wdg_mxm_live_05 ul.wdg_mxm_live_05_list li .icon-time{
+        *display:none;
+    }
+    .wdg_mxm_live_05 ul.wdg_mxm_live_05_list li .twitter{
+        *display:inline;
+    }
+    
+    .wdg_mxm_live_05 ul.wdg_mxm_live_05_list li .icon-interactive i,
+    .wdg_mxm_live_05 ul.wdg_mxm_live_05_list li .icon-interactive2 i{
+        font-size: 17px\0/!important;
+        *font-size: 17px!important;
+    }
+    
+    .wdg_mxm_live_05 ul.wdg_mxm_live_05_list li div.chronic div.chronic_description{
+        width: 100%\0/;
+		float: left\0/;
+		font-size: 14px\0/;
+		font-weight: normal\0/;
+		margin-top: 5px\0/;
+		display:inline-block\0/;
+		
+		*width: 100%;
+        *float: left;
+        *font-size: 14px;
+        *font-weight: normal;
+        *margin-top: 5px;
+        *display:inline-block;
+    }
+    .wdg_mxm_live_05_verMas{
+        display:inline-block\0/!important;
+        float: left\0/!important;
+        font-family: italic\0/!important;
+        
+        *display:inline-block!important;
+        *float: left!important;
+        *font-family: italic!important;
+    }
+    .wdg_mxm_live_05 .textcolor-title1 {
+        color:red;
+    }
+    /*********/
+    .wdg_mxm_live_05 {
+        width: 100%;
+        overflow: hidden;
+    }
+    .wdg_mxm_live_05  .wdg_mxm_live_05_list li{
+        padding: 11px 0;
+        border-bottom: 1px #ccc solid;
+        clear: both;
+        overflow: hidden;
+		width:98%;
+    }
+	.wdg_mxm_live_05 .wdg_mxm_live_05_list li:nth-child(1){
+		padding-top: 3px;
+	}
+
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li .time{
+        display:block;
+		padding-left:10px;
+        width:33px;
+        text-align:center;
+        margin-left: 2px;
+        margin-right: 25px;
+        float:left;
+		font-weight:bold;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li .icon-time{
+        display:block;
+        width:33px;
+        text-align:center;
+        margin-left: 15px;
+        margin-right: 23px;
+        float:left;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li .icon-interactive{
+        float: right;
+        cursor: pointer;
+        margin-right: 15px;
+        font-size: 16pt;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li .icon-interactive2{
+        border-right: 0;
+        cursor: pointer;
+        float: right !important;
+        margin-left: 0;
+        padding-right: 16px;
+        font-size: 17pt;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li .chronic {
+        border-left: 1px solid #CCCCCC;
+        float: left;
+        font-size: 12px;
+        margin-left: 5px;
+        padding-left: 8px;
+        width: 58%;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li .chronic .textcolor-title2{
+        font-size: 14px;
+        float: left;
+        width: 100%;
+		font-style:italic;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li .chronic .textcolor-title4{
+        font-size: 13px;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li .tvsa-videocamera:hover,
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li .tvsa-camera:hover{
+        color: #A70A0B;
+    }
+    .wdg_mxm_live_05 .img_stage_01{
+        margin-bottom: 5px;
+        display: none;
+    }
+    .wdg_mxm_live_05 .vid_player_01{
+        margin-bottom: 0px;
+        margin-top: 52px;
+        display: none;
+    }
+
+    .wdg_mxm_live_05 .arrow_buttons{
+        border-top: 1px solid #ccc;
+        margin-top: 0px;
+    }
+    .wdg_mxm_live_05 a.next {
+        background-color: #A41D21;
+    }
+
+    .wdg_mxm_live_05 > div .prev, 
+    .wdg_mxm_live_05 > div .next {
+        background: none repeat scroll 0 0 #AAAAAA;
+        display: none;
+        height: 1.75em;
+        left: 0;
+        float: left;
+        top: 0;
+        width: 1.8em;
+    }
+
+    .wdg_mxm_live_05 > div .next {
+        left: 1.8em;
+        margin-left: 1px;
+    }
+
+    .wdg_mxm_live_05 > div .fl-timetable {
+        background: none repeat scroll 0 0 #E6E6E6;
+        box-shadow: 0 0 7px #C0C0C0 inset;
+        display: none;
+        height: 1.75em;
+        line-height: 1.75em;
+        margin-left: 5.2em;
+        padding-left: 1.3em;
+    }
+
+    .wdg_mxm_live_05 > div .fl-timetable span {
+        color: #000000;
+        font-size: 0.875em;
+        font-weight: bold;
+    }
+
+    .wdg_mxm_live_05 > div .fl-timetable {
+        line-height: 1.75em;
+    }
+
+    .wdg_mxm_live_05 a.prev, 
+    .wdg_mxm_live_05 a.next {
+        background-color: #A41D21;
+    }
+    .wdg_mxm_live_05 > div .tvsa-caret-up{
+        margin: 2px 0 0 8px; 
+        color: #fff
+    }
+    .wdg_mxm_live_05 > div .tvsa-caret-down{
+        margin: 2px 0 0 10px; 
+        color: #fff
+    }
+	.wdg_mxm_live_05 .bold{	
+		font-weight:bold;
+	}
+    .wdg_mxm_live_05 .degraded{
+		display:block;
+        top:820px;
+		width:100%;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_verMas{       
+        display: block;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+  		margin-top:0px;
+        display: none;
+    }
+	.wdg_mxm_live_05 .wdg_mxm_live_05_list li .vid_player_01{
+		clear: both;
+		height:auto;
+		overflow: hidden;
+	}
+	.wdg_mxm_live_05 .scroll{
+		height:831px;
+		width:104%;
+		overflow-y:auto;
+		overflow-x:hidden;
+		position:relative;
+	}
+	.wdg_mxm_live_05 .mantener{
+		width:99%;	
+	}
+    /*.wdg_mxm_live_05  li,*/
+    .wdg_mxm_live_05 .nav_paginator_01{
+        display: none;   
+    }
+        .form-container {
+        display: none;
+        width: 624px;
+    }
+    .form-container{
+        background: #efefef;
+        opacity: 0.9;
+    }
+    .form-container .wdg_mxm_live_05_list_lightbox{
+        padding-top: 5px;
+    }
+    
+    .form-container .img_stage_01,
+    .form-container .tvsa-camera{
+        display:none;
+    }
+    .form-container .wdg_mxm_live_05_list li .time{
+        float: left;
+        margin-left: 8px;
+    }
+    .form-container .wdg_mxm_live_05_list li .icon-time{
+        margin-left: 13px;
+        margin-right: 5px;
+        float: left;
+    }
+    .form-container .wdg_mxm_live_05_list li .icon-interactive{
+        background: url("../img/dotted-vertical.html") repeat-y scroll left center transparent !important;
+        cursor: pointer;
+        float: right;
+        height: 20px;
+        margin-right: 10px;
+        padding-left: 8px;
+        width: 20px;
+    }
+    .form-container .wdg_mxm_live_05_list li .icon-interactive2{
+        border-right: 0;
+        padding-right: 0;
+        margin-left: 0;
+        float: right !important;
+        cursor: pointer;
+    }
+    .form-container .wdg_mxm_live_05_list li .chronic {
+        border-left: 1px solid #CCCCCC;
+        float: left;
+        font-size: 12px;
+        margin-left: 5px;
+        padding-left: 8px;
+        width: 68%;
+    }
+    .form-container .wdg_mxm_live_05_list li .chronic .textcolor-title2{
+        font-size: 14px;
+        float: left;
+        width: 100%;
+        font-style:italic;
+    }
+    .form-container .wdg_mxm_live_05_list li .chronic .textcolor-title4{
+        font-size: 13px;
+    }
+/*    .form-container .wdg_mxm_live_05_list li .tvsa-error:hover,
+    .form-container .wdg_mxm_live_05_list li .tvsa-camera:hover{
+        color: #A70A0B;
+    }*/
+    .form-container .wdg_mxm_live_05_list li .tvsa-error{
+        background: #A70A0B;
+        color: #FFFFFF;
+        margin-top: -10px;
+        padding: 1px;
+    }
+    .form-container .vid_player_01{
+        float: left;
+        margin-top: 5px;
+    }
+}
+@media screen and (device-width:320px) and (orientation:landscape) {
+    /* iPhone Landscape Styles Here*/
+	.wdg_mxm_live_05  .wdg_mxm_live_05_list li{
+		width:97%;
+    }
+}

@@ -1,0 +1,25 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_mxm_rating_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_mxm_rating_01 .main .c1,
+	.td_mxm_rating_01 .main .c2,
+	.td_mxm_rating_01 .main .c3,
+	.td_mxm_rating_01 .main .c4{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_mxm_rating_01 .main .c_banner{
+		width:600px;
+		margin: auto;
+	}
+	.td_mxm_rating_01 .wdg_sport_result_01 .live-container{
+        background-color: #710809 !important;
+    }
+	
+}

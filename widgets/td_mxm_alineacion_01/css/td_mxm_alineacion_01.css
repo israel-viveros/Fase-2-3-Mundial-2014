@@ -1,0 +1,80 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_mxm_alineacion_01 .main{
+        width: 948px;
+    }
+    /* Contenedor principal */
+    .td_mxm_alineacion_01 .main .c1{
+        float: left;
+        clear: both;
+        width: 624px;
+    }
+    /* Contenedor derecho */
+    .td_mxm_alineacion_01 .main .c2{
+        float:right;
+        overflow: hidden;
+        width: 300px;
+    }
+	.td_mxm_alineacion_01 .main .c3{
+        float: left;
+        width: 624px;
+    }
+	.td_mxm_alineacion_01 .main .c4
+	{
+		width:100%;
+		clear:both;
+		position:relative;
+	}
+	.td_mxm_alineacion_01 .main .c1 .c1_3 {
+    	width: 290px;
+	}
+    .td_mxm_alineacion_01  .main ul li a,
+    .td_mxm_alineacion_01  .main ul li{
+       background-color:#efefef\9;
+       background-color:#efefef\0/;
+    }
+    .ie7 .td_mxm_alineacion_01  .main ul li a,
+    .ie7 .td_mxm_alineacion_01  .main ul li{
+       background-color:#efefef;
+    }
+    .td_mxm_alineacion_01  .main ul li.separator{
+       background-color:#fff\9;
+       background-color:#fff\0/;
+    }
+    .ie7 .td_mxm_alineacion_01  .main ul li.separator{
+       background-color:#fff;
+    }
+    .td_mxm_alineacion_01 .main ul.dropdown li a{
+       background-color:#fff\9;
+       background-color:#fff\0/;
+    }
+    .ie7 .td_mxm_alineacion_01 .main ul.dropdown li a{
+       background-color:#fff;
+    }
+    .td_mxm_alineacion_01 .main ul.dropdown li a:hover{
+       background-color:#A70A0B\9;
+       background-color:#A70A0B\0/;
+    }
+    .ie7 .td_mxm_alineacion_01 .main ul.dropdown li a:hover{
+       background-color:#A70A0B;
+    }
+    .td_mxm_alineacion_01   li.station a,
+    .td_mxm_alineacion_01   li.social a{
+        border-left:none\9!important;
+        border-top:none\9!important;
+        background-color:#efefef\9;
+        border:0px\9;
+        
+        border-left:none\0/!important;
+        border-top:none\0/!important;
+        background-color:#efefef\0/;
+        border:0px\0/;
+    }
+    .ie7 .td_mxm_alineacion_01   li.station a,
+    .ie7 .td_mxm_alineacion_01   li.social a{
+        border-left:none!important;
+        border-top:none!important;
+        background-color:#efefef;
+        border:0px;
+    }
+}

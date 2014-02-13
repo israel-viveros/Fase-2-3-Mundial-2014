@@ -1,0 +1,255 @@
+@media screen {
+    .wdg_mxm_live_01{
+        width: 100%;
+        max-width: 624px;
+        overflow: hidden;
+        margin-bottom: 19px;
+    }
+
+    .wdg_mxm_live_01 .wdg_mxm_live_01_title{
+        font-size: 28px;
+        font-style: italic;
+        padding-left: 18px;
+    }
+    .wdg_mxm_live_01 ul{
+        width: 100%;
+        overflow: hidden;
+        width: 100%;
+    }
+    .wdg_mxm_live_01 ul li{
+        padding: 11px 0;
+        border-bottom: 1px #ccc solid;
+        clear: both;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+    .wdg_mxm_live_01 ul li:last-child {
+        border: none;
+    }
+	 /*Mostrar solo los primeros 5 en movil*/
+    .wdg_mxm_live_01 .wdg_mxm_live_01_list li{
+        display:none;
+    }
+    .wdg_mxm_live_01 .wdg_mxm_live_01_list li:nth-child(-n+10) {
+        display:block;
+    }
+    .wdg_mxm_live_01 ul li .time{
+        float: left;
+        margin-left: 8px;
+    }
+    .wdg_mxm_live_01 ul li .icon-time{
+        margin-left: 13px;
+        margin-right: 5px;
+        float: left;
+    }
+    .wdg_mxm_live_01 ul li .icon-interactive{
+        float: right;
+        cursor: pointer;
+		margin-right:10px;
+
+    }
+    .wdg_mxm_live_01 ul li .icon-interactive2{
+        border-right: 0;
+        padding-right: 0;
+        margin-left: 0;
+        float: right !important;
+        cursor: pointer;
+    }
+    .wdg_mxm_live_01 ul li .chronic {
+        border-left: 1px solid #CCCCCC;
+        float: left;
+        font-size: 12px;
+        margin-left: 5px;
+        padding-left: 8px;
+        width: 68%;
+    }
+    .wdg_mxm_live_01 ul li .chronic .textcolor-title2{
+        font-size: 14px;
+        float: left;
+        width: 100%;
+		font-style:italic;
+    }
+    .wdg_mxm_live_01 ul li .chronic .textcolor-title4{
+        font-size: 13px;
+    }
+    .wdg_mxm_live_01 ul li .tvsa-videocamera:hover,
+    .wdg_mxm_live_01 ul li .tvsa-camera:hover{
+        color: #A70A0B;
+    }
+    .wdg_mxm_live_01 .img_stage_01{
+        margin-bottom: 5px;
+        padding-top: 15px;
+        display: none;
+    }
+    .wdg_mxm_live_01 .vid_player_01{
+        margin-bottom: 5px;
+        margin-top: 52px;
+        display: none;
+    }
+
+    .wdg_mxm_live_01 .arrow_buttons{
+        border-top: 1px solid #ccc;
+        margin-top: 0px;
+    }
+    .wdg_mxm_live_01 a.next {
+        background-color: #A41D21;
+    }
+
+    .wdg_mxm_live_01 > div .prev, 
+    .wdg_mxm_live_01 > div .next {
+        background: none repeat scroll 0 0 #AAAAAA;
+        display: none;
+        height: 1.75em;
+        left: 0;
+        float: left;
+        top: 0;
+        width: 1.8em;
+    }
+
+    .wdg_mxm_live_01 > div .next {
+        left: 1.8em;
+        margin-left: 1px;
+    }
+
+    .wdg_mxm_live_01 > div .full-timetable {
+        background: none repeat scroll 0 0 #E6E6E6;
+        box-shadow: 0 0 7px #C0C0C0 inset;
+        display: none;
+        height: 1.75em;
+        line-height: 1.75em;
+        margin-left: 5.2em;
+        padding-left: 1.3em;
+    }
+
+    .wdg_mxm_live_01 > div .full-timetable span {
+        color: #000000;
+        font-size: 0.875em;
+        font-weight: bold;
+    }
+
+    .wdg_mxm_live_01 > div .full-timetable {
+        line-height: 1.75em;
+    }
+
+    .wdg_mxm_live_01 a.prev, 
+    .wdg_mxm_live_01 a.next {
+        background-color: #A41D21;
+    }
+    .wdg_mxm_live_01 > div .tvsa-caret-up{
+        margin: 2px 0 0 10px; 
+        color: #fff
+    }
+    .wdg_mxm_live_01 > div .tvsa-caret-down{
+        margin: 2px 0 0 10px; 
+        color: #fff
+    }
+    .wdg_mxm_live_01 .degradado{
+        border-top:none;
+        display:none;
+        position:absolute;
+        top:805px;
+        width:100%;
+        height:12px;
+        background-image:url(../global/img/degradado_horizontal.html);
+        background-repeat:repeat-x;
+        background-position:10px;
+    }
+    .wdg_mxm_live_01 .wdg_mxm_live_01_verMas{
+        background-color: #CCCCCC;
+        display: block;
+        font-size: 12px;
+        line-height: 38px;
+        text-align: center;
+        cursor: pointer;
+        margin:0px 0 0px 0;
+    }
+	.wdg_mxm_live_01 .see_less{
+		display:none;
+		width: 100%;
+        background-color: #CCC;
+        font-size: 12px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+	}
+    
+    .wdg_mxm_live_01 .wdg_mxm_live_01_status .wdg_mxm_live_01_list li .vid_player_01{
+    	height: auto;
+    	margin-top: 44px;
+    }
+    .wdg_mxm_live_01 .dotted-right{
+        background: none!important;
+    }
+    .form-container {
+        display: none;
+        width: 624px;
+    }
+    .form-container{
+        background: #efefef;
+        opacity: 0.9;
+    }
+    .form-container .wdg_mxm_live_01_list_lightbox{
+        padding-top: 5px;
+    }
+    
+    .form-container .img_stage_01,
+    .form-container .tvsa-camera{
+        display:none;
+    }
+    .form-container ul li .time{
+        float: left;
+        margin-left: 8px;
+    }
+    .form-container ul li .icon-time{
+        margin-left: 13px;
+        margin-right: 5px;
+        float: left;
+    }
+    .form-container ul li .icon-interactive{
+        background: url("../img/dotted-vertical.html") repeat-y scroll left center transparent !important;
+        cursor: pointer;
+        float: right;
+        height: 20px;
+        margin-right: 10px;
+        padding-left: 8px;
+        width: 20px;
+    }
+    .form-container ul li .icon-interactive2{
+        border-right: 0;
+        padding-right: 0;
+        margin-left: 0;
+        float: right !important;
+        cursor: pointer;
+    }
+    .form-container ul li .chronic {
+        border-left: 1px solid #CCCCCC;
+        float: left;
+        font-size: 12px;
+        margin-left: 5px;
+        padding-left: 8px;
+        width: 68%;
+    }
+    .form-container ul li .chronic .textcolor-title2{
+        font-size: 14px;
+        float: left;
+        width: 100%;
+        font-style:italic;
+    }
+    .form-container ul li .chronic .textcolor-title4{
+        font-size: 13px;
+    }
+/*    .form-container ul li .tvsa-error:hover,
+    .form-container ul li .tvsa-camera:hover{
+        color: #A70A0B;
+    }*/
+    .form-container ul li .tvsa-error{
+        background: #A70A0B;
+        color: #FFFFFF;
+        margin-top: -10px;
+        padding: 1px;
+    }
+    .form-container .vid_player_01{
+        float: left;
+        margin-top: 5px;
+    }
+}

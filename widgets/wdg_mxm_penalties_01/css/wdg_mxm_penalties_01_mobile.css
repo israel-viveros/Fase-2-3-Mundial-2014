@@ -1,0 +1,61 @@
+@media screen {
+    .wdg_mxm_penalties_01{
+        width: 300px;
+    }
+   
+   	.wdg_mxm_penalties_01 .titulo{
+		font-size:18px;
+		font-style:italic;
+		padding-top: 12px;
+		padding-left:46px;
+		border-bottom: 1px solid #CCC;
+		border-spacing: 5px;
+		height: 29px;
+	}
+	
+	.wdg_mxm_penalties_01 .convocados{
+		
+		margin-bottom:24px;
+		width:100%;
+	}
+	
+	.wdg_mxm_penalties_01 .convocados th{
+		
+		padding-left:10px;
+		height:32px;
+	}
+	
+	.wdg_mxm_penalties_01 .convocados .line1{
+		border-bottom:1px solid #CCC;
+		height:1px;
+	}
+	
+	.wdg_mxm_penalties_01 .convocados .line2{
+		height:1px;
+		padding: 0 0 !important;
+	}
+	
+	.wdg_mxm_penalties_01 .convocados td{
+		padding: 2px 5px;
+		height:22px;
+		text-align:center;
+		vertical-align:middle;
+		width: 50px;
+	}
+	
+	.wdg_mxm_penalties_01 .convocados td:first-child{
+		font-size:12px;
+		border-left: none;
+		width:185px;
+		text-align:left;
+	}
+	
+	.wdg_mxm_penalties_01 .convocados td img{
+		margin-top: 5px;
+	}
+	
+	.wdg_mxm_penalties_01 .convocados td.gris{
+		color:#666;
+	}
+	
+}

@@ -1,0 +1,24 @@
+@media screen and (min-width: 948px){    
+	.wdg_mxm_live_01 > div .prev, 
+    .wdg_mxm_live_01 > div .next {
+        display: block;
+    }
+
+    .wdg_mxm_live_01 .wdg_mxm_live_01_list{
+    	overflow: hidden;
+    	width: 100%;
+    	height: 710px;		
+    }
+    .wdg_mxm_live_01 .arrow_buttons{
+    	display: block !important;
+    }
+    .wdg_mxm_live_01 .degradado{
+        display:none;
+    }
+	.wdg_mxm_live_01 ul li{
+        padding: 15px 0px 15px 0;
+    }
+    .ie7 .wdg_mxm_live_01 .icon-interactive2{
+    	width: 3%;
+    }
+}

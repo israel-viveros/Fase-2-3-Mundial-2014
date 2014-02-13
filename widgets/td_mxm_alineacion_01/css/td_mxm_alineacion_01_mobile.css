@@ -1,0 +1,39 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_mxm_alineacion_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_mxm_alineacion_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /* Banners */
+    /* Titulo */
+    .td_mxm_alineacion_01 .main .topTitle{
+        width:100%;
+        clear:both;
+    }
+    /* Contenedor principal */
+    .td_mxm_alineacion_01 .main .c1,
+	.td_mxm_alineacion_01 .main .c3{
+		width:100%;
+        clear:both;
+    }
+
+	.td_mxm_alineacion_01 .main .c1 .c1_3{
+		width:100%;
+	}
+    .td_mxm_alineacion_01 .main .c2 .c2_1,
+    .td_mxm_alineacion_01 .main .c2 .c2_2,
+    .td_mxm_alineacion_01 .main .c2 .c2_3{
+		width:100%;
+    }
+	.td_mxm_alineacion_01 .main .c1 .c1_4 {
+		clear:both;
+	}
+	.td_mxm_alineacion_01 .main .c4 .c4_1 {
+		clear:both;
+	}
+
+}

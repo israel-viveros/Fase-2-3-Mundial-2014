@@ -1,0 +1,22 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_mxm_rating_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_mxm_rating_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_mxm_rating_01 .main > div{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+		display: block;
+	}
+	.td_mxm_rating_01 .main .c4 .c4_1 {
+		clear:both;
+	}
+	
+}

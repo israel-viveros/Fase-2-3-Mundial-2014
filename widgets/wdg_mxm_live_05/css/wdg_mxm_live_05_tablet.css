@@ -1,0 +1,173 @@
+@media screen and (min-width: 624px){
+	.wdg_mxm_live_05{
+		margin-bottom: 36px;
+		width:624px;
+	}
+    .wdg_mxm_live_05 .wdg_mxm_live_05_verMas{       
+        display: block;
+    }
+	.wdg_mxm_live_05 .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .chronic{
+        width: 70%;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list{
+    	height: auto;
+    	width: 100%;
+    }
+    .wdg_mxm_live_05 .img_stage_01 {
+    	margin-bottom: 5px;
+		clear:both;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li .icon-interactive{
+        margin-top: 22px;
+        margin-right: 29px;
+        font-size: 13pt;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .icon-interactive2{
+        background: url("../img/dotted-vertical.html") repeat-y right;
+        padding-right: 10px !important;
+        margin-right: 9px !important;
+        float: left;
+        cursor: pointer;
+        padding-left: 0;
+        margin-top: 22px;
+        font-size: 13pt;
+
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list .wdg_mxm_live_05_list li{
+		width:100%;
+        padding: 11px 10px 11px 0;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .time{
+		padding-left:0px;
+        display:block;
+        width:30px;
+        text-align:center;
+        margin-left: 2px;
+        margin-right: 25px;
+        float:left;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .icon-time{
+        display:block;
+        width:33px;
+        text-align:center;
+        margin-left: 15px;
+        margin-right: 12px;
+        float:left;
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .chronic_description{
+        width: 100%;
+        float: left;
+        font-size: 14px;
+		font-weight:normal;
+        margin-top:5px ;        
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .chronic{
+        border-left: 1px solid #CCCCCC;
+	    float: left;
+	    font-size: 16px;
+	    font-weight: bold;
+	    margin-left: 5px;
+	    overflow: hidden;
+	    padding-left: 19px;
+	    width: 70%;
+    }
+     .wdg_mxm_live_05 .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .icon-interactive2{
+        border-right: 0;
+        padding-right: 0;
+        margin-left: 0;
+        float: left;
+        cursor: pointer; 
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_verMas{
+        float: left;
+	    font-size: 13px;
+	    font-style: italic;
+	    font-weight: bold;
+	    overflow: hidden;
+        line-height: 14px;
+        margin-top: 5px;
+    }
+	.wdg_mxm_live_05 .degraded{
+        top:790px;
+		width:624px;
+    }
+	.wdg_mxm_live_05 .arrow_buttons{
+        margin-top: 22px;
+    }
+	.wdg_mxm_live_05 .scroll{
+		height:auto;
+		width:640px;
+		overflow:hidden;
+	}
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li,
+    .wdg_mxm_live_05 .degraded{
+        display: none;   
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li:nth-of-type(-n+20){
+      display: block;   
+    }
+    .wdg_mxm_live_05 .nav_paginator_01{
+        display: block;   
+    }
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list li:nth-of-type(20){
+         border-bottom: 0;
+         margin-bottom: 38px;
+    }
+     .form-container .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .time{
+        float: left;
+        margin-left: 8px;
+    }
+    .form-container .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .icon-time{
+        margin-left: 13px;
+        margin-right: 5px;
+        float: left;
+    }
+    .form-container .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .icon-interactive{
+        background: url("../img/dotted-vertical.html") repeat-y scroll left center transparent !important;
+        cursor: pointer;
+        float: right;
+        height: 20px;
+        margin-right: 10px;
+        padding-left: 8px;
+        width: 20px;
+        margin-top: 22px;
+    }
+    .form-container .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .icon-interactive2{
+        border-right: 0;
+        padding-right: 0;
+        margin-left: 0;
+        float: right !important;
+        cursor: pointer;
+    }
+    .form-container .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .chronic {
+        border-left: 1px solid #CCCCCC;
+        float: left;
+        font-size: 12px;
+        margin-left: 5px;
+        padding-left: 8px;
+        width: 68%;
+    }
+    .form-container .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .chronic .textcolor-title2{
+        font-size: 14px;
+        float: left;
+        width: 100%;
+        font-style:italic;
+    }
+    .form-container .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .chronic .textcolor-title4{
+        font-size: 13px;
+    }
+/*    .form-container .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .tvsa-error:hover,
+    .form-container .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .tvsa-camera:hover{
+        color: #A70A0B;
+    }*/
+    .form-container .wdg_mxm_live_05_list.wdg_mxm_live_05_list li .tvsa-error{
+        background: #A70A0B;
+        color: #FFFFFF;
+        margin-top: -10px;
+        padding: 1px;
+    }
+    .form-container .vid_player_01{
+        float: left;
+        margin-top: 5px;
+    }
+}

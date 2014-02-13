@@ -1,0 +1,99 @@
+@media screen {
+    .wdg_mxm_plcards_01{
+        width: 100%;
+		margin-bottom:0px;
+		overflow:hidden;
+		border-bottom:1px solid #CCC;
+    }
+   	.wdg_mxm_plcards_01 .titulo{
+		font-size:18px;
+		font-style:italic;
+		padding-bottom:15px;
+		padding-left:50px;
+		margin-bottom:5px;
+		border-bottom: 1px solid #CCC;
+	}
+	.wdg_mxm_plcards_01 .convocados{
+		font-size:12px;
+		width:100%;
+		border-spacing:4px;
+		border-collapse: 5px;
+	}
+	.wdg_mxm_plcards_01 .convocados .head{
+		border-bottom: 1px solid #ccc;
+	}
+	.wdg_mxm_plcards_01 .convocados .bodyt{
+		height: 38px;
+		line-height: 24px;
+	}
+
+	.wdg_mxm_plcards_01 .convocados .bodyt .name{
+		width: 46%;
+	}
+	.wdg_mxm_plcards_01 .convocados .bodyt .name p{
+		font-size: 13px;
+		font-weight: bold;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		margin-left: 8px;
+		text-align: left;
+	}
+	.wdg_mxm_plcards_01 .convocados .bodyt .textcolor-title4{
+		width: 16%;
+		font-size: 11px;
+	}
+
+	.wdg_mxm_plcards_01 .convocados .bodyt .textcolor-title1,
+	.wdg_mxm_plcards_01 .convocados .bodyt .textcolor-title2{
+		width: 9%;
+		font-size: 19px;
+	}
+	.wdg_mxm_plcards_01 .convocados .dotted-left{
+		height: 28px;
+	}	
+	.wdg_mxm_plcards_01 .player{
+		line-height: 30px;
+	}
+	.wdg_mxm_plcards_01 .icon-team1{
+		margin-left: 40%;
+		padding-right: 21px !important;
+	}
+
+	.wdg_mxm_plcards_01 .icon-team2{
+		padding-left: 24px !important;
+	}
+
+	.wdg_mxm_plcards_01 .convocados div{
+		height:26px;
+		font-size:14px;
+		margin-top: 4px;
+	}
+	.wdg_mxm_plcards_01 .convocados div div{
+		height:30px;
+		float: left;
+	}
+
+	.wdg_mxm_plcards_01 .convocados div:first-child{
+		text-align:left;
+	}
+	.wdg_mxm_plcards_01 .convocados div{
+		padding: 0 5px;
+		height:39px;
+		text-align:center;
+	}
+	.wdg_mxm_plcards_01 .convocados div:first-child{
+		
+		font-weight:bold;
+		color:#569269;
+		font-size:14px;
+		border-left: none;
+		text-align:left;
+		font-weight: bold;
+	}
+	.wdg_mxm_plcards_01 div.str_pleca_01
+	{
+		margin-bottom: 3px;
+		border-bottom: 1px solid #ccc;
+	}
+}

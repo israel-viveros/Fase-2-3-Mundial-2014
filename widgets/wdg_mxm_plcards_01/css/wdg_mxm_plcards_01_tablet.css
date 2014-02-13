@@ -1,0 +1,22 @@
+@media screen and (min-width: 624px){
+	.wdg_mxm_plcards_01{
+		width: 300px;
+		display:block;
+		margin-bottom:36px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.wdg_mxm_plcards_01 div.str_pleca_01_title h3{
+		width:63.7%;
+	}
+	.wdg_mxm_plcards_01 .convocados{
+		border-spacing: 0px !important;
+	}
+
+	.wdg_mxm_plcards_01 .convocados .bodyt .name{
+		width: 40%;
+	}
+	.wdg_mxm_plcards_01 .icon-team1{
+		margin-left: 35%;
+	}
+}

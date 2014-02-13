@@ -1,0 +1,26 @@
+@media screen and (min-width: 948px){    
+	.wdg_mxm_live_05 > div .prev, 
+    .wdg_mxm_live_05 > div .next {
+        display: block;
+    }
+	.wdg_mxm_live_05 .degraded{
+		display:none;
+	}
+    .wdg_mxm_live_05 .wdg_mxm_live_05_list{
+    	overflow: hidden;
+    	width: 100%;
+        margin-top: -6px;
+    }
+    .wdg_mxm_live_05 .arrow_buttons{
+    	display: block !important;
+    }
+    .wdg_mxm_live_05 .degradado{
+        display:none;
+    }
+	.wdg_mxm_live_05 .wdg_mxm_live_05_list li{
+        padding: 15px 10px 15px 0;
+    }
+    .ie7 .wdg_mxm_live_05 .icon-interactive2{
+    	width: 3%;
+    }
+}

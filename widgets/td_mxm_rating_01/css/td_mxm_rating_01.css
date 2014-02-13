@@ -1,0 +1,52 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_mxm_rating_01 .main{
+        width: 948px;
+    }
+	/* 100 porciento */
+    .td_mxm_rating_01 .main .c1,
+	.td_mxm_rating_01 .main .c4{
+		width:624px;
+		clear:both;
+		overflow:hidden;
+		display:block;
+		
+	}	
+	.td_mxm_rating_01 .main .c4{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+		display:block;
+	}	
+	/* Flotan a la izq */
+	.td_mxm_rating_01 .main .c2{
+		width: 624px;
+		display:block;
+		clear:none;
+	}
+	/* Flotan a la der */
+	.td_mxm_rating_01 .main .c3{
+		display:block;
+		width: 300px;
+		clear:none;
+	} 
+	/*bloques*/	
+	.td_mxm_rating_01 .main .c3_1,
+	.td_mxm_rating_01 .main .c3_2,
+	.td_mxm_rating_01 .main .c3_3,
+	.td_mxm_rating_01 .main .c3_4{
+		float: none;
+		clear:both;
+		overflow:hidden;
+		display: block;
+	}
+	.td_mxm_rating_01 .main .c3_2,
+	.td_mxm_rating_01 .main .c3_3{
+		display:block;
+	}
+	/*image hidden deskopt*/
+	.td_mxm_rating_01 .main .c_banner{
+		display: none;
+	}
+
+}
