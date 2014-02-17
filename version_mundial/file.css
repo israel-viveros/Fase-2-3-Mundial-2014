@@ -3423,11 +3423,14 @@ header.nav_header_01 div.topnav {
         position: relative;
         display: inline-block!important;
     } 
-
+/*Aqui para cambiar el tamaño de letra*/
     .mix_carru_01b .galleryCaption_02 .caption{
         font-style: normal;
         font-size: 18px;
         margin-bottom: 9px;
+    }
+     .mix_carru_01b .galleryCaption_02 .caption:hover{
+      text-decoration: underline;
     }
 	
 	.mix_carru_01b #mix_carru_01_svg{
@@ -3750,7 +3753,7 @@ header.nav_header_01 div.topnav {
         display:block;
         width:56px;
         height:56px;
-        border:3px solid #A70A0B;
+        border:3px solid #59a529;
     }
     
     .mix_carru_01b .articleBigModule_02 ul.galleryThumbs li span.border {
