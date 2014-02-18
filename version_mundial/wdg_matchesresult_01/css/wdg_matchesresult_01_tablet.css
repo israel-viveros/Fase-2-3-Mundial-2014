@@ -250,4 +250,10 @@
 	.wdg_matchesresult_01_arrows a.wdg_matchesresult_left{
 		display:inline-block;
 	}
+    .wdg_matchesresult_todos{
+        float: right;
+        color: #8f8f8f;
+        font-size: 12px;
+        font-style: italic;
+    }
 }
