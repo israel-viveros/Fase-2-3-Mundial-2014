@@ -3434,10 +3434,12 @@ header.nav_header_01 div.topnav {
         font-size: 18px;
         margin-bottom: 9px;
     }
-     .mix_carru_01b .galleryCaption_02 .caption:hover{
+     .mix_carru_01b .galleryCaption_02:hover{
       text-decoration: underline;
     }
-	
+	.subrayar:hover{
+      text-decoration: underline;
+	}
 	.mix_carru_01b #mix_carru_01_svg{
 		display: none;
 	}
