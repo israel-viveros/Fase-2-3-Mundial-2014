@@ -263,6 +263,11 @@
 }
 
 /* all devices */
+[title=Link description]
+{
+text-decoration: underline;
+}
+
 table {
 	border-collapse: separate;
 	border-collapse: collapse;
@@ -4776,6 +4781,10 @@ header.nav_header_01 div.topnav {
         color: black;
         text-decoration: none;
     }
+     a:hover {
+        color: black;
+        text-decoration: underline;
+    }
     .btn_carru_prog_02 div:first-child:before,.carouseltype2 div:first-child:after
         {
         content: "";
@@ -9143,10 +9152,13 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
 		border-top: 1px solid #ccc;
 		overflow: hidden;
 	}
-	.mix_1arts_08 .articleMedium {
+	.mix_1arts_08 .articleMedium a {
 		padding: 0;
-		color: #000;
+		color: black;
 		position: relative;
+	}
+	.mix_1arts_08 .articleMedium a:hover {
+	text-decoration: underline;
 	}
 	.mix_1arts_08 .articleMedium img {
 	}
