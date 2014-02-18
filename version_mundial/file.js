@@ -397,7 +397,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 
                     }*/
                     $('.wdg_matchesresult_01').animate({
-                        'height': 218
+                        'height': 168
                     }, 0);
 
                 }
@@ -694,10 +694,10 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
             $hide = $closeElement.find('.wdg_matchesresult_show');
             var visShow = $show.css('visibility');
 			 if (T.getDeviceSize() === 'large') {
-			 $('.wdg_matchesresult_01 .wdg_matchesresult_01_left .wdg_matchesresult_visible').css('margin-top','32%');
+			 $('.wdg_matchesresult_01 .wdg_matchesresult_01_left .wdg_matchesresult_visible').css('margin-top','0%');
 			 }
             $closeElement.animate({
-                'height': 218
+                'height': 168
             }, animationDelay);
             $(this).closest('.wdg_matchesresult_01_left').find('.wdg_matchesresult_01_bottom').hide();
             if ( visShow == 'hidden' ) {
