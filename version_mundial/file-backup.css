@@ -2082,9 +2082,7 @@ header.nav_header_01 div.topnav {
     .ie7 .nav_header_01 a i{
         background:#EFEFEF;
     }
-    /* <-comment-probando-wdgmatch
 }@media screen {
-
     .wdg_match_01_sprite {
         background: url(../img/global-sprites.png) no-repeat 0 0;
         display: inline-block;
@@ -2128,7 +2126,6 @@ header.nav_header_01 div.topnav {
         font-size: 14px;
         /*background-color: rgba(235,235,235,0.9);*/
         /*background: transparent;*/
-            /* <-comment-probando-wdgmatch
         line-height: 30px;
         border-bottom: 1px solid #c8c8c8;
         background-color: #efefef;
@@ -2172,7 +2169,6 @@ header.nav_header_01 div.topnav {
         /*background-color: rgba(235,235,235,0.6);
         border-bottom: 1px solid #d3d3d3;
         box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);*/
-            /* <-comment-probando-wdgmatch
     }
     .wdg_match_01 .wdg_match_01_team .wdg_match_01_teamscore{
         float: left; 
@@ -2183,7 +2179,6 @@ header.nav_header_01 div.topnav {
         /*background-color: rgba(235,235,235,0.6);
         border-bottom: 1px solid #d3d3d3;
         box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);*/
-            /* <-comment-probando-wdgmatch
     }
     .wdg_match_01 .wdg_match_01_team .wdg_match_01_teamname p{
         margin-left: 8px;
@@ -2201,7 +2196,6 @@ header.nav_header_01 div.topnav {
     .ie7 .wdg_match_01 .wdg_match_01_link {
         background:transparent;
         /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#93ebebeb,endColorstr=#93ebebeb); */
-            /* <-comment-probando-wdgmatch
 		 filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr="#f3f3f3", endColorstr="#dcdcdc", GradientType=0);
     }
     .ie8 .wdg_match_01 .wdg_match_01_link {
@@ -2273,7 +2267,6 @@ header.nav_header_01 div.topnav {
         font-size: 14px;
         /*background-color: rgba(235,235,235,0.9);*/
         /*background: transparent;*/
-            /* <-comment-probando-wdgmatch
         line-height: 30px;
         border-bottom: 1px solid #c8c8c8;
         background-color: #efefef;
@@ -2317,7 +2310,6 @@ header.nav_header_01 div.topnav {
         /*background-color: rgba(235,235,235,0.6);
         border-bottom: 1px solid #d3d3d3;
         box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);*/
-            /* <-comment-probando-wdgmatch
     }
     .wdg_match_01 .wdg_match_01_team .wdg_match_01_teamscore{
         float: left; 
@@ -2342,12 +2334,10 @@ header.nav_header_01 div.topnav {
     .ie7 .wdg_match_01 .wdg_match_01_link {
         background:#E5DADA;
         /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#93ebebeb,endColorstr=#93ebebeb); */
-            /* <-comment-probando-wdgmatch
     }
     .ie8 .wdg_match_01 .wdg_match_01_link {
         background:#E5DADA;
         /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ebebeb,endColorstr=#99ebebeb); */
-            /* <-comment-probando-wdgmatch
     }
     .wdg_match_01 .wdg_match_01_link .wdg_match_01_extra{
         font-style: italic;
@@ -2365,8 +2355,7 @@ header.nav_header_01 div.topnav {
     
    
 
-} */
-
+}
 @media screen and (min-width: 948px){
     .wdg_categories_01 {
         max-width: 320px;
@@ -2421,7 +2410,6 @@ header.nav_header_01 div.topnav {
         -moz-opacity: 0.5;
     }
 }
-  /* <-comment-probando-wdgmatch
 @media screen {
     .wdg_matchesresult_sprite{
         background: url(../img/sprites-sports2.png) no-repeat 0 0;
@@ -2511,7 +2499,6 @@ header.nav_header_01 div.topnav {
 
     .wdg_matchesresult_01 .wdg_matchesresult_01_container .wdg_matchesresult_01_right .wdg_matchesresult_01_components{
 		width: 216px; /*Margen de visualizacion carrusel*/
-		  /* <-comment-probando-wdgmatch
         height: 400px;
         overflow-x: hidden;
         float: left;
@@ -2551,13 +2538,11 @@ header.nav_header_01 div.topnav {
 		float: left;
 		margin-left: 4px;
 		margin-top: 35px; /*distancia flechas*/
-		  /* <-comment-probando-wdgmatch
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_mobileleft{
       	display: block;
 		float: left;
 		margin-top: 35px; /*distancia flechas*/
-		  /* <-comment-probando-wdgmatch
 		margin-left: 35px;
 		margin-right: 12px;
     }
@@ -3022,9 +3007,7 @@ header.nav_header_01 div.topnav {
 	.ie8 .wdg_matchesresult_01 .wdg_matchesresult_01_theme{
 		width:490px !important;
 	}
-
 }
-  <-comment-probando-wdgmatch */
 @media screen { 
     .ads_combo_01{
         margin-top: 0px;

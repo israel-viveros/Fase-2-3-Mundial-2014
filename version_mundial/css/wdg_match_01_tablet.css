@@ -1,23 +1,11 @@
-@media screen {
-    .wdg_match_01_sprite {
-        background: url(../img/sprite-placeholder.png) no-repeat 0 0;
-        display: inline-block;
-        height: 10px;
-        overflow: hidden;
-        text-indent: -1584em;
-        width: 10px;
-    }
-    .ie7 .wdg_match_01_sprite{
-        text-indent: 0px;
-    }
-    .wdg_match_01_sprite.video {
-        /*background-position: -227px -20px;*/
-    }
+@media screen and (min-width: 624px){
     .wdg_match_01{
-        width: 205px;
+        width: 170px;
         height: 115px;
         border: 1px solid #cfcdce;
-        margin-bottom: 15px
+        margin-bottom: 24px;
+        position:relative;
+        display:block;
     }
     .ie7 .wdg_match_01{
         border: 1px solid #cfcdce;
@@ -26,27 +14,43 @@
         border: 1px solid #cfcdce;
     }
     .wdg_match_01 .wdg_match_01_time{
-        width: 205px;
+        width: 170px;
         height: 24px;
         line-height: 24px;
 
     }
     .wdg_match_01 .wdg_match_01_time p{
         margin-left: 8px;
-        font-size: 14px;
+        font-size: 12px;
+        font-weight: bold;
     }
+
+.wdg_match_01 .shadow{
+        position: absolute;
+        top:24px;
+        width: 170px;
+        height: 61px;
+    -moz-box-shadow:    inset  0  8px 18px -8px rgba(0, 0, 0, 0.3), 
+                        inset  0 -8px 18px -8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset  0  8px 18px -8px rgba(0, 0, 0, 0.3), 
+                        inset  0 -8px 18px -8px rgba(0, 0, 0, 0.3);
+     box-shadow:        inset  0  8px 18px -8px rgba(0, 0, 0, 0.3), 
+                        inset  0 -8px 18px -8px rgba(0, 0, 0, 0.3);
+}
+
     .wdg_match_01 .wdg_match_01_team{
         clear: both;
-        width: 205px;
+        width: 170px;
         height: 30px;
         font-size: 14px;
+        font-weight:bold;
         /*background-color: rgba(235,235,235,0.9);*/
         /*background: transparent;*/
         line-height: 30px;
         border-bottom: 1px solid #c8c8c8;
     }
     .wdg_match_01 .wdg_match_01_team.winner{
-        background-color: #ffffff;
+        background-image: #ffffff;
         -webkit-transition: none 0.2s ease-out;
         -moz-transition: none 0.2s ease-out;
         -ms-transition: none 0.2s ease-out;
@@ -54,7 +58,7 @@
         transition: none 0.2s ease-out;
     }
     .wdg_match_01 .wdg_match_01_team.loser{
-        background-color: #f3f3f3;
+        background-image: #f3f3f3;
         -webkit-transition: none 0.2s ease-out;
         -moz-transition: none 0.2s ease-out;
         -ms-transition: none 0.2s ease-out;
@@ -64,7 +68,7 @@
     }
     .wdg_match_01 .wdg_match_01_team .wdg_match_01_teamname{
         float: left;
-        width: 174px;
+        width: 138px;
         height: 30px;
         border-right: 1px solid #c8c8c8;
         /*background: url(../img/header-fade-gradient.png) repeat left top;*/
@@ -72,71 +76,62 @@
         border-bottom: 1px solid #d3d3d3;
         box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);*/
     }
+    .wdg_match_01 .wdg_match_01_team .wdg_match_01_teamname a{
+        color: #434343;
+    }
     .wdg_match_01 .wdg_match_01_team .wdg_match_01_teamscore{
         float: left; 
-        width: 29px;
+        width: 30px;
         height: 30px;
         text-align: center;
-        /*background: url(../img/left-shadow.png) no-repeat left top;*/
-        /*background-color: rgba(235,235,235,0.6);
-        border-bottom: 1px solid #d3d3d3;
-        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);*/
+        -webkit-box-shadow: inset 5px -3px 16px -4px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 5px -3px 16px -4px rgba(0,0,0,0.3);
+box-shadow: inset 5px -3px 16px -4px rgba(0,0,0,0.3);
+
     }
     .wdg_match_01 .wdg_match_01_team .wdg_match_01_teamname p{
         margin-left: 8px;
     }
     .wdg_match_01 .wdg_match_01_link .wdg_match_01_extra p{
-        margin-left: 8px;
+        margin-left: 1px;
 
     }
     .wdg_match_01 .wdg_match_01_link {
-        background-color: #fcfcfc;
+background: #e4e2e2;
         line-height: 30px;
-        width: 205px;
-        height: 30px;
+        width: 170px;
+        height: 29px;
     }
     .ie7 .wdg_match_01 .wdg_match_01_link {
-        background:transparent;
+        background:#e4e2e2;
         /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#93ebebeb,endColorstr=#93ebebeb); */
-		 filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr="#f3f3f3", endColorstr="#dcdcdc", GradientType=0);
     }
     .ie8 .wdg_match_01 .wdg_match_01_link {
-        background:transparent;
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ebebeb,endColorstr=#99ebebeb); 
+        background:#e4e2e2;
+        /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ebebeb,endColorstr=#99ebebeb); */
     }
     .wdg_match_01 .wdg_match_01_link .wdg_match_01_extra{
         font-style: italic;
         font-size: 10px;
         font-weight: bold;
-        width: 174px;
+		padding-left: 2px;
+        width: 96px;
+        height: 30px;
+        float: left;
+    }
+        .wdg_match_01 .wdg_match_01_link .wdg_match_01_extra2{
+        font-style: italic;
+        font-size: 10px;
+        font-weight: bold;
+        width: 42px;
         height: 30px;
         float: left;
     }
     .wdg_match_01 .wdg_match_01_link .wdg_match_01_icon{
-        float: left; 
-        width:30px;
+        float: left;
+		width:30px;
     }
-    .wdg_match_01 .wdg_match_01_link .wdg_match_01_icon span{
-        margin-top: 7px;
-        width: 26px;
-        height: 17px;
-    }
-	 .wdg_match_01 .wdg_match_01_extra .textcolor-title4{
-        float: right;
-        margin-right: -2px;
-    }
-	.wdg_match_01 .wdg_match_01_link .wdg_match_01_icon a{
-		padding-left:3px;
-	}
-	.wdg_match_01 .wdg_match_01_link .wdg_match_01_icon span{
-        margin-top: 7px;
-        width: 21px;
-        height: 17px;
-        padding-left: 2px;
-        margin-left: 0px;
-        
-    }
-        .wdg_matchesresult_todos{
-        display:none;
-}
+    
+   
 
+}
