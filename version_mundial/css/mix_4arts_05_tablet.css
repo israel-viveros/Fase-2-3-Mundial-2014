@@ -11,7 +11,7 @@
 	.mix_4arts_05 .mix_3arts_02 .mix_1arts_09 .mix_1arts_09_thumb li img,
 	.mix_4arts_05 .mix_3arts_02_last {
 		display:block;
-		margin-bottom: 10px;
+		margin-bottom: 11px;
 	}
 	.mix_4arts_05 .mix_1arts_09 .mix_1arts_09_thumb li .imgWrapper{
 		display: block;
@@ -38,18 +38,20 @@
 		margin-bottom: 0px;
 	}
 	.mix_4arts_05 .mix_3arts_02 div.mix_3arts_02_last div.mix_1arts_09{
-		padding: 0px 0px 0px 12px !important
+		padding: 0px 0px 0px 11px !important
 	}
 	.mix_4arts_05 .mix_3arts_02 .mix_1arts_09{
-		padding: 0px 11px 32px 12px;
+		padding: 0px 12px 32px 11px;
 	}
 	.mix_4arts_05 div.mix_3arts_02 div.mix_3arts_02_first div.mix_1arts_09{
 		padding: 0px 12px 32px 0px;
 	}
 	
 	.mix_4arts_05 .mix_1arts_09 .mix_1arts_09_thumb li a h3{
-		font-size: 15px;
+		font-size: 16px;
 		font-weight: bold;
+		line-height: 18px;
+		letter-spacing: -.5px;
 		padding-left: 0px;
 		width: auto;
 	}

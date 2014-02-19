@@ -4887,9 +4887,10 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     }
 	
 	.mix_1arts_03 .type2b .floatRight h3 {
-	    margin:6px 0 18px 0;
-	    line-height:20px;
+	    margin:7px 0 21px 0;
+	    line-height:18px;
 	    font-size:18px;
+	    letter-spacing:-.7px;
 	}
 	
 	.mix_1arts_03 .type2b .floatRight p.desc {
@@ -4966,11 +4967,15 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
     }
     .mix_1arts_03 .type2b .articleBigModule {
         font-size: 14px;
+        line-height: 17px;
         height: 307px;
         position: relative;
         top: 0;
         width: 624px;
     }
+
+
+
     .mix_1arts_03 .type2b .articleBigModule li,
     .mix_1arts_03 .type2b .articleBigModule li a{
         color:#D9A961;
@@ -4986,8 +4991,8 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         padding: 0 !important;
         position: relative;
         top: 0 !important;
-        margin-top: -4px !important;
-        width: 29.5% !important;
+        margin: -4px 29px 0 0 !important;
+        width: 25% !important;
         background-color:transparent !important;
     }
     /*Categoria*/
