@@ -152,7 +152,7 @@
         font-size: 13px;
     }
     .btn_carru_prog_02 .typecarruse .carrusel ul li h2 a {
-        color: black;
+        color: #232323;
         background: none;
         width: auto;
         height: auto;
@@ -250,7 +250,7 @@
         position: relative;
     }
     a {
-        color: black;
+        color: #232323;
         text-decoration: none;
     }
     .btn_carru_prog_02 div:first-child:before,.carouseltype2 div:first-child:after
