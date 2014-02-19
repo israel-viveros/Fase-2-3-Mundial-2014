@@ -51,4 +51,8 @@
         -khtml-opacity: 0.5;
         -moz-opacity: 0.5;
     }
+
+        .wdg_matchesresult_todos{
+        display:block;
+}
 }
