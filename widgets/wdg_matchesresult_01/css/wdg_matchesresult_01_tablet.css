@@ -211,7 +211,7 @@
         display: none;
     }
     .wdg_matchesresult_01 .wdg_matchesresult_01_bottom{
-        height: 242px;
+        height: 320px;
     }
 	.wdg_matchesresult_01 .linedown{
 		border-bottom: 1px solid #c5c3c4;
@@ -250,4 +250,10 @@
 	.wdg_matchesresult_01_arrows a.wdg_matchesresult_left{
 		display:inline-block;
 	}
+    .wdg_matchesresult_todos{
+        float: right;
+        color: #8f8f8f;
+        font-size: 12px;
+        font-style: italic;
+    }
 }
