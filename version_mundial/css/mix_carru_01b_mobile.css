@@ -330,8 +330,12 @@
 
     .mix_carru_01b .galleryCaption_02 .caption{
         font-style: normal;
-        font-size: 18px;
+        font-size: 22px;
         margin-bottom: 9px;
+    }
+
+      .mix_carru_01b .galleryCaption_02 .caption:hover{
+       text-decoration: underline;
     }
 	
 	.mix_carru_01b #mix_carru_01_svg{
