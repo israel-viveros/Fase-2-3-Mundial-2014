@@ -5194,7 +5194,8 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         display: none;
         font-style: italic;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 26px;
+        letter-spacing: -.3px;
         color: #eab11d;
         padding:10px 0 0 10px;
         font-weight: bold;
@@ -5263,7 +5264,8 @@ div.img_galry_01 span.data {display:none;}@media screen and (min-width: 624px){
         display: block;
         font-style: italic;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 26px;
+        letter-spacing: -.3px;
         padding:0!important;
     }
     
