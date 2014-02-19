@@ -40,7 +40,7 @@
 				cuerpoHTML += '</div>';
 				cuerpoHTML += '<div class="wdg_matchesresult_visible">';
 				cuerpoHTML += '<p><a class="wdg_matchesresult_show" href=""><span class="wdg_matchesresult_sprite uparrow"></span>Ocultar</a></p>';
-				cuerpoHTML += '<p><a class="wdg_matchesresult_hide" href=""><span class="wdg_matchesresult_sprite downarrow"></span>Ver Más</a></p>';
+				cuerpoHTML += '<p><a class="wdg_matchesresult_hide" href=""><span class="wdg_matchesresult_sprite downarrow"></span>Ver M&aacute;s</a></p>';
 				cuerpoHTML += '</div>';
 				cuerpoHTML += '</div>';
 				cuerpoHTML += '<div class="wdg_matchesresult_01_right">';			
