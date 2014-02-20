@@ -1765,16 +1765,14 @@ header.nav_header_01 div.topnav {
         max-width: 300px;
         float: left;
     }
-<<<<<<< HEAD
     div.str_pleca_01_title strong a,
     div.str_pleca_01_title h2 a,
     div.str_pleca_01_title h3 a {
         padding:0 0 0 24px;
         line-height: 33px;
-=======
+	}
     .mix_carru_01b div.title h3 a {
         background-image: none;
->>>>>>> c511c969405e2c436a03994420303c8f245689cb
     }
     .mix_carru_01b div.title h3 a span.icon {
         display: none;
