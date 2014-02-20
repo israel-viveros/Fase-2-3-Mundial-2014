@@ -4,24 +4,39 @@
     /* Logo Deportes */
     
     header.nav_header_01 div.mainnav nav.social>a.vivafut span.vivafut {
-        background: url(../global/img/mainnav2_hover%402x.html) no-repeat 0 0;
+        background: url(../global/img/mainnav2_hover.html) no-repeat 0 0;
         background-size: 174px 32px;
     }
+
+    header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn {
+background: url(../img/header/mainnav2_hover.png) no-repeat -135px 0;
+width: 39px;
+}
+	header.nav_header_01 div.mainnav nav.social ul li.station a span.tdtv {
+background: url(../img/header/mainnav2_hover.png) no-repeat -87px 0;
+width: 48px;
+}	
+	header.nav_header_01 div.mainnav nav.social ul li.station {
+		padding-right: 1px;
+		background: url(../img/header/dots-mainnav.png) no-repeat 100% 50%;
+		margin-right:-4px;
+		}
+
     header.nav_header_01 div.mainnav nav.social ul li.station a span.vivafut
         {
-        background: url(../global/img/mainnav2_hover%402x.html) no-repeat 0 0;
+        background: url(../global/img/mainnav2_hover.html) no-repeat 0 0;
         background-size: 174px 32px;
     }
     header.nav_header_01 div.mainnav nav.social ul li.station a span.nba {
-        background: url(../global/img/mainnav2_hover%402x.html) no-repeat -51px 0;
+        background: url(../global/img/mainnav2_hover.html) no-repeat -51px 0;
         background-size: 174px 32px;
     }
     header.nav_header_01 div.mainnav nav.social ul li.station a span.tdtv {
-        background: url(../global/img/mainnav2_hover%402x.html) no-repeat -87px 0;
+        background: url(../global/img/mainnav2_hover.html) no-repeat -87px 0;
         background-size: 174px 32px;
     }
     header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn {
-        background: url(../global/img/mainnav2_hover%402x.html) no-repeat -135px 0;
+        background: url(../global/img/mainnav2_hover.html) no-repeat -135px 0;
         background-size: 174px 32px;
     }
     .ie8 header.nav_header_01 div.mainnav nav.social>a.vivafut span.vivafut,
@@ -123,7 +138,7 @@
     
      header.nav_header_01  .station ,
     .ie7 header.nav_header_01  .station {
-        border-right: 1px solid #dadada!important;
+        border-right: none;
     }
     
 	div.mobilenav,div.niy {
@@ -251,6 +266,50 @@
 			to(#fbfbfb))
 	}
 
+		/* Main Navigation */
+	/* icon sizes */
+	header.nav_header_01 div.mainnav ul li a i,header.nav_header_01 div.mainnav nav.social ul li a i
+		{
+		font-size: 17px;
+		position: relative;
+		line-height: 30px;
+		vertical-align: baseline;
+		display: inline;
+	}
+	header.nav_header_01 div.mainnav nav.social ul li:first-child a i {
+		font-size: 13px !important;
+	}
+	
+	header.nav_header_01 div.mainnav nav.social ul li.station:last-child {
+	}
+	header.nav_header_01 div.mainnav nav.social ul li.station:first-child {
+		display: none;
+	}
+	
+
+	header.nav_header_01 div.mainnav nav.social a.toggle {
+		color: #fff;
+		height: 35px;
+		width: 36px;
+		text-align: center;
+		line-height: 35px;
+		font-size: 15px;
+		display: inline-block;
+		border-left: 1px solid #dadada;
+		/*-webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .3);
+        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .3);*/
+	}
+	header.nav_header_01 div.mainnav nav.social a.toggle span {
+	}
+
+	header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn {
+background: url(../img/header/mainnav2_hover.png) no-repeat -135px -17px ;
+}
+
+header.nav_header_01 div.mainnav nav.social ul li.station a span.tdtv {
+background: url(../img/header/mainnav2_hover.png) no-repeat -88px -17px ;
+}
+
 	/* Collapsable Mainnav */
 	header.nav_header_01 div.collapsable-mainnav div.inner {
 		padding: 24px 0;
@@ -273,7 +332,7 @@
 	/* Main Navigation */
 	header.nav_header_01 div.title {
 	border-top: 1px solid #398318;
-	background: #339c25;
+	background: #59a529;
 	height: 69px;
 	
 	}
@@ -290,14 +349,15 @@
 		color: #fff;
 		font-size: 12px;
 		font-weight: normal;
+
+
 	}
 	header.nav_header_01 div.mainnav {
 		z-index: 10;
 		position: relative;
 		height: 35px;
-		border-bottom: 1px solid #c4c4c4;
 		/* background: #efefef; */ /* Old browsers */
-		background: #339c25;
+		background: #59a529;
 	}
 	header.nav_header_01 div.mainnav ul {
 		/* border-left: 1px solid #dadada; */
@@ -431,7 +491,7 @@ header.nav_header_01 div.mainnav nav.main ul li
 	}
 	header.nav_header_01 div.mainnav nav.main {
 		width: 100%;
-		background: #49b73a;
+		background: #6ec239;
 	
 		-webkit-box-shadow: inset -5px -5px 20px -5px rgba(50, 150, 50, 0.75);  
 		-moz-box-shadow: inset -5px -5px 20px -5px rgba(50, 150, 50, 0.75);  
@@ -549,8 +609,6 @@ header.nav_header_01 div.mainnav nav.main ul li
 	header.nav_header_01 div.mainnav nav.social ul li a {
 		background: box-shadow: inset -1px -1px 20px -5px rgba(50, 150, 50, 0.75);
 		height: 25px;
-		padding: 0 8px;
-		border:none;
 	}
 
 	header.nav_header_01 div.mainnav nav.social ul li.station a span {
@@ -641,17 +699,15 @@ header.nav_header_01 div.mainnav nav.main ul li
 		line-height: 25px;
 		vertical-align: baseline;
 		display: inline;
-		padding: 0 2px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li:first-child a i { 
 		font-size: 17px !important;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station {
 		border: 0px;
+		margin-right: -4px;
 	}
-	header.nav_header_01 div.mainnav nav.social ul li.station:last-child {
-		border-right: 1px solid #dadada;
-	}
+
 	header.nav_header_01 div.mainnav nav.social ul li.station:first-child {
 		display: none;
 	}
@@ -661,10 +717,7 @@ header.nav_header_01 div.mainnav nav.main ul li
 		border-left: 1px solid #f3f3f3;
 		*/
 	}
-	header.nav_header_01 div.mainnav nav.social ul li.station {
-		padding-right: 1px;
-		background: url(../img/header/dots-mainnav.html) no-repeat 100% 50%;
-	}
+	
 	header.nav_header_01 div.mainnav nav.social a.toggle {
 		color: #fff;
 		height: 35px;
@@ -673,7 +726,6 @@ header.nav_header_01 div.mainnav nav.main ul li
 		line-height: 35px;
 		font-size: 15px;
 		display: inline-block;
-		border-right: 1px solid #dadada;
 		border-left: 1px solid #dadada;
 		/*-webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .3);
         box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .3);*/
