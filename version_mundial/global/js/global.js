@@ -1,4 +1,4 @@
-var PATH = "../global/js/";
+var PATH = "http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/";
 head.js(
     PATH+"modernizr.js",
     PATH+"Televisa.js",
