@@ -1,10 +1,10 @@
 @media screen{
-    .wdg_goals_carru_01{    	
-    	height: 100%;
+    .wdg_goals_carru_01{        
+        height: 100%;
         position: relative;
         width: 100%;
         overflow: hidden;
-		margin-bottom: 0px;
+        margin-bottom: 0px;
     }
 
     .wdg_goals_carru_01 > ul {
@@ -14,37 +14,37 @@
         position: relative;
         width: 110%;
         overflow-x: hidden;
-		margin-bottom: 18px;
+        margin-bottom: 18px;
     }
 
     .wdg_goals_carru_01 > ul li {
         display: block;
-		height: 45px;
-		overflow: hidden;
+        height: 45px;
+        overflow: hidden;
         position: relative;
-		border-bottom:1px solid #CCC;
+        border-bottom:1px solid #CCC;
     }
     @-moz-document url-prefix() {
-	  		.wdg_goals_carru_01 > ul li{
-	    		height: 45px;
-	  		}
- 	}
- 	::made-up-pseudo-element, .wdg_goals_carru_01 > ul li{
- 		height: 48px;
- 	}
+            .wdg_goals_carru_01 > ul li{
+                height: 45px;
+            }
+    }
+    ::made-up-pseudo-element, .wdg_goals_carru_01 > ul li{
+        height: 48px;
+    }
     
     .wdg_goals_carru_01 > ul li div:first-child {
         position: absolute;
         width: 84px;
-		height:47px;
-		border-bottom:1px solid #D1D1D1;		
+        height:47px;
+        border-bottom:1px solid #D1D1D1;        
     }
-	
-	.wdg_goals_carru_01 > ul li i{
-		position: absolute;
-		left: 59px;
-		color:#FFF;
-	}
+    
+    .wdg_goals_carru_01 > ul li i{
+        position: absolute;
+        left: 59px;
+        color:#FFF;
+    }
 
     .wdg_goals_carru_01 ul li div:first-child span.date, 
     .wdg_goals_carru_01 ul li div:first-child span, 
@@ -73,7 +73,7 @@
         margin: 0 25px 0 0;
         text-align: right;
     }
-	
+    
     .wdg_goals_carru_01 ul li span.date, 
     .wdg_goals_carru_01 ul li span.active {
         color: #DEB476;
@@ -95,13 +95,13 @@
     }
     
     @-moz-document url-prefix() {
-	  		.wdg_goals_carru_01 > ul li.color a{
-	    		padding: 6px 27px;
-	  		}
- 	}
- 	::made-up-pseudo-element, .wdg_goals_carru_01 > ul li.color a{	
-			padding: 6px 27px;
-	}
+            .wdg_goals_carru_01 > ul li.color a{
+                padding: 6px 27px;
+            }
+    }
+    ::made-up-pseudo-element, .wdg_goals_carru_01 > ul li.color a{  
+            padding: 6px 27px;
+    }
 
     .wdg_goals_carru_01 > ul li a {
         display: block;
@@ -111,7 +111,7 @@
     }
 
     .wdg_goals_carru_01 > ul li a .program {
-        color: #000000;
+        color: #232323;
         display: block;
         font-size: 14px;
         font-weight: bold;
@@ -176,7 +176,7 @@
         display: block;
         height: 40px;
         line-height: 40px;                       
-		text-align: center;
+        text-align: center;
     }
 
     .wdg_goals_carru_01 > div .full-timetable span {
@@ -200,15 +200,15 @@
         margin: 2px 0 0 10px; 
     }
 
-	.wdg_goals_carru_01 .degraded{
-		background-repeat:repeat-x;
-		background-position:10px;
-		border-top:none;
-		display:block;			
-		position:absolute;		
-		bottom:58px;
-		width:100%;
-	}
+    .wdg_goals_carru_01 .degraded{
+        background-repeat:repeat-x;
+        background-position:10px;
+        border-top:none;
+        display:block;          
+        position:absolute;      
+        bottom:58px;
+        width:100%;
+    }
     /************************************************List box***************************************************+*/
     .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer{
         clear: both;
@@ -336,7 +336,7 @@
         margin-top: 2px;
         margin-right: 12px;
         cursor: pointer;
-		color: black;
+        color: black;
     }
 
 
@@ -390,8 +390,8 @@
         float: left;
         padding-left: 24px;
         padding-top: 8px;
-		font-size:13px;
-		font-weight:bold;
+        font-size:13px;
+        font-weight:bold;
     }
     .wdg_goals_carru_01 .wdg_goals_carru_01_dropdowncontent > p
     {
@@ -504,7 +504,8 @@
         text-align: center;
         color: black;
         font-size: 13px;
-        padding: 7px 0px;
+        line-height: 18px;
+        padding: 5px 0px;
         padding-right:6px;
         
     }
@@ -525,48 +526,48 @@
     {
         margin-bottom: 0px !important;
     }
-	.wdg_goals_carru_01 .controls .bgactive{
-		background-color:#A70A0B;
-	}
-	.wdg_goals_carru_01 .controls .bginactive{
-		background-color:#BF6163;
-	}
-	
-	.wdg_goals_carru_01 .controls .bgactive i{
-		color:#FFF;
-	}
-	
-	.wdg_goals_carru_01 .controls .bginactive i{
-		color:#DBA5A5;
-	}
+    .wdg_goals_carru_01 .controls .bgactive{
+        background-color:#A70A0B;
+    }
+    .wdg_goals_carru_01 .controls .bginactive{
+        background-color:#BF6163;
+    }
     
-    /*BEGIN: sprite*/    	
-     	.wdg_goals_carru_01 .wdg_goals_carru_01_sprite {
-	        background: url(../img/global-sprites.html) no-repeat 0 0;
-	        display:none;
-	        height: 10px;
-	        overflow: hidden;
-	        text-indent: -1584px;
-	        width: 10px;
-    	}
-	    .wdg_goals_carru_01 .wdg_goals_carru_01_sprite{   	 
-			right: 0;
-			top: 0;
-			display: inline;	    
-	    }      
-	      .wdg_goals_carru_01  .wdg_goals_carru_01_sprite.video-corner {
-	        background-position: -131px -40px;
-	        height: 43px;
-	        width: 43px;
-	       	position: absolute;
-	    }
-	/*END: sprite*/
-		
+    .wdg_goals_carru_01 .controls .bgactive i{
+        color:#FFF;
+    }
+    
+    .wdg_goals_carru_01 .controls .bginactive i{
+        color:#DBA5A5;
+    }
+    
+    /*BEGIN: sprite*/       
+        .wdg_goals_carru_01 .wdg_goals_carru_01_sprite {
+            background: url(../img/global-sprites.png) no-repeat 0 0;
+            display:none;
+            height: 10px;
+            overflow: hidden;
+            text-indent: -1584px;
+            width: 10px;
+        }
+        .wdg_goals_carru_01 .wdg_goals_carru_01_sprite{      
+            right: 0;
+            top: 0;
+            display: inline;        
+        }      
+          .wdg_goals_carru_01  .wdg_goals_carru_01_sprite.video-corner {
+            background-position: -131px -40px;
+            height: 43px;
+            width: 43px;
+            position: absolute;
+        }
+    /*END: sprite*/
+        
 }
 /*Style Retina*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
- 	.wdg_goals_carru_01 .wdg_goals_carru_01_sprite {
-        background: url(../global/img/global-sprites%402x.html) no-repeat 0 0;
-		background-size:640px 224px;
-	}
+    .wdg_goals_carru_01 .wdg_goals_carru_01_sprite {
+        background: url(../global/img/global-sprites%402x.png) no-repeat 0 0;
+        background-size:640px 224px;
+    }
 }
