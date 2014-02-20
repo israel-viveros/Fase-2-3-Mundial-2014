@@ -25,7 +25,8 @@
 		display:none;
 	}
 	 .wdg_goals_carru_01 > div .full-timetable {
-	 	background:#E6E6E6; 	
+	 	background:#e6e6e6;
+	 	box-shadow: inset 0px 0px 12px 3px rgba(0,0,0,0.08);	
 	 	height:28px;
 	 	line-height:28px;
 	 	margin-left: 85px;
