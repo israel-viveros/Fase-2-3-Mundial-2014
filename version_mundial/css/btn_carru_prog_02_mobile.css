@@ -19,8 +19,15 @@
         width:150px;
         display:block;
         top:16px;
+
     }
+  /*  .btn_carru_prog_02 .text_prin:hover {
+    text-decoration: underline;
+    }*/
     
+
+
+
     .btn_carru_prog_02 .text_prin hr {
        margin:10px 0 8px 0;
        padding:0;
@@ -33,8 +40,9 @@
     
     .btn_carru_prog_02 .text_prin span.title {
        font-style:italic;
-       font-size:22px;
-       line-height:23px;
+       font-size:20px;
+       line-height:18px;
+       font-weight: 100px !important;
     }
 	
 	.btn_carru_prog_02 .text_prin .line{
@@ -150,6 +158,9 @@
        padding:0;
        display:block;
     }
+     .btn_carru_prog_02 .typecarruse .carrusel ul li span.title:hover {
+        text-decoration: underline;
+     }
     .btn_carru_prog_02 .typecarruse .carrusel ul li span.desc {
        display:block;
     }
@@ -404,5 +415,9 @@
     }
     .btn_carru_prog_02 .typecarruse.showArrows .title ul li a {
         display: block;
+    }
+    .btn_carru_prog_02 .text_prin span.title{
+     
+        font-weight: lighter;
     }
 }
