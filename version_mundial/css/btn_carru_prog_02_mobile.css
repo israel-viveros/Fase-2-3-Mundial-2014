@@ -25,6 +25,9 @@
     text-decoration: underline;
     }*/
     
+
+
+
     .btn_carru_prog_02 .text_prin hr {
        margin:10px 0 8px 0;
        padding:0;
@@ -39,7 +42,7 @@
        font-style:italic;
        font-size:20px;
        line-height:18px;
-       font-weight: 200px !important;
+       font-weight: 100px !important;
     }
 	
 	.btn_carru_prog_02 .text_prin .line{
@@ -412,5 +415,9 @@
     }
     .btn_carru_prog_02 .typecarruse.showArrows .title ul li a {
         display: block;
+    }
+    .btn_carru_prog_02 .text_prin span.title{
+     
+        font-weight: lighter;
     }
 }

@@ -148,4 +148,8 @@
     .btn_carru_prog_02 #b_mobile{
          display:none;
     }
+    .btn_carru_prog_02 .text_prin span.title{
+     
+        font-weight: 100 !important;
+    }
 }
