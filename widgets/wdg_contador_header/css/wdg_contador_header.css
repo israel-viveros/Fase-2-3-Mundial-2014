@@ -1,0 +1,70 @@
+@media screen  {
+
+	.wdg_contador_Header{
+		margin: 0;
+		width: auto;
+		height: auto;
+		color: #FFF;
+		position: relative;
+		background-color: #398218;
+		max-width: 300px;
+	}
+	.wdg_contador_Header .title_contador_header{
+		font-size: 12px;		
+		padding: 9px 0 8px 12px;
+		display: block;		
+	}
+	.wdg_contador_Header .countdown-row, .wdg_contador_Header .right_contador_header{
+		width: 195px;
+		display: inline-block;
+		*float: left;
+		vertical-align: top;
+		margin-bottom: 9px;
+	}
+	.wdg_contador_Header .countdown-section{
+		width: 45px;
+		overflow: hidden;
+		height: 45px;
+		display: inline-block;
+		*float: left;
+		position: relative;
+		vertical-align: top;
+		margin-left: -4px;		
+	}
+	.wdg_contador_Header .countdown-section:after{
+		content: " ";		
+		border-left: 1px dotted #FFF;
+		position: absolute;
+		z-index: 1;
+		top: 9px;
+		right: 0;
+		height: 30px;
+	}
+	.wdg_contador_Header .countdown-section:nth-child(1){
+		margin-left: 0;
+	}
+	.wdg_contador_Header .countdown-section .countdown-amount{
+		font-size: 20px;
+		display: block;
+		text-align: center;
+	}
+	.wdg_contador_Header .countdown-section .countdown-period{
+		display: block;
+		font-size: 11px;
+		text-align: center;
+		padding-top: 2px;
+		font-style: italic;
+	}
+
+	.wdg_contador_Header .right_contador_header{
+		width: 88px;
+		height: 34px;
+		overflow: hidden;
+		position: relative;
+	}
+	.wdg_contador_Header .right_contador_header img{
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+}
