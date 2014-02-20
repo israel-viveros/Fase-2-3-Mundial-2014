@@ -13,6 +13,7 @@
     }
 	.wdg_altasbajas_result_01 .time{
 		 font-size:17px;
+         letter-spacing: -30;
 	 }
     .wdg_altasbajas_result_01 > ul {
         height: 141px;
@@ -584,6 +585,7 @@
 		margin-top: -3px;
 		text-align: center;
 		line-height: 42px;
+        letter-spacing: -30;
 	}
 	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date .inactive span.inactive{
 		display: block;
@@ -633,6 +635,7 @@
 			line-height: 42px;
 			font-weight: bolder;
 			height: auto;
+            letter-spacing: -30;
 		}
 		.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .content_versus{
 			font-size: 10px;
@@ -704,11 +707,11 @@
 	
 	
 	.wdg_altasbajas_result_01 .controls .bgactive{
-		background-color:#3a9e2a;
+		background-color:#59a529;
 	}
 	
 	.wdg_altasbajas_result_01 .controls .bginactive{
-		background-color:#3a9e2a;
+		background-color:#59a529;
 	}
 	
 	.wdg_altasbajas_result_01 .controls .bgactive span{
@@ -724,8 +727,8 @@ background-color: #3a9e2a !important;
     }
 	
 	.deg li figure { width: 60px; height:25px; display: block; float:left; margin-top:10px; padding:4px;}
-    .deg li figure img { display:inline-block;width: 25px; height:25px; display: block; float:left; margin-right:2px;}
-    .deg li figure figcaption { display:inline-block; width: 30px; height:25px; display: block; float:left; margin-right:2px;}
+    .deg li figure img { display:inline-block;width: 24px; height:18px; display: block; float:left; margin:5px 0;}
+    .deg li figure figcaption { display:inline-block; width: 30px; height:25px; display: block; float:left; margin:2px 0;}
     .deg li .ligaResult { display:inline-block; width: 80px; height:50px; display: block; float:left;}
     .deg li .ligaResult .result { display:inline-block; width: 10px; height:15px !important; display: block; float:left;}
 	
