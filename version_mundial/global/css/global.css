@@ -1,5 +1,5 @@
-/* Se importan los estilos de los colores representativos del Vertical (Noticieros, deportes, etc)  */
-/* @import url("colores.css");  */
+/* Se importan los estilos de los colores representativos del Vertical (Noticieros, deportes, etc) */
+@import url("colores.css"); 
 
 /* BEGIN: Global (Small) */
 html,
