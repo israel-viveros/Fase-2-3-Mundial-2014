@@ -1,4 +1,9 @@
 @media screen { /*START: carouseltypecarruse (Small)*/
+   
+   .btn_carru_prog_02 .typecarruse .carrusel .carrousa{
+    width: 2562px;
+    }
+
     .btn_carru_prog_02 {
         margin-bottom: 10px;
         overflow: hidden;
