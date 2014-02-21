@@ -283,7 +283,7 @@
         position: absolute;
         right: 0;
         top: 0;
-        background: url(img/global-sprites.png) no-repeat;
+        background: url(../img/global-sprites.html) no-repeat;
         overflow: hidden;
         text-indent: -1584px;
     }
@@ -310,7 +310,7 @@
         display:block;
         width:56px;
         height:56px;
-        border:3px solid #A70A0B;
+        border:3px solid #59a529;
     }
     
     .mix_carru_01b .articleBigModule_02 ul.galleryThumbs li span.border {

@@ -19,12 +19,12 @@
     div.str_pleca_01_title strong,
     div.str_pleca_01_title h2,
     div.str_pleca_01_title h3 {
-        width:47.7%;
+        width:47.7% !important;
         min-width: 165px;
         max-width:300px;
         float: left;
         height: 32px;
-    }    
+    }
     div.str_pleca_01_title strong a,
     div.str_pleca_01_title h2 a,
     div.str_pleca_01_title h3 a {

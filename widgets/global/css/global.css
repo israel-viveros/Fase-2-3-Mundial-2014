@@ -1787,7 +1787,7 @@ div.title h3 a {
     width: 41px;
 }
 .sprite {
-    background: url(../img/global-sprites.png) no-repeat 0 0;
+    background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/global-sprites.png) no-repeat 0 0;
     display: inline-block;
     height: 10px;
     overflow: hidden;
@@ -2006,7 +2006,7 @@ a.active .sprite.dropdown {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
     .sprite {
-        background-image: url(../img/global-sprites@2x.png);
+        background-image: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/global-sprites@2x.png);
         background-size: 640px 146px;
     }
 }
@@ -2361,16 +2361,16 @@ a.active .sprite.dropdown {
     }
 }
     .dotted-left{
-        background: url("../../img/dotted-vertical.png") repeat-y left !important;
+        background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png") repeat-y left !important;
     }
     .dotted-right{
-        background: url("../../img/dotted-vertical.png") repeat-y right !important;
+        background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png") repeat-y right !important;
     }
     .dotted-top{
-        background: url("../../img/dotted-horizontal.png") repeat-x top !important;
+        background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-horizontal.png") repeat-x top !important;
     }
     .dotted-bottom{
-        background: url("../../img/dotted-horizontal.png") repeat-x  bottom !important;
+        background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-horizontal.png") repeat-x  bottom !important;
     }
 /*TERMINA ELEMENTOS HIDE*/
 

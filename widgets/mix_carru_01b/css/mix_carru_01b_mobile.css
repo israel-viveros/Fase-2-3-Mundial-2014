@@ -113,7 +113,7 @@
         line-height: 24px;
     }
     .mix_carru_01b .type2b2_02 .articlesThumbList li a span.icon {
-        background: url(img/mobile-arrow-sprites.png) no-repeat 0 0;
+        background: url(../img/mobile-arrow-sprites.html) no-repeat 0 0;
         background-size: 10px 14px;
         height: 32px;
         width: 35px;
@@ -139,7 +139,7 @@
         background: none;
     }
     .mix_carru_01b .title h1 a .icon {
-        background: transparent url(img/verticalhero/mobile-arrow-sprites.png) no-repeat 0 0;
+        background: transparent url(../img/verticalhero/mobile-arrow-sprites.html) no-repeat 0 0;
         background-size: 10px 14px;
         height: 70%;
         width: 19px;
@@ -169,14 +169,14 @@
         color: transparent;
     }
     .mix_carru_01b .title ul > li:first-child a {
-        background: url(img/verticalhero/arrow-sprites.png) no-repeat 6px 0
+        background: url(../img/verticalhero/arrow-sprites.html) no-repeat 6px 0
     }
     .mix_carru_01b .title ul > li:last-child {
         border-left: 1px dotted #666;
         padding-left: 10px;
     }
     .mix_carru_01b .title ul > li:last-child a {
-        background: url(img/verticalhero/arrow-sprites.png) no-repeat -15px 0;
+        background: url(../img/verticalhero/arrow-sprites.html) no-repeat -15px 0;
     }
     .mix_carru_01b.showArrows .title h1 {
         width: 50%;
@@ -263,7 +263,7 @@
         display: block;
     }
     .mix_carru_01b > .type2a .articleMedium a span.icon {
-        background: url(img/verticalhero/mobile-arrow-sprites.png) no-repeat 0 0;
+        background: url(../img/verticalhero/mobile-arrow-sprites.html) no-repeat 0 0;
         background-size: 10px 14px;
         height: 32px;
         width: 45px;
@@ -284,9 +284,6 @@
         margin-top:0px;
         display: block;
     }
-    .mix_carru_01b .galleryCaption_02 .bullets_02 {
-        display: none;
-    }
     .mix_carru_01b .galleryCaption_02 .bullets_02 ul li{
         width:12px;
         height: 12px;
@@ -303,7 +300,7 @@
         right:-1px;
         height:40px;
         width:40px;
-        background: url(img/global-sprites.png) no-repeat;
+        background: url(../img/global-sprites.html) no-repeat;
     }
     
     .mix_carru_01b span.corner.photo {
@@ -333,8 +330,12 @@
 
     .mix_carru_01b .galleryCaption_02 .caption{
         font-style: normal;
-        font-size: 18px;
+        font-size: 22px;
         margin-bottom: 9px;
+    }
+
+      .mix_carru_01b .galleryCaption_02 .caption:hover{
+       text-decoration: underline;
     }
 	
 	.mix_carru_01b #mix_carru_01_svg{
