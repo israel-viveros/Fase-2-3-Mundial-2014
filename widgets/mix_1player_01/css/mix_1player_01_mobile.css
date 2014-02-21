@@ -1,0 +1,123 @@
+@media screen {
+    .mix_1player_01
+    {
+        width: 100%;
+        padding-top: 0px!important;
+        margin-bottom: 36px;
+        border-top: 0px;
+        height: auto;
+        display: block;
+		overflow: hidden;
+    }
+	
+	.mix_1player_01 .left_div {
+        width: 100%;
+        padding-bottom: 0px;
+		margin-right: 0px;
+        float: left;
+        /*max-height: 250px;*/
+        position: relative;
+		font-size:12px;
+		border-bottom: none;
+		margin-bottom:0px;
+		font-style:italic;
+		overflow:hidden;
+    }
+	.mix_1player_01 .right_div {
+		float:left;
+		width: 100%;
+		margin-bottom:20px;
+		margin-top:10px;
+	}
+	
+	.mix_1player_01 .descripcion {
+		font-size:12px;
+		padding-left:10px;
+		color:#4A4A4A;
+		font-weight:normal;
+	}
+	
+	.mix_1player_01 .descripcion p{
+		margin-bottom: 20px;
+		text-align:justify;
+		padding-right: 10px;
+	}
+    .mix_1player_01 .descripcion p:last-of-type{
+        margin-bottom: 0;
+    }
+    .mix_1player_01 .mix_img img
+    {
+        width: 100%;		
+        height: auto;
+		margin-bottom:5px;
+    }
+    .mix_1player_01 .mix_img
+    {
+        padding-right: 0px;
+        padding-bottom: 0px;
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+    .mix_1player_01 .art_right_text
+    {
+        float: none;        
+        font-size: 24px;
+        position: relative;
+        margin-bottom: 7px !important;
+        padding-bottom: 8px;
+		margin-left:10px;
+    }
+    .mix_1player_01 .art_right_text h1
+    {
+		line-height: 24px;
+        font-size: 24px;
+        font-weight: normal;
+        font-style: italic;
+    }
+   .mix_1player_01 .art_right_text span
+    {
+        font-size: 14px;
+        font-weight: normal;
+        font-style: italic;
+		color:#757575 !important;
+    }
+    .mix_1player_01 .art_contenido
+    {
+        float: none;
+        /*width: 100%;*/
+        font-size: 14px;
+        line-height: 14px;
+        padding-right: 10px;
+		margin-left:10px;
+    }
+    .mix_1player_01 .art_contenido .began
+    {
+        font-size: 14px;
+        margin-bottom: 0px;
+        padding-bottom: 4px;
+        font-style: normal;
+    }
+	.mix_1player_01 .art_contenido .began span
+    {
+		color: #757575;	
+		font-style:italic;
+	}   
+	.mix_1player_01 .left_div .overlay{	
+		display: block;
+		height: 35px;
+		right: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+		filter: alpha(opacity=60);
+		background: rgba(255, 255, 255, 0.6);
+		position: absolute;
+		width: 78%;
+		bottom: 8px;
+		padding: 10px 24px 25px 24px;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#65FFFFFF,endColorstr=#75FFFFFF);
+	}
+	
+	.mix_1player_01 .left_div .overlay span{	
+		color: #757575 !important; 
+	}
+}
