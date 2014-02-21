@@ -2,16 +2,17 @@
 
 	.wdg_contador_Header{
 		margin: 0;
-		width: auto;
-		height: auto;
+		width: 300px;
+		height: 67px;
 		color: #FFF;
 		position: relative;
 		background-color: #398218;
 		max-width: 300px;
 	}
+
 	.wdg_contador_Header .title_contador_header{
 		font-size: 12px;		
-		padding: 9px 0 8px 12px;
+		padding: 4px 0 0px 12px;
 		display: block;		
 	}
 	.wdg_contador_Header .countdown-row, .wdg_contador_Header .right_contador_header{
@@ -45,6 +46,7 @@
 	}
 	.wdg_contador_Header .countdown-section .countdown-amount{
 		font-size: 20px;
+		font-style: italic;
 		display: block;
 		text-align: center;
 	}
@@ -52,7 +54,8 @@
 		display: block;
 		font-size: 11px;
 		text-align: center;
-		padding-top: 2px;
+		padding-top: 0px;
+		margin-top: -5px;
 		font-style: italic;
 	}
 
@@ -67,4 +70,189 @@
 		height: 100%;
 		display: block;
 	}
+
+
+/*ESTADO 2 CONECTA*/
+	.wdg_contador_Header_conecta{
+		margin: 0;
+		width: 300px;
+		height: 67px;
+		color: #FFF;
+		position: relative;
+		background-color: #eab11d;
+		max-width: 300px;
+		padding: 0;
+		overflow: visible;
+	}
+	.wdg_contador_Header_conecta .title_contador_header_conecta{
+		font-family: Trebuchet MS;
+		font-weight: bold;
+		font-style: italic !important;
+		font-size: 18px;
+		letter-spacing:-1px;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px rgba(177, 129, 6, 1);	
+		position: absolute;
+		top: 4px;
+		left: 13px;
+
+	}
+
+	.wdg_contador_Header_conecta .imgconect{
+		position: relative;
+		margin-left: 70px;
+		margin-top: 0px;
+	}
+
+	.wdg_contador_Header_conecta .right_contador_header_conecta{
+		overflow: visible;
+		position: relative;
+		padding-top: 0px;
+	}
+	.wdg_contador_Header_conecta .right_contador_header_conecta .logocomercial{
+		position: relative;
+		float: right;
+		margin-right: 10px;
+		margin-top: -10px;
+
+	}
+
+	.right_contador_header_conecta .wdg_paises{
+		color: #775a0e;
+		display: inline;
+		font-family: Trebuchet MS;
+		font-weight: bold;
+		font-size: 16px;
+		letter-spacing:-1px;
+		position: relative;
+		padding:0 10px;
+		margin-top: 11px !important;
+
+	}
+	.right_contador_header_conecta .wdg_paises div{
+			display: inline;
+			padding: 4px;
+			position: relative;
+			margin-bottom: -2px;
+	}
+	.right_contador_header_conecta .wdg_paises img{
+			margin:0 5px;
+	}
+
+	.vs_wdg_paises{
+		/*content: " ";*/		
+		border-left: 1px dotted #232323 !important;
+		border-right: 1px dotted #232323 !important;
+		position: absolute;
+		z-index: 1;
+		padding:5px;
+		/*top: 9px;
+		right: 0;
+		height: 30px;*/
+	}
+/*ESTADO 3 VIVO*/
+	.wdg_contador_Header_vivo{
+		margin: 0;
+		width: 300px;
+		height: 67px;
+		color: #FFF;
+		position: relative;
+		background-color: #eab11d;
+		max-width: 300px;
+		padding: 0;
+		overflow: visible;
+		display: inline-block;
+	}
+		.wdg_contador_Header_vivo>img{
+		position: absolute;
+		top: 10px;
+		left: 5px;
+
+	}
+	.wdg_contador_Header_vivo .title_contador_header_vivo{
+		font-family: Trebuchet MS;
+		font-weight: bold;
+		font-style: italic !important;
+		font-size: 18px;
+		letter-spacing:-1px;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px rgba(177, 129, 6, 1);	
+		position: absolute;
+		top: 4px;
+		left: 26px;
+
+	}
+
+	.wdg_contador_Header_vivo .imgconect{
+		position: relative;
+		margin-left: 70px;
+		margin-top: 0px;
+	}
+
+	.wdg_contador_Header_vivo .right_contador_header_vivo{
+		overflow: visible;
+		position: relative;
+		padding-top: 33px;
+	}
+	.wdg_contador_Header_vivo .right_contador_header_vivo .logocomercial{
+		position: relative;
+		float: right;
+		margin-right: 10px;
+		margin-top: -10px;
+
+	}
+
+	.right_contador_header_vivo .wdg_paises{
+		color: #775a0e;
+		display: inline;
+		font-family: Trebuchet MS;
+		font-weight: bold;
+		font-size: 16px;
+		letter-spacing:-1px;
+		position: relative;
+		padding:0 10px;
+		margin-top: 11px !important;
+
+	}
+	.right_contador_header_vivo .wdg_paises div{
+			display: inline;
+			padding: 4px;
+			position: relative;
+			margin-bottom: -2px;
+	}
+	.right_contador_header_vivo .wdg_paises img{
+			margin:0 5px;
+	}
+
+	.wdg_contador_aside{
+		background-color: green;
+		color: white;
+		width: 120px;
+		height: 67px;
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 12px;
+
+		font-family: Trebuchet MS;
+		font-weight: 100;
+		font-style: italic;
+		font-size: 12px;
+		letter-spacing:-0.3px;
+		line-height: 14px;
+		padding-left: 5px;
+
+	}
+		.wdg_contador_aside img{
+		display: block;
+		margin-bottom: 5px;
+		}
+
+.wdg_contador_aside span:last-child{
+		font-size: 14px;
+
+}
+	
+	
+	
 }
