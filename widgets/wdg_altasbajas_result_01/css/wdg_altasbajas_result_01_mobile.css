@@ -13,6 +13,7 @@
     }
 	.wdg_altasbajas_result_01 .time{
 		 font-size:17px;
+         letter-spacing: -30;
 	 }
     .wdg_altasbajas_result_01 > ul {
         height: 141px;
@@ -526,7 +527,7 @@
     
     /*BEGIN: sprite*/    	
      	.wdg_altasbajas_result_01 .wdg_altasbajas_result_01_sprite {
-	        background: url(../img/global-sprites.png) no-repeat 0 0;
+	        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/global-sprites.png) no-repeat 0 0;
 	        display:none;
 	        height: 10px;
 	        overflow: hidden;
@@ -584,6 +585,7 @@
 		margin-top: -3px;
 		text-align: center;
 		line-height: 42px;
+        letter-spacing: -30;
 	}
 	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date .inactive span.inactive{
 		display: block;
@@ -633,6 +635,7 @@
 			line-height: 42px;
 			font-weight: bolder;
 			height: auto;
+            letter-spacing: -30;
 		}
 		.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .content_versus{
 			font-size: 10px;
@@ -704,11 +707,11 @@
 	
 	
 	.wdg_altasbajas_result_01 .controls .bgactive{
-		background-color:#3a9e2a;
+		background-color:#59a529;
 	}
 	
 	.wdg_altasbajas_result_01 .controls .bginactive{
-		background-color:#3a9e2a;
+		background-color:#59a529;
 	}
 	
 	.wdg_altasbajas_result_01 .controls .bgactive span{
@@ -724,10 +727,21 @@ background-color: #3a9e2a !important;
     }
 	
 	.deg li figure { width: 60px; height:25px; display: block; float:left; margin-top:10px; padding:4px;}
-    .deg li figure img { display:inline-block;width: 25px; height:25px; display: block; float:left; margin-right:2px;}
-    .deg li figure figcaption { display:inline-block; width: 30px; height:25px; display: block; float:left; margin-right:2px;}
+    .deg li figure img { display:inline-block;width: 24px; height:18px; display: block; float:left; margin:5px 0;}
+    .deg li figure figcaption { display:inline-block; width: 30px; height:25px; display: block; float:left; margin:2px 0;}
     .deg li .ligaResult { display:inline-block; width: 80px; height:50px; display: block; float:left;}
     .deg li .ligaResult .result { display:inline-block; width: 10px; height:15px !important; display: block; float:left;}
+
+	#circleGLoading{width:46.666666666666664px;opacity: 1;position: absolute;top: 40%;z-index: 999;display: block;left: 40%;}
+	.circleG{background-color:#FFFFFF;float:left;height:10px;margin-left:5px;width:10px;-moz-animation-name:bounce_circleG;-moz-animation-duration:2.8499999999999996s;-moz-animation-iteration-count:infinite;-moz-animation-direction:linear;-moz-border-radius:7px;-webkit-animation-name:bounce_circleG;-webkit-animation-duration:2.8499999999999996s;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:linear;-webkit-border-radius:7px;-ms-animation-name:bounce_circleG;-ms-animation-duration:2.8499999999999996s;-ms-animation-iteration-count:infinite;-ms-animation-direction:linear;-ms-border-radius:7px;-o-animation-name:bounce_circleG;-o-animation-duration:2.8499999999999996s;-o-animation-iteration-count:infinite;-o-animation-direction:linear;-o-border-radius:7px;animation-name:bounce_circleG;animation-duration:2.8499999999999996s;animation-iteration-count:infinite;animation-direction:linear;border-radius:7px;}
+	#circleG_1{-moz-animation-delay:0.57s;-webkit-animation-delay:0.57s;-ms-animation-delay:0.57s;-o-animation-delay:0.57s;animation-delay:0.57s;}
+	#circleG_2{-moz-animation-delay:1.3299999999999998s;-webkit-animation-delay:1.3299999999999998s;-ms-animation-delay:1.3299999999999998s;-o-animation-delay:1.3299999999999998s;animation-delay:1.3299999999999998s;}
+	#circleG_3{-moz-animation-delay:1.7099999999999997s;-webkit-animation-delay:1.7099999999999997s;-ms-animation-delay:1.7099999999999997s;-o-animation-delay:1.7099999999999997s;animation-delay:1.7099999999999997s;}
+	@-moz-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
+	@-webkit-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
+	@-ms-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
+	@-o-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
+	@keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
 	
 	
 	
@@ -738,7 +752,7 @@ background-color: #3a9e2a !important;
 /*Style Retina*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
  	.wdg_altasbajas_result_01 .wdg_altasbajas_result_01_sprite {
-        background: url(../global/img/global-sprites@2x.png) no-repeat 0 0;
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/global-sprites@2x.png) no-repeat 0 0;
 		background-size:640px 224px;
 	}
 }

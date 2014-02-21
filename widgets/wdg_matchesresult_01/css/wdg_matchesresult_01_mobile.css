@@ -237,10 +237,7 @@
 	.wdg_matchesresult_01_arrows a.wdg_matchesresult_left{
 		display:none;
 	}
-.textcolor-title5a{
-    color: #8f8f8f !important;  
-}
-.textcolor-title1a {
+.textcolor-title1 {
 color: #398218 !important;
 font-weight: bold;
 letter-spacing:-1px;
