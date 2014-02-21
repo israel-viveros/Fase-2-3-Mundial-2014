@@ -1,0 +1,34 @@
+diff a/global/css/colores.css b/global/css/colores.css	(rejected hunks)
+@@ -4,7 +4,7 @@
+ }
+ .background-color-pleca1,
+ .background-color1{
+-    background-color: #e4e2e3 !important;
++    background-color: #59a529 !important;
+ }
+ .background-color-pleca2,
+ .background-color2{
+@@ -65,12 +65,12 @@
+ 
+ /* Rojo */
+ .textcolor-title1{
+-    color: #398218 !important;
++    color: #A70A0B !important;
+ }
+ 
+ /* Naranja-Amarillo */
+ .textcolor-title2{
+-	color: #eab11d !important;
++	color: #D6A256 !important;
+     /*color: #D9A961 !important;*/
+ }
+ 
+@@ -86,7 +86,7 @@
+ 
+ /* Gris claro */
+ .textcolor-title5{
+-    color: #8f8f8f !important;	
++    color: #EFEFEF !important;	
+ }
+ 
+ /* Gris intermedio */

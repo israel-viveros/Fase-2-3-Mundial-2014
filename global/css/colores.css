@@ -4,7 +4,7 @@ body{
 }
 .background-color-pleca1,
 .background-color1{
-    background-color: #59a529 !important;
+    background-color: #59a529;
 }
 .background-color-pleca2,
 .background-color2{
@@ -51,13 +51,13 @@ body{
 
 /* Verticals */
 .tn {color:#0078bf;}
-.td {color:#A70A0B;}
+.td {color:#59a529;}
 .te {color:#E2B528;}
 .tt {color:#F68428;}
 .tl {color:#6AA845;}
 
 .tn_bg {background-color:#0078bf;}
-.td_bg {background-color:#A70A0B;}
+.td_bg {background-color:#59a529;}
 .te_bg {background-color:#E2B528;}
 .tt_bg {background-color:#F68428;}
 .tl_bg {background-color:#6AA845;}
@@ -65,12 +65,12 @@ body{
 
 /* Rojo */
 .textcolor-title1{
-    color: #A70A0B !important;
+    color: #398218 !important;
 }
 
 /* Naranja-Amarillo */
 .textcolor-title2{
-	color: #D6A256 !important;
+	color: #eab11d !important;
     /*color: #D9A961 !important;*/
 }
 
@@ -86,7 +86,7 @@ body{
 
 /* Gris claro */
 .textcolor-title5{
-    color: #EFEFEF !important;	
+    color: #8f8f8f !important;	
 }
 
 /* Gris intermedio */
@@ -98,7 +98,7 @@ body{
 /*Bordes*/
 /*Rojo*/
 .border-color1{
-    border: solid 3px #A70A0B !important;
+    border: solid 3px #59a529 !important;
 }
 /*Naranja-Amarillo */
 .border-color2{
@@ -110,7 +110,7 @@ body{
 }
 /*Borde bajo*/
 .border-bottom1{
-    border-bottom: solid 2px #A70A0B !important;
+    border-bottom: solid 2px #59a529 !important;
 }
 .border-bottom2{
     border-bottom: solid 2px #D9A961 !important;

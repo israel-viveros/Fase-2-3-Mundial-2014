@@ -4,7 +4,7 @@ body{
 }
 .background-color-pleca1,
 .background-color1{
-    background-color: #59a529 !important;
+    background-color: #59a529;
 }
 .background-color-pleca2,
 .background-color2{
@@ -65,7 +65,7 @@ body{
 
 /* Rojo */
 .textcolor-title1{
-    color: #59a529 !important;
+    color: #398218 !important;
 }
 
 /* Naranja-Amarillo */
@@ -86,7 +86,7 @@ body{
 
 /* Gris claro */
 .textcolor-title5{
-    color: #EFEFEF !important;	
+    color: #8f8f8f !important;	
 }
 
 /* Gris intermedio */
