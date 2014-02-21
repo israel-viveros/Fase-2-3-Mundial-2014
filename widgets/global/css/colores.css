@@ -4,7 +4,7 @@ body{
 }
 .background-color-pleca1,
 .background-color1{
-    background-color: #A70A0B !important;
+    background-color: #e4e2e3 !important;
 }
 .background-color-pleca2,
 .background-color2{
@@ -65,12 +65,12 @@ body{
 
 /* Rojo */
 .textcolor-title1{
-    color: #A70A0B !important;
+    color: #398218 !important;
 }
 
 /* Naranja-Amarillo */
 .textcolor-title2{
-	color: #D6A256 !important;
+	color: #eab11d !important;
     /*color: #D9A961 !important;*/
 }
 
@@ -86,7 +86,7 @@ body{
 
 /* Gris claro */
 .textcolor-title5{
-    color: #EFEFEF !important;	
+    color: #8f8f8f !important;	
 }
 
 /* Gris intermedio */
