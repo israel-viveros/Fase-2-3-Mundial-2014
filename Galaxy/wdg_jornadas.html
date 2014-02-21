@@ -1,8 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <!-- <base href="http://54.243.192.45/na-at-deportes/trunk/wdg_altasbajas_result_01/"> -->
+    <head>        
         <title>Televisa -  wdg_altasbajas_result_01</title>
 
         <meta charset="utf-8" />
@@ -27,19 +26,16 @@
         <meta name="description" content="Esta es la descripcion">
         <link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/tvsa-icons.css" />
         <!--[if lt IE 9]>
-                    <link rel="stylesheet" type="text/css" href="../global/css/tvsa-icons.ie7.css" />
+                    <link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/tvsa-icons.ie7.css" />
             <![endif]-->
-
 
         <!--[if IE]> 
         <script type="text/javascript">
-            function noError(){return true;}
+            function noError(){ return true;}
             window.onerror = noError;   
             
         </script>
         <![endif]-->
-
-
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/headjs.js"></script>
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery-1.10.2.js"></script>
         <!--[if gte IE 9]><!-->
@@ -48,14 +44,6 @@
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.migrate.js"></script>
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.easing-1.3.js"></script>
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/modernizr.js"></script>
-
-
-
-
-
-
-
-
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/Televisa.js"></script>
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/global.js"></script>
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.corner.js"></script>
@@ -67,30 +55,37 @@
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/swipeupdown.js"></script>
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/swipe2.js"></script>
 
-
-    </head>
-    <body>
         <link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/str_pleca_01_mobile.css" media="screen">
         <link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/str_pleca_01_tablet.css" media="screen and (min-width: 624px">
         <link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/str_pleca_01.css" media="screen and (min-width: 960px">
-		
+
+
+    </head>
+    <body>
+        
+
         <!-- {LBL:id_torneo:CAPTION} | {LBL:id_equipo:CAPTION} | {LBL:id_torneo2:CAPTION} | {LBL:titulo_widget:CAPTION} | {LBL:tema_widget:CAPTION} | {LBL:txtdropdown:CAPTION}  -->
+
+
+        <?php if($id_torneo->caption('')!=="" || $id_equipo->caption('')!==""){ ?>
         <div class="wdg_altasbajas_result_01" data-enhance="false" id="TIMwdg_altasbajas_result"></div>
+        <?php } ?>
 
-
+		
+		<?php if($id_torneo->caption('')!=="" || $id_equipo->caption('')!==""){ ?>
         <script type="text/javascript">
             $(function() {
                 $("#TIMwdg_altasbajas_result").wdgAltasBajas({
-                    'idtorneo': 223,
-                    //'idequipo':4228,
-                    //'idtorneo2':223,
-                    'title':'Partidos',
-                    'tema':'mundial',
-                    'txtdropdown' : 'Fecha'
+                    <?php if($id_torneo->caption('')!=="") { ?> 'idtorneo': {LBL:id_torneo:CAPTION}, <?php } ?>
+                    <?php if($id_torneo->caption('')!=="" &&  $id_equipo->caption('')!=="") { ?> 'idequipo':{LBL:id_equipo:CAPTION},<?php } ?>
+                    <?php if($id_torneo->caption('')!=="" &&  $id_equipo->caption('')!=="" && $id_torneo2->caption('')!=="") { ?> 'idtorneo2':{LBL:id_torneo2:CAPTION},<?php } ?>
+					{NOTEMPTY:LBL:titulo_widget:CAPTION}'title':'{LBL:titulo_widget:CAPTION}',{EMPTY:END}
+                    {NOTEMPTY:LBL:tema_widget:CAPTION}'tema':'{LBL:tema_widget:CAPTION}',{EMPTY:END}
+					{NOTEMPTY:LBL:txtdropdown:CAPTION}'txtdropdown' : '{LBL:txtdropdown:CAPTION}'{EMPTY:END}
                 });
             });
-
         </script>
+        <?php } ?>
 
 
         <script type="text/javascript" src="http://i2.esmas.com/deportes30/deportestv/js/FrontMainFunction.js"></script>
