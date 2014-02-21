@@ -1,0 +1,9 @@
+@media screen and (min-width: 948px){
+	.wdg_fut_convocated_01{
+		display:block;
+	}
+	
+	.ie8 .wdg_fut_convocated_01 .convocados .dotted-left{
+		padding-left: 10px;
+	}
+}

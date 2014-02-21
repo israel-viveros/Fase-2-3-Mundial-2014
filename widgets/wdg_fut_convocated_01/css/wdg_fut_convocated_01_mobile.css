@@ -1,0 +1,80 @@
+@media screen {
+    .wdg_fut_convocated_01{
+        width: 300px;
+		margin-bottom:36px;
+		display: none;
+    }
+   
+   	.wdg_fut_convocated_01 .titulo{
+		font-size:18px;
+		font-style:italic;
+		padding-bottom:15px;
+		padding-left:50px;
+		margin-bottom:5px;
+		border-bottom: 1px solid #CCC;
+	}
+	
+	.wdg_fut_convocated_01 .convocados{
+		margin-bottom:24px;
+		margin-top:-22px;
+		font-size:14px;
+		width:100%;
+		border-spacing:5px;
+		border-collapse: inherit;
+	}
+	
+	.wdg_fut_convocated_01 .convocados th{
+		height: 20px;
+		padding-left: 10px;
+		padding-top: 15px;
+	}
+	
+	.wdg_fut_convocated_01 .convocados .izq{
+		text-align:left;
+	}
+	
+	.wdg_fut_convocated_01 .convocados .line1{
+		border-bottom:1px solid #CCC;
+		height:3px;
+	}
+	
+	.wdg_fut_convocated_01 .convocados .line2{
+		height:1px;
+	}
+	
+	.wdg_fut_convocated_01 .convocados td:first-child{
+		width:40px;
+		font-weight:bold;
+		font-size:16px;
+		text-align:center;
+		border-left: none;
+	}
+	
+	.wdg_fut_convocated_01 .convocados td{
+		height:42px;
+		
+	}	
+	.wdg_fut_convocated_01 .convocados td:nth-child(2){
+		padding: 5px 0px 1px 10px;
+	}
+	
+	.wdg_fut_convocated_01 .convocados td:last-child{
+		width:100px;
+	}
+	
+	.wdg_fut_convocated_01 .convocados tr td:nth-child(2) p{
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 190px;
+	}
+	
+	.wdg_fut_convocated_01 .convocados .up{
+		font-weight:bold;
+	}
+	
+	.wdg_fut_convocated_01 .convocados .down{
+		font-style:italic;
+		font-size:12px;
+	}
+}
