@@ -74,7 +74,7 @@ a {
     -moz-touch-callout: none;
     touch-callout: none;
     text-decoration: none;
-    color: black;
+    color: #232323;
 }
 body {
     font: normal normal 100% Trebuchet MS, Arial, sans-serif;
