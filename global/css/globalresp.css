@@ -133,7 +133,7 @@ div.title h3 a {
     margin: 10px auto !important;
 }
 .sprite_weatherblue{
-    background: url(../img/sprite_climate_blue.png) no-repeat 0 0;
+    background: url(../img/sprite_climate_blue.html) no-repeat 0 0;
     display: inline-block;
     height: 10px;
     overflow: hidden;
@@ -1761,7 +1761,7 @@ div.title h3 a {
 
 
 .spriteSocial {
-    background: url(../../img/iconosredes.jpeg) no-repeat 0 0;
+    background: url(http://166.78.2.40/deportes/img/iconosredes.jpeg) no-repeat 0 0;
     display: inline-block;
     height: 10px;
     overflow: hidden;
@@ -1787,7 +1787,7 @@ div.title h3 a {
     width: 41px;
 }
 .sprite {
-    background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/global-sprites.png) no-repeat 0 0;
+    background: url(../img/global-sprites.png) no-repeat 0 0;
     display: inline-block;
     height: 10px;
     overflow: hidden;
@@ -2006,7 +2006,7 @@ a.active .sprite.dropdown {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
     .sprite {
-        background-image: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/global-sprites@2x.png);
+        background-image: url(../img/global-sprites%402x.png);
         background-size: 640px 146px;
     }
 }
@@ -2142,6 +2142,15 @@ a.active .sprite.dropdown {
 .right{
     float: right;
 }
+.c7_8{
+    width: 300px;
+    display:block;
+}
+.c7_9{
+    display:block;
+    margin-top:338px;
+}
+
 
 
 /* PLAYER SPRITES */
@@ -2269,7 +2278,7 @@ a.active .sprite.dropdown {
         position:absolute;
         width:100%;
         height:12px;
-        background-image:url(../../global/img/degradado_horizontal.png);
+        background-image:url(../img/degradado_horizontal.png);
         background-repeat:repeat-x;
         background-position:10px;
     }
@@ -2279,7 +2288,7 @@ a.active .sprite.dropdown {
         position:absolute;
         width:100%;
         height:12px;
-        background-image:url(../../global/img/degradadonegro.png);
+        background-image:url(../img/degradadonegro.png);
         background-repeat:repeat-x;
         background-position:10px;
     }
@@ -2289,7 +2298,7 @@ a.active .sprite.dropdown {
         position: absolute;
         width: 100%;
         height: 28%;
-        background-image: url(../../global/img/deg-der-menu-mov.png);
+        background-image: url(../img/deg-der-menu-mov.png);
         background-repeat: repeat-y;
         background-position: 10px;
         left: 90%;
@@ -2302,7 +2311,7 @@ a.active .sprite.dropdown {
         position: absolute;
         width: 100%;
         height: 28%;
-        background-image: url(../../global/img/deg-izq-menu-mov.png);
+        background-image: url(../img/deg-izq-menu-mov.png);
         background-repeat: repeat-y;
         background-position: 10px;
         left: -10px;
@@ -2344,6 +2353,11 @@ a.active .sprite.dropdown {
     	width: 624px !important;
     	margin-bottom: 15px;
     }
+    .c7_8{
+	    height:338px;
+	    width: 300px;
+	    display:block;
+	}
 }
 
 @media screen and (min-width: 948px){
@@ -2361,16 +2375,16 @@ a.active .sprite.dropdown {
     }
 }
     .dotted-left{
-        background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png") repeat-y left !important;
+        background: url("../../img/dotted-vertical.png") repeat-y left !important;
     }
     .dotted-right{
-        background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png") repeat-y right !important;
+        background: url("../../img/dotted-vertical.png") repeat-y right !important;
     }
     .dotted-top{
-        background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-horizontal.png") repeat-x top !important;
+        background: url("../../img/dotted-horizontal.png") repeat-x top !important;
     }
     .dotted-bottom{
-        background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-horizontal.png") repeat-x  bottom !important;
+        background: url("../../img/dotted-horizontal.png") repeat-x  bottom !important;
     }
 /*TERMINA ELEMENTOS HIDE*/
 
