@@ -351,7 +351,27 @@ border-bottom: 1px solid #CCCCCC;
 clear: both;
 }
 
+    .wdg_teams_classification_01_grupos_listcontainer ul::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .wdg_teams_classification_01_grupos_listcontainer ul::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
 
+    .wdg_teams_classification_01_grupos_listcontainer ul::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .wdg_teams_classification_01_grupos_listcontainer ul::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
 
 }
 
