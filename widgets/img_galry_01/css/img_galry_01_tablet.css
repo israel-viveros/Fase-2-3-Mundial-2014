@@ -56,7 +56,7 @@
      
     div.img_galry_01 a.td_bg i {color:#FFF;line-height:24px}
     div.img_galry_01 a.td_bg {        
-        background:rgba(167, 10, 11, 0.6);
+        background:rgba(89,165, 41, 0.6);
         height:28px;
         display:block;
         position:absolute;
@@ -112,7 +112,7 @@
         display: inline-block;
         width: 60px;
         height: 31px;
-        border: 3px solid #A70A0B;
+        border: 3px solid #59a529;
     }
     
     /* Flechas de navegacion de carruseles */
@@ -370,7 +370,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        background: rgba(167,10,11,.6);
+        background: rgba(89,165, 41, 0.6);
         border: 0;
         width: 136px;
         height: 103px;
@@ -423,7 +423,7 @@
         width:130px;
         height:97px;
         background:transparent none;
-        border:3px solid #A70A0B;
+        border:3px solid #59a529;
         display:block;
         position:absolute;
         left:0;
@@ -434,7 +434,7 @@
     }
 	
 	div.img_galry_01  a.album.active:hover span.overlay {
-		background: rgba(167,10,11,.2);
+		background: rgba(89,165, 41, 0.6);
 	}
 	
 	div.img_galry_01  a.album.active:hover span.overlay i {

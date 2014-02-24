@@ -14,7 +14,7 @@
     div.vid_4vids_05 .image-container a.twitter,
     div.vid_4vids_05 .image-container a.facebook,
     div.vid_4vids_05 .image-container a.pinterest {
-       display:none!important;
+       display:visible!important;
     }
     #videobtn{
         cursor:pointer;
