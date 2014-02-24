@@ -140,19 +140,19 @@ x|/*Dispositivos vista retina------*/
 		width: 70px;
 	}
 	header.nav_header_01 div.topnav a.televisa span {
-		background: url(../global/img/sprite_logos_televisa.png) no-repeat -81px -155px;
+		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/sprite_logos_televisa.png) no-repeat -81px -155px;
 		height: 35px;
 	}
 
 	/* Logo Noticieros */
 	header.nav_header_01 div.topnav a.televisa.noticieros span {
-		background: url(../global/img/sprite_logos_televisa.png) no-repeat 0 0;
+		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/sprite_logos_televisa.png) no-repeat 0 0;
 		height: 77px;
 	}
 
 	/* Logo Deportes */
 	header.nav_header_01 div.topnav a.televisa.deportes span {
-		background:url(../global/img/sprite_logos_televisa.png) no-repeat -81px -155px;
+		background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/sprite_logos_televisa.png) no-repeat -81px -155px;
 		height: 35px;
 	}
 

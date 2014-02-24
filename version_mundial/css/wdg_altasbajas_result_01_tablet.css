@@ -68,33 +68,4 @@
 		.deg li .ligaResult { display:inline-block; width: 80px; height:50px; display: block; float:left;}
 		.deg li .ligaResult .result { display:inline-block; width: 10px; height:15px !important; display: block; float:left; color:#eab11d !important;}
 }
-	
-		.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date .inactive{
-		display: block;
-		height: 15px;
-		width: 91px !important;
-		font-size: 12px;
-		font-weight: bold;
-		margin-top: -3px;
-		text-align: center;
-		line-height: 42px;
-	}
-	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date .inactive span.inactive{
-		display: block;
-		height: 15px;
-		width: 91px !important;
-		font-size: 12px;
-		font-weight: bold;
-		margin-top: -3px;
-		text-align: center;
-		line-height: 42px;
-	}
-	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date span.activo{
-		width: 75px !important;
-		font-size: 16px;
-		margin-left: 2px;
-		text-align: center;
-		line-height: 42px;
-		font-weight: bolder;
-		padding-left: 5px;		
-	}	
+		

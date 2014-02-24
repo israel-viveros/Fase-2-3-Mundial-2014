@@ -1,0 +1,113 @@
+@media screen and (min-width: 624px) {
+	.wdg_humor_01 {
+		width: 300px;
+		padding-bottom: 10px;
+		margin-bottom: 36px;
+	}
+	.wdg_humor_01 div .articleMedium div h3 {
+		padding-top: 10px;
+		font-size: 12px;
+		font-weight: normal;
+		padding-left: 0 !important;
+	}
+	.wdg_humor_01 .articleMedium {
+		border: 0;
+		padding: 0;
+		position: relative;
+		height: 200px;
+		width: 300px;
+	}
+	.ie8 .wdg_humor_01 .articleMedium {
+		z-index: 1000 !important;
+	}
+	.wdg_humor_01 .articleMedium img,  .wdg_humor_01 .articleMedium h2 {
+		display: block;
+		min-width: 210px;
+	}
+	.wdg_humor_01 .articleMedium div {
+		background-color: transparent;
+		height: auto;
+		left: 0%;
+		margin-top: 0%;
+		overflow: hidden;
+		padding: 0;
+		position: relative;
+		width: 100%;
+		min-width: 120px;
+		opacity: 0.99;
+	}
+	.ie8 .wdg_humor_01 .articleMedium div {
+		z-index: 2000 !important;
+	}
+	.wdg_humor_01 .articlesThumbList {
+		display: block;
+		width: 300px;
+		text-align: left;
+		margin-bottom: 8px;
+		font-weight: bold;
+	}
+	.wdg_humor_01 .articlesThumbList li {
+		overflow: hidden;
+		border: 0;
+		padding: 0;
+		min-height: 78px;
+		position: relative;
+	}
+	.wdg_humor_01 .articlesThumbList li:before,  .wdg_humor_01 .articlesThumbList li:after {
+		content: "";
+		display: table;
+	}
+	.wdg_humor_01 .articlesThumbList li:after {
+		clear: both;
+	}
+	.wdg_humor_01 .articlesThumbList li {
+		zoom: 1;/* For IE 6/7 (trigger hasLayout) */
+	
+	}
+	.wdg_humor_01 .articlesThumbList li a {
+		padding: 0;
+		color: black;
+	}
+	.wdg_humor_01 .articlesThumbList li a p {
+		position: absolute;
+		left: 112px;
+		right: 0;
+		top: 32px;
+	}
+	.wdg_humor_01 .articlesThumbList li a img {
+		margin-right: 16px !important;
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		padding-right: 13px;
+		border-right: 1px solid #ccc;
+	}
+	.wdg_humor_01 .articlesThumbList li a h3 {
+		display: block;
+		margin-left: 100px;
+		font-style: italic;
+		font-weight: 800;
+		font-size: 14px;
+		padding-top: 6px;
+	}
+	.wdg_humor_01 .articlesThumbList li a span.icon {
+		display: none;
+	}
+	.wdg_humor_01 div .articleMedium div h4 {
+		width: 92%;
+		padding: 0;
+		margin-left: 2%;
+		font-size: 100%;
+		line-height: 22px;
+		margin-top: 3%;
+	}
+	.wdg_humor_01 div .articleMedium div h2 {
+		line-height: 29px;
+		font-weight: normal;
+		font-weight: 800;
+		font-size: 14px;
+		margin-top: 0%;
+		margin-left: 2%;
+	}
+}
