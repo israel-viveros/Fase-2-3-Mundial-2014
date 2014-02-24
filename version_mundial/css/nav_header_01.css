@@ -1,17 +1,17 @@
-/*Dispositivos vista retina------*/
+x|/*Dispositivos vista retina------*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width:
         948px) , ( min-resolution : 192dpi) and (min-width: 948px) {
 	
 
     /* Logo Deportes */
     header.nav_header_01 div.topnav a.televisa.deportes span {
-        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/sprite_logos_televisa@2x.png) no-repeat
+        background: url(../global/img/sprite_logos_televisa%402x.png) no-repeat
             1px -79px;
         background-size: 145px 222px;
     }
 
     .ie8  header.nav_header_01 div.topnav a.deportes span {
-        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/sprite_logos_televisa.png) no-repeat 0
+        background: url(../global/img/sprite_logos_televisa.png) no-repeat 0
             -77px;
         height: 35px;
     }
@@ -140,23 +140,143 @@
 		width: 70px;
 	}
 	header.nav_header_01 div.topnav a.televisa span {
-		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/sprite_logos_televisa.png) no-repeat -81px -155px;
+		background: url(../global/img/sprite_logos_televisa.png) no-repeat -81px -155px;
 		height: 35px;
 	}
 
 	/* Logo Noticieros */
 	header.nav_header_01 div.topnav a.televisa.noticieros span {
-		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/sprite_logos_televisa.png) no-repeat 0 0;
+		background: url(../global/img/sprite_logos_televisa.png) no-repeat 0 0;
 		height: 77px;
 	}
 
 	/* Logo Deportes */
 	header.nav_header_01 div.topnav a.televisa.deportes span {
-		background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/sprite_logos_televisa.png) no-repeat -81px -155px;
+		background:url(../global/img/sprite_logos_televisa.png) no-repeat -81px -155px;
 		height: 35px;
 	}
 
 	/* Top Navigation */
+	/* Top Navigation */
+	header.nav_header_01 div.topnav {
+		height: 36px;
+	}
+	header.nav_header_01 div.topnav nav ul {
+		position: absolute;
+		top: 1px;
+		left: 170px;
+	}
+	header.nav_header_01 div.topnav nav ul li a {
+		opacity: .8;
+		height: 35px;
+		line-height: 35px;
+		padding: 0 8px;
+		font-size: 11px;
+		text-shadow: -1px -2px 3px rgba(0, 0, 0, 0.6);
+	}
+	header.nav_header_01 div.topnav nav ul li a:active,header.nav_header_01 div.topnav nav ul li a:focus
+		{
+		opacity: 1;
+	}
+	/*header.nav_header_01 div.topnav nav ul li a:hover {
+		background: rgb(14, 65, 108) !important;
+		box-shadow: inset 0 1px 6px #0d385b;
+	}*/
+	header.nav_header_01 div.topnav nav ul li.active a,header.nav_header_01 div.topnav nav ul li a:active
+		{
+		background: #0d385b !important;
+		opacity: 1;
+		box-shadow: inset 0 1px 6px #0b2f4f;
+	}
+
+	/* Date */
+	header.nav_header_01 div.topnav span.date {
+		display: none;
+	}
+
+	/* Site Search */
+	header.nav_header_01 div.topnav form.site_search {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		z-index: 100;
+		/*
+        -moz-box-shadow: 0px 0px 4px #093252;
+		-webkit-box-shadow: 0px 0px 4px #093252;
+		box-shadow: 0px 0px 4px #093252; */
+	}
+	header.nav_header_01 div.topnav form.site_search input.search_term,header.nav_header_01 div.topnav form.site_search button.search_submit
+		{
+		border: 0;
+		height: 37px;
+		line-height: 37px;
+		padding: 0;
+		margin: 0;
+	}
+	header.nav_header_01 div.topnav form.site_search input.search_term {
+		display: none;
+		float: right;
+		width: 0;
+		top: 0px;
+		right: -4px;
+		padding: 0 4px;
+	}
+	header.nav_header_01 div.topnav form.site_search button.search_submit {
+		background: #FFF;
+		padding: 0 13px;
+		float: right;
+		border-bottom: 1px solid #dee0df;
+		border-left: 1px solid #bababc;
+		color: #898989;
+		background: -webkit-gradient(linear, 50% 0%, 50% 100%, from(#eaebed),
+			to(#fbfbfb))
+	}
+
+	/* Main Navigation */
+	/* icon sizes */
+	header.nav_header_01 div.mainnav ul li a i,header.nav_header_01 div.mainnav nav.social ul li a i
+		{
+		font-size: 17px;
+		position: relative;
+		line-height: 37px;
+		vertical-align: baseline;
+		display: inline;
+	}
+	header.nav_header_01 div.mainnav nav.social ul li:first-child a i {
+		font-size: 13px !important;
+	}
+	
+	header.nav_header_01 div.mainnav nav.social ul li.station:last-child {
+	}
+	header.nav_header_01 div.mainnav nav.social ul li.station:first-child {
+		display: none;
+	}
+	
+
+	header.nav_header_01 div.mainnav nav.social a.toggle {
+		color: #494a4c;
+		height: 35px;
+		width: 36px;
+		text-align: center;
+		line-height: 35px;
+		font-size: 15px;
+		display: inline-block;
+		border-left: 1px solid #dadada;
+		/*-webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .3);
+        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .3);*/
+	}
+	header.nav_header_01 div.mainnav nav.social a.toggle span {
+	}
+
+	header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn {
+background: url(../img/header/mainnav2_hover.png) no-repeat -135px -17px ;
+}
+
+header.nav_header_01 div.mainnav nav.social ul li.station a span.tdtv {
+background: url(../img/header/mainnav2_hover.png) no-repeat -88px -17px ;
+}
 	header.nav_header_01 div.topnav nav ul {
 		left: 215px;
 	}
@@ -198,7 +318,7 @@
 
 	header.nav_header_01 div.mainnav nav.social ul {
 		top: 0;
-		background: #49b73a;
+		background: #6ec239;
 		filter: none;
 		display: block !important;
 		-moz-box-shadow: inset -5px -5px 20px -5px rgba(50, 50, 50, 0.75);
@@ -225,10 +345,12 @@
 
 	header.nav_header_01 div.mainnav nav.social ul li.station:first-child {
 		display: inline-block;
+	
+}
+	header.nav_header_01 div.mainnav nav.social ul li {
+		background: url("../img/header/shadow.png") no-repeat;	
 	}
-	header.nav_header_01 div.mainnav nav.social ul li.station:last-child {
-		border-right: 1px solid #dadada !important;
-	}
+
 	header.nav_header_01 div.mainnav nav.social a.vivafut {
 		display: none;
 	}
