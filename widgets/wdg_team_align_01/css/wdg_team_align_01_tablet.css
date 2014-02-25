@@ -1,0 +1,184 @@
+/* 
+    Document   : wdg_team_alig_01
+    Created on : 6/05/2013, 04:02:52 PM
+    Author     : Ricardo Jesus Ruiz Cruz
+    Description:
+*/
+@media screen and (min-width: 624px){
+	.wdg_team_align_01
+	{
+		position:relative;
+		height:auto;
+		display:block;
+		overflow:hidden;
+        width:624px;
+        margin-bottom: 36px;
+	}
+	.wdg_team_align_01 .events .superior{font-size:11px;text-align:right;width:144px;}
+	.wdg_team_align_01 .events .superior i {font-size:20px;vertical-align:-2px;padding-right:3px;}
+	.wdg_team_align_01 .widget_player_stats{
+    	line-height:29px;
+    	width: 302px;
+    }
+    .wdg_team_align_01 .first_team,
+    .wdg_team_align_01 .second_team{
+    	float: left;
+    	width: 306px;
+    }
+    .wdg_team_align_01 .separadorAlignPrincipal{
+		background-color: #F5F5F5;
+		height: 510px;
+		left: 308px;
+		position: absolute;
+		top: 37px;
+		display: block;
+		width: 1px;
+	}
+	.wdg_team_align_01 .separadorAlignBanca{
+		background-color: #F5F5F5;
+		height: 290px;
+		left: 308px;
+		position: absolute;
+		top: 640px;
+		display: block;
+		width: 1px;
+	}	
+	.wdg_team_align_01 .separadorAlignBancaTop{
+		background-color: #F5F5F5;
+		height: 2px;
+		left: 5px;
+		position: absolute;
+		top: 578px;
+		display: block;
+		width: 617px;
+		border-bottom:1px solid #ccc;	
+	}
+	.wdg_team_align_01 .separadorAlignBancaBottom{
+		background-color: #F5F5F5;
+		height: 2px;
+		left: 5px;
+		position: absolute;
+		top: 625px;
+		display: block;
+		width: 617px;
+		border-bottom:1px solid #ccc;	
+	}
+	.wdg_team_align_01 .separadorAlignArbitroTop{
+		background-color: #F5F5F5;
+		height: 2px;
+		left: 5px;
+		position: absolute;
+		top: 929px;
+		display: block;
+		width: 617px;
+		border-bottom:1px solid #ccc;	
+	}
+	.wdg_team_align_01 .separadorAlignArbitroBottom{
+		background-color: #F5F5F5;
+		height: 2px;
+		left: 5px;
+		position: absolute;
+		top: 971px;
+		display: block;
+		width: 617px;
+		border-bottom:1px solid #ccc;	
+	}
+	.wdg_team_align_01 .separadorAlignArbitro{
+		background-color: #F5F5F5;
+		height: 83px;
+		left: 308px;
+		position: absolute;
+		top: 978px;
+		display: block;
+		width: 1px;
+	}
+	.wdg_team_align_01 .teams_name{
+		display: none;
+	}
+	.wdg_team_align_01 .principal{
+		border-spacing:0px;
+	}
+	.wdg_team_align_01 .logo,
+	.wdg_team_align_01 .principal .line1,
+	.wdg_team_align_01 .second_team{
+		display: block;
+	}
+	.wdg_team_align_01 .art_latestnews_01_arrow {
+		display: none;
+	}
+	.wdg_team_align_01 .container{
+		height: auto;
+		overflow: hidden;
+		width: 624px;
+		border-bottom:1px solid #CCC;
+	}
+	.wdg_team_align_01 .aling{
+		margin-left:12px;
+	}
+	.wdg_team_align_01 .degraded{
+		display:none;
+	}
+	.wdg_team_align_01 .widget_player_stats td{
+		padding-right:0px;
+	}
+	.wdg_team_align_01 .align_arbitros{
+		display: table-row;
+	}
+	.wdg_team_align_01 .second_team .principal .subtitle_align{
+		visibility: hidden;
+	}
+	.wdg_team_align_01 .widget_player_stats .line5{
+		border-bottom:0px solid #ccc;
+	}
+
+	.ie7 .wdg_team_align_01 .separadorAlignBancaTop{
+		top: 490px;
+	}
+	.ie7 .wdg_team_align_01 .separadorAlignBancaBottom{
+		top: 520px;
+	}
+	.ie7 .wdg_team_align_01 .separadorAlignPrincipal{
+		height: 445px;
+	}
+	.ie7 .wdg_team_align_01 .separadorAlignBanca{
+		top: 525px;
+		height: 245px;
+	}
+	.ie7 .wdg_team_align_01 .separadorAlignArbitroTop{
+		top: 835px;
+	}
+	.ie7 .wdg_team_align_01 .separadorAlignArbitroBottom{
+		top: 800px;
+	}
+	.ie7 .wdg_team_align_01 .separadorAlignArbitro {
+		top: 800px;
+		height: 145px;
+	}
+
+	.ie8 .wdg_team_align_01 .separadorAlignPrincipal{
+		top: 50px;
+		height: 533px;
+	}
+	.ie8 .wdg_team_align_01 .separadorAlignBancaTop{
+		top: 585px;
+	}
+	.ie8 .wdg_team_align_01 .separadorAlignBancaBottom{
+		top: 620px;
+	}
+	.ie8 .wdg_team_align_01 .separadorAlignBanca{
+		top: 625px;
+		height: 290px;
+	}
+	.ie8 .wdg_team_align_01 .separadorAlignArbitroTop{
+		top: 915px;
+	}
+	.ie8 .wdg_team_align_01 .separadorAlignArbitroBottom{
+		top: 955px;
+	}
+	.ie8 .wdg_team_align_01 .separadorAlignArbitro {
+		top: 960px;
+		height: 145px;
+	}
+
+
+}
