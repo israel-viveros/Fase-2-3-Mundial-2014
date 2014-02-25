@@ -322,6 +322,140 @@
 	
 
 
+
+/*ESTADO 4 revive*/
+	.wdg_contador_Header_revive{
+		margin: 0;
+		width: 300px;
+		height: 67px;
+		color: #FFF;
+		position: relative;
+		background-color: #398218;
+		max-width: 300px;
+		padding: 0;
+		overflow: visible;
+		display: inline-block;
+		vertical-align: middle;
+
+	}
+
+		.wdg_contador_Header_revive>img{
+		position: absolute;
+		top: 10px;
+		left: 10px;
+
+	}
+	.wdg_contador_Header_revive .title_contador_header_revive{
+		font-family: Trebuchet MS;
+		font-weight: bold;
+		font-style: italic !important;
+		font-size: 14px;
+		letter-spacing:0px;
+		color: #ffffff;
+/*		text-shadow: 1px 1px 1px rgba(177, 129, 6, 1);	
+*/		position: absolute;
+		top: 6px;
+		left: 44px;
+
+	}
+
+	.separador_revive{
+		font-family: Trebuchet MS;
+		font-weight: normal;
+		font-style: italic !important;
+		font-size: 14px;
+		letter-spacing:0px;
+		color: #ffffff;
+/*		text-shadow: 1px 1px 1px rgba(177, 129, 6, 1);	
+*/		position: absolute;
+		top: 4px;
+		left: 34px;
+	}
+	.wdg_contador_Header_revive .title_contador_header_revive img{
+		position: absolute;
+		top: 2px;
+		left: 140px;
+	}
+
+	.wdg_contador_Header_revive .right_contador_header_revive{
+		overflow: visible;
+		position: relative;
+		padding-top: 33px;
+	}
+	.wdg_contador_Header_revive .right_contador_header_revive .logocomercial{
+		position: relative;
+		float: right;
+		margin-right: 10px;
+		margin-top: -10px;
+
+	}
+
+	.right_contador_header_revive .wdg_paises{
+		color: white;
+		display: inline;
+		font-family: Trebuchet MS;
+		font-weight: bold;
+		font-size: 15px;
+		letter-spacing:-1px;
+		position: relative;
+		padding:0 10px;
+		margin-top: 11px !important;
+
+	}
+	.right_contador_header_revive .wdg_paises div{
+			display: inline;
+/*			padding: 4px;
+*/			position: relative;
+			margin-bottom: -2px;
+	}
+
+	.right_contador_header_revive .wdg_paises div:first-child{
+	padding-right: 4px;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
+	}
+		.right_contador_header_revive .wdg_paises div:last-child{
+	padding-left: 4px;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y left !important;
+	}
+
+	.right_contador_header_revive .wdg_paises img{
+			margin:0 5px;
+	}
+
+	.right_contador_header_revive .wdg_paises .vs_wdg_paises{
+		vertical-align: top;
+	}
+
+	.wdg_contador_aside{
+		background-color: green;
+		color: white;
+		width: 120px;
+		height: 67px;
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 12px;
+
+		font-family: Trebuchet MS;
+		font-weight: 100;
+		font-style: italic;
+		font-size: 12px;
+		letter-spacing:-0.3px;
+		line-height: 14px;
+		padding-left: 5px;
+
+	}
+		.wdg_contador_aside img{
+		display: block;
+		margin-bottom: 5px;
+		}
+
+.wdg_contador_aside span:last-child{
+		font-size: 14px;
+
+}
+
+
 	
 	
 }
