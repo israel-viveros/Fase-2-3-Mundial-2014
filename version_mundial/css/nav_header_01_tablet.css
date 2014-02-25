@@ -9,20 +9,20 @@
     }
 
 header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn {
-background: url(../img/header/mainnav2_hover.png) no-repeat -135px 0;
+background: url(../img/mainnav2_hover.png) no-repeat -135px 0;
 width: 39px;
 }
     header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn {
-background: url(../img/header/mainnav2_hover.png) no-repeat -135px 0;
+background: url(../img/mainnav2_hover.png) no-repeat -135px 0;
 width: 39px;
 }
 	header.nav_header_01 div.mainnav nav.social ul li.station a span.tdtv {
-background: url(../img/header/mainnav2_hover.png) no-repeat -87px 0;
+background: url(../img/mainnav2_hover.png) no-repeat -87px 0;
 width: 48px;
 }	
 	header.nav_header_01 div.mainnav nav.social ul li.station {
 		padding-right: 1px;
-		background: url(../img/header/dots-mainnav.png) no-repeat 100% 50%;
+		background: url(../img/dots-mainnav.png) no-repeat 100% 50%;
 		margin-right:-4px;
 		}
 
@@ -307,12 +307,12 @@ width: 48px;
 	}
 
 	header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn {
-background: url(../img/header/mainnav2_hover.png) no-repeat -135px -17px ;
+background: url(../img/mainnav2_hover.png) no-repeat -135px -17px ;
 	margin-top:10px; 
 }
 
 header.nav_header_01 div.mainnav nav.social ul li.station a span.tdtv {
-background: url(../img/header/mainnav2_hover.png) no-repeat -88px -17px ;
+background: url(../img/mainnav2_hover.png) no-repeat -88px -17px ;
 }
 
 	/* Collapsable Mainnav */
@@ -386,7 +386,7 @@ background: url(../img/header/mainnav2_hover.png) no-repeat -88px -17px ;
 		height: 12px;
 	}
 	header.nav_header_01 div.mainnav ul>li a {
-		background: url("../img/header/dotted-vertical.png")no-repeat right !important;
+		background: url("../img/dotted-vertical.png")no-repeat right !important;
 		float: left;
 		height: 35px;
 		line-height: 35px;
@@ -643,7 +643,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 		padding: 0 8px;
 	}
 	header.nav_header_01 div.mainnav nav.social>a.vivafut span.vivafut {
-		background: url(../img/header/mainnav2_hover.html) no-repeat 0 0;
+		background: url(../img/mainnav2_hover.html) no-repeat 0 0;
 		width: 51px;
 		height: 16px;
 		margin-top: 10px;
@@ -651,12 +651,12 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 	}
 	header.nav_header_01 div.mainnav nav.social>a.vivafut:focus span.vivafut,header.nav_header_01 div.mainnav nav.social>a.vivafut:active span.vivafut
 		{
-		background: #A70A0B url(../img/header/mainnav2_hover.html) no-repeat 0
+		background: #A70A0B url(../img/mainnav2_hover.html) no-repeat 0
 			-16px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station a span.vivafut
 		{
-		background: url(../img/header/mainnav2_hover.html) no-repeat 0 0;
+		background: url(../img/mainnav2_hover.html) no-repeat 0 0;
 		width: 51px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station.active a,header.nav_header_01 div.mainnav nav.social ul li.station a:focus,header.nav_header_01 div.mainnav nav.social ul li.station a:active
@@ -666,34 +666,34 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station.active a span.vivafut,header.nav_header_01 div.mainnav nav.social ul li.station a:focus span.vivafut,header.nav_header_01 div.mainnav nav.social ul li.station a:active span.vivafut
 		{
-		background: #A70A0B url(../img/header/mainnav2_hover.html) no-repeat 0
+		background: #A70A0B url(../img/mainnav2_hover.html) no-repeat 0
 			-16px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station a span.nba {
-		background: url(../img/header/mainnav2_hover.html) no-repeat -51px 0;
+		background: url(../img/mainnav2_hover.html) no-repeat -51px 0;
 		width: 36px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station.active a span.nba,header.nav_header_01 div.mainnav nav.social ul li.station a:focus span.nba,header.nav_header_01 div.mainnav nav.social ul li.station a:active span.nba
 		{
-		background: #A70A0B url(../img/header/mainnav2_hover.html) no-repeat
+		background: #A70A0B url(../img/mainnav2_hover.html) no-repeat
 			-51px -16px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station a span.tdtv {
-		background: url(../img/header/mainnav2_hover.html) no-repeat -87px 0;
+		background: url(../img/mainnav2_hover.html) no-repeat -87px 0;
 		width: 48px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station.active a span.tdtv,header.nav_header_01 div.mainnav nav.social ul li.station a:focus span.tdtv,header.nav_header_01 div.mainnav nav.social ul li.station a:active span.tdtv
 		{
-		background: #A70A0B url(../img/header/mainnav2_hover.html) no-repeat
+		background: #A70A0B url(../img/mainnav2_hover.html) no-repeat
 			-87px -16px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn {
-		background: url(../img/header/mainnav2_hover.html) no-repeat -135px 0;
+		background: url(../img/mainnav2_hover.html) no-repeat -135px 0;
 		width: 39px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station.active a span.tdn,header.nav_header_01 div.mainnav nav.social ul li.station a:focus span.tdn,header.nav_header_01 div.mainnav nav.social ul li.station a:active span.tdn
 		{
-		background: #A70A0B url(../img/header/mainnav2_hover.html) no-repeat
+		background: #A70A0B url(../img/mainnav2_hover.html) no-repeat
 			-135px -16px;
 	}
 	header.nav_header_01 div.mainnav ul li,header.nav_header_01 div.mainnav nav.social ul li{
