@@ -65,7 +65,7 @@
 		display: block;
 		font-size: 11px;
 		text-align: center;
-		padding-top: 0px;
+		padding-top: 2px;
 		margin-top: -5px;
 		font-style: italic;
 		background: url("../img/dotted-vertical_white.png")no-repeat left ;
@@ -126,7 +126,8 @@
 	.wdg_contador_Header_conecta .right_contador_header_conecta{
 		overflow: visible;
 		position: relative;
-		padding-top: 0px;
+		padding-top: -3px;
+		vertical-align: middle;
 	}
 	.wdg_contador_Header_conecta .right_contador_header_conecta .logocomercial{
 		position: relative;
@@ -145,7 +146,8 @@
 		letter-spacing:-1px;
 		position: relative;
 		padding:0 10px;
-		margin-top: 11px !important;
+		margin-top: 4px !important;
+
 
 	}
 	.right_contador_header_conecta .wdg_paises div{
@@ -204,13 +206,13 @@
 
 	}
 
-		.wdg_contador_Header_vivo>img{
+		.wdg_contador_Header_vivo a>img{
 		position: absolute;
 		top: 10px;
 		left: 10px;
 
 	}
-	.wdg_contador_Header_vivo .title_contador_header_vivo{
+	.wdg_contador_Header_vivo a .title_contador_header_vivo{
 		font-family: Trebuchet MS;
 		font-weight: bold;
 		font-style: italic !important;
@@ -236,7 +238,7 @@
 		top: 4px;
 		left: 34px;
 	}
-	.wdg_contador_Header_vivo .title_contador_header_vivo img{
+	.wdg_contador_Header_vivo a .title_contador_header_vivo img{
 		position: absolute;
 		top: 2px;
 		left: 140px;
@@ -293,7 +295,7 @@
 
 	.wdg_contador_aside{
 		background-color: green;
-		color: white;
+		color: white !important;
 		width: 120px;
 		height: 67px;
 		position: relative;
@@ -314,8 +316,11 @@
 		display: block;
 		margin-bottom: 5px;
 		}
+.wdg_contador_aside  a{
+		color: white;
+		}
 
-.wdg_contador_aside span:last-child{
+.wdg_contador_aside  span:last-child{
 		font-size: 14px;
 
 }
@@ -324,7 +329,7 @@
 
 
 /*ESTADO 4 revive*/
-	.wdg_contador_Header_revive{
+	.wdg_contador_Header_revive {
 		margin: 0;
 		width: 300px;
 		height: 67px;
@@ -339,13 +344,13 @@
 
 	}
 
-		.wdg_contador_Header_revive>img{
+		.wdg_contador_Header_revive a>img{
 		position: absolute;
 		top: 10px;
 		left: 10px;
 
 	}
-	.wdg_contador_Header_revive .title_contador_header_revive{
+	.wdg_contador_Header_revive a>.title_contador_header_revive{
 		font-family: Trebuchet MS;
 		font-weight: bold;
 		font-style: italic !important;
@@ -371,18 +376,19 @@
 		top: 4px;
 		left: 34px;
 	}
-	.wdg_contador_Header_revive .title_contador_header_revive img{
+	.wdg_contador_Header_revive a .title_contador_header_revive img{
 		position: absolute;
 		top: 2px;
 		left: 140px;
 	}
 
-	.wdg_contador_Header_revive .right_contador_header_revive{
+	.wdg_contador_Header_revive  .right_contador_header_revive{
 		overflow: visible;
 		position: relative;
 		padding-top: 33px;
+		vertical-align: middle;
 	}
-	.wdg_contador_Header_revive .right_contador_header_revive .logocomercial{
+	.wdg_contador_Header_revive  .right_contador_header_revive .logocomercial{
 		position: relative;
 		float: right;
 		margin-right: 10px;
@@ -457,6 +463,9 @@
 		top: 5px;
 		left: 12px;
 
+}
+.wdg_contador_aside_revive a{
+	color: white;
 }
 
 .wdg_contador_aside_revive .line {
@@ -607,6 +616,9 @@ opacity: 0.6;
 		top: 5px;
 		left: 12px;
 
+}
+.wdg_contador_aside_proximo a{
+	color: white;
 }
 
 .wdg_contador_aside_proximo .line {
