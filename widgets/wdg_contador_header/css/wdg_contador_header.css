@@ -411,11 +411,11 @@
 
 	.right_contador_header_revive .wdg_paises div:first-child{
 	padding-right: 4px;
-	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
+	background: url("../img/dotted-vertical_white.png")no-repeat right !important;
 	}
-		.right_contador_header_revive .wdg_paises div:last-child{
+	.right_contador_header_revive .wdg_paises div:last-child{
 	padding-left: 4px;
-	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y left !important;
+	background: url("../img/dotted-vertical_white.png")no-repeat left !important;
 	}
 
 	.right_contador_header_revive .wdg_paises img{
@@ -424,6 +424,7 @@
 
 	.right_contador_header_revive .wdg_paises .vs_wdg_paises{
 		vertical-align: top;
+
 	}
 
 	.wdg_contador_aside_revive{
@@ -486,8 +487,8 @@ opacity: 0.6;
 
 		.wdg_contador_Header_proximo>img{
 		position: absolute;
-		top: 4px;
-		left: 10px;
+		top: 8px;
+		left: 12px;
 
 	}
 	.wdg_contador_Header_proximo .title_contador_header_proximo{
@@ -525,13 +526,13 @@ opacity: 0.6;
 	.wdg_contador_Header_proximo .right_contador_header_proximo{
 		overflow: visible;
 		position: relative;
-		padding-top: 24px;
+		padding-top: 26px;
 	}
 	.wdg_contador_Header_proximo .right_contador_header_proximo .logocomercial{
 		position: relative;
 		float: right;
 		margin-right: 10px;
-		margin-top: -10px;
+		margin-top: -2px;
 
 	}
 
@@ -556,11 +557,13 @@ opacity: 0.6;
 
 	.right_contador_header_proximo .wdg_paises div:first-child{
 	padding-right: 4px;
-	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
+	background: url("../img/dotted-vertical_white.png")no-repeat right top !important;
+
 	}
 		.right_contador_header_proximo .wdg_paises div:last-child{
 	padding-left: 4px;
-	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y left !important;
+	background: url("../img/dotted-vertical_white.png")no-repeat left top !important;
+
 	}
 
 	.right_contador_header_proximo .wdg_paises img{
@@ -569,6 +572,9 @@ opacity: 0.6;
 
 	.right_contador_header_proximo .wdg_paises .vs_wdg_paises{
 		vertical-align: top;
+	/*	font-style: normal;
+		font-size: 11px;
+		font-weight: normal;*/
 	}
 
 	.wdg_contador_aside_proximo{
@@ -616,7 +622,7 @@ opacity: 0.6;
 		display: block;
 		font-size: 11px;
 		padding-top: 0px;
-		margin-top: -5px;
+		margin-top: -2px;
 		font-style: italic;
 		padding-left: 55px;
 
