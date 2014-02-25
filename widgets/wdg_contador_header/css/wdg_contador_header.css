@@ -31,6 +31,7 @@
 		position: relative;
 		vertical-align: top;
 		margin-left: -4px;
+		margin-right: 6px;
 
 
 	}
@@ -42,6 +43,7 @@
 		top: 9px;
 		right: 0;
 
+
 		
 	}
 	.wdg_contador_Header .countdown-section:nth-child(1){
@@ -52,10 +54,13 @@
 		font-style: italic;
 		display: block;
 		text-align: center;
-			background: url("../img/dotted-vertical_white.png")no-repeat right !important;
+
+		background: url("../img/dotted-vertical_white.png")no-repeat left;
 /*		background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
 */
 	}
+
+
 	.wdg_contador_Header .countdown-section .countdown-period{
 		display: block;
 		font-size: 11px;
@@ -63,10 +68,15 @@
 		padding-top: 0px;
 		margin-top: -5px;
 		font-style: italic;
-		background: url("../img/dotted-vertical_white.png")no-repeat right !important;
+		background: url("../img/dotted-vertical_white.png")no-repeat left ;
 /*		background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
 */
 	}
+
+		.wdg_contador_Header .countdown-section:first-child .countdown-amount, .wdg_contador_Header .countdown-section:first-child .countdown-period{
+		background: none!important;
+}
+
 
 	.wdg_contador_Header .right_contador_header{
 		width: 88px;
