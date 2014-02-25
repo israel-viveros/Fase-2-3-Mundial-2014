@@ -1,0 +1,247 @@
+/* 
+    Document   : wdg_team_align_01
+    Created on : 6/05/2013, 04:02:40 PM
+    Author     : Ricardo Jesus Ruiz Cruz
+    Description:
+        
+*/
+
+@media screen{
+    
+    .wdg_team_align_01 .widget_player_stats {line-height:28px;border-top:0px;border-bottom:0px;}
+    .wdg_team_align_01 .widget_player_stats td {vertical-align:middle;}
+    .wdg_team_align_01 .player_number{font-weight: bold;color: #eab11d;font-size:16px;padding:0 5px;padding-left:16px;  text-align: center;}
+	.wdg_team_align_01 .logo{text-align: left; width:50%;}
+    .wdg_team_align_01 .player_name {
+		font-size:12px;
+		width:110px;
+		font-weight:bold;
+		text-align:left;
+		size:10px;
+		padding-left:12px;
+		overflow: hidden;
+  	  	white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+    .wdg_team_align_01 .events {font-size:10px;color:#666; text-align:right;}
+	.wdg_team_align_01 .events .superior{font-size:11px;color:#8f8f8f;text-align:right;width:100%;}
+	.wdg_team_align_01 .events .superior .grupo{padding-right:8px;}
+    .wdg_team_align_01 .events .superior i {font-size:20px;color:#666;vertical-align:-2px;padding-right:3px;}
+	.wdg_team_align_01 .events .inferior{font-size:11px;color:#666;text-align:right;}
+	.wdg_team_align_01 .events .inferior .grupo{padding-right:8px;}
+    .wdg_team_align_01 .events .inferior i {font-size:20px;vertical-align:-2px;padding-right:6px;}
+    .wdg_team_align_01 .floatleft {float:left;}
+	.wdg_team_align_01 .floatleftdos {float:left; margin-left:10px;}
+    .wdg_team_align_01 .floatright {float:right;}
+	.wdg_team_align_01 .subtitle_align{
+		font-style: italic;
+		margin:10px 0 8px 0;
+		font-size:18px;
+		color:#59a529;
+	}
+	
+	.wdg_team_align_01 .equipo{
+		font-size:14px;
+		font-weight:bold;
+		width:40%;
+		vertical-align:super;
+		padding:10px 17px;
+	}
+	.wdg_team_align_01 .widget_player_stats th{	
+		padding-left:10px;
+		padding-top:100px;
+		height:32px;
+	}
+	.wdg_team_align_01 .widget_player_stats .line1{
+		border-bottom:1px solid #CCC;
+		height:1px;
+	}
+	.wdg_team_align_01 .principal{
+		border-spacing:0px;
+	}
+	.wdg_team_align_01 .principal td{
+		vertical-align:top;
+	}
+	.wdg_team_align_01 .principal .vacio{
+		width:0.1%;
+	}
+	.wdg_team_align_01 .principal .line1{
+		border-bottom:1px solid #CCC;
+		height:1px;
+		margin-right:0;
+	}
+	.wdg_team_align_01 .widget_player_stats .line2{
+		height:1px;
+	}
+	.wdg_team_align_01 .widget_player_stats .line4{
+		height:1px;
+		column-span: all; 
+	}
+	.wdg_team_align_01 .colSpan3{
+		-webkit-column-span: ; /* Safari & Chrome */
+	}
+	.wdg_team_align_01 .colSpan6{
+		column-span: 6; /* W3C */
+-webkit-column-span: 6; /* Safari & Chrome */
+-moz-column-span: 6; /* Firefox */
+-ms-column-span: 6; /* Internet Explorer */
+-o-column-span: 6; /* Opera */
+	} 
+	
+	.wdg_team_align_01 .widget_player_stats .alignPlayer{
+		text-align:left; 
+		vertical-align:top;	
+	}
+	.wdg_team_align_01 .widget_player_stats .line5{		
+		height:1px;
+		border-bottom:1px solid #ccc;
+	}
+	.wdg_team_align_01 .separadorAlignPrincipal, 
+	.wdg_team_align_01 .separadorAlignBanca 
+	.wdg_team_align_01 .separadorAlignArbitro
+	.wdg_team_align_01 .separadorAlignBancaTop
+	.wdg_team_align_01 .separadorAlignBancaBottom
+	.wdg_team_align_01 .separadorAlignArbitroTop
+	.wdg_team_align_01 .separadorAlignArbitroBottom{
+		display: none
+	}
+	.wdg_team_align_01 .widget_player_stats .line3{
+		height:1px;
+	}
+	.wdg_team_align_01 .widget_player_stats td{
+		height:22px;
+		padding-right:15px;
+	}
+	.wdg_team_align_01 .widget_player_stats td:first-child{
+		border-left: none;
+		padding: 2px 6px 2px 2px;
+	}
+    .wdg_team_align_01 .encabezado_alineacion_partido {
+        float: left;
+        height: auto;
+        padding-top: 5px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_team_align_01 .encabezado_alineacion_partido h3 {
+        color: #A41D21 !important;
+        float: left;
+        font-style: italic;
+        padding-bottom: 8px;
+        padding-left: 25px;
+        padding-top: 8px;
+        width: auto;
+    }
+    .wdg_team_align_01
+    {		
+        width:100%;
+        position:relative;
+        height:auto;
+        overflow: hidden;
+    }
+    .wdg_team_align_01 .widget_player_stats{
+    	border:0px solid #ccc;
+    	border-collapse:collapse; 
+    	border-spacing: 0px;
+    	width: 100%;
+    }
+    .wdg_team_align_01 .teams_name{
+		clear: both;
+	    position: relative;
+	    width: 100%;
+	}
+  	.wdg_team_align_01 .team1_name,
+  	.wdg_team_align_01 .team2_name{
+  		text-align: center;
+  		float: left;
+  		width: 50%;
+  		border-bottom: 1px solid #ccc;
+  		padding: 5px 0;
+  		cursor: pointer;
+  	}
+  	.wdg_team_align_01 .current{
+  		background-color: #DFDFDF;
+  	}
+  	.wdg_team_align_01 .logo,
+  	.wdg_team_align_01 .principal .line1,
+  	.wdg_team_align_01 .second_team{
+		display: none;
+	}
+	.wdg_team_align_01 .art_latestnews_01_arrow {
+		width: 0;
+		height: 0;
+		overflow: hidden;
+		position: absolute;
+		border: 10px solid transparent;
+		border-top-color: #DFDFDF;
+		bottom: -66px;
+		left: 19%;
+	}
+	.wdg_team_align_01 .container{
+		height: 450px;
+		overflow: auto;
+		width: 104%;
+	}
+	.ie7 .wdg_team_align_01 .container{
+		height:auto;
+		width:624px;
+	}
+	.ie7 .wdg_team_align_01 .first_team{
+		height:auto;
+	}
+	.ie7 .wdg_team_align_01 .principal{
+		height:auto;
+	}
+	.ie7 .wdg_team_align_01 .widget_player_stats{
+		height:auto;
+	}
+	.ie7 .separadorAlignArbitroTop{
+		margin-top:-65px;
+	}
+	.wdg_team_align_01 .first_team,
+	.wdg_team_align_01 .second_team{
+		float: left;
+		width: 100%;
+	}
+	.wdg_team_align_01 .aling{
+		margin-left:none;
+	}
+	.wdg_team_align_01 .degraded{
+		top: 438px;
+	}
+	.wdg_team_align_01 .encabezado_alineacion_partido {
+        float: left;
+        height: auto;
+        padding-top:0px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_team_align_01 .banca{
+		border-spacing:4px;
+	}
+	.wdg_team_align_01 .banca td{
+		vertical-align:top;
+	}
+	.wdg_team_align_01 .banca .vacio{
+		width:0.1%;
+	}
+	.wdg_team_align_01 .banca .line1{
+		border-bottom:1px solid #CCC;
+		height:1px;
+	}
+	.wdg_team_align_01 .align_arbitros{
+		display:none;
+	}
+	.ie7 .wdg_team_align_01 .align_arbitros{
+		display:block;
+	}
+	.wdg_team_align_01 .align_arbitros td .tableAlignArbitros{
+		width:103%;
+		border-spacing:0px;
+	}
+	.wdg_team_align_01 .second_team .principal .subtitle_align{
+		display:block;
+	}
+}

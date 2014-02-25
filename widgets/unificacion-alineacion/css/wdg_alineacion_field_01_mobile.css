@@ -1,0 +1,4 @@
+/* only mobile */
+@media screen and (max-width: 623px) {
+    section.wdg_alineacion_field_01 {display:none;}
+}

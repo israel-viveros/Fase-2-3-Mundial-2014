@@ -1,0 +1,22 @@
+/* 
+    Document   : wdg_team_align_01
+    Created on : 6/05/2013, 04:02:15 PM
+    Author     : Ricardo Jesus Ruiz Cruz
+    Description:
+*/
+@media screen and (min-width: 948px){
+.wdg_team_align_01
+	{
+		position:relative;
+		height:auto;
+		display:block;
+		overflow:hidden;	
+        margin-bottom: 26px;
+	}
+.ie7 .wdg_team_align_01 .container{
+		width:700px;
+		height:auto;
+		overflow:hidden;
+	}
+
+}

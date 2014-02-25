@@ -1,0 +1,12 @@
+@media screen and (min-width: 948px){
+	.ie7 section.wdg_alineacion_field_01 ul.menu {
+	 	width:615px;
+	 }
+	 .ie7 section.wdg_alineacion_field_01 ul.menu li {
+	 	width:205px;
+		float:left;
+	 }
+	 .ie7 section.wdg_alineacion_field_01 ul.menu li a{
+		 width:140px;
+	 }
+}
