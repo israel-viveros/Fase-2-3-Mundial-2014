@@ -54,6 +54,10 @@
     <link rel="stylesheet" href="css/img_galry_01_tablet.css" media="screen">
     <link rel="stylesheet" href="css/img_galry_01.css" media="screen">
 
+    <link rel="stylesheet" href="css/wdg_teams_classification_01_mobile.css" media="screen">
+    <link rel="stylesheet" href="css/wdg_teams_classification_01_tablet.css" media="screen and (min-width: 624px)">
+    <link rel="stylesheet" href="css/wdg_teams_classification_01.css" media="screen and (min-width: 948px)">
+
     <link rel="stylesheet" href="css/td_home_main_01_tablet.css" media="screen and (min-width: 624px)">
     <link rel="stylesheet" href="css/td_home_main_01.css" media="screen and (min-width: 948px)">
     <link rel="stylesheet" href="../global/css/colores.css" />
@@ -132,7 +136,8 @@
         <script type="text/javascript" src="file.js"></script>
 	<!--js de widgets-->
 	<script type="text/javascript" src="js/wdg_sched_02.js"></script>
-        <script type="text/javascript" src="js/wdg_matchesresult_01.js"></script>
+    <script type="text/javascript" src="js/wdg_matchesresult_01.js"></script>
+    <script type="text/javascript" src="js/wdg_teams_classification_01.js"></script>
         <!--End js wodgets-->
 </head>
 <body>
@@ -4581,7 +4586,7 @@
    
 <!-- BEGIN: wdg_teams_classification_01 -->
 <div class="wdg_teams_classification_01" data-enhance="false">
-	<!-- BEGIN: str_pleca_01 -->
+    <!-- BEGIN: str_pleca_01 -->
     <div class="str_pleca_01">
         <div class="str_pleca_01_title">
             <h3 class="background-color-pleca1">
@@ -4593,181 +4598,97 @@
             </h3>
         </div>
     </div>
+    <!-- agregando dropdown -->    
+    
+            <div class="wdg_teams_classification_01_grupos">
+                <span class="title">Grupos</span>
+                <div class="filter">
+                    <div class="wdg_teams_classification_01_grupos_dropdown drop">
+                        <div class="wdg_teams_classification_01_grupos_dropdowncontent content">
+                            <p>Grupo A</p>
+                            <span class="tvsa-caret-down"></span>
+                        </div>
+                        <div class="wdg_teams_classification_01_grupos_listcontainer">
+                            <ul class="wdg_teams_classification_01_grupos_dropdownlist">
+                                <li><p>Grupo B</p></li>
+                                <li><p>Grupo C</p></li>
+                                <li><p>Grupo D</p></li>
+                                <li><p>Grupo E</p></li>
+                                <li><p>Grupo F</p></li>
+                                <li><p>Grupo G</p></li>
+                                <li><p>Grupo H</p></li>
+                            </ul>  
+                        </div>
+                    </div>            
+                </div>
+                
+            </div>
+
+    <!-- END agregando dropdown -->
     <!-- END: str_pleca_01 -->
-	
-	<table class="titulo">
-    	<tr>
-        	<th class="izq textcolor-title1"><i class="tvsa-hash"></i></th>
+    
+    <table class="titulo">
+        <tr>
+            <th class="izq textcolor-title1"><i class="tvsa-hash"></i></th>
             <th class="der_img textcolor-title1">&nbsp;</th>
-            <th class="team1 textcolor-title1">EQUIPO</th>
+            <th class="team1 textcolor-title1">Equipo</th>
             <th class="der textcolor-title1">PJ</th>
             <th class="der textcolor-title1">G</th>
             <th class="der textcolor-title1">PTS</th>
         </tr>
     </table>
     
-	<div class="scroll" id="navigation_list">
-		<table class="datos">
-			<tr>
+    <div class="scroll" id="navigation_list">
+        <table class="datos">
+            <tr>
                 <td class="fondo izq textcolor-title2">1</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">TOLUCA</td>
+                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/18/" alt="Image"/></td>
+                <td class="team">BRASIL</td>
                 <td class="der textcolor-title2">10</td>
                 <td class="der textcolor-title2">05</td>
                 <td class="der textcolor-title2">02</td>
-			</tr>
+            </tr>
             <tr>
                 <td class="fondo izq textcolor-title2">2</td>
-              	<td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">TIJUANA</td>
+                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/18/" alt="Image"/></td>
+                <td class="team">CROACIA</td>
                 <td class="der textcolor-title2">10</td>
                 <td class="der textcolor-title2">05</td>
                 <td class="der textcolor-title2">02</td>
-			</tr>
+            </tr>
             <tr>
                 <td class="fondo izq textcolor-title2">3</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">CD LEON</td>
+                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/18/" alt="Image"/></td>
+                <td class="team">MÉXICO</td>
                 <td class="der textcolor-title2">10</td>
                 <td class="der textcolor-title2">05</td>
                 <td class="der textcolor-title2">02</td>
-			</tr>
+            </tr>
             <tr>
                 <td class="fondo izq textcolor-title2">4</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">CF AMERICA</td>
+                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/18/" alt="Image"/></td>
+                <td class="team">CAMERÚN</td>
                 <td class="der textcolor-title2">10</td>
                 <td class="der textcolor-title2">05</td>
                 <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">5</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">MONARCAS</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">6</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">CRUZ AZUL</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">7</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">GUADALAJARA</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">8</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">MONTERREY</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-              	<td class="fondo izq textcolor-title2">9</td>
-               	<td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">STOS. LAGUNA</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-           <tr>
-                <td class="fondo izq textcolor-title2">10</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">TOLUCA</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">11</td>
-              	<td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">TIJUANA</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">12</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">CD LEON</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">13</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">CF AMERICA</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">14</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">MONARCAS</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">15</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">CRUZ AZUL</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">16</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">GUADALAJARA</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-                <td class="fondo izq textcolor-title2">17</td>
-                <td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">MONTERREY</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-            <tr>
-              	<td class="fondo izq textcolor-title2">18</td>
-               	<td class="der_img textcolor-title2"><img src="http://lorempixel.com/24/24/" alt="Image"/></td>
-                <td class="team">STOS. LAGUNA</td>
-                <td class="der textcolor-title2">10</td>
-                <td class="der textcolor-title2">05</td>
-                <td class="der textcolor-title2">02</td>
-			</tr>
-		</table>
+            </tr>
+        </table>
     </div> <!-- END SCROLL -->
+    <!-- 
     <div class="wdg_teams_classification_01_cnt">
          <div class="carousel_nav"> 
             <a class="prev bginactive" title="Link Description" href="#">
-            	<i class="tvsa-caret-up"></i>
+                <i class="tvsa-caret-up"></i>
             </a> 
             <a class="next bgactive" title="Link Description" href="#">
-            	<i class="tvsa-caret-down"></i>
+                <i class="tvsa-caret-down"></i>
             </a>
             <table class="ver_todos">
-            	<tr><td>Ver todos</td></tr>
+                <tr><td>Ver todos</td></tr>
             </table> 
          </div>
          <div class="wdg_stadistics_01_clear"></div>
-    </div> 
+    </div> END SCROLL -->
     <div class="degraded"></div>
     <div class="seemore">
         <a href="#">Ver todos</a>
