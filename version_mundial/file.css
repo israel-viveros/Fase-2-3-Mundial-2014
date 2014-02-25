@@ -707,7 +707,7 @@ header.nav_header_01 div.topnav {
 		border-right: 3px solid #A70A0B;
 	}
 	.hide-tablet {
-		display: none !important;
+		display: block !important;
 	}
 
 	/* Bootstrap columns */

@@ -110,7 +110,7 @@ width: 48px;
         text-indent: -99em;
         height: 77px;
         width: 64px;
-        margin: 5px auto 0 auto;
+        /*margin: 0px auto 0 auto;*/
     }
 }
 
@@ -175,7 +175,7 @@ width: 48px;
 		text-indent: -99em;
 		height: 77px;
 		width: 64px;
-		margin: 5px auto 0 auto;
+		/*margin: 5px auto 0 auto;*/
 	}
 	header.nav_header_01 div.topnav a.televisa span.mobile-logo {
 		display: none;

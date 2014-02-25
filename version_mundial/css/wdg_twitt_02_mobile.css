@@ -136,7 +136,7 @@
 		border: none;
 	}
 	.wdg_twitt_02 .wdg_carousa ul li div a span.title {
-		color: #59a529;
+		color: #59a529 !important;
 		font-size: 10pt;
 		font-style: italic;
 		font-weight: 800;

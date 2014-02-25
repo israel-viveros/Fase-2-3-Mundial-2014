@@ -706,13 +706,18 @@
  }	
 	
 	
-	.wdg_altasbajas_result_01 .controls .bgactive{
-		background-color:#59a529;
-	}
-	
-	.wdg_altasbajas_result_01 .controls .bginactive{
-		background-color:#59a529;
-	}
+	   .wdg_altasbajas_result_01 .controls .bgactive{
+        background-color:#59a529;
+    }
+    
+    .wdg_altasbajas_result_01 .controls .bgactive:hover{
+        background-color:#52ba23;
+    }
+    
+    .wdg_altasbajas_result_01 .controls .bginactive{
+        background-color:#d7d7d7;
+    }
+    
 	
 	.wdg_altasbajas_result_01 .controls .bgactive span{
 		color:#FFF;
