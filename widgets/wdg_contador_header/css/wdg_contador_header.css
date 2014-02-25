@@ -426,8 +426,8 @@
 		vertical-align: top;
 	}
 
-	.wdg_contador_aside{
-		background-color: green;
+	.wdg_contador_aside_revive{
+		background-color: #A42726;
 		color: white;
 		width: 120px;
 		height: 67px;
@@ -439,23 +439,186 @@
 		font-family: Trebuchet MS;
 		font-weight: 100;
 		font-style: italic;
-		font-size: 12px;
+		font-size: 11px;
 		letter-spacing:-0.3px;
 		line-height: 14px;
 		padding-left: 5px;
 
+
 	}
-		.wdg_contador_aside img{
-		display: block;
-		margin-bottom: 5px;
+		.wdg_contador_aside_revive img{
+		position: absolute;
+		bottom: 2px;
 		}
 
-.wdg_contador_aside span:last-child{
-		font-size: 14px;
+.wdg_contador_aside_revive span{
+		position: absolute;
+		top: 5px;
+		left: 12px;
 
 }
 
+.wdg_contador_aside_revive .line {
+border-top: 1px solid #fff;
+height: 8px;
+width: 18px;
+margin-top: 22px;
+margin-left: 8px;
+opacity: 0.6;
+}
 
-	
-	
+/*ESTADO 5 Próximo partido*/
+
+.wdg_contador_Header_proximo{
+		margin: 0;
+		width: 300px;
+		height: 67px;
+		color: #FFF;
+		position: relative;
+		background-color: #398218;
+		max-width: 300px;
+		padding: 0;
+		overflow: visible;
+		display: inline-block;
+		vertical-align: middle;
+
+	}
+
+		.wdg_contador_Header_proximo>img{
+		position: absolute;
+		top: 4px;
+		left: 10px;
+
+	}
+	.wdg_contador_Header_proximo .title_contador_header_proximo{
+		font-family: Trebuchet MS;
+		font-weight: normal;
+		font-style: normal; 
+		font-size: 12px;
+		letter-spacing:0px;
+		color: #ffffff;
+/*		text-shadow: 1px 1px 1px rgba(177, 129, 6, 1);	
+*/		position: absolute;
+		top: 4px;
+		left: 44px;
+
+	}
+
+	.separador_proximo{
+		font-family: Trebuchet MS;
+		font-weight: normal;
+		font-style: italic !important;
+		font-size: 14px;
+		letter-spacing:0px;
+		color: #ffffff;
+/*		text-shadow: 1px 1px 1px rgba(177, 129, 6, 1);	
+*/		position: absolute;
+		top: 4px;
+		left: 34px;
+	}
+	.wdg_contador_Header_proximo .title_contador_header_proximo img{
+		position: absolute;
+		top: 4px;
+		left: 140px;
+	}
+
+	.wdg_contador_Header_proximo .right_contador_header_proximo{
+		overflow: visible;
+		position: relative;
+		padding-top: 24px;
+	}
+	.wdg_contador_Header_proximo .right_contador_header_proximo .logocomercial{
+		position: relative;
+		float: right;
+		margin-right: 10px;
+		margin-top: -10px;
+
+	}
+
+	.right_contador_header_proximo .wdg_paises{
+		color: white;
+		display: inline;
+		font-family: Trebuchet MS;
+		font-weight: bold;
+		font-size: 15px;
+		letter-spacing:-1px;
+		position: relative;
+		padding:0 10px;
+		margin-top: 11px !important;
+
+	}
+	.right_contador_header_proximo .wdg_paises div{
+			display: inline;
+/*			padding: 4px;
+*/			position: relative;
+			margin-bottom: -2px;
+	}
+
+	.right_contador_header_proximo .wdg_paises div:first-child{
+	padding-right: 4px;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
+	}
+		.right_contador_header_proximo .wdg_paises div:last-child{
+	padding-left: 4px;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y left !important;
+	}
+
+	.right_contador_header_proximo .wdg_paises img{
+			margin:0 5px;
+	}
+
+	.right_contador_header_proximo .wdg_paises .vs_wdg_paises{
+		vertical-align: top;
+	}
+
+	.wdg_contador_aside_proximo{
+		background-color: #A42726;
+		color: white;
+		width: 120px;
+		height: 67px;
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 12px;
+
+		font-family: Trebuchet MS;
+		font-weight: 100;
+		font-style: italic;
+		font-size: 11px;
+		letter-spacing:-0.3px;
+		line-height: 14px;
+		padding-left: 5px;
+
+
+	}
+		.wdg_contador_aside_proximo img{
+		position: absolute;
+		bottom: 2px;
+		}
+
+.wdg_contador_aside_proximo span{
+		position: absolute;
+		top: 5px;
+		left: 12px;
+
+}
+
+.wdg_contador_aside_proximo .line {
+border-top: 1px solid #fff;
+height: 8px;
+width: 18px;
+margin-top: 22px;
+margin-left: 8px;
+opacity: 0.6;
+}
+
+.wdg_contador_Header_proximo .countdown-section_proximo .fecha{
+		display: block;
+		font-size: 11px;
+		padding-top: 0px;
+		margin-top: -5px;
+		font-style: italic;
+		padding-left: 55px;
+
+	}	
 }
