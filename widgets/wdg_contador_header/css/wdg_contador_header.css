@@ -27,10 +27,12 @@
 		overflow: hidden;
 		height: 45px;
 		display: inline-block;
-		*float: left;
+		float: left;
 		position: relative;
 		vertical-align: top;
-		margin-left: -4px;		
+		margin-left: -4px;
+
+
 	}
 	.wdg_contador_Header .countdown-section:after{
 		content: " ";		
@@ -39,7 +41,8 @@
 		z-index: 1;
 		top: 9px;
 		right: 0;
-		height: 30px;
+
+		
 	}
 	.wdg_contador_Header .countdown-section:nth-child(1){
 		margin-left: 0;
@@ -49,6 +52,9 @@
 		font-style: italic;
 		display: block;
 		text-align: center;
+			background: url("../img/dotted-vertical_white.png")no-repeat right !important;
+/*		background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
+*/
 	}
 	.wdg_contador_Header .countdown-section .countdown-period{
 		display: block;
@@ -57,6 +63,9 @@
 		padding-top: 0px;
 		margin-top: -5px;
 		font-style: italic;
+		background: url("../img/dotted-vertical_white.png")no-repeat right !important;
+/*		background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
+*/
 	}
 
 	.wdg_contador_Header .right_contador_header{
@@ -122,7 +131,7 @@
 		display: inline;
 		font-family: Trebuchet MS;
 		font-weight: bold;
-		font-size: 16px;
+		font-size: 15px;
 		letter-spacing:-1px;
 		position: relative;
 		padding:0 10px;
@@ -131,25 +140,44 @@
 	}
 	.right_contador_header_conecta .wdg_paises div{
 			display: inline;
-			padding: 4px;
+		/*	padding: 4px;*/
 			position: relative;
 			margin-bottom: -2px;
 	}
+	.right_contador_header_conecta .wdg_paises div:first-child{
+	padding-right: 4px;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
+	}
+		.right_contador_header_conecta .wdg_paises div:last-child{
+	padding-left: 4px;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y left !important;
+	}
+
 	.right_contador_header_conecta .wdg_paises img{
 			margin:0 5px;
 	}
 
 	.vs_wdg_paises{
 		/*content: " ";*/		
-		border-left: 1px dotted #232323 !important;
-		border-right: 1px dotted #232323 !important;
+
+		/*border-left: 1px dotted #232323 !important;
+		border-right: 1px dotted #232323 !important;*/
 		position: absolute;
 		z-index: 1;
-		padding:5px;
+		padding:0 10px;
+		margin-left: 4px;
+		font-style: italic;
+		font-size: 14px;
+
+
 		/*top: 9px;
 		right: 0;
 		height: 30px;*/
 	}
+	.right_contador_header_conecta .wdg_paises .vs_wdg_paises{
+		vertical-align: top;
+	}
+
 /*ESTADO 3 VIVO*/
 	.wdg_contador_Header_vivo{
 		margin: 0;
@@ -162,31 +190,46 @@
 		padding: 0;
 		overflow: visible;
 		display: inline-block;
+		vertical-align: middle;
+
 	}
+
 		.wdg_contador_Header_vivo>img{
 		position: absolute;
 		top: 10px;
-		left: 5px;
+		left: 10px;
 
 	}
 	.wdg_contador_Header_vivo .title_contador_header_vivo{
 		font-family: Trebuchet MS;
 		font-weight: bold;
 		font-style: italic !important;
-		font-size: 18px;
-		letter-spacing:-1px;
+		font-size: 14px;
+		letter-spacing:0px;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px rgba(177, 129, 6, 1);	
+		position: absolute;
+		top: 6px;
+		left: 44px;
+
+	}
+
+	.separador{
+		font-family: Trebuchet MS;
+		font-weight: normal;
+		font-style: italic !important;
+		font-size: 14px;
+		letter-spacing:0px;
 		color: #ffffff;
 		text-shadow: 1px 1px 1px rgba(177, 129, 6, 1);	
 		position: absolute;
 		top: 4px;
-		left: 26px;
-
+		left: 34px;
 	}
-
-	.wdg_contador_Header_vivo .imgconect{
-		position: relative;
-		margin-left: 70px;
-		margin-top: 0px;
+	.wdg_contador_Header_vivo .title_contador_header_vivo img{
+		position: absolute;
+		top: 2px;
+		left: 140px;
 	}
 
 	.wdg_contador_Header_vivo .right_contador_header_vivo{
@@ -207,7 +250,7 @@
 		display: inline;
 		font-family: Trebuchet MS;
 		font-weight: bold;
-		font-size: 16px;
+		font-size: 15px;
 		letter-spacing:-1px;
 		position: relative;
 		padding:0 10px;
@@ -216,12 +259,26 @@
 	}
 	.right_contador_header_vivo .wdg_paises div{
 			display: inline;
-			padding: 4px;
-			position: relative;
+/*			padding: 4px;
+*/			position: relative;
 			margin-bottom: -2px;
 	}
+
+	.right_contador_header_vivo .wdg_paises div:first-child{
+	padding-right: 4px;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
+	}
+		.right_contador_header_vivo .wdg_paises div:last-child{
+	padding-left: 4px;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y left !important;
+	}
+
 	.right_contador_header_vivo .wdg_paises img{
 			margin:0 5px;
+	}
+
+	.right_contador_header_vivo .wdg_paises .vs_wdg_paises{
+		vertical-align: top;
 	}
 
 	.wdg_contador_aside{
@@ -253,6 +310,8 @@
 
 }
 	
+
+
 	
 	
 }
