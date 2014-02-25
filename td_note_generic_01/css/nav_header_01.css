@@ -240,12 +240,12 @@ x|/*Dispositivos vista retina------*/
 		{
 		font-size: 17px;
 		position: relative;
-		line-height: 37px;
+		line-height: 30px;
 		vertical-align: baseline;
 		display: inline;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li:first-child a i {
-		font-size: 13px !important;
+		font-size: 17px !important;
 	}
 	
 	header.nav_header_01 div.mainnav nav.social ul li.station:last-child {
@@ -334,7 +334,6 @@ background: url(../img/header/mainnav2_hover.png) no-repeat -88px -17px ;
 	}*/
 
 	header.nav_header_01 div.mainnav nav.main ul li.home {
-		
 		background: url("../img/header/shadow.png") no-repeat right;
 	}
 	
@@ -348,7 +347,7 @@ background: url(../img/header/mainnav2_hover.png) no-repeat -88px -17px ;
 	
 }
 	header.nav_header_01 div.mainnav nav.social ul li {
-		background: url("../img/header/shadow.png") no-repeat;	
+		background: url("../img/header/shadow.png") no-repeat right;	
 	}
 
 	header.nav_header_01 div.mainnav nav.social a.vivafut {

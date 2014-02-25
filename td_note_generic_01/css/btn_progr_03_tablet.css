@@ -1,0 +1,54 @@
+@media screen and (min-width: 624px){
+
+    /* BEGIN: btn_progr_03 (Medium) */
+    .btn_progr_03 {
+        width: 300px;
+        margin-bottom: 36px;
+        display:block;
+    }
+    .btn_progr_03 .envivo {
+        width: 300px;
+		height: 225px;
+		margin-top:0px;
+    }
+    .btn_progr_03 .overlay {
+        width: 300px;
+    }
+    /* END: btn_progr_03 (Medium) */
+
+    .ie8 .btn_progr_03 .envivo {
+        z-index: 2000 !important;
+    }
+    .ie8 .btn_progr_03 .envivo .overlay {
+        z-index: 1000 !important;
+    }
+    .ie7 .btn_progr_03 .envivo {
+        z-index: 2000 !important;
+    }
+    .ie7 .btn_progr_03 .envivo .overlay {
+        z-index: 1000 !important; 
+    }
+    .ie8 .btn_progr_03 .envivo .envivo_content {
+        z-index: 1000 !important;
+    }
+    .ie7 .btn_progr_03 .envivo .envivo_content {
+        z-index: 1000 !important; 
+    }
+    .btn_progr_03 .envivo img {
+        height: 225px;
+        width: 300px;
+    }
+
+    .btn_progr_03 .envivo .overlay {
+        height: 144px;
+        opacity: 0.7;
+        position: absolute;
+        top: 81px;
+        width: 100%;
+    }
+
+	.btn_progr_03 .envivo .envivo_content {
+        top:86px;
+    }
+
+}
