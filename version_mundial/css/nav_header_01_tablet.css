@@ -386,7 +386,7 @@ background: url(../img/mainnav2_hover.png) no-repeat -88px -17px ;
 		height: 12px;
 	}
 	header.nav_header_01 div.mainnav ul>li a {
-		background: url("../img/dotted-vertical.png")no-repeat right !important;
+		background: url("../img/dotted-vertical_white.png")no-repeat right !important;
 		float: left;
 		height: 35px;
 		line-height: 35px;
