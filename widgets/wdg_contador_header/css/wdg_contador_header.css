@@ -55,7 +55,7 @@
 		display: block;
 		text-align: center;
 
-		background: url("../img/dotted-vertical_white.png")no-repeat left;
+		background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical_white.png")no-repeat left;
 /*		background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
 */
 	}
@@ -68,7 +68,7 @@
 		padding-top: 2px;
 		/*margin-top: -5px;*/
 		font-style: italic;
-		background: url("../img/dotted-vertical_white.png")no-repeat left ;
+		background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical_white.png")no-repeat left ;
 /*		background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y right !important;
 */
 	}
@@ -433,11 +433,11 @@
 
 	.right_contador_header_revive .wdg_paises div:first-child{
 	padding-right: 4px;
-	background: url("../img/dotted-vertical_white.png")no-repeat right !important;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical_white.png")no-repeat right !important;
 	}
 	.right_contador_header_revive .wdg_paises div:last-child{
 	padding-left: 4px;
-	background: url("../img/dotted-vertical_white.png")no-repeat left !important;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical_white.png")no-repeat left !important;
 	}
 
 	.right_contador_header_revive .wdg_paises img{
@@ -584,12 +584,12 @@ opacity: 0.6;
 
 	.right_contador_header_proximo .wdg_paises div:first-child{
 	padding-right: 4px;
-	background: url("../img/dotted-vertical_white.png")no-repeat right top !important;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical_white.png")no-repeat right top !important;
 
 	}
 		.right_contador_header_proximo .wdg_paises div:last-child{
 	padding-left: 4px;
-	background: url("../img/dotted-vertical_white.png")no-repeat left top !important;
+	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical_white.png")no-repeat left top !important;
 
 	}
 
