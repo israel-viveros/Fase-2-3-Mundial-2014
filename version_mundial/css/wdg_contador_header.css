@@ -1,5 +1,9 @@
 @media screen  {
-	
+	.wdg_contador_Header{
+	position: absolute;
+	right: -400px;
+	top: 0px;
+	}
 	.wdg_contador_Header{
 		margin: 0;
 		width: 300px;
