@@ -2801,7 +2801,8 @@ header.nav_header_01 div.topnav {
         background: url(../global/img/global-sprites%402x.png) no-repeat 0 0;
 		background-size:640px 224px;
 	}
-}@media screen and (min-width: 624px){
+}
+@media screen and (min-width: 624px){
     /* BEGIN:mix_1arts_09 (Medium)*/
     .mix_1arts_09 {
         width: 192px;
@@ -2976,9 +2977,7 @@ header.nav_header_01 div.topnav {
 	.mix_4arts_01 .mix_4arts_01_bottom div:last-child{
 		display:block;
 	}
-	.mix_4arts_01 .mix_1arts_08,
 	
-}
 @media screen and (min-width: 948px){  
     .mix_4arts_01{
         width: 300px;
@@ -2990,222 +2989,17 @@ header.nav_header_01 div.topnav {
 
 
 }
-@media screen {
-	header.nav_header_01 {
-		line-height: 16px!important;
-		font-family: 'Trebuchet MS'!important;
-		font-size: 12px!important;
-	}
-	.mix_1arts_08 {
-		text-align: left;
-		margin-bottom: 12px;
-	}
-	.mix_1arts_08 .articleMobile {
-		height: auto;
-		padding: 0;
-		border-top: 1px solid #ccc;
-		overflow: hidden;
-	}
-	.mix_1arts_08 .articleMedium a {
-		padding: 0;
-		color: black;
-		position: relative;
-	}
-	.mix_1arts_08 .articleMedium h4:hover {
-	text-decoration: underline;
-	}
-	.mix_1arts_08 .articleMedium img {
-	}
-	.ie8 .mix_1arts_08 .articleMedium {
-		z-index: 1000 !important;
-	}
-	.mix_1arts_08 .articleMedium img {
-		width: 100%;
-	}
-	.mix_1arts_08 .articleMedium div {
-		position: relative;
-		overflow: hidden;
-		background-color: #FFF;
-		margin: -24px 0 0 25px;
-		padding: 20px 35px 20px 32px;
-	}
-	.ie8 .mix_1arts_08 .articleMedium div {
-		z-index: 2000 !important;
-	}
-	.mix_1arts_08 .articleMedium div h2 {
-		padding-left: 0;
-		height: auto;
-		margin-top: -1%;
-	}
-	.mix_1arts_08 .articlesThumbList {
-		width: 100%;
-	}
-	.mix_1arts_08 .articlesThumbList li {
-		height: auto;
-		padding: 0;
-		border-top: 1px solid #ccc;
-		overflow: hidden;
-		position: relative;
-	}
-	.mix_1arts_08 .articlesThumbList li a {
-		width: 96.8%;
-		text-decoration: none;
-		color: #666;
-		display: block;
-		font-size: 13px;
-		margin: 8px 0;
-	}
-	.mix_1arts_08 .articlesThumbList li a:before,  .mix_1arts_08 .articlesThumbList li a:after {
-		content: "";
-		display: table;
-	}
-	.mix_1arts_08 .articlesThumbList li a:after {
-		clear: both;
-	}
-	.mix_1arts_08 .articlesThumbList li a {
-		zoom: 1;/* For IE 6/7 (trigger hasLayout) */
-	
-	}
-	.mix_1arts_08 .articlesThumbList li a p {
-		width: 66%;
-		padding-left: 16px;
-		line-height: 24px;
-	}
-	.mix_1arts_08 .articlesThumbList li a img {
-		display: none;
-	}
-	.mix_1arts_08 .articlesThumbList li a h3 {
-		display: none;
-	}
-	.mix_1arts_08 ul li div.mix_1arts_08_text {
-		background-color: #fff;
-		height: auto;
-		margin: -24px 0 0 24px;
-		position: relative;
-		padding: 16px;
-		width: auto;
-		z-index: 11;
-	}
-	.mix_1arts_08 div .articleMedium div h2 {
-		font-size: 14px;
-		line-height: 22px;
-	}
-	.mix_1arts_08 div .articleMedium div span {
-		color: #9ea31d;
-		font-size: 14px;
-		font-style: italic;
-		font-weight: bold;
-		margin-bottom: 8px;
-	}
-	.mix_1arts_08 div .articleMedium a .sprite {
-		position: absolute;
-		right: 0;
-		top: 0;
-		display: inline;
-	}
-}
-@media screen and (min-width: 624px) {
-	.mix_1arts_08 {
-		background-color: #f5f5f5;
-		margin-bottom: 36px;
-		width: 300px;
-	}
-	.mix_1arts_08 .articleMedium {
-		border: 0;
-		padding: 0;
-		position: relative;
-	}
-	.ie8 .mix_1arts_08 .articleMedium {
-		z-index: 1000 !important;
-	}
-	.mix_1arts_08 .articleMedium img,  .mix_1arts_08 .articleMedium span {
-		display: block;
-	}
-	.ie8 .mix_1arts_08 .articleMedium div {
-		z-index: 2000 !important;
-	}
-	.mix_1arts_08 .articlesThumbList {
-		display: block;
-		width: 300px;
-		float: right;
-		text-align: left;
-		margin-bottom: 8px;
-		font-weight: bold;
-	}
-	.mix_1arts_08 .articlesThumbList li {
-		overflow: hidden;
-		border: 0;
-		padding: 0;
-		min-height: 78px;
-		position: relative;
-	}
-	.mix_1arts_08 .articlesThumbList li:before,  .mix_1arts_08 .articlesThumbList li:after {
-		content: "";
-		display: table;
-	}
-	.mix_1arts_08 .articlesThumbList li:after {
-		clear: both;
-	}
-	.mix_1arts_08 .articlesThumbList li {
-		zoom: 1;/* For IE 6/7 (trigger hasLayout) */
-	
-	}
-	.mix_1arts_08 .articlesThumbList li a {
-		padding: 0;
-		color: black;
-	}
-	.mix_1arts_08 .articlesThumbList li a p {
-		position: absolute;
-		left: 112px;
-		right: 0;
-		top: 32px;
-	}
-	.mix_1arts_08 .articlesThumbList li a img {
-		margin-right: 16px !important;
-		display: block;
-		position: absolute;
-		left: 0;
-		top: 0;
-		padding-right: 13px;
-		border-right: 1px solid #ccc;
-	}
-	.mix_1arts_08 .articlesThumbList li a h3 {
-		display: block;
-		margin-left: 100px;
-		font-style: italic;
-		font-weight: 800;
-		font-size: 15px;
-		padding-top: 6px;
-		color: #9ea31d;
-	}
-	.mix_1arts_08 .articlesThumbList li a span.icon {
-		display: none;
-	}
-	.mix_1arts_08 div div.articleMedium div span a {
-		color: #9ea31d;
-	}
-	.mix_1arts_08 div .articleMedium div h2 {
-		padding: 0;
-		color: #000;
-		font-size: 18px;
-		line-height: 19px;
-	}
-	.mix_1arts_08 div .articleMedium a .sprite {
-		position: absolute;
-		right: 0;
-		top: 0;
-		display: inline;
-	}
-}
+
 @media screen and (min-width: 948px){
-}@media screen {
+}
+@media screen {
 	.mix_2arts_03 {
 		overflow: hidden;
 		clear: both;
 		display:none;
 	}
 	.mix_2arts_03 .str_pleca_01_title h3 {
-		background-color: #A70A0B;
+		background-color: #59a529;
 	}
 	.mix_2arts_03 .str_pleca_01_title h3 a {
 		color: #FFF;
@@ -3223,12 +3017,7 @@ header.nav_header_01 div.topnav {
 	.mix_2arts_03 .type3e ul li img {
 		width: 100%;
 	}
-	.mix_2arts_03 .mix_1arts_08 h3{
-		font-size: 13px;
-		font-style: italic;
-		font-weight: bold;
-		margin-bottom: 8px;
-	}
+
 }
 @media screen and (min-width: 624px) {
 	.mix_2arts_03 {
@@ -3236,21 +3025,8 @@ header.nav_header_01 div.topnav {
 		width: 100%;
 		margin-bottom: 36px;
 	}
-	.mix_2arts_03 .type3e div.mix_1arts_08 {
-		display: block !important;
-		margin-bottom: 0px;
-	}
-	div.mix_2arts_03 .mix_1arts_08 {
-		float: left;
-	 *margin-bottom: 100px;
-	}
-	.mix_2arts_03 .separador {
-		width: 11px;
-		border-right: 1px solid #CCC;
-		margin-right: 11px;
-		height: 295px;
-		float: left;
-	}
+	
+	
 }
 @media screen{  
     .wdg_humor_01 {
