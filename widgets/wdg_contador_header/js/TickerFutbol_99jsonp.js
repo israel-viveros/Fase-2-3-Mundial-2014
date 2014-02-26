@@ -246,7 +246,7 @@ wtdata({
 			"MatchDate": "06/02/2014",
 			"MatchHour": "12:00:00",
 			"EventTournamentName": "Juegos Ol\u00edmpicos Londres 2012. Femenil",
-			"extras":'revive'
+			"extras":''
 		}
 		, {
 			"TimeStamp": 1344495600,
@@ -397,7 +397,7 @@ wtdata({
 			"equipos": {
 				"visit": {
 					"penals": "0",
-					"name": "Francia",
+					"name": "Frdancia",
 					"club": "F\u00e9d\u00e9ration Fran\u00e7aise de Football",
 					"guid": "fcca290a-a105-102c-8c37-0019b9d72a1e",
 					"goals": "0",

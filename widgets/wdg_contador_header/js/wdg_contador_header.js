@@ -1,7 +1,9 @@
 ;(function(){
 	$.fn.contadorHeader = function(parametros){
 		var setting = $.extend({
-			'FechaTarget': new Date(2014, 11-1, 30, 0, 0, 0, 0)
+			'FechaTarget': new Date(),
+			'linkButton':'#',
+			'linksponsor':'#'
 		}, parametros);
 
 		var globalThis = this;
@@ -44,7 +46,7 @@
 				maquetado += '</span>';
 				maquetado += '</span>';
 				maquetado += '<div class="right_contador_header">';
-				maquetado += '<img src="img/seat_publicidad.jpg"></div>';
+				maquetado += '<a href="'+setting.linksponsor+'"><img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/seat_publicidad.jpg"></a></div>';
 				maquetado += '</section>';
 				globalThis.empty().html(maquetado);
 
@@ -110,9 +112,6 @@
 						fechas = fechas + ' ' + horas + ':00';
 
 						CountDownHeader.evalua(fechas);
-					
-						
-						
 
 					}
 				});			
@@ -141,19 +140,17 @@
 				//console.log(arraytemp);
 
 				if(arraytemp.indexOf("vivo")!==-1){
-					console.log("hay vivo");
 					CountDownHeader.creacontenido("vivo",data.matches.match[parseInt(arraytemp.indexOf("vivo"))])
 				}else if(arraytemp.indexOf("proximo")!==-1){
-					console.log("hay proximo");
 					CountDownHeader.creacontenido("proximo",data.matches.match[parseInt(arraytemp.indexOf("proximo"))])
 				}else if(arraytemp.indexOf("previo")!==-1){
-					console.log("hay previo");
 					CountDownHeader.creacontenido("previo",data.matches.match[parseInt(arraytemp.indexOf("previo"))])
 				}else if(arraytemp.indexOf("revive")!==-1){
-					console.log("hay revive");
 					CountDownHeader.creacontenido("revive",data.matches.match[parseInt(arraytemp.indexOf("revive"))])
 				}else{
-					console.log("NO HAY NINGUNO DE LOS ESTADO-- AUN NO HAGO NADA DE NADA A LA ESPERA");
+					var ultimo = parseInt(data.matches.match.length)-1;
+					CountDownHeader.creacontenido("revive",data.matches.match[ultimo]);
+					
 				}
 
 
@@ -166,7 +163,6 @@
 
 		},
 		creacontenido: function(type,data){
-			console.log(data);
 			var maquetado = "",numForlocal =0, numForVisit=0;
 			$.ajax({
 				url: 'http://static-televisadeportes.esmas.com/sportsdata/futbol/copa-mundial-fifa-brasil-2014/teams.jsonp',
@@ -183,17 +179,16 @@
 				for (var i = 0; i < banderas.teams.length; i++) {
 					//console.log("comparando: "+paisActual1 +" - "+banderas.teams[i].nombre.toLowerCase());
 					if(paisActual1 === banderas.teams[i].nombre.toLowerCase()){
+						//console.log("----");
 						numForlocal = i;
 					}
 					//console.log("comparando: "+paisActual2 +" - "+banderas.teams[i].nombre.toLowerCase());
 					if(paisActual2 === banderas.teams[i].nombre.toLowerCase()){
+						//console.log("----");
 						numForVisit = i;
 					}
 				};
 
-				console.log("numForlocal"+numForlocal)
-				console.log("numForVisit"+numForVisit)
-				console.log(banderas)
 				switch(type){
 				case "vivo": 
 					maquetado += '<section class="wdg_contador_Header_vivo">';
@@ -206,19 +201,19 @@
 					maquetado += '<div class="right_contador_header_vivo">';
 					maquetado += '<div class="wdg_paises">';
 					maquetado += '<div>';
-					maquetado +=  banderas.teams[numForlocal].alias;;
-					maquetado += '<img src="'+banderas.teams[numForlocal].bandera+'" class="imgbanderaCon">';
+					maquetado += (numForlocal > 0) ? banderas.teams[numForlocal].alias : data.equipos.local.name.substring(0,3);
+					maquetado += (numForlocal > 0) ? '<img src="'+banderas.teams[numForlocal].bandera+'" class="imgbanderaCon">' : '<img src="http://i2.esmas.com/img/spacer.gif" class="imgbanderaCon">';
 					maquetado += '</div>';
 					maquetado += '<div class="vs_wdg_paises">VS</div>';
 					maquetado += '<div>';
-					maquetado += '<img src="'+banderas.teams[numForVisit].bandera+'" class="imgbanderaCon">';
-					maquetado +=  banderas.teams[numForVisit].alias;
+					maquetado += (numForVisit > 0) ? '<img src="'+banderas.teams[numForVisit].bandera+'" class="imgbanderaCon">' : '<img src="http://i2.esmas.com/img/spacer.gif" class="imgbanderaCon">';
+					maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0,3);
 					maquetado += '</div>';
 					maquetado += '</div>';
-					maquetado += '<img class="logocomercial" src="img/seat_publicidad.jpg">';
+					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/seat_publicidad.jpg"></a>';
 					maquetado += '</div>';
 					maquetado += '</section>';
-					maquetado += '<div class="wdg_contador_aside" style="display:none"> <a href="#">';
+					maquetado += '<div class="wdg_contador_aside" style="display:none"> <a href="'+setting.linkButton+'">';
 					maquetado += '<img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/hand_icon.png">';
 					maquetado += '<span>PARTICIPA EN</span>';
 					maquetado += '<span>NTERACCIÓN TD</span></a>';
@@ -241,7 +236,6 @@
 						case 12: nameMes="Dic."; break;
 						default: nameMes = mesNum; break;
 					}
-					console.log(mesNum) 
 					maquetado += '<section class="wdg_contador_Header_proximo" style="display:none">';
 					maquetado += '<img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/camara2.png">';
 					maquetado += '<span class="separador_proximo">|</span>';
@@ -250,16 +244,16 @@
 					maquetado += '<div class="right_contador_header_proximo">';
 					maquetado += '<div class="wdg_paises">';
 					maquetado += '<div>';
-					maquetado += banderas.teams[numForlocal].alias;
-					maquetado += '<img src="'+banderas.teams[numForlocal].bandera+'" class="imgbanderaCon">';
+					maquetado +=  (numForlocal > 0) ? banderas.teams[numForlocal].alias : data.equipos.local.name.substring(0,3);	
+					maquetado += (numForlocal > 0) ? '<img src="'+banderas.teams[numForlocal].bandera+'" class="imgbanderaCon">' : '<img src="http://i2.esmas.com/img/spacer.gif" class="imgbanderaCon">';
 					maquetado += '</div>';
 					maquetado += '<div class="vs_wdg_paises">VS</div>';
 					maquetado += '<div>';
-					maquetado += '<img src="'+banderas.teams[numForVisit].bandera+'" class="imgbanderaCon">';
-					maquetado += banderas.teams[numForVisit].alias;
+					maquetado += (numForVisit > 0) ? '<img src="'+banderas.teams[numForVisit].bandera+'" class="imgbanderaCon">' : '<img src="http://i2.esmas.com/img/spacer.gif" class="imgbanderaCon">';
+					maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0,3);
 					maquetado += '</div>';
 					maquetado += '</div>';
-					maquetado += '<img class="logocomercial" src="img/seat_publicidad.jpg">';
+					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/seat_publicidad.jpg"></a>';
 					maquetado += '</div>';
 					maquetado += '<span class="countdown-section_proximo" id="contador-Fase2y3">';
 					maquetado += '<span class="fecha">'+data.MatchDate.substring(0,2) +' '+ nameMes +' '+ data.MatchHour.substring(0,6)+' hrs</span>';
@@ -268,7 +262,7 @@
 					maquetado += '<div class="wdg_contador_aside_proximo" style="display:none">';
 					maquetado += '<a href="#"><span>INTERACTÚA CON</span>';
 					maquetado += '<div class="line"></div>';
-					maquetado += '<img src="img/logolajugada.png"></a>';
+					maquetado += '<img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/logolajugada.png"></a>';
 					maquetado += '</div>';
 				break;
 				case "previo": 
@@ -278,22 +272,22 @@
 					maquetado += '<div class="right_contador_header_conecta">';
 					maquetado += '<div class="wdg_paises">';
 					maquetado += '<div>';
-					maquetado += banderas.teams[numForlocal].alias;
-					maquetado += '<img src="'+banderas.teams[numForlocal].bandera+'" class="imgbanderaCon">';
+					maquetado +=  (numForlocal > 0) ? banderas.teams[numForlocal].alias : data.equipos.local.name.substring(0,3);
+					maquetado += (numForlocal > 0) ? '<img src="'+banderas.teams[numForlocal].bandera+'" class="imgbanderaCon">' : '<img src="http://i2.esmas.com/img/spacer.gif" class="imgbanderaCon">';
 					maquetado += '</div>';
 					maquetado += '<div class="vs_wdg_paises">VS</div>';
 					maquetado += '<div>';
-					maquetado += '<img src="'+banderas.teams[numForVisit].bandera+'" class="imgbanderaCon">';
-					maquetado += banderas.teams[numForVisit].alias;
+					maquetado += (numForVisit > 0) ? '<img src="'+banderas.teams[numForVisit].bandera+'" class="imgbanderaCon">' : '<img src="http://i2.esmas.com/img/spacer.gif" class="imgbanderaCon">';
+					maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0,3);
 					maquetado += '</div>';
 					maquetado += '</div>';
-					maquetado += '<img class="logocomercial" src="img/seat_publicidad.jpg">';
+					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/seat_publicidad.jpg"></a>';
 					maquetado += '</div>';
 					maquetado += '</section>';
 				break;
 				case "revive":
 					maquetado += '<section class="wdg_contador_Header_revive" style="display:none">';
-					maquetado += '<img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/camara.png">';
+					maquetado += '<img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/camara.png" class="imgfx">';
 					maquetado += '<span class="separador_revive">|</span>';
 					maquetado += '<div class="title_contador_header_revive"><a href="'+data.Website+'">REVIVE EL PARTIDO</a>';
 					maquetado += '<img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/arrow3.png">';
@@ -301,21 +295,21 @@
 					maquetado += '<div class="right_contador_header_revive">';
 					maquetado += '<div class="wdg_paises">';
 					maquetado += '<div>';
-					maquetado += banderas.teams[numForlocal].alias;;
-					maquetado += '<img src="'+banderas.teams[numForlocal].bandera+'" class="imgbanderaCon">';
+					maquetado +=  (numForlocal > 0) ? banderas.teams[numForlocal].alias : data.equipos.local.name.substring(0,3);
+					maquetado += (numForlocal > 0) ? '<img src="'+banderas.teams[numForlocal].bandera+'" class="imgbanderaCon">' : '<img src="http://i2.esmas.com/img/spacer.gif" class="imgbanderaCon">';
 					maquetado += '</div>';
 					maquetado += '<div class="vs_wdg_paises">VS</div>';
 					maquetado += '<div>';
-					maquetado += '<img src="'+banderas.teams[numForVisit].bandera+'" class="imgbanderaCon">';
-					maquetado += banderas.teams[numForVisit].alias;;
-					maquetado += '<img class="logocomercial" src="img/seat_publicidad.jpg">';
+					maquetado += (numForVisit > 0) ? '<img src="'+banderas.teams[numForVisit].bandera+'" class="imgbanderaCon">' : '<img src="http://i2.esmas.com/img/spacer.gif" class="imgfxbanderaCon">';
+					maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0,3);
+					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/seat_publicidad.jpg"></a>';
 					maquetado += '</div>';
 					maquetado += '</section>';
 					maquetado += '<div class="wdg_contador_aside_revive" style="display:none">';
-					maquetado += '<a href="#" class="ui-link">';
+					maquetado += '<a href="'+setting.linkButton+'" class="ui-link">';
 					maquetado += '<span>INTERACTÚA CON</span>';
 					maquetado += '<div class="line"></div>';
-					maquetado += '<img src="img/logolajugada.png">';
+					maquetado += '<img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/logolajugada.png">';
 					maquetado += '</a>';
 					maquetado += '</div>';
 				break;

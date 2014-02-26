@@ -114,7 +114,9 @@
 		position: absolute;
 		top: 4px;
 		left: 13px;
-
+	}
+	.wdg_contador_Header_conecta .title_contador_header_conecta a{
+		color: #fff;
 	}
 
 	.wdg_contador_Header_conecta .imgconect{
@@ -260,8 +262,8 @@
 	.wdg_contador_Header_vivo .right_contador_header_vivo .logocomercial{
 		position: relative;
 		float: right;
-		margin-right: 10px;
-		margin-top: -10px;
+		margin-right: 19px;
+		margin-top: -19px;
 
 	}
 
@@ -356,8 +358,13 @@
 		position: absolute;
 		top: 10px;
 		left: 10px;
-
 	}
+	.wdg_contador_Header_revive img.imgfx{
+		position: relative;
+		top: 5px;
+		left: 5px;
+	}
+
 	.wdg_contador_Header_revive >.title_contador_header_revive{
 		font-family: Trebuchet MS;
 		font-weight: bold;
@@ -401,9 +408,8 @@
 	.wdg_contador_Header_revive  .right_contador_header_revive .logocomercial{
 		position: relative;
 		float: right;
-		margin-right: 10px;
-		margin-top: -10px;
-
+		margin-right: 19px;
+		margin-top: -21px;
 	}
 
 	.right_contador_header_revive .wdg_paises{
