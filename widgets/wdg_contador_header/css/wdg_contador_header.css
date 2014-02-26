@@ -12,7 +12,7 @@
 
 	.wdg_contador_Header .title_contador_header{
 		font-size: 12px;		
-		padding: 4px 0 0px 12px;
+		padding: 4px 0 4px 12px;
 		display: block;		
 	}
 	.wdg_contador_Header .countdown-row, .wdg_contador_Header .right_contador_header{
