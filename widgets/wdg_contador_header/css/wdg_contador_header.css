@@ -164,6 +164,11 @@
 	padding-left: 4px;
 	background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png")repeat-y left !important;
 	}
+	
+	img.imgbanderaCon {
+		width: 24px;
+		height:18px;
+	}
 
 	.right_contador_header_conecta .wdg_paises img{
 			margin:0 5px;
@@ -212,7 +217,7 @@
 		left: 10px;
 
 	}
-	.wdg_contador_Header_vivo a .title_contador_header_vivo{
+	.wdg_contador_Header_vivo .title_contador_header_vivo{
 		font-family: Trebuchet MS;
 		font-weight: bold;
 		font-style: italic !important;
@@ -223,7 +228,10 @@
 		position: absolute;
 		top: 6px;
 		left: 44px;
-
+		z-index: 99;
+	}
+	.wdg_contador_Header_vivo .title_contador_header_vivo a{
+		color: #fff;
 	}
 
 	.separador{
@@ -350,7 +358,7 @@
 		left: 10px;
 
 	}
-	.wdg_contador_Header_revive a>.title_contador_header_revive{
+	.wdg_contador_Header_revive >.title_contador_header_revive{
 		font-family: Trebuchet MS;
 		font-weight: bold;
 		font-style: italic !important;
@@ -363,6 +371,8 @@
 		left: 44px;
 
 	}
+
+	.wdg_contador_Header_revive >.title_contador_header_revive a{color: #fff;}
 
 	.separador_revive{
 		font-family: Trebuchet MS;
@@ -385,7 +395,7 @@
 	.wdg_contador_Header_revive  .right_contador_header_revive{
 		overflow: visible;
 		position: relative;
-		padding-top: 33px;
+		padding-top: 15px;
 		vertical-align: middle;
 	}
 	.wdg_contador_Header_revive  .right_contador_header_revive .logocomercial{
@@ -510,9 +520,11 @@ opacity: 0.6;
 /*		text-shadow: 1px 1px 1px rgba(177, 129, 6, 1);	
 */		position: absolute;
 		top: 5px;
+		z-index: 99;
 		left: 44px;
 
 	}
+	.wdg_contador_Header_proximo .title_contador_header_proximo a{ color: #fff;}
 
 	.separador_proximo{
 		font-family: Trebuchet MS;
