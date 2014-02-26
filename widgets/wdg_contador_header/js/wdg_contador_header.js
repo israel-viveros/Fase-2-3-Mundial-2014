@@ -3,7 +3,9 @@
 		var setting = $.extend({
 			'FechaTarget': new Date(),
 			'linkButton':'#',
-			'linksponsor':'#'
+			'linksponsor':'#',
+			'imgsponsor':'http://i2.esmas.com/img/spacer.gif',
+			'ticker':''
 		}, parametros);
 
 		var globalThis = this;
@@ -46,7 +48,7 @@
 				maquetado += '</span>';
 				maquetado += '</span>';
 				maquetado += '<div class="right_contador_header">';
-				maquetado += '<a href="'+setting.linksponsor+'"><img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/seat_publicidad.jpg"></a></div>';
+				maquetado += '<a href="'+setting.linksponsor+'"><img src="'+setting.imgsponsor+'"></a></div>';
 				maquetado += '</section>';
 				globalThis.empty().html(maquetado);
 
@@ -85,7 +87,7 @@
 			}catch(e){
 				console.log(e);
 			}			
-			console.log("Se agoto el contador...");
+			//console.log("Se agoto el contador...");
 		},
 
 		horaServidor : function(){
@@ -120,14 +122,13 @@
 		evalua: function(now){
 			var arraytemp = new Array();
 			$.ajax({
-				url: 'http://lab.israelviveros.com/deportes/wdg_matchesresult_01/pruebas/TickerFutbol_99jsonp.js',
+				url: 'http://lab.israelviveros.com/deportes/wdg_matchesresult_01/pruebas/TickerFutbol_'+setting.ticker+'jsonp.js',
 				type: 'GET',
 				dataType: 'jsonp',
 				cache: false,
 				jsonpCallback: 'wtdata'
 			})
-			.done(function(data) {
-				console.log(now)
+			.done(function(data) {				
 				var fechaItem, horaItem,extras;
 				
 				for (var i = 0; i < data.matches.match.length; i++) {
@@ -156,7 +157,7 @@
 
 			})
 			.fail(function() {
-				console.log("error");
+				console.log("Error al cargar el ticker: "+setting.ticker);
 			})
 			
 			
@@ -210,7 +211,7 @@
 					maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0,3);
 					maquetado += '</div>';
 					maquetado += '</div>';
-					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/seat_publicidad.jpg"></a>';
+					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="'+setting.imgsponsor+'"></a>';
 					maquetado += '</div>';
 					maquetado += '</section>';
 					maquetado += '<div class="wdg_contador_aside" style="display:none"> <a href="'+setting.linkButton+'">';
@@ -253,7 +254,7 @@
 					maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0,3);
 					maquetado += '</div>';
 					maquetado += '</div>';
-					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/seat_publicidad.jpg"></a>';
+					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="'+setting.imgsponsor+'"></a>';
 					maquetado += '</div>';
 					maquetado += '<span class="countdown-section_proximo" id="contador-Fase2y3">';
 					maquetado += '<span class="fecha">'+data.MatchDate.substring(0,2) +' '+ nameMes +' '+ data.MatchHour.substring(0,6)+' hrs</span>';
@@ -281,7 +282,7 @@
 					maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0,3);
 					maquetado += '</div>';
 					maquetado += '</div>';
-					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/seat_publicidad.jpg"></a>';
+					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="'+setting.imgsponsor+'"></a>';
 					maquetado += '</div>';
 					maquetado += '</section>';
 				break;
@@ -302,7 +303,7 @@
 					maquetado += '<div>';
 					maquetado += (numForVisit > 0) ? '<img src="'+banderas.teams[numForVisit].bandera+'" class="imgbanderaCon">' : '<img src="http://i2.esmas.com/img/spacer.gif" class="imgfxbanderaCon">';
 					maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0,3);
-					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/seat_publicidad.jpg"></a>';
+					maquetado += '<a href="'+setting.linksponsor+'"><img class="logocomercial" src="'+setting.imgsponsor+'"></a>';
 					maquetado += '</div>';
 					maquetado += '</section>';
 					maquetado += '<div class="wdg_contador_aside_revive" style="display:none">';

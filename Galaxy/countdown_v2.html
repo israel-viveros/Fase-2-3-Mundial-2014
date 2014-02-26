@@ -72,10 +72,10 @@
 	<body>
 
 		<section id="contadorHeaderTIM"></section>
-	<!-- {LBL:anio:CAPTION} | {LBL:mes:CAPTION} | {LBL:dia:CAPTION} | {LBL:hora:CAPTION} | {LBL:minutos:CAPTION} | {LBL:link_button:CAPTION} | {LBL:link_sponsor:CAPTION} -->
+	<!-- {LBL:anio:CAPTION} | {LBL:mes:CAPTION} | {LBL:dia:CAPTION} | {LBL:hora:CAPTION} | {LBL:minutos:CAPTION} | {LBL:link_button:CAPTION} | {LBL:link_sponsor:CAPTION} | {LBL:ticker:CAPTION} | {LBL:Imagen_sponsor:CAPTION} -->
 
 	<?php 
-		if($anio->caption('')!=="" && $mes->caption('')!=="" && $dia->caption('')!==""){
+		if($anio->caption('')!=="" && $mes->caption('')!=="" && $dia->caption('')!=="" && $ticker->caption('')!==""){
 			$m=0;
 			$h=0;
 			if($hora->caption('')!=="") { $h=$hora->caption(''); }
@@ -87,6 +87,9 @@
 				'FechaTarget': new Date(<?=$anio->caption(''); ?>, <?=intval($mes->caption(''))-1;?>,<?=$dia->caption('');?>,<?=$h;?>, <?=$m;?>, 0, 0)
 				{NOTEMPTY:LBL:link_button:CAPTION},'linkButton': '{LBL:link_button:CAPTION} ' {EMPTY:END}
 				{NOTEMPTY:LBL:link_sponsor:CAPTION},'linksponsor':'{LBL:link_sponsor:CAPTION}'{EMPTY:END}
+				{NOTEMPTY:LBL:Imagen_sponsor:CAPTION},'imgsponsor':'{LBL:Imagen_sponsor:CAPTION}'{EMPTY:END}
+				{NOTEMPTY:LBL:ticker:CAPTION},'ticker':'{LBL:ticker:CAPTION}'{EMPTY:END}
+
 			});
 		});
 		</script>
