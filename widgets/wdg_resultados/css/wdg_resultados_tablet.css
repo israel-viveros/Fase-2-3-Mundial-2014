@@ -1,0 +1,36 @@
+@media screen and (min-width: 624px){
+	
+	.background-color{
+		background: #59a529 !important;
+	}
+
+	.wdg_resultados{		
+		height: 100%;
+	    position: relative;
+	    width: 300px;
+		margin-bottom: 36px;
+		overflow: hidden;
+	}
+	.wdg_resultados .degraded{
+		display:block;
+		bottom:46px;
+	}
+	.wdg_resultados > ul {
+	    height: 486px;
+		overflow: hidden;
+	}
+	.wdg_resultados .str_pleca_01{
+	 	margin-bottom: 24px;
+	}
+	.wdg_resultados .division{
+	  	margin-bottom:18px;
+	}
+
+	.wdg_resultados .deg .wdg_resultados_block .date{
+		padding-right: 4px;
+		color: #eab11d !important;
+	}
+
+
+}
+		
