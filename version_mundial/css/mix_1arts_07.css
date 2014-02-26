@@ -1,0 +1,8 @@
+@media screen and (min-width: 948px){
+	.ie7 .mix_1arts_07 ul li a img {
+        display: block !important;
+    }
+	.ie7 .mix_1arts_07 .sprite {
+        display: block !important;
+    }
+}
