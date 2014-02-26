@@ -5,10 +5,10 @@
 }
 @font-face {
     font-family: 'tvsaroman';
-    src: url('tvsa-roman-webfont.woff') format('woff'),
-        url('tvsa-roman-webfont.svg#tvsarroman') format('svg'),
-        url('tvsa-roman-webfont.ttf') format('truetype'),
-        url('tvsa-roman-webfont.otf') format('opentype');
+    src: url('http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/tvsa-roman-webfont.woff') format('woff'),
+        url('http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/tvsa-roman-webfont.svg') format('svg'),
+        url('http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/tvsa-roman-webfont.ttf') format('truetype'),
+        url('http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/tvsa-roman-webfont.eot') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
