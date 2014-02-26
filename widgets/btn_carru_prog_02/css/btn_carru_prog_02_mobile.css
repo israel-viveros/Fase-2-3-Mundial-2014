@@ -398,7 +398,8 @@
 		 margin:0 0 12px;
 	 }
 	 .btn_carru_prog_02 .wdg_scroll_events{
-		 height:100px !important;
+		height: auto !important;
+        max-height:100px !important;
 	 }
 	 .tvsa-double-caret-rigt{
 	   color:#fff!important;
