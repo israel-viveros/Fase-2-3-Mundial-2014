@@ -13,8 +13,8 @@
 	
 		spanish : function(){
 			$.countdown.regionalOptions['es'] = {
-			labels: ['Años', 'Meses', 'Semanas', 'Días', 'Hrs.', 'Min.', 'Seg.'],
-			labels1: ['Año', 'Mes', 'Semana', 'Días', 'Hrs.', 'Min.', 'Seg.'],
+			labels: ['A\u00F1os', 'Meses', 'Semanas', 'D\u00EDas', 'Hrs.', 'Min.', 'Seg.'],
+			labels1: ['A\u00F1o', 'Mes', 'Semana', 'D\u00EDas', 'Hrs.', 'Min.', 'Seg.'],
 			compactLabels: ['a', 'm', 's', 'g'],
 			whichLabels: null,
 			digits: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
@@ -30,7 +30,7 @@
 				maquetado += '<span class="countdown-row"  id="contador-Fase2y3">';
 				maquetado += '<span class="countdown-section">';
 				maquetado += '<span class="countdown-amount">000</span>';
-				maquetado += '<span class="countdown-period">Días</span>';
+				maquetado += '<span class="countdown-period">D\u00EDas</span>';
 				maquetado += '</span>';
 				maquetado += '<span class="countdown-section">';
 				maquetado += '<span class="countdown-amount">000</span>';
