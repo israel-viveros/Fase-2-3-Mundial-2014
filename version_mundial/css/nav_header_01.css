@@ -334,10 +334,13 @@ background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fas
 	}*/
 
 	header.nav_header_01 div.mainnav nav.main ul li.home {
-		
 		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/shadow.png) no-repeat right;
 	}
 	
+	header.nav_header_01 div.mainnav nav.main ul li.home:hover {
+		background: #59a529;
+	}
+
 	.tvsa-home td{
 		color: #fff;
 
@@ -348,7 +351,7 @@ background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fas
 	
 }
 	header.nav_header_01 div.mainnav nav.social ul li {
-		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/shadow.png) no-repeat;	
+		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/shadow.png) no-repeat right;	
 	}
 
 	header.nav_header_01 div.mainnav nav.social a.vivafut {

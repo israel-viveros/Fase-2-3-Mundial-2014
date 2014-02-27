@@ -336,7 +336,7 @@ background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fas
 	}
 	/* Main Navigation */
 	header.nav_header_01 div.title {
-	border-top: 1px solid #398318;
+	border-top: 1px solid #398218;
 	background: #59a529;
 	height: 69px;
 	
@@ -536,6 +536,11 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 		{
 		top: 36px !important;
 	}
+
+	header.nav_header_01 div.mainnav nav.main ul li:hover {
+		background: #59a529;
+	}
+
 	header.nav_header_01 div.mainnav nav.main ul li.mas-deportes:hover>a {
 		background: #eab11d !important;
 		color: #fff;
@@ -568,17 +573,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 		box-shadow: none !important;
 		height: 35px;
 	}
-	header.nav_header_01 div.mainnav ul li.active > a,
-	header.nav_header_01 div.mainnav ul li a:active,
-	header.nav_header_01 div.mainnav ul li a:focus,
-	header.nav_header_01 div.mainnav ul li.active > a
-		{
-		background: #A70A0B;
-		border-top: 1px solid #a92e31;
-		border-bottom: 1px solid #8c0404;
-		color: #FFF !important;
-		border-right: 1px solid #a11c1f;
-	}
+	
 	header.nav_header_01 div.mainnav ul li a:focus i {
 		border-bottom: 0px none;
 	}
@@ -592,12 +587,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 		{
 		color: #FFF !important;
 	}
-	header.nav_header_01 div.mainnav ul li.active>a,header.nav_header_01 div.mainnav ul li a:focus,header.nav_header_01 div.mainnav ul li a:active
-		{
-		border-left: 1px solid #a92e31;
-		border-right: 1px solid #a11c1f;
-	}
-
+	
 	/* Social Navigation */
 	header.nav_header_01 div.mainnav nav.social ul {
 		display: none;
@@ -659,11 +649,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/mainnav2_hover.png) no-repeat 0 0;
 		width: 51px;
 	}
-	header.nav_header_01 div.mainnav nav.social ul li.station.active a,header.nav_header_01 div.mainnav nav.social ul li.station a:focus,header.nav_header_01 div.mainnav nav.social ul li.station a:active
-		{
-		border-right: 1px solid #a11c1f;
-		border-left: 1px solid #a92e31;
-	}
+	
 	header.nav_header_01 div.mainnav nav.social ul li.station.active a span.vivafut,header.nav_header_01 div.mainnav nav.social ul li.station a:focus span.vivafut,header.nav_header_01 div.mainnav nav.social ul li.station a:active span.vivafut
 		{
 		background: #A70A0B url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/mainnav2_hover.png) no-repeat 0
@@ -693,7 +679,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station.active a span.tdn,header.nav_header_01 div.mainnav nav.social ul li.station a:focus span.tdn,header.nav_header_01 div.mainnav nav.social ul li.station a:active span.tdn
 		{
-		background: #A70A0B url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/mainnav2_hover.png) no-repeat
+		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/mainnav2_hover.png) no-repeat
 			-135px -16px;
 	}
 	header.nav_header_01 div.mainnav ul li,header.nav_header_01 div.mainnav nav.social ul li{
