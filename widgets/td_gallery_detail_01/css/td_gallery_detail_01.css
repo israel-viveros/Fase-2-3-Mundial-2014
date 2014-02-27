@@ -1,0 +1,11 @@
+@media screen and (min-width: 948px){
+	.banner_template{
+		margin: auto;
+	}
+	.cover_box{
+        display: none;
+    }
+    .td_gallery_detail_01 .publicidad1{
+        margin-bottom:36px!important;
+    }
+}

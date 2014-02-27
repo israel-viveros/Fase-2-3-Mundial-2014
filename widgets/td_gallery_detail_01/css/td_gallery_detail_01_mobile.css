@@ -1,0 +1,14 @@
+@media screen {
+}
+
+@media screen and (max-width: 624px){
+    .cover_box,
+    .td_gallery_detail_01 .publicidad2{
+        display: none;
+    }
+    
+    .td_gallery_detail_01 .publicidad1{
+        text-align:center;
+        float:none!important;
+    }
+} 

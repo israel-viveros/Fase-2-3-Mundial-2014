@@ -1,0 +1,17 @@
+@media screen and (min-width: 624px){
+	.banner_template{
+		margin: auto;
+	}
+	@media screen and (min-width: 624px) and (max-width: 948px){
+    .cover_box,
+    .td_gallery_detail_01 .publicidad2{
+        display: none;
+    }
+    .td_gallery_detail_01 .publicidad1{
+        display: block;
+        float:none!important;
+        text-align:center;
+        margin-bottom:36px!important;
+    }
+} 
+}
