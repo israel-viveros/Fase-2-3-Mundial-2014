@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
     <head>        
@@ -64,24 +63,22 @@
     <body>
         
 
-        <!-- {LBL:id_torneo:CAPTION} | {LBL:id_equipo:CAPTION} | {LBL:id_torneo2:CAPTION} | {LBL:titulo_widget:CAPTION} | {LBL:tema_widget:CAPTION} | {LBL:txtdropdown:CAPTION}  -->
+        <!-- {LBL:id_torneo:CAPTION} | {LBL:titulo_widget:CAPTION} | {LBL:txtdropdown:CAPTION}  -->
 
 
-        <?php if($id_torneo->caption('')!=="" || $id_equipo->caption('')!==""){ ?>
+        <?php if($id_torneo->caption('')!==""){ ?>
         <div class="wdg_altasbajas_result_01" data-enhance="false" id="TIMwdg_altasbajas_result"></div>
         <?php } ?>
 
-		
-		<?php if($id_torneo->caption('')!=="" || $id_equipo->caption('')!==""){ ?>
+        
+        <?php if($id_torneo->caption('')!==""){ ?>
         <script type="text/javascript">
             $(function() {
                 $("#TIMwdg_altasbajas_result").wdgAltasBajas({
                     <?php if($id_torneo->caption('')!=="") { ?> 'idtorneo': {LBL:id_torneo:CAPTION}, <?php } ?>
-                    <?php if($id_torneo->caption('')!=="" &&  $id_equipo->caption('')!=="") { ?> 'idequipo':{LBL:id_equipo:CAPTION},<?php } ?>
-                    <?php if($id_torneo->caption('')!=="" &&  $id_equipo->caption('')!=="" && $id_torneo2->caption('')!=="") { ?> 'idtorneo2':{LBL:id_torneo2:CAPTION},<?php } ?>
-					{NOTEMPTY:LBL:titulo_widget:CAPTION}'title':'{LBL:titulo_widget:CAPTION}',{EMPTY:END}
-                    {NOTEMPTY:LBL:tema_widget:CAPTION}'tema':'{LBL:tema_widget:CAPTION}',{EMPTY:END}
-					{NOTEMPTY:LBL:txtdropdown:CAPTION}'txtdropdown' : '{LBL:txtdropdown:CAPTION}'{EMPTY:END}
+                    {NOTEMPTY:LBL:titulo_widget:CAPTION}'title':'{LBL:titulo_widget:CAPTION}',{EMPTY:END}
+                    'tema':'mundial',
+                    {NOTEMPTY:LBL:txtdropdown:CAPTION}'txtdropdown' : '{LBL:txtdropdown:CAPTION}'{EMPTY:END}
                 });
             });
         </script>
