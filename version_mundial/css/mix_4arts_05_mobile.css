@@ -67,18 +67,14 @@
 		font-size: 14px;
 		line-height: 17px;
 	}
-.mix_1arts_03 div .floatRight a:last-child:hover{
 
-		text-decoration: underline !important;
-	}
-
-.mix_1arts_03  div .floatRight a:last-child p:hover{
-
+.mix_1arts_03 div .floatRight a:last-child:hover {
 		text-decoration: underline !important;
 
 }
+
 		.mix_1arts_03 div .floatRight h3{
-		margin:6px 0 18px 0;
+		margin:6px 0 12px 0;
 		line-height: 20px;
 		font-size: 18px;
 	}
