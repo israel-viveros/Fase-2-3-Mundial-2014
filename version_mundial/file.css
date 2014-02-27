@@ -2391,7 +2391,8 @@ header.nav_header_01 div.topnav {
 		.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date{
 			padding-right: 4px;
 		}
-}@media screen and (min-width: 948px){
+}
+@media screen and (min-width: 948px){
 	
 	.wdg_altasbajas_result_01 > ul {
       background-image:none;
@@ -2500,7 +2501,8 @@ header.nav_header_01 div.topnav {
         color: #eab11d;
         line-height:20px;
     }
-}@media screen and (min-width: 624px){
+}
+@media screen and (min-width: 624px){
     /* BEGIN: verticalhero (Medium)*/
     
     .mix_1arts_03 .sprite{
@@ -2677,7 +2679,8 @@ header.nav_header_01 div.topnav {
 	.mix_1arts_03 .tvsa-videocamera{
 		font-size: 16px;
 	}
-}@media screen and (min-width: 948px){
+}
+@media screen and (min-width: 948px){
 
 }	.mix_1arts_09{
 		margin-bottom:10px;
