@@ -75,7 +75,7 @@ border-bottom: 1px solid #CCC;
 max-width: 18.75em;
 }
 /*Texto del T?tulo*/
-.wg_esmas_safe_title_container H1{
+.wg_esmas_safe_title_container h1{
  font-family: roboto_slabbold;
 overflow:hidden;
 color: #00A9E0;
@@ -130,7 +130,7 @@ overflow:hidden;
 }
 /*Posicionador de la Pregunta*/
 .wg_esmas_safe_text_container{
-margin-left: 0px !important;
+margin-bottom: 20px;
 }
 /*Texto de la Pregunta, preferible no fijarle altura*/ 
 .wg_esmas_safe_text_container H2{
@@ -216,7 +216,7 @@ border-top:1px solid #CCC;
 float: right;
 width: 92px;
 height: 32px;
-background-image:url(http://i2.esmas.com/encuestas/public/img/frontend/botones/btn-mundial2014.gif);
+background-image:url(http://i2.esmas.com/encuestas/public/img/frontend/botones/btn-mundial-f2-2014.gif);
 background-repeat:no-repeat;
 }
 /*Contenedor de Texto de Elija una opci?n, ?Comenta! ? Gracias por Votar*/
