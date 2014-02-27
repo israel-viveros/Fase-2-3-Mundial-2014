@@ -24,6 +24,8 @@
         width: 110%;
         overflow-x: hidden;
 		margin-bottom: 18px;
+        border-top: 1px solid #CCCCCC;
+
     }
 
     .wdg_resultados > ul li {
@@ -31,7 +33,6 @@
 		height: auto;
 		overflow: hidden;
         position: relative;
-		border-top: 1px solid #CCCCCC;
     }
     
     .wdg_resultados > ul li div:first-child {        
