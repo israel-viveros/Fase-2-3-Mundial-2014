@@ -56,5 +56,8 @@
 
 		width: auto;
 	}
+	.mix_4arts_05 .mix_1arts_09 .mix_1arts_09_thumb li a h3:hover{
+		text-decoration: underline;
+	}
 	
 }
