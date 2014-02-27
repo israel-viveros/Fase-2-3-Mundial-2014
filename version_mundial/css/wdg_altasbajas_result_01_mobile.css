@@ -30,11 +30,8 @@
         height: auto;
         overflow: hidden;
         position: relative;
-        border-top: 1px solid #CCCCCC;
     }
-    .wdg_resultados > ul.deg li {
-        border-top: none;
-    }
+    
     
     .wdg_altasbajas_result_01 > ul li div:first-child {        
         width: 84px;
