@@ -4,17 +4,17 @@
         background: #3a9e2a !important;
     }
 
-    .wdg_altasbajas_result_01{    	
-    	height: 100%;
+    .wdg_altasbajas_result_01{      
+        height: 100%;
         position: relative;
         width: 100%;
         overflow: hidden;
-		margin-bottom: 0px;
+        margin-bottom: 0px;
     }
-	.wdg_altasbajas_result_01 .time{
-		 font-size:17px;
+    .wdg_altasbajas_result_01 .time{
+         font-size:17px;
          letter-spacing: -30;
-	 }
+     }
     .wdg_altasbajas_result_01 > ul {
         height: 141px;
         display: block;
@@ -22,27 +22,30 @@
         position: relative;
         width: 110%;
         overflow-x: hidden;
-		margin-bottom: 18px;
+        margin-bottom: 18px;
     }
 
     .wdg_altasbajas_result_01 > ul li {
         display: block;
-		height: auto;
-		overflow: hidden;
+        height: auto;
+        overflow: hidden;
         position: relative;
-		border-top: 1px solid #CCCCCC;
+        border-top: 1px solid #CCCCCC;
+    }
+    .wdg_resultados > ul.deg li {
+        border-top: none;
     }
     
     .wdg_altasbajas_result_01 > ul li div:first-child {        
         width: 84px;
-		height:47px;			
+        height:47px;            
     }
-	
-	.wdg_altasbajas_result_01 > ul li i{
-		position: absolute;
-		left: 59px;
-		color:#FFF;
-	}
+    
+    .wdg_altasbajas_result_01 > ul li i{
+        position: absolute;
+        left: 59px;
+        color:#FFF;
+    }
 
     .wdg_altasbajas_result_01 ul li div:first-child span.date, 
     .wdg_altasbajas_result_01 ul li div:first-child span, 
@@ -167,7 +170,7 @@
         display: block;
         height: 40px;
         line-height: 40px;                       
-		text-align: center;
+        text-align: center;
     }
 
     .wdg_altasbajas_result_01 > div .full-timetable span {
@@ -191,15 +194,15 @@
         margin: 2px 0 0 10px; 
     }
 
-	.wdg_altasbajas_result_01 .degraded{
-		background-repeat:repeat-x;
-		background-position:10px;
-		border-top:none;
-		display:block;			
-		position:absolute;		
-		bottom:58px;
-		width:100%;
-	}
+    .wdg_altasbajas_result_01 .degraded{
+        background-repeat:repeat-x;
+        background-position:10px;
+        border-top:none;
+        display:block;          
+        position:absolute;      
+        bottom:58px;
+        width:100%;
+    }
     /************************************************List box***************************************************+*/
     .wdg_altasbajas_result_01 .wdg_altasbajas_result_012_listcontainer{
         clear: both;
@@ -329,9 +332,9 @@
         margin-top: 4px;
         /*margin-right: 3px;*/
         cursor: pointer;
-		height: 20px;
-		width: 20px;
-		color:#000;
+        height: 20px;
+        width: 20px;
+        color:#000;
     }
 
 
@@ -384,8 +387,8 @@
         float: left;
         padding-left: 15px;
         padding-top: 9px;
-		font-size:13px;
-		font-weight:bold;
+        font-size:13px;
+        font-weight:bold;
     }
     .wdg_altasbajas_result_01 .wdg_altasbajas_result_01_dropdowncontent > p
     {
@@ -474,7 +477,7 @@
         width: 73%;
         position: relative;
         float: left;
-        height: 32px;  	
+        height: 32px;   
     }
     .wdg_altasbajas_result_01 .wdg_altasbajas_result_012_dropdowncontent
     {
@@ -494,20 +497,20 @@
     .wdg_altasbajas_result_01 .lineaResultado > span.title
     {
         position: relative;
-		text-align: center;
-		color: black;
-		font-size: 13px;
-		padding: 8px 1px 8px 5px;
-		float: left;
-		width: 78px;
-		font-weight: bold;
-		background-color: #f5f5f5;
+        text-align: center;
+        color: black;
+        font-size: 13px;
+        padding: 8px 1px 8px 5px;
+        float: left;
+        width: 78px;
+        font-weight: bold;
+        background-color: #f5f5f5;
         
     }
     .wdg_altasbajas_result_01 .lineaResultado:first-child span.title
     {
         border-top: 1px solid #CCCCCC;
-		border-bottom: 1px solid #CCCCCC;
+        border-bottom: 1px solid #CCCCCC;
     }
 
     .wdg_altasbajas_result_01 .lineaResultado
@@ -517,7 +520,7 @@
         height: 35px;
         clear: both;
         border-bottom: 1px solid #CCC;
-		background-color: #E7E7E7;
+        background-color: #E7E7E7;
         box-shadow: inset 0px 0px 12px 4px rgba(0,0,0,0.05);;
     }
     .wdg_altasbajas_result_01 .str_pleca_01
@@ -525,188 +528,188 @@
         margin-bottom: 10px;
     }
     
-    /*BEGIN: sprite*/    	
-     	.wdg_altasbajas_result_01 .wdg_altasbajas_result_01_sprite {
-	        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/global-sprites.png) no-repeat 0 0;
-	        display:none;
-	        height: 10px;
-	        overflow: hidden;
-	        text-indent: -1584px;
-	        width: 10px;
-    	}
-	    .wdg_altasbajas_result_01 .wdg_altasbajas_result_01_sprite{   	 
-			right: 0;
-			top: 0;
-			display: inline;	    
-	    }      
-	      .wdg_altasbajas_result_01  .wdg_altasbajas_result_01_sprite.video-corner {
-	        background-position: -131px -40px;
-	        height: 43px;
-	        width: 43px;
-	       	position: absolute;
-	    }
-	/*END: sprite*/
-	
-	/*BEGIN: */
-	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block{
-		width: 100%;
-		height: auto;
-		clear: both;
-		overflow: hidden;
-		background-clip: border-box;
-		background-color: #E7E7E7;
-		background-image: none;
-		background-origin: padding-box;
-		background-repeat: repeat;
-		background-size: auto auto;
-		text-decoration: none;
-		border-bottom: 1px solid #CCCCCC;
+    /*BEGIN: sprite*/       
+        .wdg_altasbajas_result_01 .wdg_altasbajas_result_01_sprite {
+            background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/global-sprites.png) no-repeat 0 0;
+            display:none;
+            height: 10px;
+            overflow: hidden;
+            text-indent: -1584px;
+            width: 10px;
+        }
+        .wdg_altasbajas_result_01 .wdg_altasbajas_result_01_sprite{      
+            right: 0;
+            top: 0;
+            display: inline;        
+        }      
+          .wdg_altasbajas_result_01  .wdg_altasbajas_result_01_sprite.video-corner {
+            background-position: -131px -40px;
+            height: 43px;
+            width: 43px;
+            position: absolute;
+        }
+    /*END: sprite*/
+    
+    /*BEGIN: */
+    .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block{
+        width: 100%;
+        height: auto;
+        clear: both;
+        overflow: hidden;
+        background-clip: border-box;
+        background-color: #E7E7E7;
+        background-image: none;
+        background-origin: padding-box;
+        background-repeat: repeat;
+        background-size: auto auto;
+        text-decoration: none;
+        border-bottom: 1px solid #CCCCCC;
         box-shadow: inset 20px 0px 12px 4px rgba(0,0,0,0.05);
-	}
-	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date{
-		display: block;
-		width: 83px;
-		background: none repeat scroll 0 0 #f5f5f5;
-		font-size: 12px;
-		height: 52px;
-		float: left;
-		text-align: center;
-		line-height: 42px;
-		font-weight: bolder;
-		position: relative;
-		padding-right: 0px;
-	}
-	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date .inactive{
-		display: block;
-		height: 15px;
-		width: 91px !important;
-		font-size: 12px;
-		font-weight: normal;
-		margin-top: -3px;
-		text-align: center;
-		line-height: 42px;
+    }
+    .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date{
+        display: block;
+        width: 83px;
+        background: none repeat scroll 0 0 #f5f5f5;
+        font-size: 12px;
+        height: 52px;
+        float: left;
+        text-align: center;
+        line-height: 42px;
+        font-weight: bolder;
+        position: relative;
+        padding-right: 0px;
+    }
+    .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date .inactive{
+        display: block;
+        height: 15px;
+        width: 91px !important;
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: -3px;
+        text-align: center;
+        line-height: 42px;
         letter-spacing: -30;
-	}
-	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date .inactive span.inactive{
-		display: block;
-		height: 15px;
-		width: 91px !important;
-		font-size: 12px;
-		font-weight: normal;
-		margin-top: -3px;
-		text-align: center;
-		line-height: 42px;
-	}
-	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date span.activo{
-		width: 75px !important;
-		font-size: 16px;
-		margin-left: 2px;
-		text-align: center;
-		line-height: 42px;
-		font-weight: bolder;
-		padding-left: 5px;		
-	}
-	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .icon_team{
-		border-bottom: 0 none;
-		line-height: 35px;
-		padding-top: 14px;
-		width: 33px !important;
-		float: left;
-		text-align: center;
-		font-weight: bolder;
-		height: auto;
-	}
-	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .team{
-			font-size: 14px;
-			margin-top: 7px;
-			width: 33px !important;
-			float: left;
-			text-align: center;
-			line-height: 42px;
-			font-weight: bolder;
-			height: auto;
-		}
-		.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .result{
-			font-size: 18px;
-			margin-top: 7px;
-			width: 25px !important;
-			float: left;
-			text-align: center;
-			line-height: 42px;
-			font-weight: bolder;
-			height: auto;
+    }
+    .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date .inactive span.inactive{
+        display: block;
+        height: 15px;
+        width: 91px !important;
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: -3px;
+        text-align: center;
+        line-height: 42px;
+    }
+    .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .date span.activo{
+        width: 75px !important;
+        font-size: 16px;
+        margin-left: 2px;
+        text-align: center;
+        line-height: 42px;
+        font-weight: bolder;
+        padding-left: 5px;      
+    }
+    .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .icon_team{
+        border-bottom: 0 none;
+        line-height: 35px;
+        padding-top: 14px;
+        width: 33px !important;
+        float: left;
+        text-align: center;
+        font-weight: bolder;
+        height: auto;
+    }
+    .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .team{
+            font-size: 14px;
+            margin-top: 7px;
+            width: 33px !important;
+            float: left;
+            text-align: center;
+            line-height: 42px;
+            font-weight: bolder;
+            height: auto;
+        }
+        .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .result{
+            font-size: 18px;
+            margin-top: 7px;
+            width: 25px !important;
+            float: left;
+            text-align: center;
+            line-height: 42px;
+            font-weight: bolder;
+            height: auto;
             letter-spacing: -30;
-		}
-		.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .content_versus{
-			font-size: 10px;
-			font-weight: normal !important;
-			font-style: italic;
-			margin-top: 7px;
-			width: 25px !important;
-			padding-left: 0px;
-			float: left;
-			text-align: center;
+        }
+        .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .content_versus{
+            font-size: 10px;
+            font-weight: normal !important;
+            font-style: italic;
+            margin-top: 7px;
+            width: 25px !important;
+            padding-left: 0px;
+            float: left;
+            text-align: center;
             line-height: 25px;
-			height: 50px;
-		}
-		.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .content_versus div.versus{
-			display: block;
-			width: 28px;
-			height: 25px;
-			line-height: 35px;
-			font-weight: normal !important;
-			color: #948f8f !important;
-			float: left;
-			text-align: center;
-		}
-		.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .content_versus .versus_time{
-			width: 28px;
-			height: 15px;
-			line-height: 15px;
-			font-weight: normal !important;
-			color: #948f8f !important;
-			float: left;
-			text-align: center;
-		}
-	.wdg_altasbajas_result_01 .activo{
-			background-color:#B0B0B0;
-			box-shadow: -2px 0 10px rgba(18, 28, 26, 0.37) inset;
-			transition: all 0.2s ease-out 0s;
-			color:#FFF !important;
-	}
-	.wdg_altasbajas_result_01 .wdg_altasbajas_result_01_block.activo{
-		background:#B2B2B2;
-	}
-	.wdg_altasbajas_result_01 .wdg_altasbajas_result_01_block .content_versus div.versus.activo2,
-	.wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .content_versus .versus_time.activo2,
-	.wdg_altasbajas_result_01 .wdg_altasbajas_result_01_block div.result.activo2 {
-		color:#FFF !important;
-	}	
-	/*END:*/
-	.wdg_altasbajas_result_01 .division{
-		float: left;		
-		margin-top: 0;
-		margin-bottom: 10px;	
-	}
-	.wdg_altasbajas_result_01 .division span{
-		float: left;
-		padding-left: 21px;
-	}
-	.wdg_altasbajas_result_01 .division h2.games{
-		font-size: 14px;
-		font-weight: bolder;
-		width: 120px;
-		margin-top: -2px;
-		float: right;
+            height: 50px;
+        }
+        .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .content_versus div.versus{
+            display: block;
+            width: 28px;
+            height: 25px;
+            line-height: 35px;
+            font-weight: normal !important;
+            color: #948f8f !important;
+            float: left;
+            text-align: center;
+        }
+        .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .content_versus .versus_time{
+            width: 28px;
+            height: 15px;
+            line-height: 15px;
+            font-weight: normal !important;
+            color: #948f8f !important;
+            float: left;
+            text-align: center;
+        }
+    .wdg_altasbajas_result_01 .activo{
+            background-color:#B0B0B0;
+            box-shadow: -2px 0 10px rgba(18, 28, 26, 0.37) inset;
+            transition: all 0.2s ease-out 0s;
+            color:#FFF !important;
+    }
+    .wdg_altasbajas_result_01 .wdg_altasbajas_result_01_block.activo{
+        background:#B2B2B2;
+    }
+    .wdg_altasbajas_result_01 .wdg_altasbajas_result_01_block .content_versus div.versus.activo2,
+    .wdg_altasbajas_result_01 .deg .wdg_altasbajas_result_01_block .content_versus .versus_time.activo2,
+    .wdg_altasbajas_result_01 .wdg_altasbajas_result_01_block div.result.activo2 {
+        color:#FFF !important;
+    }   
+    /*END:*/
+    .wdg_altasbajas_result_01 .division{
+        float: left;        
+        margin-top: 0;
+        margin-bottom: 10px;    
+    }
+    .wdg_altasbajas_result_01 .division span{
+        float: left;
+        padding-left: 21px;
+    }
+    .wdg_altasbajas_result_01 .division h2.games{
+        font-size: 14px;
+        font-weight: bolder;
+        width: 120px;
+        margin-top: -2px;
+        float: right;
         padding-left: 22px;
 
-	}
+    }
     .wdg_altasbajas_result_01 .division img{
         margin:5px 0px 0 20px;
- }	
-	
-	
-	   .wdg_altasbajas_result_01 .controls .bgactive{
+ }  
+    
+    
+       .wdg_altasbajas_result_01 .controls .bgactive{
         background-color:#59a529;
     }
     
@@ -718,56 +721,56 @@
         background-color:#d7d7d7;
     }
     
-	
-	.wdg_altasbajas_result_01 .controls .bgactive span{
-		color:#FFF;
-	}
-	
-	.wdg_altasbajas_result_01 .controls .bginactive span{
-		color:#fff;
-	}
+    
+    .wdg_altasbajas_result_01 .controls .bgactive span{
+        color:#FFF;
+    }
+    
+    .wdg_altasbajas_result_01 .controls .bginactive span{
+        color:#fff;
+    }
 
     .background-color1 {
 background-color: #3a9e2a !important;
     }
-	
-	.deg li figure { width: 60px; height:25px; display: block; float:left; margin-top:10px; padding:4px;}
+    
+    .deg li figure { width: 60px; height:25px; display: block; float:left; margin-top:10px; padding:4px;}
     .deg li figure img { display:inline-block;width: 24px; height:18px; display: block; float:left; margin:5px 0;}
-    .deg li figure figcaption { display:inline-block; width: 30px; height:25px; display: block; float:left; margin:2px 0;}
+    .deg li figure figcaption { display:inline-block; width: 30px; height:25px; display: block; float:left; margin:2px 0; font-weight: 700}
     .deg li .ligaResult { display:inline-block; width: 80px; height:50px; display: block; float:left;}
     .deg li .ligaResult .result { display:inline-block; width: 10px; height:15px !important; display: block; float:left;}
 
-	#circleGLoading{width:46.666666666666664px;opacity: 1;position: absolute;top: 40%;z-index: 999;display: block;left: 40%;}
-	.circleG{background-color:#FFFFFF;float:left;height:10px;margin-left:5px;width:10px;-moz-animation-name:bounce_circleG;-moz-animation-duration:2.8499999999999996s;-moz-animation-iteration-count:infinite;-moz-animation-direction:linear;-moz-border-radius:7px;-webkit-animation-name:bounce_circleG;-webkit-animation-duration:2.8499999999999996s;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:linear;-webkit-border-radius:7px;-ms-animation-name:bounce_circleG;-ms-animation-duration:2.8499999999999996s;-ms-animation-iteration-count:infinite;-ms-animation-direction:linear;-ms-border-radius:7px;-o-animation-name:bounce_circleG;-o-animation-duration:2.8499999999999996s;-o-animation-iteration-count:infinite;-o-animation-direction:linear;-o-border-radius:7px;animation-name:bounce_circleG;animation-duration:2.8499999999999996s;animation-iteration-count:infinite;animation-direction:linear;border-radius:7px;}
-	#circleG_1{-moz-animation-delay:0.57s;-webkit-animation-delay:0.57s;-ms-animation-delay:0.57s;-o-animation-delay:0.57s;animation-delay:0.57s;}
-	#circleG_2{-moz-animation-delay:1.3299999999999998s;-webkit-animation-delay:1.3299999999999998s;-ms-animation-delay:1.3299999999999998s;-o-animation-delay:1.3299999999999998s;animation-delay:1.3299999999999998s;}
-	#circleG_3{-moz-animation-delay:1.7099999999999997s;-webkit-animation-delay:1.7099999999999997s;-ms-animation-delay:1.7099999999999997s;-o-animation-delay:1.7099999999999997s;animation-delay:1.7099999999999997s;}
-	@-moz-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
-	@-webkit-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
-	@-ms-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
-	@-o-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
-	@keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
-	
-	
-	
+    #circleGLoading{width:46.666666666666664px;opacity: 1;position: absolute;top: 40%;z-index: 999;display: block;left: 40%;}
+    .circleG{background-color:#FFFFFF;float:left;height:10px;margin-left:5px;width:10px;-moz-animation-name:bounce_circleG;-moz-animation-duration:2.8499999999999996s;-moz-animation-iteration-count:infinite;-moz-animation-direction:linear;-moz-border-radius:7px;-webkit-animation-name:bounce_circleG;-webkit-animation-duration:2.8499999999999996s;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:linear;-webkit-border-radius:7px;-ms-animation-name:bounce_circleG;-ms-animation-duration:2.8499999999999996s;-ms-animation-iteration-count:infinite;-ms-animation-direction:linear;-ms-border-radius:7px;-o-animation-name:bounce_circleG;-o-animation-duration:2.8499999999999996s;-o-animation-iteration-count:infinite;-o-animation-direction:linear;-o-border-radius:7px;animation-name:bounce_circleG;animation-duration:2.8499999999999996s;animation-iteration-count:infinite;animation-direction:linear;border-radius:7px;}
+    #circleG_1{-moz-animation-delay:0.57s;-webkit-animation-delay:0.57s;-ms-animation-delay:0.57s;-o-animation-delay:0.57s;animation-delay:0.57s;}
+    #circleG_2{-moz-animation-delay:1.3299999999999998s;-webkit-animation-delay:1.3299999999999998s;-ms-animation-delay:1.3299999999999998s;-o-animation-delay:1.3299999999999998s;animation-delay:1.3299999999999998s;}
+    #circleG_3{-moz-animation-delay:1.7099999999999997s;-webkit-animation-delay:1.7099999999999997s;-ms-animation-delay:1.7099999999999997s;-o-animation-delay:1.7099999999999997s;animation-delay:1.7099999999999997s;}
+    @-moz-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
+    @-webkit-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
+    @-ms-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
+    @-o-keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
+    @keyframes bounce_circleG{0%{}50%{background-color:#A70A0B}100%{}}
+    
+    
+    
 }
 
 
 
 /*Style Retina*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
- 	.wdg_altasbajas_result_01 .wdg_altasbajas_result_01_sprite {
+    .wdg_altasbajas_result_01 .wdg_altasbajas_result_01_sprite {
         background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/global-sprites@2x.png) no-repeat 0 0;
-		background-size:640px 224px;
-	}
+        background-size:640px 224px;
+    }
 }
 @-moz-document url-prefix() {
-	  		.wdg_altasbajas_result_01 > ul li{
-	    		height: auto;
-	  		}
+            .wdg_altasbajas_result_01 > ul li{
+                height: auto;
+            }
 }
 @-moz-document url-prefix() {
-	  		.wdg_altasbajas_result_01 > ul li.color a{
-	    		padding: 6px 27px;
-	  		}
+            .wdg_altasbajas_result_01 > ul li.color a{
+                padding: 6px 27px;
+            }
 }
