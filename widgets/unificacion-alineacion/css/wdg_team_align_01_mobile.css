@@ -11,11 +11,13 @@
     .wdg_team_align_01 .widget_player_stats {line-height:28px;border-top:0px;border-bottom:0px;}
     .wdg_team_align_01 .widget_player_stats td {vertical-align:middle;}
     .wdg_team_align_01 .player_number{font-weight: bold;color: #eab11d;font-size:16px;padding:0 5px;padding-left:16px;  text-align: center;}
+    .wdg_team_align_01 .textcolor-title1 {color:#398218 !important}
 	.wdg_team_align_01 .logo{text-align: left; width:50%;}
     .wdg_team_align_01 .player_name {
-		font-size:12px;
+		font-size:13px;
 		width:110px;
 		font-weight:bold;
+		letter-spacing: -.5px;
 		text-align:left;
 		size:10px;
 		padding-left:12px;
@@ -46,6 +48,7 @@
 		width:40%;
 		vertical-align:super;
 		padding:10px 17px;
+		letter-spacing: -.5px;
 	}
 	.wdg_team_align_01 .widget_player_stats th{	
 		padding-left:10px;
