@@ -1,4 +1,20 @@
 /* All devices */
+.regreso{
+    background-color: #398218;
+    width:100px;
+    height: 35px;
+    padding: 5px;
+    font:italic bold 14px/30px Trebuchet MS;
+    letter-spacing: -0.3px;
+    color: white;
+    display:inline-block;
+    position: absolute;
+    right: 22px;
+}
+.regreso img, .regreso span{
+    display: inline-block;
+    }
+
 div.interes-gallery {display:none;position:relative;}
 div.img_fotogalfull_01 div.share {display:none;}
 div.img_fotogalfull_01 div.image-container:hover div.share {display:block;}
