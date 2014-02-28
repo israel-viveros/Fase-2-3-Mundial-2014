@@ -173,6 +173,7 @@
 		height:68px;
 		left: 12px;
 		top: -215px;
+        z-index: 5;
     }
 	.nav_team_header_01 .fondo .texto{
 		font-style: italic;
@@ -204,11 +205,11 @@
 		top:-96px;
     }
 	.nav_team_header_01 .sombra{
-		margin: 0 auto 0 -16px;
-		padding-left: 0;
-		width:559px;
+		margin: 0 0 0 230px;
+		padding-left: 0px;
+		/*width:auto;*/
 		height:18px;
-		background:url(../img/sombra.png)no-repeat;
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/sombra.png)no-repeat;
 		float: left;
 
     }
@@ -228,6 +229,7 @@
     height: 97px !important;
     background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVQIW2P8//+/JAMQMDIyPgfTGAIgUWTAiC4AALpdCAUeKwe9AAAAAElFTkSuQmCC)repeat;   ;
     }
+
  .nav_team_header_01  .alemania{
 /*     Pinta gradient*/
         background-image: linear-gradient(left , #151515 30%, #383939 61%);

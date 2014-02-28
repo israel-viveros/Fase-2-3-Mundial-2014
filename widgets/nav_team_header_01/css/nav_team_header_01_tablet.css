@@ -190,9 +190,9 @@
 	}
 	.nav_team_header_01 .sombra{
 		float:none;
-		margin: 0 auto;
-		width:608px;
-	}
+		/*    margin: 0 auto;
+	width:608px;
+*/	}
     
     .nav_team_header_01 .fondo .texto{
         width:450px;
@@ -204,7 +204,7 @@
         top: 60px;
 		overflow: hidden;
 		line-height: 30px;
-		
+		text-shadow: -1px -1px 0px rgba(150, 150, 150, 1);
 	  	white-space: nowrap;
 	  	text-overflow: ellipsis;
     }
