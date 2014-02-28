@@ -1,0 +1,456 @@
+@media screen{
+/*BEGIN:td_pdf1_01*/
+
+	.td_pdf1_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    .ie7 .td_pdf1_01 div.header div.nav_pdf_header_01_logotv{
+        display:inline-block;
+        float:left;
+    }
+    .ie7 .td_pdf1_01 div.header div.nav_pdf_header_01_titule{
+        width:520px;
+        margin-left: 93px!important;
+        text-align: center;
+        display:inline-block;
+        float:left;
+    }
+    .ie7 .td_pdf1_01 div.main div.campo{
+        left:0px;
+    }
+    .ie7 .td_pdf1_01 div.main .team1{
+        margin-left:-150px;
+        float:left;
+    }
+    .ie7 .td_pdf1_01 div.main .team2{
+        float:left;
+    }
+    
+    .td_pdf1_01 .main .td_pdf1_01_title{
+    	font-size: 28px;
+        height:32px;
+    	margin: 45px 0 0 8px;    	        	    	
+    	padding-bottom: 2px;
+    	padding-top: 9px;
+    	text-align: center;
+    	width: auto;
+    }
+     /*BEGIN: alignment_table*/
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table{    	
+    	color:#232323;
+    	font-size:15px;
+        line-height: 16px;
+        letter-spacing:-.5px;
+    	margin:auto;
+    	margin-bottom:43px;
+    	width: 895px;
+    	padding-left:2px;
+    }
+    /*
+     .td_pdf1_01 .main .td_pdf1_01_alignment_table tr:nth-child(2) td,
+     .td_pdf1_01 .main .td_pdf1_01_alignment_table tr:nth-child(3) td{    	
+    	vertical-align: top;
+    }
+    */
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table p{    	
+    	font-size:16px;    	
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .title{    	
+    	border-spacing:0px;
+    	width: 100%;
+    	    	    	
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .couch{
+    	box-sizing: border-box;
+		text-align: left;
+		padding-left: 48px;
+		letter-spacing: -1px;
+		word-spacing: 5px;
+    	
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table > tr:nth-child(6) td:last-child {
+    	padding-left:36px;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .couch p span{
+    	font-weight: bold;
+    	font-style: italic;
+    	font-size: 18px;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .title td{    	    	    	
+    	font-weight: bold;
+		letter-spacing: -1px;
+		margin: 0;
+		padding: 1px 16px 1px 16px;
+		text-align: left;
+		width: 50%;
+		word-spacing: 2px;
+    }
+      .td_pdf1_01 .main .td_pdf1_01_alignment_table .title td h2{    	    	    	
+	  	padding-left: 154px;
+    	
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .title td:nth-child(2) h2{    	    	    	
+        padding-left: 142px;
+    	
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table tr:nth-child(3) .title td{    	    	    	    	
+		padding: 1px 16px 1px 16px;		
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .title td:last-child{    	    	    	    	
+		padding: 6px 16px 5px 16px;		
+    }             
+     .td_pdf1_01 .main .td_pdf1_01_alignment_table .title tr td h2{    	
+    	font-size:24px;
+    	font-style:italic;    
+    }    
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .title td h3{    	
+    	font-style: italic;
+    	padding-top: 2px;    	
+    }    
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team1{
+    	border-right:1px solid #d1d1d1;
+    	width: 100%;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team1 tr td:first-child{
+	    box-sizing: border-box;
+		padding-left: 85px;
+        padding-right:35px;
+		text-align: center;
+		width: 168px;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+    }
+
+   .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team1 tr td:first-child h3,
+   .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team2 tr td:first-child h3{
+        box-sizing:border-box;
+        font-size:18px;  
+        font-style: italic; 
+        text-align:left;
+        letter-spacing:-.5px;
+    }
+
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team1 tr td:first-child h3{
+		padding: 2px 0px 0px 82px;	
+    }
+	@-moz-document url-prefix() {
+ 	 	.td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team1 tr td:first-child h3 {      		
+			padding-left:140px;
+		 }
+ 	}
+
+
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team2 tr td:first-child h3{
+        padding: 2px 0px 0px 117px;           
+    }
+
+    @-moz-document url-prefix() {
+        .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team2 tr td:first-child h3 {             
+            padding-left:125px;
+         }
+    }
+    
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team1 tr td:last-child{
+    	width: 267px;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team2{    	
+    	width: 100%;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team2 tr td:first-child{
+    	box-sizing: border-box;
+		padding-left: 35px;
+		text-align: center;
+		width: 150px;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+    }
+
+    .td_pdf1_01 .main .td_pdf1_01_alignment_table .alignment_team2 tr td:last-child{
+    	width: 280px;
+    }
+    .td_pdf1_01 .main .line{
+    	border-bottom:1px solid #d1d1d1;
+    	height:auto;
+    	width: 100%;   	    
+    }
+    .td_pdf1_01 .main .line_vertical{
+    	border-right: 1px solid #d1d1d1;
+    	padding-left:10px;
+    }
+    /*END: alignment_table*/   
+    /*BEGIN: details_table */
+    .td_pdf1_01 .main .td_pdf1_01_details_table{    	
+    	font-size:15px;
+    	margin:auto;
+    	margin-bottom:77px;
+    	width: 895px;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table tr:nth-child(4) td{     	
+    	padding:4px 3px;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table tr:nth-child(5) td p{     	
+    	padding-left:29px;
+    	padding-bottom:10px;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table .amonestados{    	
+    	vertical-align: top;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table .title{    	
+    	width: 100%;    	    	
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table .title td{    	    	
+    	font-weight:bold;
+    	margin:auto;
+    	padding: 8px 12px 0px 12px;
+    	text-align: center;
+    }       
+    .td_pdf1_01 .main .td_pdf1_01_details_table .title td{
+    	width: 50%;
+    }    
+    .td_pdf1_01 .main .td_pdf1_01_details_table .description p{  	
+    	padding: 0 25px 5px 25px;
+		letter-spacing: 0px;
+		word-spacing: -4px;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table .subtitle p span{
+    	font-size: 18px;
+		font-weight: bold;
+		padding: 0 42px;
+		letter-spacing: 0px;
+		word-spacing: -3px;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table .title td{    	    	
+    	font-weight:bold;	
+    	margin:auto;
+    	padding: 8px 12px 0px 12px;
+    	text-align: center;
+    }       
+    .td_pdf1_01 .main .td_pdf1_01_details_table .title td{
+    	width: 50%;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table .details_left{    	
+    	margin-left:10px; 
+    	width: 95%;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table .details_left tr td{
+    	width: 410px;
+    	text-align: left;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table .amonestados .details_right{    	
+    	width: 100%;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_details_table  .amonestados .details_right tr td{
+    	width: 410px;
+    	text-align: justify;
+    	vertical-align: top;
+    }   
+     .td_pdf1_01 .main .td_pdf1_01_details_table .amonestados .details_right .subtitle p span{
+     	padding: 0 66px;    
+     } 
+     .td_pdf1_01 .main .td_pdf1_01_details_table .amonestados .details_right .description p{     	
+     		padding: 0 37px 5px 49px;
+     }
+     
+    /*END:details_table*/
+    
+      /*BEGIN: albitro_table */
+    .td_pdf1_01 .main .td_pdf1_01_albitro_table{    	
+    	font-size:12px;
+        letter-spacing:-.3px;
+    	margin:auto;
+    	margin-bottom:60px;
+    	width: 895px; 
+    }
+    .td_pdf1_01 .main .td_pdf1_01_albitro_table .title{    	
+    	width: 100%;    	    	
+    }     
+    .td_pdf1_01 .main .td_pdf1_01_albitro_table .title td{
+    	width: 50%;
+    }           
+    .td_pdf1_01 .main .td_pdf1_01_albitro_table .subtitle p span{
+    	font-weight: bold;
+    	margin-left:48px;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_albitro_table .title td{    	    	
+    	font-weight:bold;
+    	margin:auto;
+    	padding: 0px 16px;
+    	text-align: center;
+    }       
+    .td_pdf1_01 .main .td_pdf1_01_albitro_table .title td{
+    	width: 50%;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_albitro_table .albitro_left{
+    	border-right:1px solid #ccc;
+    	width: 100%;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_albitro_table .albitro_left tr td{
+    	width: 399px;
+    	text-align: left;
+    	padding-left: 16px;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_albitro_table .albitro_right{    	
+    	width: 100%;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_albitro_table .albitro_right tr td{
+    	width: 410px;
+    	text-align: left;
+    	vertical-align: top;
+    }    
+    /*END:albitro_table*/
+    
+    .td_pdf1_01 .main .line{
+    	border-bottom:1px solid #ccc;
+    	height:auto;
+    	width: 100%;   	    
+    }
+    /*BEGIN: Cancha Teams*/
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield{
+    	margin: auto;
+		text-align: center;
+		width: 630px;
+		position: relative;
+		display: block;
+		height: 337px;
+		overflow: hidden;
+    }
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .campo{
+    	position: absolute;
+    	margin:4px 0 0 5px;
+    }    
+    .td_pdf1_01  .main .td_pdf1_01_soccerfield .team1{        
+       	position: relative;
+		width: 305px;		
+		height: 275px;
+		margin-top: 12px;
+		display: inline-block;
+		float: left;
+	}
+    .td_pdf1_01  .main .td_pdf1_01_soccerfield .team2{        
+        position: relative;
+		width: 320px;		
+		display: inline-block;
+		height: 275px;
+		margin-top: 12px;
+		float: right;
+    }
+
+    /*---Players Team -1-*/
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 div{
+		border-radius: 5px;
+        font-weight: bolder;
+		height: 35px;
+		line-height: 27px;  
+    	position:absolute;  
+        text-align: center;
+		width: 30px;
+    	-webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        background-image: url('../../global/img/ficha_roja.png'); 
+    }
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player1{
+    	margin-left: 70px;
+		margin-top: 100px;
+    } 
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player2{		
+    	margin-left: 160px;
+		margin-top: 0px;    	
+    } 
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player3{		  
+    	margin-left: 140px;
+		margin-top: 64px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player4{		
+    	margin-left: 123px;
+		margin-top: 166px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player5{		  
+    	margin-left: 108px;
+		margin-top: 244px;    	
+    }
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player6{		
+    	margin-left: 205px;
+		margin-top: 50px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player7{		
+    	margin-left: 199px;
+		margin-top: 151px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player8{		
+    	margin-left: 186px;
+		margin-top: 223px;    	
+    }
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player9{		
+    	margin-left: 245px;
+		margin-top: 0px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player10{		
+    	margin-left: 254px;
+		margin-top: 100px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team1 .player11{		
+    	margin-left: 272px;
+		margin-top: 196px;    	
+    } 
+    /*---Players Team -2-*/
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 div{		
+		border-radius: 5px;
+        font-weight: bolder;
+		height: 35px;
+		line-height: 27px;  
+    	position:absolute;  
+        text-align: center;
+		width: 30px;
+    	-webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        background-image: url('../../global/img/ficha_azul.png'); 
+    }
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player1{
+    	margin-left: 214px;
+		margin-top: 104px;
+    } 
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player2{		
+    	margin-left: 181px;
+		margin-top: 59px;    	
+    } 
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player3{		  
+    	margin-left: 190px;
+		margin-top: 162px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player4{		
+    	margin-left: 122px;
+		margin-top: 8px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player5{		  
+    	margin-left: 108px;
+		margin-top: 77px;    	
+    }
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player6{		
+    	margin-left: 144px;
+		margin-top: 225px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player7{		
+    	margin-left: 52px;
+		margin-top: 0px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player8{		
+    	margin-left: 81px;
+		margin-top: 143px;    	
+    }
+    .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player9{		
+    	margin-left: 63px;
+		margin-top: 235px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player10{		
+    	margin-left: 10px;
+		margin-top: 55px;    	
+    } 
+     .td_pdf1_01 .main .td_pdf1_01_soccerfield .team2 .player11{		
+    	margin-left: 11px;
+		margin-top: 170px;    	
+    }      
+    /*END: Cancha Teams*/
+    
+/*END:td_pdf1_01*/
+}

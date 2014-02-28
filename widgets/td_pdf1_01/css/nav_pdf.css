@@ -1,0 +1,105 @@
+@media screen{
+	.nav_pdf_header_01{
+		display:block;
+		font-family: Trebuchet MS,Georgia;
+		margin:auto;
+		margin-top:40px;		
+		text-align: left;
+		width: 1129px;		
+	}	
+	.nav_pdf_header_01 .nav_pdf_header_01_logotv{		
+		display:inline-block;
+		float:left;
+		margin-left:85px; 	
+	}	
+	.nav_pdf_header_01 .nav_pdf_header_01_logotv a img{	    
+	    display: inline-block;
+	    width: 130px;
+	    height: 76px;	     
+	    padding: 0;	
+	
+	}
+	.nav_pdf_header_01 .nav_pdf_header_01_titule{
+		display:inline-block;
+		color:#A41D21;		
+		font-family: Trebuchet MS,Georgia;
+	    font-style:italic;
+		height: 120px;		
+		margin-left:93px;
+		text-align: center;
+		vertical-align: top;	
+			
+	}
+	.nav_pdf_header_01 .nav_pdf_header_01_clausura {
+		display:block;		
+		font-size:18px;	
+		letter-spacing: -.4px;
+		word-spacing: 2px;	
+	}
+	.nav_pdf_header_01 .nav_pdf_header_01_result {		
+		border-bottom:1px solid #d1d1d1;
+		display:block;
+		font-size:42px;
+		font-weight: bold;		
+		width: 520px;
+		letter-spacing: -.8px;
+		word-spacing: -2px;
+		margin-top:-5px;
+	}
+	.nav_pdf_header_01 .nav_pdf_header_01_ubicacion{
+		color:#a1a1a1;
+		display:block;
+		font-size:16px;
+		font-style:normal;
+		font-weight: bold;
+		margin-bottom:0px;
+		margin-top:8px;	
+	}
+	.nav_pdf_header_01 .nav_pdf_header_01_date{
+		color:#a1a1a1;
+		display:block;
+		font-size:13px;
+		font-weight: bold;	
+	}
+	
+	
+}	@media screen{
+	.nav_pdf_footer_01{
+		border-bottom:1px solid #d1d1d1;
+		border-top:1px solid #d1d1d1;
+		color:#948f8f;
+		display:block;
+		margin:auto;
+		margin-bottom:40px;
+		margin-top:10px;			
+		text-align: left;
+		width: 949px;
+		padding: 3px 0;
+	}
+	.nav_pdf_footer_01 ul{
+		border-right:1px solid #d1d1d1;
+		display:inline-block;
+		font-family: Trebuchet MS,Georgia;
+		font-size:12px;
+		padding-left:23px;		
+		text-align: left;
+		width: 213px;
+	}
+	.ie7 .nav_pdf_footer_01 ul{
+		float:left;
+	}
+	.nav_pdf_footer_01 ul:last-child{
+		border-right:none;
+		padding-left:13px;
+		width: 200px;		
+	}
+	.nav_pdf_footer_01 ul:first-child{
+		padding-left: 20px;
+	}
+	.nav_pdf_footer_01 ul:nth-child(2){
+		padding-left: 19px;
+	}
+	.nav_pdf_footer_01 ul:nth-child(3){
+		padding-left: 18px;
+	}
+}
