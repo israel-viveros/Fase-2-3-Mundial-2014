@@ -213,12 +213,10 @@ $(function() {
     if ($(window).width() < 624) {
         $("#carrusel2_ul li").each(function(index, el) {
             $(this).find('a').attr('target', '');
-            console.log($(this));
         });
     } else {
         $("#carrusel2_ul li").each(function(index, el) {
             $(this).find('a').attr('target', 'galembed');
-            console.log($(this));
         });
     }
     if ($.browser.msie && parseInt($.browser.version, 10) <= 8) {
@@ -229,12 +227,11 @@ $(window).resize(function() {
     if ($(window).width() < 624) {
         $("#carrusel2_ul li").each(function(index, el) {
             $(this).find('a').attr('target', '');
-            console.log($(this));
+
         });
     } else {
         $("#carrusel2_ul li").each(function(index, el) {
             $(this).find('a').attr('target', 'galembed');
-            console.log($(this));
         });
     }
 
