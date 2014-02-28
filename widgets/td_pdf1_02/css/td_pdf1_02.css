@@ -1,0 +1,217 @@
+@media screen{
+/*BEGIN: td_pdf1_02*/
+
+	.td_pdf1_02 .main{
+		position:relative;		
+        width: 100%;
+    }
+    /*BEGIN: details_table*/
+    .td_pdf1_02 .main .td_pdf1_02_details_table{    	
+    	border-spacing:0;
+    	font-size:13px;
+    	margin:auto;
+    	margin-bottom:38px;
+    	margin-top:47px;
+    	text-align: center;
+    	width: auto;
+        letter-spacing: 0px;
+		word-spacing: -3px;
+    }
+    .td_pdf1_02 .main .td_pdf1_02_details_table td{    	    	
+    	box-sizing:border-box;  
+    	padding-right:12px;
+    	text-align:right;
+    	width: 54px;
+    }
+    .td_pdf1_02 .main .td_pdf1_02_details_table td:nth-child(3){    	    	
+    	box-sizing:border-box;  
+    	padding-left:12px;
+    	text-align:left;    	
+    }
+    .td_pdf1_02 .main .td_pdf1_02_details_table td:nth-child(3) h4{    	    	    
+    	text-align:center;    	
+    }
+   .td_pdf1_02 .main .td_pdf1_02_details_table .team{
+   		border: none;
+		font-size: 15px;
+		font-style: italic;
+		padding-right: 0;
+		text-align: right;
+		width: 207px;
+		letter-spacing: 0px;
+		word-spacing: -3px;
+   }
+   .td_pdf1_02 .main .td_pdf1_02_details_table .team h1,
+   .td_pdf1_02 .main .td_pdf1_02_details_table .teamtwo h1{
+		margin-top:-11px;
+    font-size:24px;
+    
+
+   }
+   .td_pdf1_02 .main .td_pdf1_02_details_table .teamtwo{
+   		border:none;
+   		font-size:15px;
+   		font-style:italic;
+   		padding-right:0;
+   		text-align:left;
+   		width: 200px;   		
+   } 
+   .td_pdf1_02 .main .td_pdf1_02_details_table .title_details{
+   		border-left: 1px solid #ccc;
+   		border-right: 1px solid #ccc;
+   		text-align:center;
+   		width: 366px;
+   		font-size: 15px;
+      line-height:15px;
+      margin:0px;
+      padding: 0  0  0  19px;
+    }
+
+   .td_pdf1_02 .main .td_pdf1_02_details_table tr td:nth-child(2){
+   		/*border:none;*/
+   }
+   .td_pdf1_02 .main .td_pdf1_02_details_table tr:first-child td:nth-child(4){
+   		box-sizing:border-box;  
+    	padding-left:12px;
+    	text-align:left;    
+   }
+   .td_pdf1_02 .main .td_pdf1_02_details_table tr:first-child td:nth-child(3){
+   		/*border:none;*/
+   }
+   .td_pdf1_02 .main .td_pdf1_02_details_table tr:last-child td{   		
+   		padding:34px 0px 48px 0px;
+   }
+   .td_pdf1_02 .main .td_pdf1_02_details_table tr:last-child td h3{   		
+   		font-style: italic;
+   		font-size: 18px;
+   		text-align:center;
+   }
+   /*END: details_table*/
+   
+   /*BEGIN: aligment_table*/
+   .td_pdf1_02 .main .td_pdf1_02_aligment_table{
+   		border-spacing:0;
+    	font-size:15px;
+    	margin:auto;
+    	margin-bottom:124px;   
+      line-height:14px;
+    	text-align: center;
+    	width:783px;
+    	letter-spacing: 0px;
+		  word-spacing: -3px;
+   }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table td:first-child h1{
+   		margin-bottom:7px;
+   }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table h1{
+		font-size: 24px;
+    letter-spacing:-.5px;
+		font-style: italic;
+		text-align: left;
+   }
+   
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .title{   			    
+   		border-spacing:0;    	   
+    	text-align: left;
+    	width:783px;
+      margin-top:10px;
+   }    
+     .td_pdf1_02 .main .td_pdf1_02_aligment_table .title td	{    	    	
+    	border:none;
+      width: 59px;		    		
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .title h4{
+      font-size:15px;
+    	border-right: 1px solid #ccc;
+    	margin-bottom: 10px;	
+    	padding: 5px 10px;
+    	text-align: center;	
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .title td:nth-child(2) h4{	
+    	text-align: left;	
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .title td:nth-child(2) h4	{    	
+    	padding: 8 10px;    		    
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .title td:last-child h4{    	
+    	border-right:none;
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .title td:nth-child(1)	{    	
+    	width: 62px;   	
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .title td:nth-child(2)	{    	    	
+    	text-align: left;   	
+    	width:338px;
+    }
+
+    /*Equipo Inicial*/
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_start{   			    
+   		border-spacing:0;
+    	margin:auto;    	    
+    	text-align: center;
+    	width:783px;
+   } 
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_start td{
+    	border-bottom:1px solid #ccc;
+    	border-right:1px solid #ccc;
+    	width: 58px;	
+    	padding: 0px 10px 1px 10px;
+      line-height: 16px;
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_start td:last-child	{    	
+    	border-right:none; 	
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_start tr:first-child td	{    	
+    	border-top:1px solid #ccc;   	
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_start td:nth-child(1)	{    	
+    	width: 57px;   	
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_start td:nth-child(2)	{    			    	
+    	text-align: left;   	
+    	width: 460px;
+    }
+    
+    /*Suplentes*/
+      .td_pdf1_02 .main .td_pdf1_02_aligment_table .title_substitute	{    			    	
+    	font-style:italic;    	
+    	padding:18px 0;
+    	text-align: left;   	
+    	    	
+    }
+    
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_substitute{   			    
+   		border-spacing:0;
+    	margin:auto;    	    
+    	text-align: center;
+      line-height: 16px;
+    	width:783px;
+   } 
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_substitute td{
+    	border-bottom:1px solid #ccc;
+    	border-right:1px solid #ccc;
+    	padding:0 10px 1px 10px;
+
+    	width: 58px;		
+    }
+       .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_substitute td:last-child	{    	
+    	border-right:none; 	
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_substitute tr:first-child td	{    	
+    	border-top:1px solid #ccc;   	
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_substitute td:nth-child(1)	{    	
+    	width: 54px;   	
+    }
+    .td_pdf1_02 .main .td_pdf1_02_aligment_table .aligment_substitute td:nth-child(2)	{    			    	
+    	text-align: left;   	
+    	width: 450px;
+    }
+    
+    .td_pdf1_02 .main > table:last-child{
+    	margin-bottom: 156px;
+    }
+  	/*END: aligment_table*/
+
+/*END: td_pdf1_01*/  
+}
