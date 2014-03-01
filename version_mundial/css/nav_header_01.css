@@ -270,6 +270,13 @@ x|/*Dispositivos vista retina------*/
 	header.nav_header_01 div.mainnav nav.social a.toggle span {
 	}
 
+header.nav_header_01 div.mainnav nav.social ul li.station a span.vf {
+background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/logoVF.png) no-repeat ;
+width: 20px;
+height: 14px;
+margin: 10px 0;
+}
+
 	header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn {
 background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/mainnav2_hover.png) no-repeat -135px -17px ;
 }

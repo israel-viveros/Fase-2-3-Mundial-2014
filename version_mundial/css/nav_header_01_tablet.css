@@ -526,11 +526,39 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 		/*border-top:1px solid #C4C4C4;*/
 		border-top: none;
 	}
-	header.nav_header_01 div.mainnav nav.main ul li ul li,header.nav_header_01 div.mainnav nav.main ul li ul li a
+
+	header.nav_header_01 div.mainnav nav.main ul li ul.dropdown-country {
+		color: #fff;
+		display:inline-block;
+		top: -10000em;
+		left: 0;
+		position: absolute;
+		width: 948px;
+		background: #eab11d;
+		margin: 0 0 0 -1px;
+		height: auto;
+		/*border-top:1px solid #C4C4C4;*/
+		border-top: none;
+	}
+
+	/*submenu paises*/
+
+	.main-nav-countries { display:block; width:100%; height:auto; background: #eab11d;} /* Buscar hacerlo fullwidth */
+.content-countries, .content-countries1 {height:150px; width:900px;  margin:0 auto; position:relative; padding-bottom:18px;}
+.content-countries ul, .content-countries1 ul  { width:948px; display:inline-block; height:30px; margin: 0 100px}
+.content-countries ul li, .content-countries1 ul li { width:30px; height:30px;  padding:5px; display:inline-block;}
+.content-countries ul li figure, .content-countries1 ul li figure{ color:#fff; padding: 18px 0;}
+
+	/*END submenu paises*/
+
+	header.nav_header_01 div.mainnav nav.main ul li ul li,
+	header.nav_header_01 div.mainnav nav.main ul li ul li a
 		{
 		display: block;
 		float: none;
 	}
+
+
 	header.nav_header_01 div.mainnav nav.main ul li.active ul,
 	header.nav_header_01 div.mainnav nav.main ul li:hover ul
 		{
@@ -548,6 +576,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 		margin-top:none; 
 		text-decoration: none;
 	}
+
 	div.mainnav ul li ul li {
 		display: inline-block;
 		border: 0;
