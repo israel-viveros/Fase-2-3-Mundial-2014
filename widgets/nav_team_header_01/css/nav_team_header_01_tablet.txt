@@ -213,6 +213,6 @@
 		left: 41px;
 	}
 }
-/*
+
 .nav_team_header_01_theme {width:10000px;}
-.nav_team_header_01_theme li {display:inline;float:left}*/
+.nav_team_header_01_theme li {display:inline;float:left}

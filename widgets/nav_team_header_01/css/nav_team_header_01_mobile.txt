@@ -205,7 +205,7 @@
 		top:-96px;
     }
 	.nav_team_header_01 .sombra{
-		margin: 0 0 0 190px;
+		margin: 0 0 0 230px;
 		padding-left: 0px;
 		/*width:auto;*/
 		height:18px;
@@ -406,393 +406,381 @@
 }
 .nav_team_header_01  .corea-del-sur{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #d70314 30%, #f83747 61%);
-        background-image: -o-linear-gradient(left , #d70314 30%, #f83747 61%);
-        background-image: -moz-linear-gradient(left , #d70314 30%, #f83747 61%);
-        background-image: -webkit-linear-gradient(left , #d70314 30%, #f83747 61%);
-        background-image: -ms-linear-gradient(left , #d70314 30%, #f83747 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #d70314),
-            color-stop(0.61, #f83747)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .costa-de-marfil{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #1e9f61 30%, #37d086 61%);
-        background-image: -o-linear-gradient(left , #1e9f61 30%, #37d086 61%);
-        background-image: -moz-linear-gradient(left , #1e9f61 30%, #37d086 61%);
-        background-image: -webkit-linear-gradient(left , #1e9f61 30%, #37d086 61%);
-        background-image: -ms-linear-gradient(left , #1e9f61 30%, #37d086 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #1e9f61),
-            color-stop(0.61, #37d086)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .costa-rica{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #d5021c 30%, #ef2640 61%);
-        background-image: -o-linear-gradient(left , #d5021c 30%, #ef2640 61%);
-        background-image: -moz-linear-gradient(left , #d5021c 30%, #ef2640 61%);
-        background-image: -webkit-linear-gradient(left , #d5021c 30%, #ef2640 61%);
-        background-image: -ms-linear-gradient(left , #d5021c 30%, #ef2640 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #d5021c),
-            color-stop(0.61, #ef2640)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .croacia{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #b7132c 30%, #e0243d 61%);
-        background-image: -o-linear-gradient(left , #b7132c 30%, #e0243d 61%);
-        background-image: -moz-linear-gradient(left , #b7132c 30%, #e0243d 61%);
-        background-image: -webkit-linear-gradient(left , #b7132c 30%, #e0243d 61%);
-        background-image: -ms-linear-gradient(left , #b7132c 30%, #e0243d 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #b7132c),
-            color-stop(0.61, #e0243d)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .ecuador{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #1a2f68 30%, #2c4484 61%);
-        background-image: -o-linear-gradient(left , #1a2f68 30%, #2c4484 61%);
-        background-image: -moz-linear-gradient(left , #1a2f68 30%, #2c4484 61%);
-        background-image: -webkit-linear-gradient(left , #1a2f68 30%, #2c4484 61%);
-        background-image: -ms-linear-gradient(left , #1a2f68 30%, #2c4484 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #1a2f68),
-            color-stop(0.61, #2c4484)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .espana{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #e1a504 30%, #fcc31a 61%);
-        background-image: -o-linear-gradient(left , #e1a504 30%, #fcc31a 61%);
-        background-image: -moz-linear-gradient(left , #e1a504 30%, #fcc31a 61%);
-        background-image: -webkit-linear-gradient(left , #e1a504 30%, #fcc31a 61%);
-        background-image: -ms-linear-gradient(left , #e1a504 30%, #fcc31a 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #e1a504),
-            color-stop(0.61, #fcc31a)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .estados-unidos{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #0e2551 30%, #1a3668 61%);
-        background-image: -o-linear-gradient(left , #0e2551 30%, #1a3668 61%);
-        background-image: -moz-linear-gradient(left , #0e2551 30%, #1a3668 61%);
-        background-image: -webkit-linear-gradient(left , #0e2551 30%, #1a3668 61%);
-        background-image: -ms-linear-gradient(left , #0e2551 30%, #1a3668 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #0e2551),
-            color-stop(0.61, #1a3668)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .francia{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #121b3e 30%, #123866 61%);
-        background-image: -o-linear-gradient(left , #121b3e 30%, #123866 61%);
-        background-image: -moz-linear-gradient(left , #121b3e 30%, #123866 61%);
-        background-image: -webkit-linear-gradient(left , #121b3e 30%, #123866 61%);
-        background-image: -ms-linear-gradient(left , #121b3e 30%, #123866 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #121b3e),
-            color-stop(0.61, #123866)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .ghana{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #b90706 30%, #cc3943 61%);
-        background-image: -o-linear-gradient(left , #b90706 30%, #cc3943 61%);
-        background-image: -moz-linear-gradient(left , #b90706 30%, #cc3943 61%);
-        background-image: -webkit-linear-gradient(left , #b90706 30%, #cc3943 61%);
-        background-image: -ms-linear-gradient(left , #b90706 30%, #cc3943 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #b90706),
-            color-stop(0.61, #cc3943)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .grecia{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #062665 30%, #1b3e82 61%);
-        background-image: -o-linear-gradient(left , #062665 30%, #1b3e82 61%);
-        background-image: -moz-linear-gradient(left , #062665 30%, #1b3e82 61%);
-        background-image: -webkit-linear-gradient(left , #062665 30%, #1b3e82 61%);
-        background-image: -ms-linear-gradient(left , #062665 30%, #1b3e82 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #062665),
-            color-stop(0.61, #1b3e82)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .holanda{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #fe5a00 30%, #fb803d 61%);
-        background-image: -o-linear-gradient(left , #fe5a00 30%, #fb803d 61%);
-        background-image: -moz-linear-gradient(left , #fe5a00 30%, #fb803d 61%);
-        background-image: -webkit-linear-gradient(left , #fe5a00 30%, #fb803d 61%);
-        background-image: -ms-linear-gradient(left , #fe5a00 30%, #fb803d 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #fe5a00),
-            color-stop(0.61, #fb803d)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .honduras{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #062665 30%, #1b3e82 61%);
-        background-image: -o-linear-gradient(left , #062665 30%, #1b3e82 61%);
-        background-image: -moz-linear-gradient(left , #062665 30%, #1b3e82 61%);
-        background-image: -webkit-linear-gradient(left , #062665 30%, #1b3e82 61%);
-        background-image: -ms-linear-gradient(left , #062665 30%, #1b3e82 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #062665),
-            color-stop(0.61, #1b3e82)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .inglaterra{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #011743 30%, #03276e 61%);
-        background-image: -o-linear-gradient(left , #011743 30%, #03276e 61%);
-        background-image: -moz-linear-gradient(left , #011743 30%, #03276e 61%);
-        background-image: -webkit-linear-gradient(left , #011743 30%, #03276e 61%);
-        background-image: -ms-linear-gradient(left , #011743 30%, #03276e 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #011743),
-            color-stop(0.61, #03276e)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .iran{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #c20214 30%, #e4272e 61%);
-        background-image: -o-linear-gradient(left , #c20214 30%, #e4272e 61%);
-        background-image: -moz-linear-gradient(left , #c20214 30%, #e4272e 61%);
-        background-image: -webkit-linear-gradient(left , #c20214 30%, #e4272e 61%);
-        background-image: -ms-linear-gradient(left , #c20214 30%, #e4272e 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #c20214),
-            color-stop(0.61, #e4272e)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .italia{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #0d5db2 30%, #0190cc 61%);
-        background-image: -o-linear-gradient(left , #0d5db2 30%, #0190cc 61%);
-        background-image: -moz-linear-gradient(left , #0d5db2 30%, #0190cc 61%);
-        background-image: -webkit-linear-gradient(left , #0d5db2 30%, #0190cc 61%);
-        background-image: -ms-linear-gradient(left , #0d5db2 30%, #0190cc 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #0d5db2),
-            color-stop(0.61, #0190cc)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .japon{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #21314c 30%, #153e84 61%);
-        background-image: -o-linear-gradient(left , #21314c 30%, #153e84 61%);
-        background-image: -moz-linear-gradient(left , #21314c 30%, #153e84 61%);
-        background-image: -webkit-linear-gradient(left , #21314c 30%, #153e84 61%);
-        background-image: -ms-linear-gradient(left , #21314c 30%, #153e84 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #21314c),
-            color-stop(0.61, #153e84)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .mexico{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #151515 30%, #f84b51 61%);
-        background-image: -o-linear-gradient(left , #151515 30%, #f84b51 61%);
-        background-image: -moz-linear-gradient(left , #151515 30%, #f84b51 61%);
-        background-image: -webkit-linear-gradient(left , #151515 30%, #f84b51 61%);
-        background-image: -ms-linear-gradient(left , #151515 30%, #f84b51 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
             color-stop(0.3, #151515),
-            color-stop(0.61, #f84b51)
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .nigeria{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #c02127 30%, #f84b51 61%);
-        background-image: -o-linear-gradient(left , #c02127 30%, #f84b51 61%);
-        background-image: -moz-linear-gradient(left , #c02127 30%, #f84b51 61%);
-        background-image: -webkit-linear-gradient(left , #c02127 30%, #f84b51 61%);
-        background-image: -ms-linear-gradient(left , #c02127 30%, #f84b51 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #c02127),
-            color-stop(0.61, #f84b51)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .portugal{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #00552a 30%, #008b59 61%);
-        background-image: -o-linear-gradient(left , #00552a 30%, #008b59 61%);
-        background-image: -moz-linear-gradient(left , #00552a 30%, #008b59 61%);
-        background-image: -webkit-linear-gradient(left , #00552a 30%, #008b59 61%);
-        background-image: -ms-linear-gradient(left , #00552a 30%, #008b59 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #00552a),
-            color-stop(0.61, #008b59)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .rusia{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #c50210 30%, #fb1a29 61%);
-        background-image: -o-linear-gradient(left , #c50210 30%, #fb1a29 61%);
-        background-image: -moz-linear-gradient(left , #c50210 30%, #fb1a29 61%);
-        background-image: -webkit-linear-gradient(left , #c50210 30%, #fb1a29 61%);
-        background-image: -ms-linear-gradient(left , #c50210 30%, #fb1a29 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #c50210),
-            color-stop(0.61, #fb1a29)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .suiza{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #740416 30%, #8a061c 61%);
-        background-image: -o-linear-gradient(left , #740416 30%, #8a061c 61%);
-        background-image: -moz-linear-gradient(left , #740416 30%, #8a061c 61%);
-        background-image: -webkit-linear-gradient(left , #740416 30%, #8a061c 61%);
-        background-image: -ms-linear-gradient(left , #740416 30%, #8a061c 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #740416),
-            color-stop(0.61, #8a061c)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
 }
 .nav_team_header_01  .uruguay{
      /*Pinta gradient*/
-        background-image: linear-gradient(left , #63a2db 30%, #81cbff 61%);
-        background-image: -o-linear-gradient(left , #63a2db 30%, #81cbff 61%);
-        background-image: -moz-linear-gradient(left , #63a2db 30%, #81cbff 61%);
-        background-image: -webkit-linear-gradient(left , #63a2db 30%, #81cbff 61%);
-        background-image: -ms-linear-gradient(left , #63a2db 30%, #81cbff 61%);
+        background-image: linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -o-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -moz-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -webkit-linear-gradient(left , #151515 30%, #383939 61%);
+        background-image: -ms-linear-gradient(left , #151515 30%, #383939 61%);
         background-image: -webkit-gradient(
             linear,
             left top,
             right top,
-            color-stop(0.3, #63a2db),
-            color-stop(0.61, #81cbff)
+            color-stop(0.3, #151515),
+            color-stop(0.61, #383939)
         );
         /*Finaliza gradient*/
 
-
-
-
 }
 
-div.nav_team_header_01_nav ul li a.textcolor-title2 #alemania{
-    color:#d70307 !important;
-}
 
-div.nav_team_header_01_nav ul li a.textcolor-title2 #argelia{
-    color:#12a450 !important;
-}
 
-div.nav_team_header_01_nav ul li a.textcolor-title2 #argentina{
-    color:#dc9822 !important;
-}
 
 
 
