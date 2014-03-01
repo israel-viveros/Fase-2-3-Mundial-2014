@@ -543,12 +543,16 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 
 	/*submenu paises*/
 
-	.main-nav-countries { display:block; width:100%; height:auto; background: #eab11d;} /* Buscar hacerlo fullwidth */
-.content-countries, .content-countries1 {height:150px; width:900px;  margin:0 auto; position:relative; padding-bottom:18px;}
+	.main-nav-countries { display:block; width:100%; height:auto; background: #eab11d;  } /* Buscar hacerlo fullwidth */
+.content-countries, .content-countries1 {height:100%; width:900px;  margin:0 auto; position:relative; padding:18px 0;}
 .content-countries ul, .content-countries1 ul  { width:948px; display:inline-block; height:30px; margin: 0 100px}
 .content-countries ul li, .content-countries1 ul li { width:30px; height:30px;  padding:5px; display:inline-block;}
-.content-countries ul li figure, .content-countries1 ul li figure{ color:#fff; padding: 18px 0;}
+.content-countries ul li figure, .content-countries1 ul li figure{ color:#fff; padding: px 0;}
 
+	hr {
+		border: 1px dashed #fff;
+		width: 700px;
+	}
 	/*END submenu paises*/
 
 	header.nav_header_01 div.mainnav nav.main ul li ul li,
