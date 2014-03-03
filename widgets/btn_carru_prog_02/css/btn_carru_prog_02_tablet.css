@@ -87,6 +87,8 @@
     .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_tennisresult_01_click span{
         margin-left: 12px;
         color: #ffffff;
+        display: inline-block;
+        margin-top: 7px;
     }
     .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_events{
         width: 313px;

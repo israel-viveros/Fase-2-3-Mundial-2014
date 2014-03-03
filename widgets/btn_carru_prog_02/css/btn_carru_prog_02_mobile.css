@@ -161,7 +161,7 @@
        padding:0;
        display:block;
        margin-bottom: 15px;
-
+       height: 36px;
     }
      .btn_carru_prog_02 .typecarruse .carrusel ul li span.title:hover {
         text-decoration: underline;
