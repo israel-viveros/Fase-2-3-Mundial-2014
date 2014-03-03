@@ -367,15 +367,12 @@ background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fas
 	header.nav_header_01 div.mainnav ul {
 		/* border-left: 1px solid #dadada; */
 		height: 35px;
-	  -moz-box-shadow:    inset -5px -5px 20px -5px rgba(50, 50, 50, 0.75);  
-		/* box-shadow:         inset -5px -5px 20px -5px rgba(50, 50, 50, 0.75); */
-}
+	}
 	header.nav_header_01 div.mainnav ul li {
 		display: inline-block;
 		height: 35px;
 		line-height: 35px;
-	  -moz-box-shadow: inset -5px -5px 20px -5px rgba(50, 150, 50, 0.75);  
-		/* box-shadow: inset -1px -1px 20px -5px rgba(50, 150, 50, 0.75); */
+	 
 }
 	header.nav_header_01 div.mainnav nav.main {
 		position: absolute;
@@ -391,6 +388,7 @@ background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fas
 		height: 35px;
 		line-height: 35px;
 		padding: 0 11px;
+		margin: 0;
 		/* font-weight: 700; */
 		color: #fff;
 		font-size: 14px;
@@ -418,9 +416,7 @@ header.nav_header_01 div.mainnav nav.main ul li
 
 	header.nav_header_01 div.mainnav nav.main ul li {
 		position: relative;
-	  -moz-box-shadow:    inset -5px -5px 20px -5px rgba(50, 50, 50, 0.75);  
-		/* box-shadow:         inset -5px -5px 20px -5px rgba(50, 50, 50, 0.75); */  -moz-box-shadow: inset -5px -5px 20px -5px rgba(50, 150, 50, 0.75);  
-		/* box-shadow: inset -1px -1px 20px -5px rgba(50, 150, 50, 0.75); */
+	
 }
 	div.collabsable,div.collabsable a,div.collabsable li {
 		color: #494a4c;
@@ -546,12 +542,19 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 	.main-nav-countries { display:block; width:100%; height:auto; background: #eab11d;  } /* Buscar hacerlo fullwidth */
 .content-countries, .content-countries1 {height:100%; width:900px;  margin:0 auto; position:relative; padding:18px 0;}
 .content-countries ul, .content-countries1 ul  { width:948px; display:inline-block; height:30px; margin: 0 100px}
-.content-countries ul li, .content-countries1 ul li { width:30px; height:30px;  padding:5px; display:inline-block;}
-.content-countries ul li figure, .content-countries1 ul li figure{ color:#fff; padding: px 0;}
+.content-countries ul li, .content-countries1 ul li { width:30px; height:30px;  padding:0 5px; display:inline-block; margin:auto;}
+.content-countries ul li figure, .content-countries1 ul li figure{ color:#fff; font-size: 12px; padding:0; margin:auto; text-align:center;} 
+.content-countries ul li figure a, .content-countries1 ul li figure a{ color:#fff; font-size: 12px; font-style:none; padding:0; margin: auto;} 
+.content-countries ul li figure img, .content-countries1 ul li figure img {width:24px; height:18px; margin:auto}	
 
 	hr {
-		border: 1px dashed #fff;
-		width: 700px;
+		border-top: 1px dashed #d9d9d9 !important;
+		border: none;
+		width: 700px;	
+		margin-bottom:18px;
+		margin-top:18px;
+		
+		
 	}
 	/*END submenu paises*/
 
@@ -568,16 +571,30 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 		{
 		top: 36px !important;
 	}
+	
+	header.nav_header_01 div.mainnav nav.main ul li{
+		margin-left:-4px;
+		padding:0 0 0 5px;
+	}
 
 	header.nav_header_01 div.mainnav nav.main ul li:hover {
 		background: #59a529;
+	}
+	
+	header.nav_header_01 div.mainnav nav.main ul li.mas-deportes a{
+		background:none !important;
+	}
+	
+	header.nav_header_01 div.mainnav nav.main ul li.home a{
+		background:none !important;
 	}
 
 	header.nav_header_01 div.mainnav nav.main ul li.mas-deportes:hover>a {
 		background: #eab11d !important;
 		color: #fff;
 		height: 35px;
-		margin-top:none; 
+		margin-top:none;
+		margin-left:-5px;
 		text-decoration: none;
 	}
 
@@ -716,8 +733,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 			-135px -16px;
 	}
 	header.nav_header_01 div.mainnav ul li,header.nav_header_01 div.mainnav nav.social ul li{
-
-
+	
 	}
 	header.nav_header_01 div.mainnav ul li,header.nav_header_01 div.mainnav nav.social ul li ul.dropdown li{
 	box-shadow: none;
@@ -738,6 +754,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 		line-height: 25px;
 		vertical-align: baseline;
 		display: inline;
+		width:35px;
 	}
 	header.nav_header_01 div.mainnav nav.social ul li:first-child a i { 
 		font-size: 17px !important;
@@ -749,7 +766,6 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 
 	header.nav_header_01 div.mainnav nav.social ul li.social {
 		border: 0px;
-		margin-right: -4px;
 	}
 
 	header.nav_header_01 div.mainnav nav.social ul li.station:first-child {
