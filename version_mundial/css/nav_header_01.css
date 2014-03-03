@@ -236,15 +236,19 @@ x|/*Dispositivos vista retina------*/
 
 	/* Main Navigation */
 	/* icon sizes */
+	header.nav_header_01 div.mainnav ul li a,header.nav_header_01 div.mainnav nav.social ul li{
+		margin-left:-5px;
+	}
+	
+	
 	header.nav_header_01 div.mainnav ul li a i,header.nav_header_01 div.mainnav nav.social ul li a i
 		{
 		font-size: 17px;
 		position: relative;
-		line-height: 37px;
 		vertical-align: baseline;
-		display: inline;
-		margin-left:-5px;	
 	}
+	
+	
 	header.nav_header_01 div.mainnav nav.social ul li:first-child a i {
 		font-size: 13px !important;
 	}
