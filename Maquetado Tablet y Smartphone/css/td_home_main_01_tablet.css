@@ -88,10 +88,20 @@
 	#content {
 		
 	}
+	
+	#circle {
+		background:#fff;
+		border-radius:55px;
+		width:110px;
+		height:110px;
+		margin:auto;
+		
+	}
 
 	#circle img {
 		margin: auto;
-	}
+		padding: 25px 0;
+		}
 
 	.descargar{
 		color: #8f8f8f;
