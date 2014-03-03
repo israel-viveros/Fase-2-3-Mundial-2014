@@ -1,4 +1,5 @@
 @media screen {
+
     .nav_team_header_01{
         width: 100%;
         overflow: hidden;
@@ -24,7 +25,7 @@
     .nav_team_header_01 .nav_team_header_01_container{
         /*border-bottom: 1px solid #8f8f8f;*/
         height: 65px;
-        margin: -16px auto;
+        margin: 19px auto !important;
         margin-bottom: 0px;
         padding-left: 0px;
         padding-top: 4px;
@@ -205,7 +206,7 @@
 		top:-96px;
     }
 	.nav_team_header_01 .sombra{
-		margin: 0 0 0 190px;
+/*		margin: 0 0 0 190px;*/
 		padding-left: 0px;
 		/*width:auto;*/
 		height:18px;
@@ -782,17 +783,549 @@
 
 }
 
-div.nav_team_header_01_nav ul li a.textcolor-title2 #alemania{
-    color:#d70307 !important;
+
+
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #alemania a{
+    color:#d70307  !important;
+}
+div.nav_team_header_01_nav ul #alemania {
+    border-bottom:solid 2px #d70307  !important;
 }
 
-div.nav_team_header_01_nav ul li a.textcolor-title2 #argelia{
+div.nav_team_header_01_nav ul #alemania a p:hover{
+    color:#d70307  !important;
+}
+div.nav_team_header_01_nav ul #alemania:hover {
+    border-bottom:solid 2px #d70307 !important;
+}
+/*////////////////////*/
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #argelia a{
     color:#12a450 !important;
 }
+div.nav_team_header_01_nav ul #argelia {
+    border-bottom:solid 2px #12a450 !important;
+}
 
-div.nav_team_header_01_nav ul li a.textcolor-title2 #argentina{
+div.nav_team_header_01_nav ul #argelia a p:hover{
+    color:#12a450 !important;
+}
+div.nav_team_header_01_nav ul #argelia:hover {
+    border-bottom:solid 2px #12a450 !important;
+}
+/*////////////////////*/
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #argentina a{
     color:#dc9822 !important;
 }
+div.nav_team_header_01_nav ul #argentina {
+    border-bottom:solid 2px #dc9822 !important;
+}
+
+div.nav_team_header_01_nav ul #argentina a p:hover{
+    color:#dc9822 !important;
+}
+div.nav_team_header_01_nav ul #argentina:hover {
+    border-bottom:solid 2px #dc9822 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #australia a{
+    color:#d70307 !important;
+}
+div.nav_team_header_01_nav ul #australia {
+    border-bottom:solid 2px #d70307 !important;
+}
+
+div.nav_team_header_01_nav ul #australia a p:hover{
+    color:#d70307 !important;
+}
+div.nav_team_header_01_nav ul #australia:hover {
+    border-bottom:solid 2px #d70307 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #belgica a{
+    color:#c91402 !important;
+}
+div.nav_team_header_01_nav ul #belgica {
+    border-bottom:solid 2px #c91402 !important;
+}
+
+div.nav_team_header_01_nav ul #belgica a p:hover{
+    color:#c91402 !important;
+}
+div.nav_team_header_01_nav ul #belgica:hover {
+    border-bottom:solid 2px #c91402 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #bosnia a{
+    color:#242983 !important;
+}
+div.nav_team_header_01_nav ul #bosnia {
+    border-bottom:solid 2px #242983 !important;
+}
+
+div.nav_team_header_01_nav ul #bosnia a p:hover{
+    color:#242983 !important;
+}
+div.nav_team_header_01_nav ul #bosnia:hover {
+    border-bottom:solid 2px #242983 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #brasil a{
+    color:#148237 !important;
+}
+div.nav_team_header_01_nav ul #brasil {
+    border-bottom:solid 2px #148237 !important;
+}
+
+div.nav_team_header_01_nav ul #brasil a p:hover{
+    color:#148237 !important;
+}
+div.nav_team_header_01_nav ul #brasil:hover {
+    border-bottom:solid 2px #148237 !important;
+}
+/*////////////////////*/
+
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #camerun a{
+    color:#c71829 !important;
+}
+div.nav_team_header_01_nav ul #camerun {
+    border-bottom:solid 2px #c71829 !important;
+}
+
+div.nav_team_header_01_nav ul #camerun a p:hover{
+    color:#c71829 !important;
+}
+div.nav_team_header_01_nav ul #camerun:hover {
+    border-bottom:solid 2px #c71829 !important;
+}
+/*////////////////////*/
+
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #chile a{
+    color:#dd0320 !important;
+}
+div.nav_team_header_01_nav ul #chile {
+    border-bottom:solid 2px #dd0320 !important;
+}
+
+div.nav_team_header_01_nav ul #chile a p:hover{
+    color:#dd0320 !important;
+}
+div.nav_team_header_01_nav ul #chile:hover {
+    border-bottom:solid 2px #dd0320 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #colombia a{
+    color:#cd0d27 !important;
+}
+div.nav_team_header_01_nav ul #colombia {
+    border-bottom:solid 2px #cd0d27 !important;
+}
+
+div.nav_team_header_01_nav ul #colombia a p:hover{
+    color:#cd0d27 !important;
+}
+div.nav_team_header_01_nav ul #colombia:hover {
+    border-bottom:solid 2px #cd0d27 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #corea-del-sur a{
+    color:#1c3577 !important;
+}
+div.nav_team_header_01_nav ul #corea-del-sur {
+    border-bottom:solid 2px #1c3577 !important;
+}
+
+div.nav_team_header_01_nav ul #corea-del-sur a p:hover{
+    color:#1c3577 !important;
+}
+div.nav_team_header_01_nav ul #corea-del-sur:hover {
+    border-bottom:solid 2px #1c3577 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #costa-de-marfil a{
+    color:#fd7a00 !important;
+}
+div.nav_team_header_01_nav ul #costa-de-marfil {
+    border-bottom:solid 2px #fd7a00 !important;
+}
+
+div.nav_team_header_01_nav ul #costa-de-marfil a p:hover{
+    color:#fd7a00 !important;
+}
+div.nav_team_header_01_nav ul #costa-de-marfil:hover {
+    border-bottom:solid 2px #fd7a00 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #costa-rica a{
+    color:#22377a !important;
+}
+div.nav_team_header_01_nav ul #costa-rica {
+    border-bottom:solid 2px #22377a !important;
+}
+
+div.nav_team_header_01_nav ul #costa-rica a p:hover{
+    color:#22377a !important;
+}
+div.nav_team_header_01_nav ul #costa-rica:hover {
+    border-bottom:solid 2px #22377a !important;
+}
+/*////////////////////*/
+
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #croacia a{
+    color:#22377a !important;
+}
+div.nav_team_header_01_nav ul #croacia {
+    border-bottom:solid 2px #22377a !important;
+}
+
+div.nav_team_header_01_nav ul #croacia a p:hover{
+    color:#22377a !important;
+}
+div.nav_team_header_01_nav ul #croacia:hover {
+    border-bottom:solid 2px #22377a !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #ecuador a{
+    color:#cd0d27 !important;
+}
+div.nav_team_header_01_nav ul #ecuador {
+    border-bottom:solid 2px #cd0d27 !important;
+}
+
+div.nav_team_header_01_nav ul #ecuador a p:hover{
+    color:#cd0d27 !important;
+}
+div.nav_team_header_01_nav ul #ecuador:hover {
+    border-bottom:solid 2px #cd0d27 !important;
+}
+/*////////////////////*/
+
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #espana a{
+    color:#d61a2b !important;
+}
+div.nav_team_header_01_nav ul #espana {
+    border-bottom:solid 2px #d61a2b !important;
+}
+
+div.nav_team_header_01_nav ul #espana a p:hover{
+    color:#d61a2b !important;
+}
+div.nav_team_header_01_nav ul #espana:hover {
+    border-bottom:solid 2px #d61a2b !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #estados-unidos a{
+    color:#d70307 !important;
+}
+div.nav_team_header_01_nav ul #estados-unidos {
+    border-bottom:solid 2px #d70307 !important;
+}
+
+div.nav_team_header_01_nav ul #estados-unidos a p:hover{
+    color:#d70307 !important;
+}
+div.nav_team_header_01_nav ul #estados-unidos:hover {
+    border-bottom:solid 2px #d70307 !important;
+}
+/*////////////////////*/
+
+
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #francia a{
+    color:#e81f32 !important;
+}
+div.nav_team_header_01_nav ul #francia {
+    border-bottom:solid 2px #e81f32 !important;
+}
+
+div.nav_team_header_01_nav ul #francia a p:hover{
+    color:#e81f32 !important;
+}
+div.nav_team_header_01_nav ul #francia:hover {
+    border-bottom:solid 2px #e81f32 !important;
+}
+/*////////////////////*/
+
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #ghana a{
+    color:#086c40 !important;
+}
+div.nav_team_header_01_nav ul #ghana {
+    border-bottom:solid 2px #086c40 !important;
+}
+
+div.nav_team_header_01_nav ul #ghana a p:hover{
+    color:#086c40 !important;
+}
+div.nav_team_header_01_nav ul #ghana:hover {
+    border-bottom:solid 2px #086c40 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #grecia a{
+    color:#17b0d9 !important;
+}
+div.nav_team_header_01_nav ul #grecia {
+    border-bottom:solid 2px #17b0d9 !important;
+}
+
+div.nav_team_header_01_nav ul #grecia a p:hover{
+    color:#17b0d9 !important;
+}
+div.nav_team_header_01_nav ul #grecia:hover {
+    border-bottom:solid 2px #17b0d9 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #holanda a{
+    color:#2c62c3 !important;
+}
+div.nav_team_header_01_nav ul #holanda {
+    border-bottom:solid 2px #2c62c3 !important;
+}
+
+div.nav_team_header_01_nav ul #holanda a p:hover{
+    color:#2c62c3 !important;
+}
+div.nav_team_header_01_nav ul #holanda:hover {
+    border-bottom:solid 2px #2c62c3 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #honduras a{
+    color:#0595fa !important;
+}
+div.nav_team_header_01_nav ul #honduras {
+    border-bottom:solid 2px #0595fa !important;
+}
+
+div.nav_team_header_01_nav ul #honduras a p:hover{
+    color:#0595fa !important;
+}
+div.nav_team_header_01_nav ul #honduras:hover {
+    border-bottom:solid 2px #0595fa !important;
+}
+/*////////////////////*/
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #inglaterra a{
+    color:#ae0221 !important;
+}
+div.nav_team_header_01_nav ul #inglaterra {
+    border-bottom:solid 2px #ae0221 !important;
+}
+
+div.nav_team_header_01_nav ul #inglaterra a p:hover{
+    color:#ae0221 !important;
+}
+div.nav_team_header_01_nav ul #inglaterra:hover {
+    border-bottom:solid 2px #ae0221 !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #iran a{
+    color:#267d5d !important;
+}
+div.nav_team_header_01_nav ul #iran {
+    border-bottom:solid 2px #267d5d !important;
+}
+
+div.nav_team_header_01_nav ul #iran a p:hover{
+    color:#267d5d !important;
+}
+div.nav_team_header_01_nav ul #iran:hover {
+    border-bottom:solid 2px #267d5d !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #italia a{
+    color:#d21b2c !important;
+}
+div.nav_team_header_01_nav ul #italia {
+    border-bottom:solid 2px #d21b2c !important;
+}
+
+div.nav_team_header_01_nav ul #italia a p:hover{
+    color:#d21b2c !important;
+}
+div.nav_team_header_01_nav ul #italia:hover {
+    border-bottom:solid 2px #d21b2c !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #japon a{
+    color:#dc353b !important;
+}
+div.nav_team_header_01_nav ul #japon {
+    border-bottom:solid 2px #dc353b !important;
+}
+
+div.nav_team_header_01_nav ul #japon a p:hover{
+    color:#dc353b !important;
+}
+div.nav_team_header_01_nav ul #japon:hover {
+    border-bottom:solid 2px #dc353b !important;
+}
+/*////////////////////*/
+
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #nigeria a{
+    color:#00674e !important;
+}
+div.nav_team_header_01_nav ul #nigeria {
+    border-bottom:solid 2px #00674e !important;
+}
+
+div.nav_team_header_01_nav ul #nigeria a p:hover{
+    color:#00674e !important;
+}
+div.nav_team_header_01_nav ul #nigeria:hover {
+    border-bottom:solid 2px #00674e !important;
+}
+/*////////////////////*/
+
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #portugal a{
+    color:#cb1c29 !important;
+}
+div.nav_team_header_01_nav ul #portugal {
+    border-bottom:solid 2px #cb1c29 !important;
+}
+
+div.nav_team_header_01_nav ul #portugal a p:hover{
+    color:#cb1c29 !important;
+}
+div.nav_team_header_01_nav ul #portugal:hover {
+    border-bottom:solid 2px #cb1c29 !important;
+}
+/*////////////////////*/
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #rusia a{
+    color:#3061ae !important;
+}
+div.nav_team_header_01_nav ul #rusia {
+    border-bottom:solid 2px #3061ae !important;
+}
+
+div.nav_team_header_01_nav ul #rusia a p:hover{
+    color:#3061ae !important;
+}
+div.nav_team_header_01_nav ul #rusia:hover {
+    border-bottom:solid 2px #3061ae !important;
+}
+/*////////////////////*/
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #suiza a{
+    color:#fa2147 !important;
+}
+div.nav_team_header_01_nav ul #suiza {
+    border-bottom:solid 2px #fa2147 !important;
+}
+
+div.nav_team_header_01_nav ul #suiza a p:hover{
+    color:#fa2147 !important;
+}
+div.nav_team_header_01_nav ul #suiza:hover {
+    border-bottom:solid 2px #fa2147 !important;
+}
+/*////////////////////*/
+
+
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #uruguay a{
+    color:#043970 !important;
+}
+div.nav_team_header_01_nav ul #uruguay {
+    border-bottom:solid 2px #043970 !important;
+}
+
+div.nav_team_header_01_nav ul #uruguay a p:hover{
+    color:#043970 !important;
+}
+div.nav_team_header_01_nav ul #uruguay:hover {
+    border-bottom:solid 2px #043970 !important;
+}
+/*////////////////////*/
+
+
+
+
+
+
+
+
 
 
 
