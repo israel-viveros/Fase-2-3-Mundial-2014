@@ -243,6 +243,7 @@ x|/*Dispositivos vista retina------*/
 		line-height: 37px;
 		vertical-align: baseline;
 		display: inline;
+		margin-left:-5px;	
 	}
 	header.nav_header_01 div.mainnav nav.social ul li:first-child a i {
 		font-size: 13px !important;
@@ -340,8 +341,9 @@ background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fas
 		background: #fff;
 	}*/
 
-	header.nav_header_01 div.mainnav nav.main ul li.home {
+	header.nav_header_01 div.mainnav nav.main ul li.home{
 		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/shadow.png) no-repeat right;
+		margin:0;
 	}
 	
 	header.nav_header_01 div.mainnav nav.main ul li.home:hover {
