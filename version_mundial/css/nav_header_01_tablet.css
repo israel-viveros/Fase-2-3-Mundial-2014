@@ -751,7 +751,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 		color: #fff !important;
 		font-size: 14px;
 		position: relative;
-		line-height: 25px;
+		line-height: 35px;
 		vertical-align: baseline;
 		display: inline;
 		width:35px;
@@ -770,12 +770,6 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 
 	header.nav_header_01 div.mainnav nav.social ul li.station:first-child {
 		display: none;
-	}
-	/*header.nav_header_01 div.mainnav nav.social ul li.station a {
-		padding: 0 7px !important;
-		border-right: 1px solid #eaeaec;
-		border-left: 1px solid #f3f3f3;
-		*/
 	}
 	
 	header.nav_header_01 div.mainnav nav.social a.toggle {
