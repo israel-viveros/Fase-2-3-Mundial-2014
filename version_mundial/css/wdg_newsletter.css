@@ -50,7 +50,7 @@
         font-style: italic;
         line-height: 37px;
         padding: 5px 24px;
-        height: 22px;
+        /*height: 22px;*/
     }
     .wdg_nwslt_01 .container-email a {
         color: #a1a1a1;
@@ -71,7 +71,7 @@
     .wdg_nwslt_01 .container-email .container-right {
         height: 22px;
         background: transparent url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/newsletter-sprites.png) no-repeat 0 -29px;
-        padding-left: 35px;
+        padding-left: 25px;
     }
   
     /* END: wdg_nwslt_01 (Small) */
@@ -120,6 +120,7 @@
 }
 
 .wdg_nwslt_01 .container-email .container-right .email-txt {
+    margin-top: -3px !important;
     width: 100% !important;
     float: right !important;
     border: none !important;
