@@ -24,7 +24,7 @@
     	margin-top:10px;
     }
     .vid_player_01 .txt1{
-        background: url(../img/dotted-vertical.html) repeat-y right;        
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png) repeat-y right;        
         float: left;
         height: auto;
         margin-right: 10px;
@@ -39,9 +39,9 @@
 		font-weight: normal;
     } 
     .vid_player_01 .txt2{       
-        background: url(../img/dotted-horizontal.html) repeat-x bottom;
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-horizontal.png) repeat-x bottom;
         margin-bottom:10px;
-        color:#999;
+        color:#59a529;
         font-size: 13px;
 		font-style: italic;
 		font-weight: normal;

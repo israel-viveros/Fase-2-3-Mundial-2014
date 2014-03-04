@@ -1,0 +1,41 @@
+
+@media screen and (min-width: 948px) {
+	.wdg_videoteca_01 {
+		height: 100%;
+	}
+	.wdg_videoteca_01 > div .prev,  .wdg_videoteca_01 > div .next {
+		display: block;
+	}
+	.wdg_videoteca_01 .degraded,
+	.wdg_videoteca_01 .seemore,
+	.wdg_videoteca_01 .seemore a{
+		display:none;
+	}
+	.wdg_sched_02 > div .full-timetable {
+		display:block;
+	}
+	
+	.wdg_videoteca_01 > ul {
+		height: 392px;
+		background-image: none;
+	}
+	.wdg_videoteca_01 .view {
+		display: block;
+		border-top: 1px #CCC solid;
+	}
+	.wdg_videoteca_01 .content_carru{
+		height:294px;
+		margin-bottom:16px;
+	}
+
+}
+
+
+
+		/*Fix wdg_videoteca_01 alineaciones para IE7*/
+		.ie7 .wdg_videoteca_01 .content_carru .carru li:nth-child(2n) {
+		    margin-left: 28px;
+		}
+		.ie7 .wdg_videoteca_01 .content_carru .carru li:nth-child(2n+1){
+		    padding-left: 0;
+		}

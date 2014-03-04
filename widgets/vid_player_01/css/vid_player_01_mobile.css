@@ -34,7 +34,7 @@
         display:none;
     }
     .vid_player_01 .vid_player_01_image{
-        background-image:url(../../img/ajax-loader.gif);
+        background-image:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/ajax-loader.gif);
         background-position:center center;
         background-repeat:no-repeat;
     }
@@ -76,7 +76,7 @@
     }
     /* SPRITES */
     .vid_player_01  #videobtn {
-        background-color: #A41D21;
+        background-color: #59a529;
         color: #fff;
         display: block;        
         height: 28px;
@@ -117,7 +117,7 @@
         width: 50px;
     }
 	 .vid_player_01 .txt3{
-        background: url(../img/dotted-horizontal.html) repeat-x top;
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-horizontal.png) repeat-x top;
     }
     
     .ie7 .vid_player_01 .wdg_social_01 {	
