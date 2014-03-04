@@ -146,7 +146,7 @@
 		line-height: 28px;
 	}
 	.wdg_videoteca_01 a.prev,  .wdg_videoteca_01 a.next {
-		background-color: #A41D21;
+		background-color: #59a529;
 	}
 	.wdg_videoteca_01 > div .tvsa-caret-up {
 		margin: 2px 0 0 10px;
@@ -185,6 +185,8 @@
 		display: block;
 	}
 	.wdg_videoteca_01 .wdg_videoteca_012_listcontainer ul li {
+		font-size:14px;
+		color:grey;
 		width: 100%;
 		height: 34px;
 		background-color: rgba(235,235,235,0.6);
@@ -400,6 +402,7 @@
 		height: 31px;
 	}
 	.wdg_videoteca_01 .wdg_videoteca_012_dropdowncontent {
+		font-weight: bold;
 		background-color: #E5E5E5;
 		box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2) inset;
 		clear: both;
@@ -469,7 +472,7 @@
 		height: 35px;
 	}
 	.wdg_videoteca_01 .content_carru .carru .color a p {
-		color: #D6A256;
+		color: #eab11d;
 		font-size: 12px;
 		font-style: italic;
 	}
@@ -510,17 +513,20 @@
         display: block;
     }
 	.wdg_videoteca_01 .view .bgactive{
-		background-color:#A70A0B;
+		background-color:#398218;
+	
 	}
 	
 	.wdg_videoteca_01 .view .bginactive{
-		background-color:#BF6163;
+		background-color:#d7d7d7;
+	
+
 	}
 	.wdg_videoteca_01 .view .bgactive span{
-		color:#FFF;
+		color:#fff;
 	}
 	.wdg_videoteca_01 .view .bginactive span{
-		color:#DBA5A5;
+		color:#fff;
 	}
 	.wdg_videoteca_01 .link_complete{
 		display:inline-block;
