@@ -200,7 +200,8 @@
                     numForlocal = 0,
                     numForVisit = 0;
                 $.ajax({
-                    url: 'http://static-televisadeportes.esmas.com/sportsdata/futbol/copa-mundial-fifa-brasil-2014/teams.jsonp',
+                    //url: 'http://static-televisadeportes.esmas.com/sportsdata/futbol/copa-mundial-fifa-brasil-2014/teams.jsonp',
+                    url: 'http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/teams.jsonp',
                     type: 'GET',
                     dataType: 'jsonp',
                     jsonpCallback: 'getTeams'

@@ -70,7 +70,7 @@
 /*Contenedor*/
 
 	#content {
-		margin:  100px auto;
+		margin:84px auto;
 		text-align: center;
 		width: 320px;
 	}
@@ -88,23 +88,20 @@
 	#content {
 		
 	}
-
+	
 	#circle {
-		background: #fff;
-		-moz-border-radius: 55px; 
-   		-webkit-border-radius: 55px; 
-   		border-radius: 55px;
-		height: 110px;
-		width: 110px;
-		margin: auto;
-		margin: 36px auto 0;
+		background:#fff;
+		border-radius:55px;
+		width:110px;
+		height:110px;
+		margin:auto;
+		
 	}
 
 	#circle img {
-		position: middle;
-		text-align: center;
-		margin: 25px;
-	}
+		margin: auto;
+		padding: 25px 0;
+		}
 
 	.descargar{
 		color: #8f8f8f;
