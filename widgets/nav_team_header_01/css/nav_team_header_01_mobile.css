@@ -225,7 +225,7 @@
     .nav_team_header_01  .textura{
     position: absolute;
     top: 0;
-    z-index: 2;
+    z-index: 1;
     width: 948px;
     height: 97px !important;
     background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVQIW2P8//+/JAMQMDIyPgfTGAIgUWTAiC4AALpdCAUeKwe9AAAAAElFTkSuQmCC)repeat;   ;
@@ -678,22 +678,12 @@
 
 }
 .nav_team_header_01  .mexico{
-     /*Pinta gradient*/
-        background-image: linear-gradient(left , #151515 30%, #f84b51 61%);
-        background-image: -o-linear-gradient(left , #151515 30%, #f84b51 61%);
-        background-image: -moz-linear-gradient(left , #151515 30%, #f84b51 61%);
-        background-image: -webkit-linear-gradient(left , #151515 30%, #f84b51 61%);
-        background-image: -ms-linear-gradient(left , #151515 30%, #f84b51 61%);
-        background-image: -webkit-gradient(
-            linear,
-            left top,
-            right top,
-            color-stop(0.3, #151515),
-            color-stop(0.61, #f84b51)
-        );
-        /*Finaliza gradient*/
-
+       background-color: green;
+       background-image: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/back_tri.jpg);
+       background-position: 0 14px;
+       z-index: 3;
 }
+
 .nav_team_header_01  .nigeria{
      /*Pinta gradient*/
         background-image: linear-gradient(left , #c02127 30%, #f84b51 61%);
@@ -1232,6 +1222,22 @@ div.nav_team_header_01_nav ul #japon:hover {
 }
 /*////////////////////*/
 
+/*////////////////////*/
+
+div.nav_team_header_01_nav ul #mexico a{
+    color:#148a33 !important;
+}
+div.nav_team_header_01_nav ul #mexico {
+    border-bottom:solid 2px #148a33 !important;
+}
+
+div.nav_team_header_01_nav ul #mexico a p:hover{
+    color:#148a33 !important;
+}
+div.nav_team_header_01_nav ul #mexico:hover {
+    border-bottom:solid 2px #148a33 !important;
+}
+/*////////////////////*/
 
 /*////////////////////*/
 

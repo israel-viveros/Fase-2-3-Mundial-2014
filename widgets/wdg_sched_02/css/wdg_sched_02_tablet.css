@@ -54,7 +54,8 @@
 	}
 	
 	.wdg_sched_02 .nav .bginactive:hover{
-		background-color:#59a529;
+		background-color:#d7d7d7;
+		cursor:default;
 	}
 	
 	.wdg_sched_02 .nav .bgactive span{
