@@ -2084,9 +2084,10 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .match_title .cup_name .subtitulo{
+		color:#8F8F8F;
 		font-size: 16px;
 		font-style:italic;
-		font-weight:normal;
+		font-weight:bold;
 		display: none;
 	}
 	

@@ -40,4 +40,12 @@
         border-top: 0;
         padding: 0 10px 15px 0px;
     }
+
+    .background-color1{
+        background: #e4e2e2 !important;
+    }
+    .background-color2{
+        background: #f5f5f5!important;
+
+    }
 }

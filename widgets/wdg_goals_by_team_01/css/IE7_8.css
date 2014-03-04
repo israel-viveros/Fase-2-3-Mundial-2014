@@ -271,11 +271,6 @@
         border-right: 0;        
     }
 
-    /*GOALS MOVIL*/
-    .wdg_goals_by_team_01{
-        display: 624px;
-        position: relative;
-    }
     .wdg_goals_by_team_01 .pleca_superior{
         width: 100%; 
         position: relative;

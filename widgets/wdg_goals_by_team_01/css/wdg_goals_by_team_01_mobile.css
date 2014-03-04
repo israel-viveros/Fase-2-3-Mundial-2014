@@ -1,6 +1,6 @@
-@media screen {
+@media screen  {
     .wdg_goals_by_team_01{
-        /*display: none;*/
+        display: none;
         position: relative;
     }
     .wdg_goals_by_team_01 .pleca_superior{
@@ -46,7 +46,7 @@
         width: 246px;
     }
     
-    .wdg_goals_by_team_01 #dropdwon-right {
+    .wdg_goals_by_team_01 #dropdown-right {
         float: right;
         margin-left: 0;
         padding:0;
@@ -58,7 +58,7 @@
         text-align: center
     }
 
-    .wdg_goals_by_team_01 #dropdwon-right i{
+    .wdg_goals_by_team_01 #dropdown-right i{
         padding-top: 5px;
     }
     
