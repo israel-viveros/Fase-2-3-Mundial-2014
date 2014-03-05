@@ -2056,7 +2056,7 @@ header.nav_header_01 div.topnav {
 	
 	.wdg_sport_result_01 .match_title{
 		width: 100%;
-		border-bottom: 1px solid #dba5a6;
+		border-bottom: 1px solid #b6b6b6;
 		clear:both;
 		overflow: hidden;
 		
@@ -2085,10 +2085,11 @@ header.nav_header_01 div.topnav {
 	
 	.wdg_sport_result_01 .match_title .cup_name .subtitulo{
 		color:#8f8f8f !important;
+		clear:both;
 		font-size: 16px;
 		font-style:italic;
 		font-weight:bold;
-		display: none;
+		display: block;
 	}
 	
 	
@@ -2187,9 +2188,9 @@ header.nav_header_01 div.topnav {
 	.wdg_sport_result_01 .leftside .team2_m .equipo{
 		float:left;
 		width:118px;
-		font-size:13px;
+		font-size:16px!important;
 		font-weight:bold;
-		color:#FFF;
+		color:#8f8f8f;
 		margin-top:14px;
 	}
 	
@@ -2308,6 +2309,7 @@ header.nav_header_01 div.topnav {
 	
 	.wdg_sport_result_01 .match_title .cup_name .titulo{
 		color:#8f8f8f !important;
+		display:block;
 		font-size: 21px;
 		font-weight:bold;
 	}
@@ -2433,7 +2435,6 @@ header.nav_header_01 div.topnav {
 		width:575px;
 		color:#DEB476;
 		font-size:11px;
-		border-top: 1px dashed #dba5a6;
 		padding-top: 10px;
 		clear: both;
 		padding-bottom: 7px;
@@ -2456,7 +2457,7 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .date_venue{
-		color:#DEB476;
+		color:#59a529;
 		font-size:11px;
 		padding-top:7px;
 		padding-left: 10px;
@@ -2470,7 +2471,7 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .date_venue .where{
-		color:#FFF;
+		color:#8f8f8f;
 		padding-bottom:7px;
 		width: 200px;
 		height: 30px;

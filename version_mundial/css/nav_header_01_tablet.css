@@ -194,6 +194,11 @@ width: 48px;
 	}
 
 	/* Top Navigation */
+	
+	div.title {
+border-bottom:none !important;
+	}
+	
 	header.nav_header_01 div.topnav {
 		height: 36px;
 	}
@@ -582,7 +587,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 	}
 	
 	header.nav_header_01 div.mainnav nav.main ul li.mas-deportes a{
-		background:none !important;
+		line-height:30px !important;
 	}
 	
 	header.nav_header_01 div.mainnav nav.main ul li.home a{
@@ -667,6 +672,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 
 	header.nav_header_01 div.mainnav nav.social ul li a {
 		height: 25px;
+		margin:auto;
 	}
 
 	header.nav_header_01 div.mainnav nav.social ul li.station a span {
@@ -1266,7 +1272,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 	/* small news */
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news
 		{
-		width: ￼￼￼￼￼￼￼￼￼￼84px !important;
+		width: ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼84px !important;
 	}
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news a
 		{
@@ -1282,7 +1288,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 	}
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news a img
 		{
-		width: ￼￼￼￼￼￼￼￼￼￼84px;
+		width: ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼84px;
 		height: 67px;
 		position: absolute;
 		left: -96px;
