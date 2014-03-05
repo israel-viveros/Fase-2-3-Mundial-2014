@@ -455,10 +455,8 @@ header.nav_header_01 div.mainnav nav.main ul li
 		float: left;
 		height: 22px;
 		line-height: 22px;
-		padding: 0 11px;
-		font-weight: 700;
 		color: #494a4c;
-		font-size: 11px;
+		font-size: 12px;
 		border: 0;
 		filter: dropshadow(color = #FFF, offx = 1, offy = 1);
 
@@ -472,7 +470,7 @@ header.nav_header_01 div.mainnav nav.main ul li
 		text-align: center;
 	}
 header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li{
-border-bottom: 1px solid #d6d6d6;
+		border-bottom: 1px solid #d6d6d6;
 	}
 
 header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li:hover {
@@ -587,8 +585,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 	}
 	
 	header.nav_header_01 div.mainnav nav.main ul li.mas-deportes a{
-		line-height:30px !important;
-	}
+		}
 	
 	header.nav_header_01 div.mainnav nav.main ul li.home a{
 		background:none !important;
@@ -1272,7 +1269,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 	/* small news */
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news
 		{
-		width: ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼84px !important;
+		width: Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼84px !important;
 	}
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news a
 		{
@@ -1288,7 +1285,7 @@ header.nav_header_01 div.mainnav nav.main ul li ul.dropdown li a:hover {
 	}
 	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news a img
 		{
-		width: ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼ï¿¼84px;
+		width: Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼Ã¯Â¿Â¼84px;
 		height: 67px;
 		position: absolute;
 		left: -96px;

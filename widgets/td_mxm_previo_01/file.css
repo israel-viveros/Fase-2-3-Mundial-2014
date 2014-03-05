@@ -2180,7 +2180,9 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .leftside .team2 .escudo{
-		margin-left: 10px;
+		height:36px;
+		width:48px;
+		margin: 10px;
 	}
 	
 	.wdg_sport_result_01 .leftside .team1 .equipo,
@@ -2691,9 +2693,9 @@ header.nav_header_01 div.topnav {
     }
     .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li a{
         color: #8F8F8F;
-        font-size: 17px;
+        font-size: 18px;
         font-weight: bolder !important;
-        padding: 0 36px;
+        padding: 0 35px;
     }
 	.nav_smnu_sports_01 .navarrowleft,
 	.nav_smnu_sports_01 .navarrowright{
