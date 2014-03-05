@@ -2084,7 +2084,7 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .match_title .cup_name .subtitulo{
-		color:#8F8F8F;
+		color:#8f8f8f !important;
 		font-size: 16px;
 		font-style:italic;
 		font-weight:bold;
@@ -2093,6 +2093,7 @@ header.nav_header_01 div.topnav {
 	
 	
 	.wdg_sport_result_01 .live_time{
+		color:#8f8f8f !important;
 		font-size: 14px;
 		font-style: italic;
 		font-weight: bold;
@@ -2201,8 +2202,7 @@ header.nav_header_01 div.topnav {
 	.wdg_sport_result_01 .leftside .team2_m .score{
 		float:left;
 		width:25px;
-		font-size:36px;
-		color:#FFF;
+		color: #59a529;
 		text-align:center;
 		margin-top:0px;
 		margin-right: 12px;
@@ -2213,9 +2213,10 @@ header.nav_header_01 div.topnav {
 	.wdg_sport_result_01 .leftside .team1 .penales,
 	.wdg_sport_result_01 .leftside .team2 .penales,
 	.wdg_sport_result_01 .leftside .team2_m .penales{
-		color: #DEB476;
+		color: #eab11d;
 		float: left;
 		font-size: 10px;
+		font-weight:bold;
 		line-height: 15px;
 		margin-top: 13px;
 		text-align: center;
@@ -2306,7 +2307,9 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .match_title .cup_name .titulo{
+		color:#8f8f8f !important;
 		font-size: 21px;
+		font-weight:bold;
 	}
 	.wdg_sport_result_01 .icon-video{
 		float: left;
