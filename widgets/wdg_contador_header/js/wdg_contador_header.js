@@ -52,7 +52,7 @@
                 maquetado += '<div id="targetTIMCount"></div>';
                 maquetado += '</section>';
                 globalThis.empty().html(maquetado);
-                $("#VentasContaTIM").clone().appendTo("#targetTIMCount");
+                //$("#VentasContaTIM").clone().appendTo("#targetTIMCount");
 
 
                 CountDownHeader.spanish();
@@ -379,7 +379,7 @@
 
 
                         globalThis.html(maquetado).children().fadeIn('slow');
-                        $("#VentasContaTIM").clone().appendTo("#targetTIMCount");
+                        //$("#VentasContaTIM").clone().appendTo("#targetTIMCount");
 
                     })
                     .fail(function() {
