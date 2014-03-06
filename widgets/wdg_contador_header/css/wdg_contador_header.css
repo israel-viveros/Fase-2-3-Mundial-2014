@@ -656,5 +656,23 @@ opacity: 0.6;
 		font-style: italic;
 		padding-left: 55px;
 
+	}
+
+	#masterCounterTIM{
+		width: 500px;
+		margin-left: 400px;
+		position: relative;
 	}	
+	#contadorHeaderTIM{
+		width: 500px;
+	}
+	#VentasContaTIM{
+		position: absolute;
+		width: 88px;
+		height: 34px;
+		top: 18px;
+		left: 195px;
+		display: block;
+		z-index: 99;
+	}
 }

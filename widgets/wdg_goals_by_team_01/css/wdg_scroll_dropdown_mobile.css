@@ -2,7 +2,7 @@
     .wdg_scroll_dropdown{
 		width: 624px;
 		height: auto;
-		display: block;      
+		display: none;      
         margin-bottom: 15px;
         font-weight: bold;
         font-size: 14px;

@@ -11,6 +11,7 @@
     }
 	.wdg_sched_02 .nav {
 		display:block;
+		font-size: 17px !important;
     }
 	.wdg_sched_02 > div .prev, 
     .wdg_sched_02 > div .next {

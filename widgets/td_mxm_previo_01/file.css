@@ -2056,7 +2056,7 @@ header.nav_header_01 div.topnav {
 	
 	.wdg_sport_result_01 .match_title{
 		width: 100%;
-		border-bottom: 1px solid #dba5a6;
+		border-bottom: 1px solid #b6b6b6;
 		clear:both;
 		overflow: hidden;
 		
@@ -2084,14 +2084,17 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .match_title .cup_name .subtitulo{
+		color:#8f8f8f !important;
+		clear:both;
 		font-size: 16px;
 		font-style:italic;
-		font-weight:normal;
-		display: none;
+		font-weight:bold;
+		display: block;
 	}
 	
 	
 	.wdg_sport_result_01 .live_time{
+		color:#8f8f8f !important;
 		font-size: 14px;
 		font-style: italic;
 		font-weight: bold;
@@ -2177,7 +2180,9 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .leftside .team2 .escudo{
-		margin-left: 10px;
+		height:36px;
+		width:48px;
+		margin: 10px;
 	}
 	
 	.wdg_sport_result_01 .leftside .team1 .equipo,
@@ -2185,9 +2190,9 @@ header.nav_header_01 div.topnav {
 	.wdg_sport_result_01 .leftside .team2_m .equipo{
 		float:left;
 		width:118px;
-		font-size:13px;
+		font-size:16px!important;
 		font-weight:bold;
-		color:#FFF;
+		color:#8f8f8f;
 		margin-top:14px;
 	}
 	
@@ -2200,8 +2205,7 @@ header.nav_header_01 div.topnav {
 	.wdg_sport_result_01 .leftside .team2_m .score{
 		float:left;
 		width:25px;
-		font-size:36px;
-		color:#FFF;
+		color: #59a529;
 		text-align:center;
 		margin-top:0px;
 		margin-right: 12px;
@@ -2212,9 +2216,10 @@ header.nav_header_01 div.topnav {
 	.wdg_sport_result_01 .leftside .team1 .penales,
 	.wdg_sport_result_01 .leftside .team2 .penales,
 	.wdg_sport_result_01 .leftside .team2_m .penales{
-		color: #DEB476;
+		color: #eab11d;
 		float: left;
 		font-size: 10px;
+		font-weight:bold;
 		line-height: 15px;
 		margin-top: 13px;
 		text-align: center;
@@ -2305,7 +2310,10 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .match_title .cup_name .titulo{
+		color:#8f8f8f !important;
+		display:block;
 		font-size: 21px;
+		font-weight:bold;
 	}
 	.wdg_sport_result_01 .icon-video{
 		float: left;
@@ -2429,7 +2437,6 @@ header.nav_header_01 div.topnav {
 		width:575px;
 		color:#DEB476;
 		font-size:11px;
-		border-top: 1px dashed #dba5a6;
 		padding-top: 10px;
 		clear: both;
 		padding-bottom: 7px;
@@ -2452,7 +2459,7 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .date_venue{
-		color:#DEB476;
+		color:#59a529;
 		font-size:11px;
 		padding-top:7px;
 		padding-left: 10px;
@@ -2466,7 +2473,7 @@ header.nav_header_01 div.topnav {
 	}
 	
 	.wdg_sport_result_01 .date_venue .where{
-		color:#FFF;
+		color:#8f8f8f;
 		padding-bottom:7px;
 		width: 200px;
 		height: 30px;
@@ -2686,9 +2693,9 @@ header.nav_header_01 div.topnav {
     }
     .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li a{
         color: #8F8F8F;
-        font-size: 17px;
+        font-size: 18px;
         font-weight: bolder !important;
-        padding: 0 36px;
+        padding: 0 35px;
     }
 	.nav_smnu_sports_01 .navarrowleft,
 	.nav_smnu_sports_01 .navarrowright{

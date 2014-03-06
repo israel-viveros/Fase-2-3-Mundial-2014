@@ -244,7 +244,9 @@ x|/*Dispositivos vista retina------*/
 	header.nav_header_01 div.mainnav ul li a i,header.nav_header_01 div.mainnav nav.social ul li a i
 		{
 		font-size: 17px;
+		padding-left:4px;
 		position: relative;
+		text-align:center;
 		/* vertical-align: baseline; */
 	}
 	

@@ -4,8 +4,6 @@
         var setting = $.extend({
             'FechaTarget': new Date(),
             'linkButton': '#',
-            'linksponsor': '#',
-            'imgsponsor': 'http://i2.esmas.com/img/spacer.gif',
             'ticker': ''
         }, parametros);
 
@@ -51,9 +49,10 @@
                 maquetado += '</span>';
                 maquetado += '</span>';
                 maquetado += '<div class="right_contador_header">';
-                maquetado += '<a href="' + setting.linksponsor + '"><img src="' + setting.imgsponsor + '"></a></div>';
+                maquetado += '<div id="targetTIMCount"></div>';
                 maquetado += '</section>';
                 globalThis.empty().html(maquetado);
+                //$("#VentasContaTIM").clone().appendTo("#targetTIMCount");
 
 
                 CountDownHeader.spanish();
@@ -246,13 +245,13 @@
                                 maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0, 3);
                                 maquetado += '</div>';
                                 maquetado += '</div>';
-                                maquetado += '<a href="' + setting.linksponsor + '"><img class="logocomercial" src="' + setting.imgsponsor + '"></a>';
+                                maquetado += '<div id="targetTIMCount"></div>';
                                 maquetado += '</div>';
                                 maquetado += '</section>';
                                 maquetado += '<div class="wdg_contador_aside" style="display:none"> <a href="' + setting.linkButton + '">';
                                 maquetado += '<img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/hand_icon.png">';
                                 maquetado += '<span>PARTICIPA EN</span>';
-                                maquetado += '<span>NTERACCIÓN TD</span></a>';
+                                maquetado += '<span>NTERACCI\u00D3N TD</span></a>';
                                 maquetado += '</div>';
                                 break;
                             case "proximo":
@@ -316,14 +315,14 @@
                                 maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0, 3);
                                 maquetado += '</div>';
                                 maquetado += '</div>';
-                                maquetado += '<a href="' + setting.linksponsor + '"><img class="logocomercial" src="' + setting.imgsponsor + '"></a>';
+                                maquetado += '<div id="targetTIMCount"></div>';
                                 maquetado += '</div>';
                                 maquetado += '<span class="countdown-section_proximo" id="contador-Fase2y3">';
                                 maquetado += '<span class="fecha">' + data.MatchDate.substring(0, 2) + ' ' + nameMes + ' ' + data.MatchHour.substring(0, 6) + ' hrs</span>';
                                 maquetado += '</span>';
                                 maquetado += '</section>';
                                 maquetado += '<div class="wdg_contador_aside_proximo" style="display:none">';
-                                maquetado += '<a href="#"><span>INTERACTÚA CON</span>';
+                                maquetado += '<a href="#"><span>INTERACT\u00DAA CON</span>';
                                 maquetado += '<div class="line"></div>';
                                 maquetado += '<img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/logolajugada.png"></a>';
                                 maquetado += '</div>';
@@ -344,7 +343,7 @@
                                 maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0, 3);
                                 maquetado += '</div>';
                                 maquetado += '</div>';
-                                maquetado += '<a href="' + setting.linksponsor + '"><img class="logocomercial" src="' + setting.imgsponsor + '"></a>';
+                                maquetado += '<div id="targetTIMCount"></div>';
                                 maquetado += '</div>';
                                 maquetado += '</section>';
                                 break;
@@ -365,12 +364,12 @@
                                 maquetado += '<div>';
                                 maquetado += (numForVisit > 0) ? '<img src="' + banderas.teams[numForVisit].bandera + '" class="imgbanderaCon">' : '<img src="http://i2.esmas.com/img/spacer.gif" class="imgfxbanderaCon">';
                                 maquetado += (numForVisit > 0) ? banderas.teams[numForVisit].alias : data.equipos.visit.name.substring(0, 3);
-                                maquetado += '<a href="' + setting.linksponsor + '"><img class="logocomercial" src="' + setting.imgsponsor + '"></a>';
+                                maquetado += '<div id="targetTIMCount"></div>';
                                 maquetado += '</div>';
                                 maquetado += '</section>';
                                 maquetado += '<div class="wdg_contador_aside_revive" style="display:none">';
                                 maquetado += '<a href="' + setting.linkButton + '" class="ui-link">';
-                                maquetado += '<span>INTERACTÚA CON</span>';
+                                maquetado += '<span>INTERACT\u00DAA CON</span>';
                                 maquetado += '<div class="line"></div>';
                                 maquetado += '<img src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/logolajugada.png">';
                                 maquetado += '</a>';
@@ -378,7 +377,9 @@
                                 break;
                         }
 
+
                         globalThis.html(maquetado).children().fadeIn('slow');
+                        //$("#VentasContaTIM").clone().appendTo("#targetTIMCount");
 
                     })
                     .fail(function() {

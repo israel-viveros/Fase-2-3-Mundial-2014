@@ -90,7 +90,7 @@
     }
 
     .wdg_sched_02 time {
-        font-weight:normal;
+        font-weight:bold !important;
     }
     .wdg_sched_02 span.hour {
         font-weight:bold;
@@ -100,6 +100,7 @@
     }
 
     .wdg_sched_02 > ul li a {
+		font-family:Trebuchet MS, Arial, sans-serif !important;
         display: block;
         height: 26px;
         margin-left: 83px;
@@ -150,6 +151,7 @@
     }
 
     .wdg_sched_02 .nav {
+		font-size:17px;
         position: relative;
 		border-top:1px solid #CCC;
 		display:none;
