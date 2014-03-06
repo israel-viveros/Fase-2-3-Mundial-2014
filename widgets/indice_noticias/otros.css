@@ -1,0 +1,116 @@
+
+
+        .pag_numero a{
+            width: auto !important;
+			padding:0 3px!important;
+        }
+		.selected{
+			width:auto !important;
+			padding:0 3px!important;
+		}
+		/*Estilos especiales */
+		@media screen and (min-width: 624px) {
+			.mix_1arts_09_thumb{
+				position:relative;
+			}
+			.icon_desktop{
+				background-image: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/global-sprites.png");
+				display: inline;
+				position: absolute;
+				right: 12px;
+				top: 0;
+				height: 43px;
+				width: 43px;
+			}
+			.camera{
+				background-position: -82px -40px;
+			}
+			.videocamera{
+				background-position: -131px -40px;
+			}
+			.fin{
+				display:none;
+			}
+			.mix_3arts_04 div.mix_3arts_02 div.mix_3arts_02_first, 
+			.mix_3arts_04 div.mix_3arts_02 div.mix_3arts_02_middle, 
+			.mix_3arts_04 div.mix_3arts_02 div.mix_3arts_02_last{
+				min-height:232px;
+			}
+			.str_pleca_01 ul li{
+				width:130px;
+                margin-bottom: 5px;
+			}
+			.str_pleca_01 ul li.line{
+				width:493px;
+                display:none;
+			}
+			.t_principal{
+				-moz-text-blink: none;
+				-moz-text-decoration-color: -moz-use-text-color;
+				-moz-text-decoration-line: none;
+				-moz-text-decoration-style: solid;
+/*				font-family: 'roboto_slabbold';
+*/				font-size: 24px;
+                font-weight: bold;
+
+			}
+		}
+		@media screen and (max-width:623px){
+			.icon_desktop{
+				display:none;
+			}
+			.complete_mobile{
+				padding-left:0;
+				padding-right:0;
+				-moz-box-sizing:content-box !important;;
+				box-sizing:content-box !important;
+			}
+			.indice_notas .mix_3arts_04 .mix_3arts_02:first-of-type .mix_3arts_02_first:first-of-type{
+				border-top:1px solid #CCC;
+			}
+			.mix_1arts_09_thumb p{
+				margin-bottom:0;
+				min-height:30px;
+			}
+			.fin{
+				display:block;
+				width:100%;
+				height:24px;
+				float:right;
+				margin-top:-24px;
+			/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QzZDNkMyIgc3RvcC1vcGFjaXR5PSIwLjIyIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjZDNkM2QzIiBzdG9wLW9wYWNpdHk9IjAuMjIiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top, rgba(211,211,211,0.22) 0%, rgba(211,211,211,0.02) 1%, rgba(0,0,0,0.22) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(211,211,211,0.22)), color-stop(1%,rgba(211,211,211,0.02)), color-stop(100%,rgba(0,0,0,0.22))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(211,211,211,0.22) 0%,rgba(211,211,211,0.02) 1%,rgba(0,0,0,0.22) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(211,211,211,0.22) 0%,rgba(211,211,211,0.02) 1%,rgba(0,0,0,0.22) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(211,211,211,0.22) 0%,rgba(211,211,211,0.02) 1%,rgba(0,0,0,0.22) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(211,211,211,0.22) 0%,rgba(211,211,211,0.02) 1%,rgba(0,0,0,0.22) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38d3d3d3', endColorstr='#a6000000',GradientType=0 ); /* IE6-8 */
+		}
+			.div_300x250 {
+				display:block;
+				width:300px;
+				height:50px;
+				margin:0 auto;
+				overflow:hidden;
+			}
+			.indice_notas .str_pleca_01 ul li{
+				width:130px;
+			}
+			.indice_notas .str_pleca_01 ul li.line{
+				width:175px;
+			}
+			.str_pleca_01 ul li{
+				height:24px !important;
+			}
+			.t_principal{
+				-moz-text-blink: none;
+				-moz-text-decoration-color: -moz-use-text-color;
+				-moz-text-decoration-line: none;
+				-moz-text-decoration-style: solid;
+				font-family: 'roboto_slabbold';
+				font-size: 21px;
+				padding-left: 12px;
+			}
+		}

@@ -1,0 +1,69 @@
+/*END: indice_notas / mobile*/
+/*END: indice_notas / mobile*/
+/*BEGIN: indice_notas / desktop*/
+@media screen and (min-width: 624px){
+    .indice_notas{
+        margin-bottom: 36px;
+        width: 624px;
+    }
+    .indice_notas .mix_3arts_04 .str_pleca_01{
+        display: none;
+    }
+    .indice_notas .mix_3arts_04 div.mix_3arts_02{
+        margin-bottom: 36px;
+        display: block;
+        overflow: hidden;       
+    }
+}
+/*END: indice_notas / desktop*/
+
+/*BEGIN: indice_notas / mobile*/
+@media screen and (max-width:623px){
+    .indice_notas{
+        display: block;
+        height: auto;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .indice_notas .mix_3arts_04 .str_pleca_01{
+        display: none;
+    }
+    .indice_notas .str_pleca_01 ul li{
+        width: 38%;
+    }
+    .indice_notas .str_pleca_01 ul li.line{
+        border-bottom: 1px solid #ccc;
+        display: block;     
+        width: 62%;
+    }
+    .indice_notas .scroll{      
+        display: block;         
+        height: 480px;
+        overflow-y: scroll;
+        overflow-x:hidden;
+        width: 106%;
+    }
+    .indice_notas .mix_3arts_04{
+        margin-bottom: 0;       
+    }
+    .indice_notas .mix_3arts_04 .mix_3arts_02 .mix_3arts_02_first{
+        border-top: 0px solid #ccc;
+    } 
+    .indice_notas .mix_3arts_04:first-child .mix_3arts_02 .mix_3arts_02_first{
+        border-top: 1px solid #ccc; 
+    }
+    .indice_notas .mix_3arts_04 div.mix_3arts_02 div.mix_3arts_02_last {
+        display: block;
+        border-top: 0px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+     .indice_notas .nav_paginator_01 {
+        display: none;
+     }
+
+     .str_pleca_01 ul li.t_principal{
+
+        float:none !important;
+     }
+}
+/*END: indice_notas / mobile*/

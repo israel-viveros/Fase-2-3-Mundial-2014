@@ -1,0 +1,75 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_note_generic_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_note_generic_01 .main .c1{
+		margin-top:24px;
+	}
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_note_generic_01 .main .c2,
+	.td_note_generic_01 .main .c3{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_note_generic_01 .main .c2 .c2_2 .art_reltd_01 {
+		border-right: 1px dashed #CCCCCC;
+		width: 297px;
+	}
+	.td_note_generic_01 .main .c2 .c2_4{
+		clear:both;
+	}	
+	.td_note_generic_01 .main .c3 .c3_1,
+	.td_note_generic_01 .main .c3 .c3_3,
+	.td_note_generic_01 .main .c3 .c3_6{
+		width:300px;
+	}
+	.td_note_generic_01 .main .c3 .c3_3{
+		clear:both;
+	}
+
+	 .td_mxm_cronica_01 .art_bullet_01 ul li {
+        border-top: 0;
+        padding: 0 10px 15px 0px;
+    }
+    .wdg_goals_carru_01 > ul li.color a{
+        background-color: #f5f5f5 !important;
+    }
+    .wdg_top10_01 .wdg_carousa div:last-child ul li:first-child{
+        background-color: #f5f5f5 !important;
+    }
+    .btn_6prog_03 .type1a .carrusel ul li{
+        background-color: #f5f5f5 !important;
+    }
+    
+    .td_note_generic_01  .main ul li a,
+    .td_note_generic_01  .main ul li{
+       background-color:#efefef\9;
+    }
+    .td_note_generic_01  .main ul li.separator{
+       background-color:#fff\9;
+    }
+    .td_note_generic_01 .main ul.dropdown li a{
+       background-color:#fff\9;
+    }
+    
+    .td_note_generic_01 .main ul.dropdown li a:hover{
+       background-color:#A70A0B\9;
+    }
+    
+     .td_note_generic_01   li.station a,
+     .td_note_generic_01   li.social a{
+        border-left:none\9!important;
+        border-top:none\9!important;
+        background-color:#efefef\9;
+        border:0px\9;
+    }
+}
+@media screen and (min-width: 624px) and (max-width: 948px){
+	.cover_box,
+    .td_note_generic_01 .publicidad2{
+        display: none;
+    }
+} 
