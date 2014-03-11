@@ -1,4 +1,4 @@
-@media screen {	
+@media screen { 
     .wdg_comen_01{
         padding: 0;
         max-width:623px;
@@ -30,7 +30,7 @@
         width:90%;
     }
     .wdg_comen_01 textarea.comentArea{
-    	height: 35px;
+        height: 35px;
         font-size: 14px;
     }
     .wdg_comen_01 .wdg_comen_aviso{
@@ -39,7 +39,7 @@
         font-size: 10px;
         font-style:italic;
         line-height:12px;
-		padding: 4px;
+        padding: 4px;
     }
     .wdg_comen_01 .wdg_comen_line{
         border-top: 1px solid #CCC;
@@ -50,8 +50,8 @@
         width: 112px !important;
         margin: 0 0 8px 0;
         float: right;
-		padding-right:10px;        
-        background-color:#D6A256;
+        padding-right:10px;        
+        background-color:#59a529;
         cursor:pointer;
         color:#FFF !important;
         font-size:13px !important;
@@ -68,57 +68,57 @@
         font-size:12px;
     }
     .wdg_comen_01 .wdg_comen_fb_tw .socialMedia{
-    	float: right;
-    	margin-right: 7px;
-		margin-top: -5px;
+        float: right;
+        margin-right: 7px;
+        margin-top: -5px;
     }
     .wdg_comen_01 .wdg_comen_fb_tw .socialMedia .iconFacebook{
-		display: inline-block;				
-		position:relative; 
-		vertical-align: top;    
+        display: inline-block;              
+        position:relative; 
+        vertical-align: top;    
     }
     .wdg_comen_01 .wdg_comen_fb_tw .socialMedia .iconFacebook .colorIconFacebook{
-    	background-color: transparent;
-    	border-radius: 6px;
-    	height: 13px;    	
-    	margin-top: 4px;
-    	position: absolute; 
-    	width: 14px; 
+        background-color: transparent;
+        border-radius: 6px;
+        height: 13px;       
+        margin-top: 4px;
+        position: absolute; 
+        width: 14px; 
     }
     .wdg_comen_01 .wdg_comen_fb_tw .socialMedia .iconFacebook .colorIconFacebook .facebook{
-	    margin: -2px;    
-	    position: absolute;
+        margin: -2px;    
+        position: absolute;
     }
     .wdg_comen_01 .wdg_comen_radio{
         display:inline;
     }    
     .wdg_comen_01 .wdg_comen_01_comments {
         display: block;
-		height: 354px;
-		margin: 0 12px;
-		margin-bottom: 10px;
-		overflow: scroll;
-		overflow-x: hidden;
-		padding-right: 12px;		
-		position: relative;
-		width: 98%;
-		border-top:1px solid #ccc;
+        height: 354px;
+        margin: 0 12px;
+        margin-bottom: 10px;
+        overflow: scroll;
+        overflow-x: hidden;
+        padding-right: 12px;        
+        position: relative;
+        width: 98%;
+        border-top:1px solid #ccc;
     }
     .wdg_comen_01 .wdg_comen_01_comments li{
-		display:inline-block;
-    	height: auto;
-        background: url(../img/dotted-horizontal.html) repeat-x top;
+        display:inline-block;
+        height: auto;
+        background: url(../img/dotted-horizontal.png) repeat-x top;
         float: none;
         padding-right:12px;
-		padding-top: 10px;
+        padding-top: 10px;
     }   
     .wdg_comen_01 .wdg_comen_01_comments ul li:first-child{
-    	background: none;    	
-		padding-top: 0px;
+        background: none;       
+        padding-top: 0px;
     }
    .wdg_comen_01 .wdg_comen_01_comments li.top {
-		 border-top:none;
-	}
+         border-top:none;
+    }
     .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_img {
         float: left;
         width: 50px;
@@ -137,21 +137,22 @@
     }
     .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment {
         height: auto;
-		margin-right: 10px;
-		margin-top: 13px;
-		margin-bottom: 8px;
-		margin-left: 60px;
-		width: auto;
-		display: block;
-		position: relative;
-    }	
+        margin-right: 10px;
+        margin-top: 13px;
+        margin-bottom: 8px;
+        margin-left: 60px;
+        width: auto;
+        display: block;
+        position: relative;
+    }   
     .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:first-child .media_user {
         display:block;
         font-size: 14px;
         font-style: italic;
-        color: #6F0707;
+        color: #398218;
+        font-size:16px;
         font-weight: bold;
-    }	    
+    }       
     .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:first-child .comment_time {
         font-size: 12px;
         color: #8f8f8f;
@@ -184,7 +185,7 @@
     }
     .wdg_comen_01 .wdg_comen_01_comments ul li{
         display:none;
-		padding-top:2px;
+        padding-top:2px;
     }
     .wdg_comen_01 .wdg_comen_01_comments ul li:nth-child(n+1) {
         display:block;
@@ -195,25 +196,24 @@
         margin-left: 34px;
         margin-top: 33px;
     }
-	.wdg_comen_01 .wdg_comen_fb_tw i{
-		font-size:17px;
-		position: relative;
-	}
-	.wdg_comen_01 .degraded{
-		position: relative;
-		bottom: 22px;
-	}
+    .wdg_comen_01 .wdg_comen_fb_tw i{
+        font-size:17px;
+        position: relative;
+    }
+    .wdg_comen_01 .degraded{
+        position: relative;
+        bottom: 22px;
+    }
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
-		.wdg_comen_01 input.text, .wdg_comen_01 textarea{
-			max-width: 88%;
-			width:88%;
-	}
+        .wdg_comen_01 input.text, .wdg_comen_01 textarea{
+            max-width: 88%;
+            width:88%;
+    }
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
-		.wdg_comen_01 input.text, .wdg_comen_01 textarea{
-			max-width: 92%;
-			width:92%;
-	}
+        .wdg_comen_01 input.text, .wdg_comen_01 textarea{
+            max-width: 92%;
+            width:92%;
+    }
 }
-   

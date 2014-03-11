@@ -1,0 +1,51 @@
+@media screen and (min-width: 624px){
+    .wdg_goals_by_player_02{
+        width: 624px;
+		margin-bottom: 36px;
+    }	
+    .ie8 .wdg_goals_by_player_02 .str_pleca_01 .str_pleca_01_title h3.background-color-pleca1,
+    .ie7 .wdg_goals_by_player_02 .str_pleca_01 .str_pleca_01_title h3.background-color-pleca1{
+        width: 298px;
+    }
+    .ie8 .wdg_goals_by_player_02 .str_pleca_01 .str_pleca_01_title,
+    .ie7 .wdg_goals_by_player_02 .str_pleca_01 .str_pleca_01_title{
+        border-bottom: 1px solid #CCC;
+    }     
+	.wdg_goals_by_player_02 .pleca_superior{
+		height:30px;
+	}	
+	.wdg_goals_by_player_02 .background-color1 {
+		height: 31px;
+		width: 48%;
+	}	
+	.wdg_goals_by_player_02 .wdg_goals_by_player_02_dropdown {
+		width: 322px;
+	}	
+	.wdg_goals_by_player_02 .wdg_goals_by_player_02_listcontainer ul li {
+		width: 300px;
+	}
+	
+	/*BEGIN: wdg_simbology_02*/
+	.wdg_goals_by_player_02 .wdg_simbology_02{
+        margin-bottom:13px;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .nomostrar{
+        display:block;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .tabla_simbologia .icon_simbologia{
+        float:left;
+        padding-bottom:8px;
+    	padding-top:0;
+        width:34.5%;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia:nth-child(1)
+    {            
+            width: 32.5%;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia:nth-child(3)
+    {            
+    		background:none;
+            width: 33%;
+    }
+    /*END: wdg_simbology_02*/
+}

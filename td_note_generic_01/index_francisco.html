@@ -1,0 +1,604 @@
+<?php global $dax_type; ?>
+<? global $COUNTRY_CODE; ?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />                
+        <meta http-equiv="Cache-Control" content="NO-CACHE">
+        <meta http-equiv="Pragma" content="NO-CACHE">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <meta name="Copyright" content="2008 Comercio Mas S.A. de C.V.">
+        <meta name="Generator" content="GALAXY">        
+        <meta name="Keywords" content="{ART:ARTICLE:TITLE:KEYWORDS}">
+        <meta name="Description" content="{ART:ARTICLE:TITLE:SUMMARY}">
+        <meta name="Title" content="{ART:ARTICLE:TITLE:EDITORIAL=yes}">        
+        <title>{ART:ARTICLE:TITLE:EDITORIAL=yes}</title>
+        <!--[if lt IE 9]>
+           <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/js/jquery-1.9.1.js"></script>
+        <![endif]-->
+
+		<link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/global.css">
+		<link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/colores.css">
+		<link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/tvsa-icons.css">
+
+		<link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/td_home_main_01_mobile.css" media="screen">
+		<link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/wdg_contador_header.css" media="screen">
+		<link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/td_home_main_01_tablet.css" media="screen and (min-width: 624px)">
+		<link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/td_home_main_01.css" media="screen and (min-width: 948px)">
+		<link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/nav_header_01_mobile.css" media="screen">
+		<link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/nav_header_01_tablet.css" media="screen and (min-width: 624px)">
+		<link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/nav_header_01.css" media="screen and (min-width: 948px)">
+
+		<link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/btn_progr_03.css" media="screen">
+		<link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/btn_progr_03_mobile.css" media="screen">
+		<link rel="stylesheet" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/btn_progr_03_tablet.css" media="screen">
+
+		<link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/reset.css" media="all">
+		<link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/bootstrap.css" media="all">
+		<link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/css/desktop.css" media="all">
+		 
+		    <link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/pleca_publicidad.css" media="all">
+		    <link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/publicidad_192x40.css" media="all">
+		    <link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/publicidad_300x250.css" media="all">
+		    <link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/publicidad_320x50.css" media="all">
+		    <link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/calendar.css" media="all">
+		    <link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/publicidad_948x60.css" media="all">
+		    <link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/publicidad_948x90_sorteo.css" media="all">
+		    <link rel="stylesheet" type="text/css" href="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/sorteo_mundial_home_oficial.css" media="all">
+		   
+		<!-- Styles Nota -->
+
+		<style type="text/css">
+		@media screen { 
+		.td_note_generic_01{
+		width:100%;
+		overflow: hidden;
+		   }
+		   /* Encabezado */ 
+		   .td_note_generic_01 .header01{
+		margin-bottom:0px !important;
+		   }
+		   /*Wrap*/
+		   .td_note_generic_01 .main{
+		       width: 100%;
+		/*position:relative;*/
+		   }
+		   /*Todos los divs contenedores primarios se hacen al 100%*/
+		.td_note_generic_01 .main .c2,
+		.td_note_generic_01 .main .c3{
+		width:100%;
+		overflow:hidden;
+		}
+		.td_note_generic_01 .main > div{
+		/*clear:both;*/
+		}
+		.td_note_generic_01 .main .c1_2{
+		text-align: center;
+		display: block;
+		}
+		.td_note_generic_01 .main .c2_5{
+		clear:both;
+		margin-bottom: 10px;
+		}
+		.td_note_generic_01 .main .c2 .c2_5 .art_bullet_01 .articles ul li{
+		background: none;	
+		background: url("../../img/dotted-horizontal.png") repeat-x bottom; 
+		}
+		.td_note_generic_01 .main .c2_5 .art_bullet_01 ul li{
+		border-top: none;
+		padding-top: 0;
+		padding-bottom: 10px;
+		}
+		.td_note_generic_01 .main .c2_4{
+		clear:both;
+		width:100%;
+		}
+		.td_note_generic_01 .main .c3_1,
+		.td_note_generic_01 .main .c3_3,
+		.td_note_generic_01 .main .c3_6{
+		width: 100%;
+		}
+		.td_note_generic_01 .mix_2arts_06{
+		margin-bottom:18px;
+		}
+
+		.ie8 .td_note_generic_01  .main ul li a,
+		   .ie8 .td_note_generic_01  .main ul li,
+		   .ie7 .td_note_generic_01  .main ul li a,
+		   .ie7 .td_note_generic_01  .main ul li{
+		      background-color:#efefef;
+		   }
+		   .ie8 .td_note_generic_01  .main ul li.separator,
+		   .ie7 .td_note_generic_01  .main ul li.separator{
+		      background-color:#fff;
+		   }
+		    .ie8 .td_note_generic_01 .main ul.dropdown li a,
+		    .ie7 .td_note_generic_01 .main ul.dropdown li a{
+		      background-color:#fff;
+		   }
+		   
+		   .ie8 .td_note_generic_01 .main ul.dropdown li a:hover,
+		   .ie7 .td_note_generic_01 .main ul.dropdown li a:hover{
+		      background-color:#A70A0B;
+		   }
+		   
+		    .ie8 .td_note_generic_01   li.station a,
+		    .ie8 .td_note_generic_01   li.social a,
+		    .ie7 .td_note_generic_01   li.station a,
+		    .ie7 .td_note_generic_01   li.social a{
+		       border-left:none!important;
+		       border-top:none!important;
+		       background-color:#efefef;
+		       border:0px;
+		   }
+		}
+
+		@media screen and (max-width: 624px){
+		   .cover_box,
+		   .td_note_generic_01 .publicidad2{
+		       display: none;
+		   }
+		   
+		   .td_note_generic_01 .publicidad1{
+		       text-align:center;
+		       float:none!important;
+		   }
+		}
+		@media screen and (min-width: 624px){
+		   /*Wrap*/
+		   .td_note_generic_01 .main{
+		       width: 624px;
+		       margin:auto;
+		   }
+		.td_note_generic_01 .main .c1{
+		margin-top:24px;
+		}
+		/*Todos los divs contenedores primarios se hacen al 100%*/
+		.td_note_generic_01 .main .c2,
+		.td_note_generic_01 .main .c3{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+		}
+		.td_note_generic_01 .main .c2 .c2_2 .art_reltd_01 {
+		border-right: 1px dashed #CCCCCC;
+		width: 297px;
+		}
+		.td_note_generic_01 .main .c2 .c2_4{
+		clear:both;
+		}	
+		.td_note_generic_01 .main .c3 .c3_1,
+		.td_note_generic_01 .main .c3 .c3_3,
+		.td_note_generic_01 .main .c3 .c3_6{
+		width:300px;
+		}
+		.td_note_generic_01 .main .c3 .c3_3{
+		clear:both;
+		}
+		.td_note_generic_01 .mix_2arts_06{
+		margin-bottom:5px;
+		}
+		.td_mxm_cronica_01 .art_bullet_01 ul li {
+		       border-top: 0;
+		       padding: 0 10px 15px 0px;
+		   }
+		   .td_note_generic_01  .main ul li a,
+		   .td_note_generic_01  .main ul li{
+		      background-color:#efefef\9;
+		   }
+		   .td_note_generic_01  .main ul li.separator{
+		      background-color:#fff\9;
+		   }
+		   .td_note_generic_01 .main ul.dropdown li a{
+		      background-color:#fff\9;
+		   }
+		   
+		   .td_note_generic_01 .main ul.dropdown li a:hover{
+		      background-color:#A70A0B\9;
+		   }
+		   
+		    .td_note_generic_01   li.station a,
+		    .td_note_generic_01   li.social a{
+		       border-left:none\9!important;
+		       border-top:none\9!important;
+		       background-color:#efefef\9;
+		       border:0px\9;
+		   }
+		}
+		@media screen and (min-width: 624px) and (max-width: 948px){
+		.cover_box,
+		   .td_note_generic_01 .publicidad2{
+		       display: none;
+		   }
+
+		/* Estilos de plecas */
+
+		   div.title h3 {
+		   background: #59a529 !important;
+		   width: 100%;
+		   font-size: 14px;
+		   float: left;
+		   text-align: left;
+		}
+
+		.background-color2 {
+		background-color:#59a529 !important;
+		}
+
+		}
+		@media screen and (min-width: 94ñ8px){
+		   /*Wrap*/
+		   .td_note_generic_01 .main{
+		       width: 948px;
+		   }
+		/* 100 porciento */
+		   .td_note_generic_01 .main .c1{
+		width:100%;
+		clear:both;
+		overflow:visible;
+		}	
+		/* Flotan a la izq */
+		.td_note_generic_01 .main .c2{
+		float:left;
+		width: 624px;
+		clear:none;
+		}
+		/* Flotan a la der */
+		.td_note_generic_01 .main .c3{
+		width: 300px;
+		clear:none;
+		} 
+		/*bloques*/	
+		.td_note_generic_01 .main .c3_1,
+		.td_note_generic_01 .main .c3_2,
+		.td_note_generic_01 .main .c3_3,
+		.td_note_generic_01 .main .c3_3,
+		.td_note_generic_01 .main .c3_4,
+		.td_note_generic_01 .main .c3_5,
+		.td_note_generic_01 .main .c3_6,
+		.td_note_generic_01 .main .c3_7,
+		.td_note_generic_01 .main .c3_8{
+		clear:both;
+		overflow:hidden;
+		float:none;
+		}	
+		.cover_box{
+		       display: none;
+		   }
+		   .td_note_generic_01 .publicidad1{
+		       margin-bottom:36px!important;
+		   }
+		}
+		</style>
+
+		<!-- END Styles Nota -->
+
+		{NOTEMPTY:ART:article:RELATIONS:type=vid,id}
+			<style>
+		    	.video iframe { 
+		    		background-color: transparent; 
+		    	}
+		    	@media screen and (min-width: 624px) { 
+		    		.video { 
+		    			height: 350px;
+		    		} 
+		    		.video .overlay {
+		    			bottom: 33px;
+		    		}
+		    	}
+			</style>
+		{EMPTY:END}
+		
+		{NOTEMPTY:ART:article:RELATIONS:type=gal,link}
+		 	<style>
+		    	@media screen and (min-width: 624px) {
+		    		.img_stage_01 {
+		    			height: 520px;
+		    		}
+		    	}
+			</style>
+		{EMPTY:END}
+
+		<!-- Scripts JS -->
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/headjs.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/global.js"></script>
+
+		<!--[if gte IE 9]>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.mobile-1.3.2.min.js"></script>
+		<![endif]-->
+
+		<script src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.plugin.min.js"></script> 
+		<script src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.countdown.min.js"></script> 
+		<script src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/wdg_contador_header.js"></script>
+
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.migrate.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.easing-1.3.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/modernizr.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/Televisa.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/respond.js"></script>
+
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.corner.js"></script>
+
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.placeholder.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jplayer_request.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.mb.miniPlayer.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.jplayer.min.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/jquery.lightbox_me.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/swipeupdown.js"></script>
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/swipe2.js"></script>
+
+		<script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/js/td_home_main_01.js"></script>
+
+		<script src="http://www.googletagservices.com/tag/js/gpt.js"></script>
+
+		<script src="http://i2.esmas.com/js/libraries/jquery.gsa.json.min.js"></script>
+		<!-- END Scripts JS -->
+
+	</head>
+
+	<body class="inoficial">
+		
+		<script src="http://i2.esmas.com/hf/header/headertelevisa.min.js"></script>
+
+		{SWITCH:START:COUNTRY_CODE}
+	        {CASE:US}       
+	            
+	        {CASE:BREAK}
+	        {CASE:DEFAULT}
+	            <header class="header_inoficial">
+	                
+	            </header>
+	        {CASE:BREAK}        
+	    {SWITCH:END}
+		<?php include("/nfs/cache/flat/deportes30/copa-mundial-fifa-brasil-2014/submenu_fase2.html"); ?>
+		      
+		<div class="container">
+			
+			<div class="row">
+
+				<div class="col-md-8 complete_mobile">
+
+					<!-- BEGIN:art_title_01 -->
+					<div class="art_title_01" data-enhance="false">
+					    <div class="art_title_01_title">
+					        <p>
+					            <a href="#" title="Link description">
+					                <span class="art_info">Por: {ART:article:AUTHOR}</span>
+					                <span class="art_info">Televisa Fuente: {ART:article:SOURCE}</span>
+					                <span class="art_info">{ART:article:CREATION}</span>
+					            </a>
+					        </p>
+					        <h1>
+					            <a href="#" title="Link description">
+					               {ART:ARTICLE:TITLE:EDITORIAL=yes} 
+					            </a>
+					        </h1>
+					    </div>
+					</div>
+					<!-- END:art_title_01-->
+
+					<div class="mix_2arts_06">
+						<div class="separator dotted-right">
+					        <div class="mix_2arts_06_title">
+					            <a class="mix_2arts_06_blue" href="#" title="Link description">
+					                Temas Relacionados
+					            </a><br />
+					            <a class="mix_2arts_06_black" href="#" title="Link Description">Noticieros Televisa</a>,
+					            <a class="mix_2arts_06_black" href="#" title="Link Description">Internacional</a>,
+					            <a class="mix_2arts_06_black" href="#" title="Link Description">Joaquín López-Dóriga</a>,
+					            <a class="mix_2arts_06_black" href="#" title="Link Description">Noticiero</a>
+					            </a>
+					        </div>
+					     </div>
+				     	<!-- BEGIN: Widget Redes Sociales -->
+				        <div class="wdg_social_01">
+				            <div id="widgetSocialShare"></div>
+				        </div>
+				        <!-- END: Widget Redes Sociales -->
+					</div>
+
+					<!-- BEGIN: img_stage_01-->
+					<div class="img_stage_01" data-enhance="false">
+					    <div class="img_stage_01_image">
+					        <img src="http://lorempixel.com/people/624/351" alt="Image description">
+					        <span class="img_stage_01_sprite video-corner"></span>
+					    </div>
+					    <a class="img_stage_01_whtbkg" href="#">
+					        <p class="img_stage_01_black">El Capitolio de la Casa Blanca, en una imagen de archivo.</p> 
+					        <p class="img_stage_01_gray">Foto: JACQUELYN MARTIN</p> 
+					    </a> 
+					</div>
+					<!-- BEGIN: img_stage_01-->
+
+					<blockquote class="art_bullet_01 dotted-bottom" cite="http://www.televisa.com" data-enhance="false">
+						<a href="http://www.televisa.com/" title="Link description">
+						    El líder espiritual tibetano, el Dalai Lama, realiza una visita de diez días a Gran Bretaña en medio de protestas del Gobierno de China a las que calificó como 'algo rutinario'.
+						</a>
+					</blockquote>
+
+					<div class="art_note_01">
+					    <p>
+					        <strong><a href="#" title="Link Description">Lorem Ipsum</a></strong> is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more  recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.
+					    </p>
+					    <p>
+					        <strong>Lorem Ipsum</strong> is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining <a href="#">essentially</a> unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more  recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.
+					    </p>
+					    <p> 
+					        <strong>Lorem Ipsum</strong> is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic <a href="#">typesetting</a>,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more  recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.
+					    </p>
+					    <div class="block_p">
+					        <blockquote class="art_quote_01 left" cite="http://televisa.com">
+					            <a href="http://www.televisa.com/" title="Link description">&ldquo;Estados Unidos se precipita hacia la recesión&rdquo;</a>
+					        </blockquote>
+					        <strong>Lorem Ipsum</strong> is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more  recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.
+					    </div>
+					    <p>
+					        <strong>Lorem Ipsum</strong> is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more  recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.
+					    </p>
+					    <div class="block_p">
+					        <blockquote class="art_quote_01" cite="http://www.televisa.com">
+					            <a href="http://www.televisa.com/" title="Link description">&ldquo;Estados Unidos se precipita hacia la recesión&rdquo;</a>
+					        </blockquote>
+					        <strong>Lorem Ipsum</strong> is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more  recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.
+					    </div>
+					    <p>
+					        <strong>Lorem Ipsum</strong> is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy  text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more  recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.
+					    </p>
+					</div>
+
+					<!-- BEGIN: mix_3arts_03 --> 
+					<div class="mix_3arts_03" data-enhance="false">
+
+					    <div class="contenedor">
+					        <!-- BEGIN: pleca -->
+					        <div class="str_pleca_01">
+					            <div class="str_pleca_01_title">
+					                <strong class="background-color-pleca1">
+					                    <a title="Link Description" class="textcolor-title3">
+					                        Relacionados
+					                        <span class="str_pleca_01_arrowa selected"></span>
+					                        <span class="str_pleca_01_arrowb"></span>
+					                    </a>
+					                </strong>
+					            </div>
+					        </div>
+					        <!-- END: pleca -->
+					<!-- BEGIN:mix_3arts_02 -->
+
+					<!-- BEGIN: wdg_comen_01 -->
+					<div class="wdg_comen_01" data-enhance="false">
+					    <div class="wdg_comen_01_form">
+					        <form action="http://166.78.2.40/deportes/td_note_generic_01/?" method="post" id="commentform">
+					            <label for="name" class="not_action">Nombre</label>
+					            <input class="text" id="name" name="name" placeholder="Ingresa tu nombre" type="text" />
+					            <label for="email" class="not_action">Tu correo electrónico valido</label>
+					            <input class="text" id="email" name="email" placeholder="Ingresa tu correo electrónico" type="email" />
+					            <label for="comment" class="not_action">Comentario</label>
+					            <div class="wdg_comen_fb_tw"> Postea tu comentario en:
+					            	<div class="socialMedia">            
+						                <input type="checkbox" name="wdg_comen_radio"  value="1" class="wdg_comen_radio">
+						                <div class="iconFacebook">					
+					  						<span class="colorIconFacebook"></span>
+						                	<i class="tvsa-facebook facebook"></i>
+					  					</div>	         
+						                <input type="checkbox" name="wdg_comen_radio"  value="1" class="wdg_comen_radio">
+						                <i class="tvsa-twitter twitter"></i> 
+					            	</div>
+					            </div>
+					            <textarea class="comentArea" name="comment" id="comment" rows="3"></textarea>
+					            <div class="wdg_comen_aviso"> Aviso: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. When an unknown printer took a galley of type and scrambled it to make a type specimen book 
+					            </div>
+					            <div class="wdg_comen_line">
+					                <input type="button" name="wdg_comen_btn" value="Comentar" class="wdg_comen_btn">
+					            </div>
+					        </form>
+					    </div>
+					    
+					    <!-- Starts comments details -->
+					    <ul class="wdg_comen_01_comments">
+					        <li>
+					            <div class="wdg_comen_01_img"><img src="http://lorempixel.com/50/50" alt="Image Description" /></div>
+					            <div  class="wdg_comen_01_comment">
+					                <p><span class="media_user">Televisa Musica</span><span class="comment_time">escribió el 7/10/13 a las 13:01</span></p>
+					                <p>Carlos Fuentes Escritor de cuento, novela, guión y ensayo, embajador e intelectual de los más grandes mexicanos http://tvi.ly/LEaLar</p>
+					                <!-- <div class="answer"><a href="#" class="answerlnk">responder</a></div>  -->
+					            </div>
+					        </li>
+					        <li>
+					            <div class="wdg_comen_01_img"><img src="http://lorempixel.com/50/50" alt="Image Description" /></div>
+					            <div  class="wdg_comen_01_comment">
+					                <p><span class="media_user">Televisa Musica</span><span class="comment_time">escribió el 7/10/13 a las 13:01</span></p>
+					                <p>Carlos Fuentes Escritor de cuento, novela, guión y ensayo, embajador e intelectual de los más grandes mexicanos http://tvi.ly/LEaLar</p>
+					                <!-- <div class="answer"><a href="#" class="answerlnk">responder</a></div>  -->
+					            </div>
+					        </li>
+					        <li>
+					            <div class="wdg_comen_01_img"><img src="http://lorempixel.com/50/50" alt="Image Description" /></div>
+					            <div  class="wdg_comen_01_comment">
+					                <p><span class="media_user">Televisa Musica</span><span class="comment_time">escribió el 7/10/13 a las 13:01</span></p>
+					                <p>Carlos Fuentes Escritor de cuento, novela, guión y ensayo, embajador e intelectual de los más grandes mexicanos http://tvi.ly/LEaLar</p>                
+					                <!-- <div class="answer"><a href="#" class="answerlnk">responder</a></div>  -->
+					            </div>
+					        </li>
+					        <li>
+					            <div class="wdg_comen_01_img"><img src="http://lorempixel.com/50/50" alt="Image Description" /></div>
+					            <div  class="wdg_comen_01_comment">
+					                <p><span class="media_user">Televisa Musica</span><span class="comment_time">escribió el 7/10/13 a las 13:01</span></p>
+					                <p>Carlos Fuentes Escritor de cuento, novela, guión y ensayo, embajador e intelectual de los más grandes mexicanos http://tvi.ly/LEaLar</p>
+					                <!-- <div class="answer"><a href="#" class="answerlnk">responder</a></div>  -->
+					            </div>
+					        </li>
+					        <li>
+					            <div class="wdg_comen_01_img"><img src="http://lorempixel.com/50/50" alt="Image Description" /></div>
+					            <div  class="wdg_comen_01_comment">
+					                <p><span class="media_user">Televisa Musica</span><span class="comment_time">escribió el 7/10/13 a las 13:01</span></p>
+					                <p>Carlos Fuentes Escritor de cuento, novela, guión y ensayo, embajador e intelectual de los más grandes mexicanos http://tvi.ly/LEaLar</p>
+					                
+					                <!-- <div class="answer"><a href="#" class="answerlnk">responder</a></div>  -->
+					            </div>
+					        </li>
+					        <li>
+					            <div class="wdg_comen_01_img"><img src="http://lorempixel.com/50/50" alt="Image Description" /></div>
+					            <div  class="wdg_comen_01_comment">
+					                <p><span class="media_user">Televisa Musica</span><span class="comment_time">escribió el 7/10/13 a las 13:01</span></p>
+					                <p>Carlos Fuentes Escritor de cuento, novela, guión y ensayo, embajador e intelectual de los más grandes mexicanos http://tvi.ly/LEaLar</p>
+					                
+					                <!-- <div class="answer"><a href="#" class="answerlnk">responder</a></div>  -->
+					            </div>
+					        </li>
+					        <li>
+					            <div class="wdg_comen_01_img"><img src="http://lorempixel.com/50/50" alt="Image Description" /></div>
+					            <div  class="wdg_comen_01_comment">
+					                <p><span class="media_user">Televisa Musica</span><span class="comment_time">escribió el 7/10/13 a las 13:01</span></p>
+					                <p>Carlos Fuentes Escritor de cuento, novela, guión y ensayo, embajador e intelectual de los más grandes mexicanos http://tvi.ly/LEaLar</p>
+					                
+					                <!-- <div class="answer"><a href="#" class="answerlnk">responder</a></div>  -->
+					            </div>
+					        </li>
+					        <li>
+					            <div class="wdg_comen_01_img"><img src="http://lorempixel.com/50/50" alt="Image Description" /></div>
+					            <div  class="wdg_comen_01_comment">
+					                <p><span class="media_user">Televisa Musica</span><span class="comment_time">escribió el 7/10/13 a las 13:01</span></p>
+					                <p>Carlos Fuentes Escritor de cuento, novela, guión y ensayo, embajador e intelectual de los más grandes mexicanos http://tvi.ly/LEaLar</p>
+					                
+					                <!-- <div class="answer"><a href="#" class="answerlnk">responder</a></div>  -->
+					            </div>
+					        </li>
+					    </ul>
+					    <div class="degraded"></div>
+					       <div class="nav_paginator_01 dotted-top">
+					        <ul>
+					            <li class="dotted-right"><a href="#left" title ="Link Description"><i class="tvsa-double-caret-left"></i></a></li>
+					            <li ><a href="#">1</a></li>
+					            <li><span class="selected">2</span></li>
+					            <li><a href="#">3</a></li>
+					            <li>...</li>
+					            <li><a href="#">15</a></li>
+					            <li class="dotted-left"><a href="#right" title ="Link Description"><i class="tvsa-double-caret-right"></i></a></li>
+					        </ul>
+					    </div>
+					</div>
+					<!-- END: wdg_comen_01-->
+
+	            </div><!-- END: col-md-8 -->
+
+	        </div>
+
+		</div>
+		
+		<footer class="footer">
+			<script src="http://i2.esmas.com/hf/footer/footertelevisa.min.js"></script>
+		</footer>       
+	
+		<!--[if lt IE 9]>
+		    <script type="text/javascript" src="http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/js/jquery-1.9.1.js"></script>
+		<![endif]-->
+
+	</body>
+</html>

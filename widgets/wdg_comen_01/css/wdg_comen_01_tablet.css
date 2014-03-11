@@ -1,9 +1,10 @@
-@media screen and (min-width: 624px){
+
+   @media screen and (min-width: 624px){
     .wdg_comen_01{
         margin-bottom: 27px;
-		margin-top: -7px;
+        margin-top: -7px;
     }
-	.wdg_comen_01 label {
+    .wdg_comen_01 label {
         padding: 6px 6px 9px 0px;
     }
     .wdg_comen_01 input.text,
@@ -13,58 +14,58 @@
         max-width: 97%;
         width: 97%;
     }  
-	.wdg_comen_01 .wdg_comen_fb_tw{
-		float: right;
-		margin-top: -23px;
-		width: 230px;
-	} 
-	
-	.wdg_comen_01 .wdg_comen_01_form{
-    	width: 565px;
+    .wdg_comen_01 .wdg_comen_fb_tw{
+        float: right;
+        margin-top: -23px;
+        width: 230px;
+    } 
+    
+    .wdg_comen_01 .wdg_comen_01_form{
+        width: 565px;
     }     
-	.wdg_comen_01 textarea.comentArea{
-    	height: 55px;
-    	margin: 0;
+    .wdg_comen_01 textarea.comentArea{
+        height: 55px;
+        margin: 0;
     }     
-	 .wdg_comen_01 .wdg_comen_aviso{      
-		padding:2px 0 0 0;		
+     .wdg_comen_01 .wdg_comen_aviso{      
+        padding:2px 0 0 0;      
     }  
     .wdg_comen_01 .wdg_comen_line{
-    	margin-top: 0;
+        margin-top: 0;
+        /*padding-top:4px;*/
     }
     .wdg_comen_01 .wdg_comen_btn{
-    	height: 32px;
-    	margin-bottom:20px;
-    	margin-top:6px;
+        height: 32px;
+        margin-bottom:20px;
     }
     .wdg_comen_01 .wdg_comen_01_comments{
-    	margin: 0;
-    	height: auto;
-		width:565px;
-		border-top: none;
-		overflow: hidden;
+        margin: 0;
+        height: auto;
+        width:565px;
+        border-top: none;
+        overflow: hidden;
     }
     .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_img{
-    	margin-left: 0;
+        margin-left: 0;
     }
     .wdg_comen_01 .degraded{
-    	display: none;
+        display: none;
     }
     .wdg_comen_01 .nav_paginator_01{
         display:block;
-		width: 565px;
+        width: 565px;
     }
     .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:first-child .media_user{
-    	display: inline-block;    	
+        display: inline-block;      
     }
     .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:first-child .comment_time{
-    	margin-left: 8px;
+        margin-left: 8px;
     }
     /*Estilo Internet Explorer*/
     .ie7 .wdg_comen_01 .wdg_comen_fb_tw{
-		width: 235px;
-	} 
-	.ie7 .wdg_comen_01 .wdg_comen_fb_tw .socialMedia{
-		/*margin-right: 10px*/
-	}
+        width: 235px;
+    } 
+    .ie7 .wdg_comen_01 .wdg_comen_fb_tw .socialMedia{
+        /*margin-right: 10px*/
+    }
 }

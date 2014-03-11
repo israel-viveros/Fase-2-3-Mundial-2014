@@ -1,0 +1,442 @@
+@media screen {
+    .wdg_goals_by_player_02 .str_pleca_01 {
+        margin-bottom: 0px;
+    }
+    
+    .wdg_goals_by_player_02 .background-color1 {
+        width: 48%;
+        float: left;
+        height: 31px;
+    }
+  
+    .wdg_goals_by_player_02 .pleca_superior h3 {
+        font-size: 14px;
+        line-height:31px;
+        padding-left:20px;
+        
+    }
+    
+    .wdg_goals_by_player_02 .background-color1 {
+        background-color: #A70A0B !important;
+    }
+
+    .wdg_goals_by_player_02 .wdg_goals_by_player_02_dropdown {
+        background-color: #ECECEC;
+        border-bottom: 1px solid #B9B9B9;
+        box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+        cursor: pointer;
+        float: left;
+        height: 30px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .wdg_goals_by_player_02 .wdg_goals_by_player_02_dropdown .wdg_goals_by_player_02_dropdowncontent p {
+        color: #232323;
+        display: inline-block;
+        float: left;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 28px;
+        margin-left: 25px;
+        width: 236px;
+    }
+    
+    .wdg_goals_by_player_02 #dropdwon-right {
+        float: right;
+        margin-left: 0;
+        padding:0;
+        position: relative;
+        width: 32px;
+        z-index: 1000;
+        text-align:center;
+        color:#FFF;
+        line-height:30px;
+    }
+    
+    .wdg_goals_by_player_02 .background-color1 {
+        float: left;
+        height: 30px;
+        width: 100%;
+    }
+    
+    .wdg_goals_by_player_02 .wdg_goals_by_player_02_dropdown .wdg_goals_by_player_02_dropdowncontent span {
+        float: right;
+        margin-right: 9px;
+        margin-top: 10px;
+    }
+    
+    .sprite.dropdown-white {
+        background-position: -188px -6px;
+        height: 7px;
+        width: 12px;
+    }
+    
+    .wdg_goals_by_player_02 .wdg_goals_by_player_02_listcontainer {
+        clear: both;
+    }
+    
+    .wdg_goals_by_player_02 .wdg_goals_by_player_02_listcontainer ul {
+        background-color: #F5F5F5;
+        cursor: pointer;
+        position: relative;
+        visibility: hidden;
+        z-index: 1000 !important;
+        font-size: 14px;
+        margin: 0px;
+    }
+    
+    .wdg_goals_by_player_02 .wdg_goals_by_player_02_listcontainer ul li {
+        background-color: rgba(235, 235, 235, 0.6);
+        border-bottom: 1px solid #D3D3D3;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1) inset;
+        height: 25px;
+        width: 100%;
+        float: left;
+        font-weight: bold;
+        margin: 0;
+        padding: 0px 0 6px 5px;
+    }
+    
+    .wdg_goals_by_player_02 .wdg_goals_by_player_02_listcontainer ul li p {
+        font-style: italic;
+        font-weight: bold;
+        line-height: 34px;
+        margin-left: 20px;
+    }
+    
+    .wdg_goals_by_player_02 .titulo {
+        font-size:18px;
+        border-bottom:#CCC 1px solid;
+        padding-bottom: 10px;
+        padding-left: 44px;
+        font-style:italic;
+    }
+
+    .wdg_goals_by_player_02 .pleca_inferior {
+        border-bottom: 1px solid #CCCCCC;
+        clear: both;
+        height: 30px;
+        position: relative;
+        width: 100%;
+        margin-bottom:13px;
+    }
+    
+    .wdg_goals_by_player_02 .pleca_inferior h5 {
+        float: left;
+        font-size: 14px;
+        padding: 6px 0 4px 298px;
+        position: relative;
+		word-spacing: -2px;
+    }
+    
+    .wdg_goals_by_player_02 .pleca_inferior  .wdg_goals_by_player_02_dropdown {       
+        float: right;
+        height: 30px;
+        position: relative;
+        width: 35%;
+    }
+    
+    .wdg_goals_by_player_02 .pleca_inferior .wdg_goals_by_player_02_dropdown .wdg_goals_by_player_02_dropdowncontent p {
+        width: 155px;
+    }
+    
+    .wdg_goals_by_player_02 .pleca_inferior .wdg_goals_by_player_02_listcontainer ul li {
+        width: 200px;
+    }
+    
+    .wdg_goals_by_player_02 #tableDraftOperation {
+        font-size: 13px;
+        padding: 0;
+        border-spacing: 0;
+        border-collapse: collapse;
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+    }
+	
+	.wdg_goals_by_player_02 #tableDraftOperation th:nth-child(3),
+    .wdg_goals_by_player_02 #tableDraftOperation th:nth-child(4),
+    .wdg_goals_by_player_02 #tableDraftOperation th:nth-child(5),
+    .wdg_goals_by_player_02 #tableDraftOperation th:nth-child(6),
+    .wdg_goals_by_player_02 #tableDraftOperation th:nth-child(7),
+    .wdg_goals_by_player_02 #tableDraftOperation th:nth-child(8),
+    .wdg_goals_by_player_02 #tableDraftOperation th:nth-child(9) {
+        text-align: center;
+    }
+
+    
+    .wdg_goals_by_player_02 #tableDraftOperation thead {
+          border-bottom: 1px solid #CCCCCC;
+    }
+    
+    .wdg_goals_by_player_02 #tableDraftOperation th {
+        padding: 0 16px 0px;
+        height: 10px;
+        cursor:pointer;
+    }
+    .wdg_goals_by_player_02 #tableDraftOperation th:nth-child(1){
+    	padding: 0 30px 0px;
+    }
+    .wdg_goals_by_player_02 #tableDraftOperation th:nth-child(2){
+    	padding: 0 0 0px;
+    }
+    .wdg_goals_by_player_02 #tableDraftOperation thead tr:nth-child(2) th i {
+        display:none;
+    }
+    
+    .wdg_goals_by_player_02 #tableDraftOperation thead tr:nth-child(2) th.sel i {    
+        display:block; 
+    }
+     
+    .wdg_goals_by_player_02 #tableDraftOperation td {
+        vertical-align: middle;
+        height:35px;
+        text-align:center;
+        font-size:14px;
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-horizontal.png) repeat-x 0 100%;
+        font-weight:bold;
+    }
+    .wdg_goals_by_player_02 #tableDraftOperation tr:last-child td{        
+        background:none;        
+    }
+	
+	.wdg_goals_by_player_02 #tableDraftOperation td div {
+        width: 100%;
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png) repeat-y 100% 0;
+        height: 25px;
+        padding-top: 7px;
+        text-align: center;
+        font-weight:bold;
+    }
+    
+    .wdg_goals_by_player_02 #tableDraftOperation td:nth-child(2) div {
+        text-align: left;
+    }
+    
+    .wdg_goals_by_player_02 #tableDraftOperation td.sel div { 
+       background:transparent none;
+    }
+    
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:last-child div {
+        background:none;
+    }
+    
+   
+	.wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(1),
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(2) {
+        text-align: left;
+        color: #000;
+        font-size: 13px;
+        width: 125px;
+    }
+    
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(2) {
+        width: 87px;
+    }
+    
+    
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(3),
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(4),
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(5),
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(6),
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(7),
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(8),
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(9) {
+        width: 50px;
+        padding-top: 8px;
+        padding-bottom: 10px; 
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 16px;
+    }
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(5),
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(6),
+    .wdg_goals_by_player_02 #tableDraftOperation tr td:nth-child(7){
+    	  width: 52px;
+    }
+    
+    
+    .wdg_goals_by_player_02 #tableDraftOperation td.sel {
+        background: #eaeaea none !important;
+        box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .wdg_goals_by_player_02 div.pleca_inferior #dropdwon-right {
+       color:#000;
+    }
+    /*BEGIN: wdg_simbology_02*/
+    .wdg_goals_by_player_02 .wdg_simbology_02 .nomostrar
+    {
+        display:none;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02
+    {
+        width:100%;
+        position:relative;
+        height:auto;
+        display:block;
+        margin-bottom:0px;
+        margin-top:5px;
+		clear:both;
+		overflow:hidden;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .alineacion_partido
+    {
+            width:100%;
+            height:auto;
+            position:relative;
+            padding-bottom:4px;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia img,
+    .wdg_goals_by_player_02 .wdg_simbology_02 .simbologia i,
+    .wdg_goals_by_player_02 .wdg_simbology_02 .simbologia h5
+    {
+            position:relative;
+            float:left;
+            margin-left:15px;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .title_simbologia
+    {
+        width:100%;
+        height:14px;
+        position:relative;
+        font-family:Trebuchet MS;
+        font-size:14px;
+        font-style:italic;
+        background-color: #F5F5F5 !important;
+        z-index:0;
+        text-align:center;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 h4 {
+        position: relative;
+        margin-top: 20px;
+      }
+
+    .wdg_goals_by_player_02 .wdg_simbology_02 h4.one 
+    {
+        margin-top: 0;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 h4.one:before 
+    {
+        
+        display: block;
+        border-top: solid 1px #CCC;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        content: "";
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 h4.one span {
+        background: #f5f5f5;
+        padding: 0 20px;
+        position: relative;
+        z-index: 5;
+        font-weight: normal;
+      }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .tabla_simbologia
+    {
+        width:100%;
+        height:31px;
+        float:left;
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-horizontal.png) repeat-x 0 100%;
+        position:relative;
+        padding-bottom:9px;
+        padding-top:9px;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .tabla_simbologia:nth-child(3)
+    {        
+        padding-top:15px;    
+    } 
+     .wdg_goals_by_player_02 .wdg_simbology_02 .tabla_simbologia:nth-child(4)
+    {        
+        padding-top:13px;    
+    } 
+    .wdg_goals_by_player_02 .wdg_simbology_02 .alineacion_partido div.tabla_simbologia:last-child{
+ 	 	border-bottom:1px solid #CCC;
+ 	 	background:none;
+ 	 }
+    
+    .wdg_goals_by_player_02 .wdg_simbology_02 .tabla_simbologia .icon_simbologia
+    {
+            padding-top:0;
+            padding-bottom:8px;
+            float:left;
+            width:34.5%;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia img,
+    .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia i
+    {
+        position:relative;
+        float:left;
+        margin-left:15px;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia h3
+    {
+		display: block;
+        float:left;
+        font-size:12px;
+        font-weight:normal;                      
+        margin-left:12px;
+        margin-top:5px;
+        position:relative;
+		width: 58%;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia:nth-child(1)
+    {            
+            width: 32.5%;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia:nth-child(3)
+    {            
+            background:none;
+            width: 33%;
+    }
+     .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia h5
+    {
+        color: #D9A961;
+    	height: 25px;
+        float:left;
+		line-height: 25px;
+        margin-left:45px;
+        position:relative;
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia:nth-child(2) h5
+    {            
+            margin-left:52px;            
+    }
+    .wdg_goals_by_player_02 .wdg_simbology_02 .icon_simbologia:nth-child(3) h5
+    {            
+            margin-left:46px;            
+    }
+   
+    .wdg_goals_by_player_02 .wdg_simbology_02 .line_left
+    {
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical.png) repeat-y 100% 0;
+    }
+	.wdg_goals_by_player_02 .sortable thead tr:nth-child(2){
+		/*display:none !important;*/
+	}
+	
+	.wdg_goals_by_player_02 .wdg_goals_by_player_02_dropdownlist::-webkit-scrollbar {
+		height: 12px;
+		width: 12px;
+		background: #f5f5f5;
+	}
+	.wdg_goals_by_player_02 .wdg_goals_by_player_02_dropdownlist::-webkit-scrollbar-thumb {
+		background: #d3d3d3;
+		-webkit-border-radius: 1px;
+		-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+	}
+}
+
+@media screen and (max-width: 623px) {
+	.wdg_goals_by_player_02 .pleca_inferior {
+		display:none;
+	}
+	.wdg_goals_by_player_02 table {
+	   margin-top:12px;
+	}
+}

@@ -1,0 +1,108 @@
+@media screen {
+	.art_title_01 {
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 10px;
+		width: 90%;
+		text-align: left;
+	}
+	.art_title_01 h1 {
+		font-size: 21px;
+		line-height: 22px;
+	}
+	div.art_title_01_title {
+		zoom: 1;
+	}
+	div.art_title_01 div p {
+	 *margin-top: 5px;
+	 *padding-top: 9px;
+	 *height:30px;
+	}
+	.art_title_01 h1 a{
+		color: #232323;
+	}
+	div.art_title_01 div h1 a p {
+		color: #000;
+		font-size: 20px;
+	}
+	div.art_title_01 div p a {
+		color: #8f8f8f;
+		font-size: 12px;
+		font-style: italic;
+		margin-bottom: 0px;
+		margin-top: 16px;
+	}
+	div.art_title_01 ul {
+		width: 100%;
+		padding-top: 16px;
+	}
+	div.art_title_01 ul li {
+		padding: 16px 0;
+		width: 99%;
+		overflow: hidden;
+		border-bottom: 1px solid #ccc;
+	}
+	div.art_title_01 ul li a {
+		color: black;
+	}
+	div.art_title_01 ul li a span {
+		font-weight: bold;
+		padding: 0 16px 32px 5px;
+		border-right: 1px solid #ccc;
+		float: left;
+		font-size: 14px;
+	}
+	div.art_title_01 ul li a p {
+		float: left;
+		width: 70%;
+		font-size: 14px;
+		margin-left: 16px;
+	}
+	.art_title_01 .art_title_01_title .art_info {
+		margin-right: 10px;
+	}
+	/*Estilo Internet explorer*/	
+	.ie7 div.art_title_01 div p {
+		padding-top: 0px;
+	}
+}
+@media screen and (min-width: 624px) {
+	.art_title_01 {
+		margin-left: 0px;
+		margin-right: 0%;
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	.art_title_01 h1 {
+		font-size: 28px;
+		line-height: 31px;
+	}
+	div.art_title_01_title {
+		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-horizontal.png) repeat-x bottom;
+	}
+	div.art_title_01_title:before,  div.art_title_01_title:after {
+		content: "";
+		display: table;
+	}
+	div.art_title_01_title:after {
+		clear: both;
+	}
+	div.art_title_01_title {
+		zoom: 1;
+	}
+	div.art_title_01_title h1 {
+		margin-bottom: 17px;
+		margin-top: -7px;
+	}
+	div.art_title_01 div h1 a span {
+		margin-top: 10px;
+		font-size: 26px;
+	}
+	div.art_title_01_title p {
+		margin-bottom: 15px;  
+	}
+	/*estilo para internet explorer*/
+	 .ie7 div.art_title_01_title p {
+	 	margin-bottom: 0px;
+	 }
+}
