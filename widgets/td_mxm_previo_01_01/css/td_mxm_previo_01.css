@@ -1,0 +1,36 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_mxm_previo_01 .main{
+        width: 948px;
+    }
+    /* Contenedor principal */
+    .td_mxm_previo_01 .main .c1{
+        float: left;
+        clear: both;
+        width: 624px;
+    }
+    /* Contenedor derecho */
+    .td_mxm_previo_01 .main .c2{
+        float:right;
+        overflow: hidden;
+        width: 300px;
+    }
+	.td_mxm_previo_01 .main .c3{
+        float: left;
+        width: 624px;
+    }
+	.td_mxm_previo_01 .main .c4
+	{
+		width:100%;
+		clear:both;
+		position:relative;
+	}
+	.td_mxm_previo_01 .main .c2 .c2_1{
+		margin-bottom: 24px;
+    }
+	.td_mxm_previo_01 .main .c1 .c1_3 {
+   		/*margin-bottom: 24px;*/
+    	width: 290px;
+	}
+
+}

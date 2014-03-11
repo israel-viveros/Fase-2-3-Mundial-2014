@@ -1,0 +1,52 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+	
+    .td_mxm_previo_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+    /* Contenedor principal */
+    .td_mxm_previo_01 .main .c1{
+        float:none;
+        clear:both;
+        overflow: hidden;
+    }
+	.td_mxm_previo_01 .main .c1 .c1_1{
+		clear: both;
+		overflow: hidden;
+	}
+    /* Contenedor derecho */
+    .td_mxm_previo_01 .main .c2{
+		width:624px;
+        float:none;
+        overflow: hidden;
+		margin-bottom:24px;
+    }
+	.td_mxm_previo_01 .main .c3{
+		clear:none;
+	}
+    .td_mxm_previo_01 .main .c2 .c2_2{
+		width:300px; 
+    }
+	/*Contenedor social*/
+	.td_mxm_previo_01 .main .c1 .c1_2 .art_reltd_01{
+		border-right: 1px dashed #CCC;	
+	}
+	.td_mxm_previo_01 .main .c1 .c1_3{
+		width:295px;
+		/*margin-bottom:24px;*/
+		padding-left: 24px;
+	}
+     .td_mxm_cronica_01 .art_bullet_01 ul li {
+        border-top: 0;
+        padding: 0 10px 15px 0px;
+    }
+	
+	.back-camera{
+		background:#f5f5f5!important;	
+	}
+    
+    .background-color1{
+        background: #e4e2e2 !important;
+    }
+}
