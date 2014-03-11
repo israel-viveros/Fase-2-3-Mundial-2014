@@ -237,16 +237,14 @@ x|/*Dispositivos vista retina------*/
 	/* Main Navigation */
 	/* icon sizes */
 	header.nav_header_01 div.mainnav ul li a,header.nav_header_01 div.mainnav nav.social ul li{
-		margin-left:-5px;
 	}
-	
 	
 	header.nav_header_01 div.mainnav ul li a i,header.nav_header_01 div.mainnav nav.social ul li a i
 		{
 		font-size: 17px;
-		padding-left:4px;
+		margin:auto;
 		position: relative;
-		text-align:center;
+		
 		/* vertical-align: baseline; */
 	}
 	
@@ -255,6 +253,10 @@ x|/*Dispositivos vista retina------*/
 		font-size: 13px !important;
 	}
 	
+	i.tvsa-caret-down{
+		padding:0 0 0 5px;
+	}
+		
 	header.nav_header_01 div.mainnav nav.social ul li.station:last-child {
 	}
 	header.nav_header_01 div.mainnav nav.social ul li.station:first-child {
@@ -285,7 +287,7 @@ margin: 10px 0 0 5px;
 }
 
 	header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn {
-background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/mainnav2_hover.png) no-repeat -135px -17px ;
+background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/logoTDN.png) no-repeat;
 }
 
 header.nav_header_01 div.mainnav nav.social ul li.station a span.tdtv {
@@ -310,11 +312,11 @@ background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fas
 
 	/* Main Navigation */
 	header.nav_header_01 div.title {
-		height: 73px;
+		height: 85px;
 	}
 	header.nav_header_01 div.title strong {
 		color: #FFF;
-		font-size: 29px;
+		font-size: 32px;
 		font-style: italic;
 		position: absolute;
 		left: 25px;
@@ -326,7 +328,7 @@ background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fas
 		header.nav_header_01 div.mainnav {
 		z-index: 10;
 		position: relative;
-		height: 35px;
+		height: 36px;
 		/* background: #efefef; */ /* Old browsers */
 		}
 
@@ -340,12 +342,18 @@ background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fas
 	}
 	/* Main Navigation */
 	header.nav_header_01 div.mainnav nav.main ul {
-		/*margin-left: 23px;*/
+		height:36px;		
 	}
 
 	/*nav.social{
 		background: #fff;
 	}*/
+	
+		header.nav_header_01 div.mainnav nav.main ul li{
+		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/dotted-vertical_white_2.png) no-repeat 100% 50%;
+		height:36px;
+		;
+		}
 
 	header.nav_header_01 div.mainnav nav.main ul li.home{
 		background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fase2yFase3/img/shadow.png) no-repeat right;
@@ -353,7 +361,7 @@ background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/Fas
 	}
 	
 	header.nav_header_01 div.mainnav nav.main ul li.home:hover {
-		background: #59a529;
+		background: #eab11d !important;
 	}
 
 	.tvsa-home td{

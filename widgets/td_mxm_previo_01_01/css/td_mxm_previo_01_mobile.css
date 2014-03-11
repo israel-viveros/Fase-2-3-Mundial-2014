@@ -1,0 +1,57 @@
+@media screen { 
+	.td_mxm_previo_01{
+		overflow: hidden;
+	}
+    /* Encabezado */ 
+    .td_mxm_previo_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_mxm_previo_01 .main{
+        width: 100%;
+		position:relative;
+    }
+	.td_mxm_previo_01 .main .wdg_social_01 {
+		height: 60px;
+		margin: 0 auto;
+		width: 300px;
+	}
+    /* Banners */
+    /* Titulo */
+    .td_mxm_previo_01 .main .topTitle{
+        width:100%;
+        clear:both;
+    }
+    /* Contenedor principal */
+    .td_mxm_previo_01 .main .c1,
+	.td_mxm_previo_01 .main .c3{
+		width:100%;
+        clear:both;
+    }
+	.td_mxm_previo_01 .main .c1 .c1_3{
+		width:100%;
+		margin-bottom:12px;
+	}
+    .td_mxm_previo_01 .main .c2 .c2_2{
+		width:100%;
+    }
+	.td_mxm_previo_01 .main .c1 .c1_4 {
+		clear:both;
+	}
+	.td_mxm_previo_01 .main .c4 {
+		width:100%;
+	}
+	.td_mxm_previo_01 .main .c4 .c4_1 {
+		clear:both;
+	}
+	.td_mxm_previo_01 .art_bullet_01 ul li {
+    	background: url("../../img/dotted-horizontal.png") repeat-x scroll center bottom transparent;
+		padding:0px;
+		padding-bottom:24px;
+	}
+	.img_galry_04 .txt1 p{
+        font-size: 11px;
+        margin-top: 2px;
+        margin-right: 30px
+    }
+}
